@@ -1,0 +1,1291 @@
+{
+  "_config": {
+    "locale": "en-us",
+    "nativeName": "English US",
+    "englishName": "English US"
+  },
+  "accessible_name_mismatch_element_description_report_message_1": {
+    "value": "The accessible name <code>%0</code> is too different from the label <code>%1</code>."
+  },
+  "accessible_name_mismatch_element_description_title": {
+    "value": "Accessible name should match the control's label"
+  },
+  "accessible_svg_report_message_1": {
+    "value": "The element <code>%0</code> does not have an accessible description."
+  },
+  "accessible_svg_report_message_2": {
+    "value": "You have defined element <code>%0</code>, but it's content is empty."
+  },
+  "accessible_svg_report_message_3": {
+    "value": "You have defined <code>%0</code> and ids that refers to the elements, but associated elements with following attributes id does not exists: <code>%1</code>."
+  },
+  "accessible_svg_report_message_4": {
+    "value": "You have defined attribute <code>tabindex</code> but the value <code>%0</code> is not a valid integer."
+  },
+  "accessible_svg_title": {
+    "value": "SVG content must have an accessible name."
+  },
+  "action_close": {
+    "value": "Close"
+  },
+  "action_refresh": {
+    "value": "Refresh"
+  },
+  "action_scan": {
+    "value": "Analyze page"
+  },
+  "alt_text_include_filename_report_message": {
+    "value": "The source filename of the image element must not be part of its text alternative (<code>alt=\"%0\"</code>)."
+  },
+  "alt_text_include_filename_title": {
+    "value": "The alt text of an image should describe the image's content, not its filename."
+  },
+  "alt_text_tool": {
+    "value": "Alt text"
+  },
+  "analyze_page": {
+    "value": "Analyze page"
+  },
+  "analyzing_the_page_please_wait_a_moment": {
+    "value": "Analyzing the page. Please wait a moment."
+  },
+  "animation_report_message_0": {
+    "value": "Make sure that there is a mechanism for the user to pause, stop, or hide it unless the movement, blinking, or scrolling is part of an activity where it is essential."
+  },
+  "animation_report_message_1": {
+    "value": "You have defined an animation duration in <code>%0</code> which is more than 5 seconds."
+  },
+  "animation_report_message_2": {
+    "value": "You have defined an animation iteration count with <code>%0</code> value."
+  },
+  "animation_title": {
+    "value": "Animations should not loop indefinitely."
+  },
+  "applet_missing_alt_report_message_1": {
+    "value": "You have not defined an <code>alt</code> attribute that provides a text alternative to the browsers that supporting the element but are unable to load the <code>applet</code>."
+  },
+  "applet_missing_alt_report_message_2": {
+    "value": "You have defined an <code>alt</code> attribute with empty content, but it should describe the <code>applet</code>'s function."
+  },
+  "applet_missing_alt_report_message_3": {
+    "value": "The text within the <code>alt</code> attribute should describe the <code>applet</code>'s function. It contains only white space and therefore it is ignored by assistive technologies."
+  },
+  "applet_missing_alt_title": {
+    "value": "Applets must have a text alternative when not supported."
+  },
+  "applet_missing_body_report_message_1": {
+    "value": "Only white space has been provided as a text alternative for content rendered using the <code>%0</code> element. The body of the <code>%1</code> element does not provide a complete text alternative for the object."
+  },
+  "applet_missing_body_report_message_2": {
+    "value": "This element is missing a text alternative for content rendered using <code>%0</code>. The body of the %1 element can be used to provide a complete text alternative for the <code>%2</code>, or may contain additional non-text content with text alternatives."
+  },
+  "applet_missing_body_title": {
+    "value": "Applets need a text alternative."
+  },
+  "area_missing_alt_report_message_1": {
+    "value": "You have not defined an <code>alt</code> attribute that describes the function of the image map area."
+  },
+  "area_missing_alt_report_message_2": {
+    "value": "You have defined an <code>alt</code> attribute with an empty content, but it should describe the function of the image map area."
+  },
+  "area_missing_alt_report_message_3": {
+    "value": "The text within the <code>alt</code> attribute should describe the function of the image map area. It contains only white space and therefore it is ignored by assistive technologies."
+  },
+  "area_missing_alt_title": {
+    "value": "Image map area must have a text alternative."
+  },
+  "aria_attribute_conflict_report_message": {
+    "value": "The ARIA attribute <code>%0</code> is redundant because native HTML attribute <code>%1</code> is present. The native HTML attribute with the same implicit ARIA semantics takes precedence."
+  },
+  "aria_attribute_conflict_title": {
+    "value": "Both native HTML attributes and ARIA attributes should not be used together."
+  },
+  "aria_describedby_association_report_message_1": {
+    "value": "There is no element with attribute <code>id=\"%0\"</code>, which is referred-to by <code>aria-describedby=\"%1\"</code>."
+  },
+  "aria_describedby_association_report_message_2": {
+    "value": "Expected attribute <code>aria-describedby</code> not to be empty."
+  },
+  "aria_describedby_association_title": {
+    "value": "Use aria-describedby to provide additional descriptions and context for elements that need it."
+  },
+  "aria_hidden_false_report_message": {
+    "value": "You have defined <code>%0</code>. Caution, as the child content is always readable by screen readers regardless of setting <code>%1</code> on any child element."
+  },
+  "aria_hidden_false_title": {
+    "value": "Use caution with aria-hidden=\"false\" because content may still be exposed unintentionally."
+  },
+  "aria_hidden_true_focusable_descendants_report_message_1": {
+    "value": "Focusable element must not be a child of the element with <code>aria-hidden=\"true\"</code> (parent: <code>%0</code>)."
+  },
+  "aria_hidden_true_focusable_descendants_title": {
+    "value": "Focusable elements should not be hidden from assistive technologies."
+  },
+  "aria_labelledby_association_empty_element_report_message_1": {
+    "value": "Elements with an attribute <code>id</code> defined in <code>aria-labelledby</code> exists, but they are empty. They should not be an empty."
+  },
+  "aria_labelledby_association_empty_element_title": {
+    "value": "An aria-labelledby attribute must reference an element that contains meaningful content."
+  },
+  "aria_labelledby_association_report_message_1": {
+    "value": "Elements with an attribute <code>id</code> defined in <code>aria-labelledby</code> does not exists."
+  },
+  "aria_labelledby_association_report_message_2": {
+    "value": "Expected attribute <code>aria-labelledby</code> not to be an empty on element <code>%0</code>."
+  },
+  "aria_labelledby_association_title": {
+    "value": "The aria-labelledby attribute must reference an existing element."
+  },
+  "aria_role_dialog_report_message_1": {
+    "value": "Element with <code>%0</code> attribute has no accessible name because attribute <code>%1</code> has no content (it's empty)."
+  },
+  "aria_role_dialog_report_message_2": {
+    "value": "Element with <code>%0</code> attribute has no accessible name."
+  },
+  "aria_role_dialog_title": {
+    "value": "Pop-ups and modals must have accessible names."
+  },
+  "aria_role_tool": {
+    "value": "Aria and role"
+  },
+  "audio_alternative_report_message_1": {
+    "value": "Audio content should have an alternative text. One method is to use the <code>aria-describedby</code> attribute to refer to a text alternative to the audio only content."
+  },
+  "audio_alternative_report_message_2": {
+    "value": "You have defined an audio element, but there is no <code>track</code> element(s) to provide text that you want to display along with the playing media file."
+  },
+  "audio_alternative_report_message_3": {
+    "value": "If this object element's purpose is to play audio content then use <code>audio</code> element instead as it provides better support for captions and text transcripts."
+  },
+  "audio_alternative_title": {
+    "value": "Audio content must have a text alternative."
+  },
+  "audio_video_captions_report_message_1": {
+    "value": "You have not defined any <code>%0</code> elements to provide captions or subtitles."
+  },
+  "audio_video_captions_report_message_2": {
+    "value": "Missing <code>src</code> attribute on <code>track</code> element with <code>kind=\"captions\"</code>."
+  },
+  "audio_video_captions_report_message_3": {
+    "value": "Unsupported caption file <code>%0</code> format. Only WebVTT and TTML are supported."
+  },
+  "audio_video_captions_report_message_4": {
+    "value": "Subtitles track used; consider adding a captions track that includes sound-effect descriptions."
+  },
+  "audio_video_captions_report_message_5": {
+    "value": "Track element should have a <code>label</code> or <code>srclang</code> attribute to help users choose the correct caption/subtitle track."
+  },
+  "audio_video_captions_title": {
+    "value": "Audio and video content need captions and subtitles."
+  },
+  "audit": {
+    "value": "Audit"
+  },
+  "audit_summary": {
+    "value": "Audit summary"
+  },
+  "audit_type_accessibility": {
+    "value": "Accessibility"
+  },
+  "audit_type_all": {
+    "value": "All"
+  },
+  "audit_type_logs": {
+    "value": "Logs"
+  },
+  "audit_type_performance": {
+    "value": "Performance"
+  },
+  "audit_type_privacy": {
+    "value": "Privacy"
+  },
+  "audit_type_quality": {
+    "value": "Quality"
+  },
+  "audit_type_security": {
+    "value": "Security"
+  },
+  "audit_type_seo": {
+    "value": "SEO"
+  },
+  "auditor": {
+    "value": "Auditor"
+  },
+  "autocomplete_attribute_usage_report_message_1": {
+    "value": "Input elements should have autocomplete attributes."
+  },
+  "autocomplete_attribute_usage_title": {
+    "value": "Add autocomplete attribute to form controls to help users fill out forms more efficiently."
+  },
+  "autoplay_audio_video_report_message": {
+    "value": "You have defined <code>%0</code>. Individuals who use screen reading software can find it hard to hear the speech output if there is other audio playing at the same time. Allow the user to turn off videos/sounds (especially if they last more than 3 seconds) that start automatically when a page loads."
+  },
+  "autoplay_audio_video_title": {
+    "value": "Audio and video content should not play automatically."
+  },
+  "broken_same_page_link_report_message": {
+    "value": "A link to another location on the page does not have a corresponding target with <code>id=\"%0\"</code>."
+  },
+  "broken_same_page_link_title": {
+    "value": "Links must have a corresponding target."
+  },
+  "capital_letters_words_report_message1": {
+    "value": "Text <code>%0</code> should not be written in uppercase only. Note: the text is transformed using (<code>text-transform: uppercase</code>)."
+  },
+  "capital_letters_words_report_message2": {
+    "value": "Element have a text that contains words in uppercase only."
+  },
+  "capital_letters_words_report_message3": {
+    "value": "This element has a title attribute that contains words in uppercase."
+  },
+  "capital_letters_words_report_message4": {
+    "value": "Element have a text and has a title attribute that contains words in uppercase."
+  },
+  "capital_letters_words_title": {
+    "value": "Only use all caps for acronyms."
+  },
+  "change_filters": {
+    "value": "Change filters"
+  },
+  "check_for_broken_links_tool": {
+    "value": "Check for broken links"
+  },
+  "chromium_extension_updated": {
+    "value": "The SiteLint extension has been updated. You need to reload the developer tools and/or side panel."
+  },
+  "close_sitelint_auditor": {
+    "value": "Close SiteLint Auditor"
+  },
+  "color_contrast_aa_report_message_2": {
+    "value": "The element has background: transparent with foreground: <code>%0</code>. We also couldn't find any non-transparent color for any parent element (including body) and therefore the contrast ratio cannot be determined.\n\nYou need to set the background color for <code>%1</code> element explicitly because the actual color returned by the browser is transparent."
+  },
+  "color_contrast_aa_report_message_4": {
+    "value": "Expected color contrast ratio for large font size at least 3:1, but got ratio: <code>%0:1</code>, <code>background-color: %1</code>, <code>foreground-color: %2</code>, <code>font-size: %3</code> (original: <code>%4</code>), <code>font-weight: %5</code>."
+  },
+  "color_contrast_aa_report_message_5": {
+    "value": "Expected color contrast ratio for small font size at least 4.5:1, but got ratio: <code>%0:1</code>, <code>background-color: %1</code>, <code>foreground-color: %2</code>, <code>font-size: %3</code> (original: <code>%4</code>), <code>font-weight: %5</code>."
+  },
+  "color_contrast_aa_report_message_6": {
+    "value": "The color contrast between background <code>%0</code> and foreground <code>%1</code> cannot be determined because both colors are the same."
+  },
+  "color_contrast_aa_report_message_7": {
+    "value": "The color contrast between background <code>%0</code> and foreground <code>%1</code> cannot be determined because the element has defined transparency at <code>%2</code>."
+  },
+  "color_contrast_aa_report_message_8": {
+    "value": "The color contrast between background <code>%0</code> and foreground <code>%1</code> cannot be determined because the element has defined semi-opacity at <code>%2</code>."
+  },
+  "color_contrast_aa_report_message_9": {
+    "value": "The color contrast between background <code>%0</code> and foreground <code>%1</code> cannot be determined because the element has defined <code>mix-blend-mode=\"%2\"</code>."
+  },
+  "color_contrast_aa_title": {
+    "value": "The contrast ratio should be at least 4.5:1 for normal text and 3:1 for large text against a background."
+  },
+  "color_contrast_aa_warning_message": {
+    "value": " <strong>Note</strong>: there is an image defined in the background and for that reason the contrast ratio cannot be determined in a reliable way."
+  },
+  "color_contrast_aaa_report_message_2": {
+    "value": "The element has background: transparent with foreground: <code>%0</code>. We also couldn't find any non-transparent color for any parent element (including body) and therefore the contrast ratio cannot be determined.\n\nYou need to set the background color for <code>%1</code> element explicitly because the actual color returned by the browser is transparent."
+  },
+  "color_contrast_aaa_report_message_3": {
+    "value": "Expected color contrast ratio for large font size at least 4.5:1, but got ratio: <code>%0:1</code>, <code>background-color: %1</code>, <code>foreground-color: %2</code>, <code>font-size: %3</code> (original: <code>%4</code>), <code>font-weight: %5</code>."
+  },
+  "color_contrast_aaa_report_message_4": {
+    "value": "Expected color contrast ratio for small font size at least 7:1, but got ratio: <code>%0:1</code>, <code>background-color: %1</code>, <code>foreground-color: %2</code>, <code>font-size: %3</code> (original: <code>%4</code>), <code>font-weight: %5</code>."
+  },
+  "color_contrast_aaa_report_message_5": {
+    "value": "Expected color contrast ratio for small font size at least 7:1, but got ratio: <code>%0:1</code>, <code>background-color: %1</code>, <code>foreground-color: %2</code>, <code>font-size: %3</code> (original: <code>%4</code>), <code>font-weight: %5</code>."
+  },
+  "color_contrast_aaa_report_message_6": {
+    "value": "The color contrast between background <code>%0</code> and foreground <code>%1</code> cannot be determined because both colors are the same."
+  },
+  "color_contrast_aaa_report_message_7": {
+    "value": "The color contrast between background <code>%0</code> and foreground <code>%1</code> cannot be determined because the element has defined transparency at <code>%2</code>."
+  },
+  "color_contrast_aaa_report_message_8": {
+    "value": "The color contrast between background <code>%0</code> and foreground <code>%1</code> cannot be determined because the element has defined semi-opacity at <code>%2</code>."
+  },
+  "color_contrast_aaa_report_message_9": {
+    "value": "The color contrast between background <code>%0</code> and foreground <code>%1</code> cannot be determined because the element has defined <code>mix-blend-mode=\"%2\"</code>."
+  },
+  "color_contrast_aaa_title": {
+    "value": "The contrast ratio should be at least 7:1 for normal text and 4.5:1 for large text against a background."
+  },
+  "console_log_error_title": {
+    "value": "The errors were logged to the error console."
+  },
+  "content_editable_missing_attributes_report_message1": {
+    "value": "Missing attribute <code>role=\"textbox\"</code> on <code>%0</code>."
+  },
+  "content_editable_missing_attributes_report_message2": {
+    "value": "Missing attribute <code>aria-multiline=\"true\"</code> on <code>%0</code>."
+  },
+  "content_editable_missing_attributes_report_message3": {
+    "value": "Missing attribute <code>aria-labelledby</code> or <code>aria-label</code> on <code>%0</code>."
+  },
+  "content_editable_missing_attributes_title": {
+    "value": "Editable elements with contenteditable must expose the textbox role, declare whether they are single or multi-line, and provide an accessible name."
+  },
+  "content_wider_than_screen_report_message_1": {
+    "value": "The page content width <code>%0</code> is wider than the screen width <code>%1</code> and that causes the viewport to scroll horizontally."
+  },
+  "content_wider_than_screen_title": {
+    "value": "The page content width is wider than the screen width."
+  },
+  "contentinfo_landmark_only_one_report_message": {
+    "value": "Expected attribute <code>%0</code> to be defined only once. You have <code>%1</code>."
+  },
+  "contentinfo_landmark_only_one_title": {
+    "value": "Only one element may have role=\"contentinfo\"."
+  },
+  "context_unable_to_determine": {
+    "value": "Unable to determine the context. Provided context is type of %0, %1."
+  },
+  "context_unable_to_determine_empty_string": {
+    "value": "Unable to determine the context. Provided context is empty or contains only white spaces."
+  },
+  "copied_to_clipboard": {
+    "value": "Copied!"
+  },
+  "copy_xpath": {
+    "value": "Copy XPath"
+  },
+  "displayed_issues": {
+    "value": "Displayed issues"
+  },
+  "duplicated_for_attribute_report_message": {
+    "value": "Attribute <code>for=\"%0\"</code> should be unique. It has been defined <code>%1</code> times."
+  },
+  "duplicated_for_attribute_title": {
+    "value": "A single label element should only describe one form control."
+  },
+  "duplicated_id_attribute_report_message": {
+    "value": "Attribute <code>id=\"%0\"</code> should be unique. It has been defined <code>%1</code> times."
+  },
+  "duplicated_id_attribute_title": {
+    "value": "ID attribute must be unique within the document."
+  },
+  "elements_not_allowed_in_head_report_message": {
+    "value": "Expected <code>%0</code> not to be a child of <code>%1</code>."
+  },
+  "elements_not_allowed_in_head_title": {
+    "value": "Invalid HTML elements in the HEAD section."
+  },
+  "empty_button_description_additional_message": {
+    "value": "The button has defined <code>aria-labelledby=\"%0\"</code>, but the associated elements with following ids <code>%1</code> does not exist."
+  },
+  "empty_button_description_report_message_1": {
+    "value": "The button content has only whitespaces."
+  },
+  "empty_button_description_report_message_2": {
+    "value": "The button should have a description, but the content is empty."
+  },
+  "empty_button_description_title": {
+    "value": "BUTTON must have an accessible name that describes its action."
+  },
+  "empty_heading_report_message": {
+    "value": "Heading element should not have an empty content."
+  },
+  "empty_heading_title": {
+    "value": "Heading element exists but has no content."
+  },
+  "empty_label_element_report_message": {
+    "value": "The label has no content."
+  },
+  "empty_label_element_title": {
+    "value": "Labels should always contain meaningful text describing the associated form control."
+  },
+  "empty_link_element_additional_message": {
+    "value": "The link has defined <code>aria-labelledby=\"%0\"</code>, but the associated elements with following ids <code>%1</code> does not exist."
+  },
+  "empty_link_element_report_message_1": {
+    "value": "The link content has only whitespaces."
+  },
+  "empty_link_element_report_message_2": {
+    "value": "The link should have a description, but the content is empty."
+  },
+  "empty_link_element_title": {
+    "value": "Links should have meaningful, descriptive content."
+  },
+  "empty_title_attribute_report_message": {
+    "value": "You have an attribute <code>title</code> with an empty content."
+  },
+  "empty_title_attribute_title": {
+    "value": "Tooltip content must not be empty."
+  },
+  "engine_version": {
+    "value": "Engine version"
+  },
+  "excessive_css_classes_size_report_message_1": {
+    "value": "There are <code>%0</code> CSS classes. The original HTML size is <code>%1</code> kB and without CSS classes is <code>%2</code> kB. Just CSS classes alone increase the HTML size by <code>%3</code> percentage."
+  },
+  "excessive_css_classes_size_title": {
+    "value": "Avoid excessive CSS classes usage."
+  },
+  "extension_version": {
+    "value": "Extension version"
+  },
+  "fieldset_no_legend_report_message": {
+    "value": "This <code>%0</code> element is the first child of a <code>fieldset</code>, but only a <code>legend</code> is allowed in that position to caption the group."
+  },
+  "fieldset_no_legend_title": {
+    "value": "Grouped form controls need a defined caption or description."
+  },
+  "first_contentful_paint_report_message_1": {
+    "value": "First content is rendered for the user in a moderate time (<code>%0</code> seconds). Best is < <code>1.8</code> second."
+  },
+  "first_contentful_paint_report_message_2": {
+    "value": "First content is rendered for the user in a slow time (<code>%0</code> seconds). Best is < <code>1.8</code> second, moderate is <code>1.8 - 3</code> seconds."
+  },
+  "first_contentful_paint_title": {
+    "value": "The user waits a long time before it sees the first content on the screen."
+  },
+  "focusable_elements_tool": {
+    "value": "Focusable elements"
+  },
+  "focusable_elements_tool_explanation": {
+    "value": "Determine focusable elements. WCAG 2.1 Success Criterion 2.4.7 Focus Visible (Level AA)."
+  },
+  "font_style_italic_report_message": {
+    "value": "You have defined font-style: italic; on long (<code>%0</code> chars) text content. This makes the content difficult to read."
+  },
+  "font_style_italic_title": {
+    "value": "Avoid excessive use of italic text."
+  },
+  "group_elements_name_attribute_report_message": {
+    "value": "Ensure all related form controls with <code>name=\"%0\"</code> are grouped together."
+  },
+  "group_elements_name_attribute_title": {
+    "value": "Checkboxes should be grouped together."
+  },
+  "h1_length_report_message_1": {
+    "value": "The first <code>H1</code> heading is having <code>%0</code> characters, but it should have at least <code>20</code> characters."
+  },
+  "h1_length_title": {
+    "value": "The length of the first heading H1 should be at least 20 characters."
+  },
+  "h1_must_be_report_message": {
+    "value": "Expected at least one heading <code>H1</code> element, but found none."
+  },
+  "h1_must_be_title": {
+    "value": "Page must contain one H1 heading."
+  },
+  "h1_only_one_report_message": {
+    "value": "Expected only one heading element <code>H1</code>. You have <code>%0</code> total."
+  },
+  "h1_only_one_title": {
+    "value": "There should only be one heading H1 on the page."
+  },
+  "headings_hierarchy": {
+    "value": "Headings hierarchy"
+  },
+  "headings_hierarchy_report_message": {
+    "value": "Expected <code>%0</code> to be <code>h%1</code>."
+  },
+  "headings_hierarchy_title": {
+    "value": "Headings must not skip levels (e.g., H1 to H3)."
+  },
+  "headings_sibling_unique_report_message": {
+    "value": "The accessible names of sibling heading elements of the same level are not unique. Same level <code>%0</code> and same description: <code>\"%1\"</code>."
+  },
+  "headings_sibling_unique_title": {
+    "value": "Sibling heading elements must not repeat the same text."
+  },
+  "help": {
+    "value": "Help"
+  },
+  "hidden_from_at_tool": {
+    "value": "Hidden from screen readers"
+  },
+  "hidden_from_at_tool_title": {
+    "value": "Determine elements hidden from screen readers. These elements are often not visible and locating them aids in auditing quality to identify potential accessibility issues."
+  },
+  "highlight_element": {
+    "value": "Highlight element"
+  },
+  "horizontal_rule_report_message": {
+    "value": "The <code>%0</code> element adds extra \"noise\" and can be confusing."
+  },
+  "horizontal_rule_title": {
+    "value": "Use horizontal rule HR sparingly."
+  },
+  "html_lang_attr_report_message_1": {
+    "value": "You have defined the lang attribute on the <code>%0</code> root element, but you have more than 3 languages parameters defined there: <code>%0</code>."
+  },
+  "html_lang_attr_report_message_2": {
+    "value": "Expected lang attribute on the <code>%0</code> root element, but got nothing. The <code>html</code> element must have a <code>lang</code> attribute, where the content is composed of a 2-letter ISO 639 language code, followed by the appropriate ISO 3166 geography code. You can use html <code>lang='[language code]-[country code]'</code>."
+  },
+  "html_lang_attr_report_message_3": {
+    "value": "You have defined <code>lang</code> attribute on the <code>%0</code> root element, but the value (<code>%1</code>) is empty."
+  },
+  "html_lang_attr_title": {
+    "value": "Page must declare lang attribute on the HTML element."
+  },
+  "identify_input_purpose_report_message_1": {
+    "value": "Expected one of the token <code>%0</code> after <code>%1</code>."
+  },
+  "identify_input_purpose_report_message_2": {
+    "value": "You have defined an invalid tokens <code>%0</code>."
+  },
+  "identify_input_purpose_title": {
+    "value": "INPUT purpose must be declared with correct autocomplete attribute."
+  },
+  "illegal_character_in_link_domain_title": {
+    "value": "Illegal character in the domain for the attribute href."
+  },
+  "illegal_character_in_link_domain_title_report_message_1": {
+    "value": "The following domain <code>%0</code> contains illegal characters: <code>%1</code>."
+  },
+  "img_adjacent_duplicate_text_link_report_message_1": {
+    "value": "Adjacent text and image link have the same destination. Avoid unnecessary duplication that occurs when adjacent text and iconic versions of a link are contained in a document."
+  },
+  "img_adjacent_duplicate_text_link_report_message_2": {
+    "value": "&lt;img&gt; element inside a link has empty or missing alt text when a link beside it contains link text. Consider combining the links."
+  },
+  "img_adjacent_duplicate_text_link_title": {
+    "value": "Adjacent IMG and TEXT links must share the same destination."
+  },
+  "img_alt_duplicate_text_link_report_message": {
+    "value": "&lt;img&gt; element inside a link must not use alt text that duplicates the text content of the link."
+  },
+  "img_alt_duplicate_text_link_title": {
+    "value": "A link and its image may not have duplicate text content."
+  },
+  "img_empty_alt_in_link_report_message_1": {
+    "value": "You have defined empty content for <code>alt</code> attribute in <code>img</code> element."
+  },
+  "img_empty_alt_in_link_report_message_2": {
+    "value": "You have defined <code>alt</code> attribute in <code>img</code>, but it contains only whitespace."
+  },
+  "img_empty_alt_in_link_title": {
+    "value": "Image inside of a link needs an alternative description."
+  },
+  "img_empty_alt_with_empty_title_report_message": {
+    "value": "Images with an empty <code>alt</code> attribute must have an absent or empty <code>title</code> attribute, but <code>title</code> exists and is not empty."
+  },
+  "img_empty_alt_with_empty_title_report_message_alt_whitespaces": {
+    "value": "Note: <code>alt</code> attribute contains only whitespaces."
+  },
+  "img_empty_alt_with_empty_title_title": {
+    "value": "Decorative images should not have a title attribute."
+  },
+  "impact_level": {
+    "value": "Impact level"
+  },
+  "include": {
+    "value": "Include"
+  },
+  "include_best_practices": {
+    "value": "Best practices"
+  },
+  "include_hidden_elements": {
+    "value": "Include hidden elements"
+  },
+  "incorrect_document_mime_type_report_message_1": {
+    "value": "The mime type of the document is <code>%0</code>, but it should be <code>text/html</code>. Mime type indicating the kind of data the content represents."
+  },
+  "incorrect_document_mime_type_title": {
+    "value": "Incorrect mime-type for the document."
+  },
+  "incorrect_label_placement_for_associated_input_report_message": {
+    "value": "Incorrect label placement for associated input"
+  },
+  "incorrect_label_placement_for_associated_input_title": {
+    "value": "LABEL must be placed immediately before or after its INPUT."
+  },
+  "incorrect_technique_for_hiding_content_report_message": {
+    "value": "CSS technique text-indent: <code>%0</code>  is used to hide the text. However, it causes problems for right-to-left language and also keep focus for screen reader outside of visible area."
+  },
+  "incorrect_technique_for_hiding_content_title": {
+    "value": "Do not use CSS text-indent to hide text."
+  },
+  "input_image_missing_alt_report_message_1": {
+    "value": "You have not defined an <code>alt</code> attribute that describes the button's function."
+  },
+  "input_image_missing_alt_report_message_2": {
+    "value": "You have defined an <code>alt</code> attribute with empty content, but it should describe the button's function."
+  },
+  "input_image_missing_alt_report_message_3": {
+    "value": "The text in the <code>alt</code> attribute should describe the button's function. It contains only white space and therefore it is ignored by assistive technologies."
+  },
+  "input_image_missing_alt_title": {
+    "value": "Image button must declare alt text describing its action."
+  },
+  "inspect_element": {
+    "value": "Inspect element"
+  },
+  "invalid_attribute_dir_value_report_message": {
+    "value": "Attribute <code>dir</code> has invalid value <code>%0</code>."
+  },
+  "invalid_attribute_dir_value_title": {
+    "value": "Invalid value found in DIR attribute."
+  },
+  "invisible_image_loaded_report_message_1": {
+    "value": "The image is loaded but is not visible."
+  },
+  "invisible_image_loaded_title": {
+    "value": "Do not load IMG that remains invisible."
+  },
+  "label_duplicated_content_title_report_message": {
+    "value": "This element has the same content as its <code>title</code> attribute. Consider removing <code>title</code> as some screen readers read both."
+  },
+  "label_duplicated_content_title_title": {
+    "value": "Avoid repeating LABEL text inside its title attribute."
+  },
+  "label_implicitly_associated_report_message_1": {
+    "value": "You have implicitly associated <code>%0</code> attribute, but it contains only white spaces and therefore it's invalid. To implict associate label with labelable child element remove <code>for</code> attribute. Note that implicit label has poor support in Voice Control AT."
+  },
+  "label_implicitly_associated_report_message_2": {
+    "value": "You have implicitly associated <code>%0</code> attribute, but it contains more than one labelable elements. It should contains only one because activating label sets the foocus on the first labelable element. Note that implicit label has poor support in Voice Control AT."
+  },
+  "label_implicitly_associated_title": {
+    "value": "Implicit LABEL must be clear and sufficient."
+  },
+  "label_inappropriate_association_report_message_1": {
+    "value": "Missing defined associated form control for <code>%0</code>."
+  },
+  "label_inappropriate_association_report_message_2": {
+    "value": "Expected <code>%0</code> not to be associated with non-form control."
+  },
+  "label_inappropriate_association_title": {
+    "value": "LABEL association must point to an existing form control."
+  },
+  "landmark_elements_tool": {
+    "value": "Landmarks"
+  },
+  "landmarks_none_report_message": {
+    "value": "Page have no landmarks defined. Landmarks are used to help users navigate the page more easily, especially for those using assistive technologies."
+  },
+  "landmarks_none_title": {
+    "value": "No landmarks found on page."
+  },
+  "languages_detection_tool": {
+    "value": "Languages detection"
+  },
+  "last_update": {
+    "value": "Last update"
+  },
+  "layout_shifts_with_font_display_report_message_1": {
+    "value": "Unexpected layout shifts caused by web font <code>%0</code> and <code>display: %1</code>."
+  },
+  "layout_shifts_with_font_display_title": {
+    "value": "Avoid layout shift from FONT loading."
+  },
+  "legend_first_child_of_fieldset_report_message_1": {
+    "value": "Expected <code>%0</code> to be the first child of the <code>%1</code> element, but instead there is <code>%2</code>."
+  },
+  "legend_first_child_of_fieldset_report_message_2": {
+    "value": "Element <code>%0</code> is the first child of the <code>%1</code> element, but it contains only white spaces."
+  },
+  "legend_first_child_of_fieldset_title": {
+    "value": "LEGEND must be first child of FIELDSET."
+  },
+  "link_page_title_tool": {
+    "value": "Link page title"
+  },
+  "link_page_title_tool_title": {
+    "value": "This tool fetches a remote page, extracts its title, and displays it next to the corresponding link text, allowing you to determine the actual title of the remote page."
+  },
+  "link_with_unclear_purpose_report_message1": {
+    "value": "This link text content <code>%0</code> is unclear out of context."
+  },
+  "link_with_unclear_purpose_report_message2": {
+    "value": "This element looks like a link and its text <code>%0</code> is unclear out of context."
+  },
+  "link_with_unclear_purpose_title": {
+    "value": "Links should have descriptive, meaningful text that makes sense even when taken out of context."
+  },
+  "links_new_window_mark_report_message": {
+    "value": "This link should have a warning before automatically opening a new window or tab."
+  },
+  "links_new_window_mark_title": {
+    "value": "Links should indicate if they're going to open in a new window."
+  },
+  "links_not_visually_evident_without_color_vision_report_message": {
+    "value": "Ensure links are understandable and distinguishable from their surrounding text. Parent element has styles <code>%0</code>, while anchor has styles <code>%1</code>. Change the styles to differentiate between them."
+  },
+  "links_not_visually_evident_without_color_vision_title": {
+    "value": "Links need to be understandable and distinguishable from their surrounding text."
+  },
+  "links_same_content_different_url_report_message": {
+    "value": "Found <code>%0</code> links with the same text <code>%1</code> (accessible name: <code>%2</code>) pointing to different URLs. Every link should have unique content."
+  },
+  "links_same_content_different_url_title": {
+    "value": "Multiple text links that look the same should also link to the same content (such as \"Read more\")."
+  },
+  "main_element_only_one_report_message": {
+    "value": "You have defined multiple (<code>%0</code>) <code>%1</code> elements. Assistive technology users expect one main content block and may miss subsequent <code>main</code> blocks."
+  },
+  "main_element_only_one_title": {
+    "value": "The MAIN element should only be defined once on a page."
+  },
+  "main_landmark_must_be_top_level_report_message": {
+    "value": "Expected element <code>%0</code> to be a top-level landmark, but it is contained within element <code>%1</code>."
+  },
+  "main_landmark_must_be_top_level_title": {
+    "value": "MAIN element must be a top-level landmark (i.e., not nested inside any other landmark region)."
+  },
+  "malformed_json_ld_report_message_1": {
+    "value": "Invalid JSON-LD string. It can't be parsed correctly by search engines because it's JSON syntax is not valid."
+  },
+  "malformed_json_ld_report_message_2": {
+    "value": "Content of JSON-LD should not contains line breaks characters. Yours contains <code>%0</code> line breaks."
+  },
+  "malformed_json_ld_title": {
+    "value": "Malformed JSON-LD found."
+  },
+  "manifest_extension_report_message_1": {
+    "value": "The application manifest file should have an extension <code>.webmanifest</code>. Yours is <code>%0</code>."
+  },
+  "manifest_extension_title": {
+    "value": "Non-standard file extensions used for the web app manifest file."
+  },
+  "manual_verification": {
+    "value": "Manual verification"
+  },
+  "manual_verification_required": {
+    "value": "Manual verification required"
+  },
+  "meta_description_too_long_or_too_short_report_message_1": {
+    "value": "Meta description <code>%0</code> has length <code>%1</code>, but it should be between 25 and 160 characters. Most search engine crawlers only show the first 150-160 characters of the description in the search results."
+  },
+  "meta_description_too_long_or_too_short_title": {
+    "value": "Meta Description of the page is too long or too short."
+  },
+  "meta_description_truncation_short_report_message_1": {
+    "value": "Meta description <code>%0</code> has been truncated. It is recommended to not truncate the page description as it may be incomprehensible to the user while displayed in SERP (search engine results page)."
+  },
+  "meta_description_truncation_title": {
+    "value": "Avoid Meta Description truncation."
+  },
+  "minimize_sitelint_auditor": {
+    "value": "Minimize SiteLint Auditor"
+  },
+  "minimum_font_size_report_message_1": {
+    "value": "This hidden element has <code>%0px</code> font size (expected minimum <code>10px</code>)."
+  },
+  "minimum_font_size_report_message_2": {
+    "value": "Defined <code>%0px</code> font size, but expected minimum <code>10px</code>."
+  },
+  "minimum_font_size_title": {
+    "value": "BODY text must not be smaller than 16 px."
+  },
+  "missing_alt_attribute_report_message": {
+    "value": "Missing defined attribute <code>alt</code>."
+  },
+  "missing_alt_attribute_title": {
+    "value": "Missing alt on non-text elements."
+  },
+  "missing_canonical_url_report_message_1": {
+    "value": "The page's missing a defined canonical URL. A canonical URL is the URL of the page that the Search Engine thinks is most representative of a set of duplicate pages on your site."
+  },
+  "missing_canonical_url_title": {
+    "value": "Missing defined canonical URL."
+  },
+  "missing_charset_report_message_1": {
+    "value": "The charset declaration is defined, but not within first 1024 bytes of the HTML"
+  },
+  "missing_charset_report_message_2": {
+    "value": "Missing defined charset declaration"
+  },
+  "missing_charset_title": {
+    "value": "Missing charset declaration or it is not defined in the first 1024 bytes of the HTML."
+  },
+  "missing_href_on_a_report_message": {
+    "value": "Missing attribute <code>href</code> on a hyperlink. The user cannot navigate to this element using the keyboard."
+  },
+  "missing_href_on_a_title": {
+    "value": "A link needs a destination to function properly."
+  },
+  "missing_https_protocol_title": {
+    "value": "Missing https protocol to protect privacy and integrity of the exchanged data."
+  },
+  "missing_https_report_message": {
+    "value": "The page uses <code>%0</code> protocol, but should <code>https:</code>."
+  },
+  "missing_label_report_message_1": {
+    "value": "Expected attribute <code>id</code> to be defined on element <code>%0</code> to associate with appropriate <code>%1</code>."
+  },
+  "missing_label_report_message_2": {
+    "value": "Expected element <code>%0</code> to be defined for this element."
+  },
+  "missing_label_report_message_3": {
+    "value": "You have defined multiple labels for element <code>%0</code>. It should only be one."
+  },
+  "missing_label_title": {
+    "value": "Form controls need labels."
+  },
+  "missing_protocol_http2_report_message_1": {
+    "value": "Your site does not use protocol <code>HTTP2</code> or <code>HTTP3</code>. Enable it to open the ability for browsers to accept more content from an application's server at once, which improves application performance."
+  },
+  "missing_protocol_http2_title": {
+    "value": "Missing protocol HTTP2 that make your site faster, simpler, and more robust."
+  },
+  "missing_rel_noopener_report_message_1": {
+    "value": "The element <code>%0</code> should have defined <code>rel=\"noopener\"</code> or <code>rel=\"noreferrer\"</code>."
+  },
+  "missing_rel_noopener_title": {
+    "value": "Links to cross-origin destinations are unsafe."
+  },
+  "missing_submit_button_report_message_1": {
+    "value": "The form element does not have a submit button."
+  },
+  "missing_submit_button_title": {
+    "value": "Ensure FORM can be submitted without a pointer."
+  },
+  "misused_aria_on_focusable_element_report_message": {
+    "value": "Using <code>%0</code> on a visible focusable element will result in some users focusing on \"nothing\"."
+  },
+  "misused_aria_on_focusable_element_title": {
+    "value": "ARIA attributes redundant on native focusable element."
+  },
+  "misused_input_attribute_report_message": {
+    "value": "Expected attribute <code>%0</code> not to be defined on this element."
+  },
+  "misused_input_attribute_title": {
+    "value": "Misused attribute found on INPUT."
+  },
+  "misused_required_attribute_report_message1": {
+    "value": "Redundant attribute: <code>aria-required</code> should not be used with native <code>required</code>."
+  },
+  "misused_required_attribute_title": {
+    "value": "The \"required\" and \"aria-required\" attributes should not be combined on the same element."
+  },
+  "misused_tabindex_attribute_report_message_1": {
+    "value": "Attribute <code>tabindex=\"0\"</code> is defined on natively focusable elements and it's redundant on following elements (name, total founded): <code>%0</code>."
+  },
+  "misused_tabindex_attribute_title": {
+    "value": "Set tabindex properly to match the correct reading order of content on the page."
+  },
+  "mixed_content_on_https_report_message_1": {
+    "value": "The location for element <code>%0</code> uses insecure protocol <code>http</code> on <code>https</code> site connection."
+  },
+  "mixed_content_on_https_title": {
+    "value": "The site uses insecure HTTP connections on HTTPS (Mixed Content)."
+  },
+  "native_clipboard_not_available": {
+    "value": "The native browser built-in Clipboard is not available. You need to copy the content manually."
+  },
+  "navigation_landmark_restrictions_report_message": {
+    "value": "Elements with a role inside <code>role=\"navigation\"</code> must only be <code>role=\"region\"</code> or <code>role=\"search\"</code>."
+  },
+  "navigation_landmark_restrictions_title": {
+    "value": "NAV landmark must contain only region or search landmarks."
+  },
+  "no_css": {
+    "value": "No CSS"
+  },
+  "no_headings_report_message": {
+    "value": "There are no defined headings <code>h1-h6</code>."
+  },
+  "no_headings_title": {
+    "value": "No headings found on page."
+  },
+  "no_issues_found_for_a_given_filter_options": {
+    "value": "Based on the applied filters, no issues are being displayed. Please adjust your filters to see the relevant issues."
+  },
+  "no_meta_http_equiv_refresh_report_message": {
+    "value": "You have defined <code>http-equiv=\"refresh\"</code>. Remove this element."
+  },
+  "no_meta_http_equiv_refresh_title": {
+    "value": "Pages must not automatically refresh or redirect without user control."
+  },
+  "object_missing_body_report_message_1": {
+    "value": "The text alternative to the content rendered by <code>%0</code> contains only whitespace. The body of the <code>%1</code> element must provide a complete text alternative for the object."
+  },
+  "object_missing_body_report_message_2": {
+    "value": "The <code>%0</code> element does not define a text alternative. The body of the <code>%1</code> element can be used to provide a complete text alternative for the <code>%2</code>, or it may contain additional non-text content with text alternatives."
+  },
+  "object_missing_body_title": {
+    "value": "Missing alternative content for OBJECT element."
+  },
+  "obsolete_angular_detected_report_message": {
+    "value": "Detected AngularJS version <code>%0</code>. After 31 December 2021 1.x AngularJS is no longer being supported. There is a high risk of being exposed to new security vulnerabilities."
+  },
+  "obsolete_angular_detected_title": {
+    "value": "Obsolete AngularJS 1.x detected."
+  },
+  "obsolete_html_attributes_report_message": {
+    "value": "The following attributes <code>%0</code> are obsolete (though the elements are still part of the language), and must not be used by authors."
+  },
+  "obsolete_html_attributes_title": {
+    "value": "Obsolete attribute found."
+  },
+  "obsolete_html_elements_report_message": {
+    "value": "Following element <code>%0</code> is entirely obsolete, and must not be used by authors."
+  },
+  "obsolete_html_elements_title": {
+    "value": "Obsolete HTML elements found."
+  },
+  "open_sitelint_auditor": {
+    "value": "Open SiteLint Auditor"
+  },
+  "options": {
+    "value": "Options"
+  },
+  "overlay_report_message": {
+    "value": "Accessibility an overlay %0 has been detected on the page. Overlays are third-party widgets that attempt to automatically fix the accessibility issues of page they are added to. Therefore the results from the scanning may not be accurate."
+  },
+  "overlay_title": {
+    "value": "Avoid using accessibility overlays."
+  },
+  "oversized_images_report_message_1": {
+    "value": "The image has original size: <code>%0px</code> height and <code>%1px</code> width, but it's displayed with size: <code>%2px</code> height and <code>%3px</code> width."
+  },
+  "oversized_images_report_message_2": {
+    "value": "The image has original size: <code>%0px</code> height and <code>%1px</code> width, but it's displayed with the height <code>%2px</code> much smaller than the original value <code>%3px</code>."
+  },
+  "oversized_images_report_message_3": {
+    "value": "The image has original size: <code>%0px</code> height and <code>%1px</code> width, but it's displayed with the width <code>%2px</code> much smaller than the original value <code>%3px</code>."
+  },
+  "oversized_images_title": {
+    "value": "Avoid displaying oversized images."
+  },
+  "page_title_length_report_message_1": {
+    "value": "The page title (<code>%1</code>) length is <code>%0</code>, but should be around 60 characters."
+  },
+  "page_title_length_title": {
+    "value": "The length of the page title should be around 60 characters."
+  },
+  "page_title_words_not_included_in_url_report_message_1": {
+    "value": "Following page title <code>%0</code> words <code>%1</code> are not included in the page url <code>%2</code>."
+  },
+  "page_title_words_not_included_in_url_title": {
+    "value": "The page title words are not included in the page url."
+  },
+  "positive_tabindex_report_message": {
+    "value": "Positive <code>tabindex=\"%0\"</code> should not be used. Outside of very specific corner cases, a tabindex should not be given a positive integer value. Users who use keyboards to interact with the web expect a web document to be navigable in sequential order, starting at the top left (or right depending on language of the document) and going in order from there."
+  },
+  "positive_tabindex_title": {
+    "value": "Do not use positive tabindex."
+  },
+  "reason": {
+    "value": "Reason"
+  },
+  "results": {
+    "value": "Results"
+  },
+  "rtl_content_report_message": {
+    "value": "You are using RTL direction (text and other elements go from right to left). Make sure all features are available in RTL mode."
+  },
+  "rtl_content_title": {
+    "value": "Features must accommodate right-to-left languages."
+  },
+  "rule_id": {
+    "value": "Rule ID"
+  },
+  "run": {
+    "value": "Run"
+  },
+  "same_target_anchor_text_more_than_once_message_1": {
+    "value": "The anchor <code>a</code> text <code>%0</code> is used more than once (<code>%1</code> times) but should be unique on the page."
+  },
+  "same_target_anchor_text_more_than_once_title": {
+    "value": "Don't use the same target anchor text more than once."
+  },
+  "select_tool": {
+    "value": "Select tool"
+  },
+  "severity_critical": {
+    "value": "Critical"
+  },
+  "severity_high": {
+    "value": "High"
+  },
+  "severity_info": {
+    "value": "Info"
+  },
+  "severity_low": {
+    "value": "Low"
+  },
+  "severity_type": {
+    "value": "Severity type"
+  },
+  "sitelint_auditor_widget": {
+    "value": "SiteLint Auditor widget"
+  },
+  "sitelint_component": {
+    "value": "SiteLint component"
+  },
+  "skip_reason_alphaValueColor": {
+    "value": "Unable to determine color contrast ratio: the element or one of its ancestors has a background color with alpha transparency."
+  },
+  "skip_reason_backgroundImageFounded": {
+    "value": "Unable to determine color contrast ratio: the element or one of its ancestors has a background image."
+  },
+  "skip_reason_determinedSemiTransparentBackground": {
+    "value": "Unable to determine color contrast ratio: the element or one of its ancestors has semi-transparent background with opacity."
+  },
+  "skip_reason_elementHasSemiOpacity": {
+    "value": "Unable to determine color contrast ratio: the element or one of its ancestors has semi-opacity."
+  },
+  "skip_reason_elementNotVisible": {
+    "value": "Element was excluded from scanning because it's not visible."
+  },
+  "skip_reason_elementStylingHighlyLimited": {
+    "value": "Unable to determine color contrast ratio because the element has highly limited ability to styling."
+  },
+  "skip_reason_excludedFromScanning_on_demand": {
+    "value": "Element was excluded explicitly from scanning using an attribute data-sitelint-skip."
+  },
+  "skip_reason_hiddenFromAssistiveTechnologies": {
+    "value": "The element was excluded from scanning because it's not exposed to assistive technologies."
+  },
+  "skip_reason_onePxSize": {
+    "value": "The element has width and height size <code>1px</code> and <code>1px</code> therefore color contrast calculation has been skipped."
+  },
+  "skip_reason_performancePaintTimingAPInotAvailable": {
+    "value": "PerformancePaintTiming API is not available."
+  },
+  "skip_reason_positionFixed": {
+    "value": "Unable to determine color contrast ratio because the element has a fixed position."
+  },
+  "skip_reason_positionSticky": {
+    "value": "Unable to determine color contrast ratio because the element has a sticky position."
+  },
+  "skip_reason_sameForegroundBackgroundColorOnElement": {
+    "value": "Unable to determine color contrast ratio because the element has the same foregroud and background color."
+  },
+  "skip_reason_sameForegroundBackgroundColorOnElementAndParent": {
+    "value": "Unable to determine color contrast ratio because the element has the same foregroud and background color, including parent elements."
+  },
+  "skip_reason_skipHiddenElements": {
+    "value": "Element was excluded from the scanning because the option includeHidden is set to false."
+  },
+  "skip_reason_skipHiddenElements_byParent": {
+    "value": "The element was excluded from scanning because it's hidden by the parent element."
+  },
+  "skip_reason_skipHiddenElements_elementNotVisible": {
+    "value": "The element was excluded from the scanning because the option includeHidden is set to false and the element is not visible."
+  },
+  "skip_reason_specifiedStylesCantBeDetermined": {
+    "value": "Required styles %0 for element can't be determined."
+  },
+  "skip_reason_stylesCantBeDetermined": {
+    "value": "Styles for element can't be determined at all."
+  },
+  "skip_reason_transparentBackground": {
+    "value": "Unable to determine color contrast ratio because the element has the background color set as transparent."
+  },
+  "standard_level": {
+    "value": "Level"
+  },
+  "standard_level_A": {
+    "value": "A"
+  },
+  "standard_level_AA": {
+    "value": "AA"
+  },
+  "standard_level_AAA": {
+    "value": "AAA"
+  },
+  "standard_level_best_practices": {
+    "value": "Best practices"
+  },
+  "standard_type": {
+    "value": "Standard"
+  },
+  "standard_type_sitelint": {
+    "value": "SiteLint"
+  },
+  "standard_type_wcag": {
+    "value": "WCAG"
+  },
+  "standard_version": {
+    "value": "Standard version"
+  },
+  "standardVersion_v10": {
+    "value": "1.0"
+  },
+  "standardVersion_v20": {
+    "value": "2.0"
+  },
+  "standardVersion_v21": {
+    "value": "2.1"
+  },
+  "standardVersion_v22": {
+    "value": "2.2"
+  },
+  "subresource_integrity_report_message_1": {
+    "value": "The element <code>%0</code> is missing defined <code>integrity</code> attribute with defined hash."
+  },
+  "subresource_integrity_title": {
+    "value": "Missing defined integrity value that enables browsers to verify that resources they fetch are delivered without unexpected manipulation."
+  },
+  "svg_incorrect_size_unit_report_message_1": {
+    "value": "Unsupported unit value <code>%0</code> for <code>height</code> and <code>%0</code> for <code>width</code> attribute."
+  },
+  "svg_incorrect_size_unit_report_message_2": {
+    "value": "Unsupported unit value <code>%0</code> for <code>width</code> attribute."
+  },
+  "svg_incorrect_size_unit_report_message_3": {
+    "value": "Unsupported unit value <code>%0</code> for <code>height</code> attribute."
+  },
+  "svg_incorrect_size_unit_title": {
+    "value": "Unsupported size unit for SVG."
+  },
+  "svg_too_large_report_message_1": {
+    "value": "The svg element has a size of <code>%0</code> KB, which clogs up your markup and impacts page performance."
+  },
+  "svg_too_large_title": {
+    "value": "Avoid including large SVG elements."
+  },
+  "switch_text_direction": {
+    "value": "Switch text direction"
+  },
+  "table_caption_summary_identical_report_message": {
+    "value": "<code>summary</code> attribute and <code>%0</code> element have the same content."
+  },
+  "table_caption_summary_identical_title": {
+    "value": "TABLE summary and caption content should be different."
+  },
+  "table_missing_description_report_message_1": {
+    "value": "Attribute <code>%0</code> contains associated elements that does not exists. Following elements with attribute <code>id</code> are missing: <code>%1</code>."
+  },
+  "table_missing_description_report_message_2": {
+    "value": "<code>caption</code> has not been defined on table."
+  },
+  "table_missing_description_report_message_3": {
+    "value": "The table has defined <code>%0</code>, but it's content is empty."
+  },
+  "table_missing_description_report_message_4": {
+    "value": "The table has defined attribute <code>%0</code>, but it's empty. It should have defined one or more element IDs, which refer to elements that have the text needed for labeling."
+  },
+  "table_missing_description_report_message_5": {
+    "value": "<code>caption</code> is defined, but there is no content defined there. It contains only: <code>%0</code>."
+  },
+  "table_missing_description_title": {
+    "value": "TABLE should include a description."
+  },
+  "table_row_and_column_headers_report_message_1": {
+    "value": "The table has no defined headers. Make sure that rows and columns are identified using <code>%0</code> elements."
+  },
+  "table_row_and_column_headers_report_message_2": {
+    "value": "Content of the table should be wrapped using <code>%0</code> element."
+  },
+  "table_row_and_column_headers_report_message_3": {
+    "value": "If applicable then head of the columns of the table should be wrapped using <code>%0</code> element."
+  },
+  "table_row_and_column_headers_title": {
+    "value": "TABLE should have elements that define headers for each column or row."
+  },
+  "target_size_minimum_report_message_1": {
+    "value": "The element has width: <code>%0px</code> and height: <code>%1px</code>, but should have both minimium <code>24px</code> width and height."
+  },
+  "target_size_minimum_report_message_2": {
+    "value": "Confirm the inline target <code>%0</code> is sufficiently spaced from another inline target <code>%1</code>."
+  },
+  "target_size_minimum_report_message_3": {
+    "value": "Ensure the overlapped target <code>%0</code> meets a minimum target size or has sufficient spacing from the overlapping target <code>%1</code>."
+  },
+  "target_size_minimum_report_message_4": {
+    "value": "Undersized target <code>%0</code> does not have sufficient spacing of 12 CSS pixels from another target <code>%1</code>."
+  },
+  "target_size_minimum_title": {
+    "value": "Interactive elements must have an area of at least 24 by 24 pixels."
+  },
+  "text_color_convey_information_report_message": {
+    "value": "Check that the information conveyed by colors <code>%0</code> is also available in text and that the text is not conditional content."
+  },
+  "text_color_convey_information_title": {
+    "value": "Information conveyed by color must also be available in text."
+  },
+  "text_spacing_tool": {
+    "value": "Text spacing"
+  },
+  "text_spacing_tool_explanation": {
+    "value": "Testing WCAG 2.1 Success Criterion 1.4.12 Text Spacing"
+  },
+  "title_for_abbr_report_message_1": {
+    "value": "You have not provided a <code>title</code> that defines the abbreviation."
+  },
+  "title_for_abbr_report_message_2": {
+    "value": "The <code>title</code> content for the abbreviation should not be empty."
+  },
+  "title_for_abbr_title": {
+    "value": "Missing title for ABBR element."
+  },
+  "title_iframe_report_message_1": {
+    "value": "Expected <code>title</code> attribute to be defined on <code>%0</code>. However, if it is an <code>iframe</code> without valuable content for the user then add the attribute <code>aria-hidden=\"true\"</code> in order to hide it from assistive technologies."
+  },
+  "title_iframe_report_message_2": {
+    "value": "Expected title attribute not to be empty on <code>%0</code>."
+  },
+  "title_iframe_title": {
+    "value": "Missing the title attribute on iframe."
+  },
+  "tool_overflow_element": {
+    "value": "Overflow element"
+  },
+  "tool_overflow_element_tip": {
+    "value": "Determines elements wider than the page width. This usually leads to an unwanted horizontal scroll."
+  },
+  "tool_twentyFourPxCursor": {
+    "value": "24x24 px cursor"
+  },
+  "tool_twentyFourPxCursor_title": {
+    "value": "Easily visualize needed space between elements for WCAG Success Criteria 2.5.8's (Target Size Minimum) spacing exception, or compare target sizes in general."
+  },
+  "tools": {
+    "value": "Tools"
+  },
+  "total_issues": {
+    "value": "Total issues"
+  },
+  "unable_to_find_element": {
+    "value": "Unable to find the element %0 because it does not exists on the page."
+  },
+  "unable_to_highlight_element": {
+    "value": "Unable to highlight the element %0 because it's not being rendered on the page."
+  },
+  "unable_to_highlight_element_visually_hidden": {
+    "value": "The element %0 cannot be highlighted since it has not been rendered visually."
+  },
+  "unable_to_run_audit": {
+    "value": "Unable to run audit.\n\n%0"
+  },
+  "unclear_anchor_url_report_message_1": {
+    "value": "The URL defined in an anchor <code>href</code> attribute should not be used and may be misinterpreted by screen readers or the action may be unexpected."
+  },
+  "unclear_anchor_url_title": {
+    "value": "Links must have a clear, valid destination."
+  },
+  "unclear_image_description_report_message_1": {
+    "value": "The image has unclear, generic description: <code>%0</code>."
+  },
+  "unclear_image_description_title": {
+    "value": "Generic placeholder alt text should be avoided. Use descriptions that convey the image's purpose or content."
+  },
+  "unclear_page_title_report_message_1": {
+    "value": "The page title <code>%0</code> does not identify the contents or purpose of the Web page."
+  },
+  "unclear_page_title_report_message_2": {
+    "value": "The page <code>title</code> is empty and therefore does not identify the contents or purpose of the Web page."
+  },
+  "unclear_page_title_report_message_3": {
+    "value": "The page does not contain a <code>title</code>."
+  },
+  "unclear_page_title_title": {
+    "value": "The TITLE element should clearly describe the content or purpose of the page."
+  },
+  "unsupported_role_on_element_report_message": {
+    "value": "Expected attribute <code>role=\"%0\"</code> not to be defined on this element."
+  },
+  "unsupported_role_on_element_title": {
+    "value": "Do not use unsupported or incorrect role attribute on an element."
+  },
+  "video_audio_descriptions_report_message": {
+    "value": "You have not defined neither <code>%0</code> elements to provide descriptions nor %1 with an audio as an alternative."
+  },
+  "video_audio_descriptions_title": {
+    "value": "Audio, video, and other media need captions or descriptions."
+  },
+  "view_rule_documentation": {
+    "value": "View rule documentation"
+  },
+  "zoom_disabled_report_message": {
+    "value": "You have defined <code>%0</code>. Remove parameters from the <code>content</code> attribute."
+  },
+  "zoom_disabled_title": {
+    "value": "User must be able to zoom the page content."
+  }
+}
