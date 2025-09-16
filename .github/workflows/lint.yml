@@ -1,0 +1,54 @@
+# .github/workflows/lint.yml
+name: Lint
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: write   # only needed for the auto-commit step
+
+jobs:
+  json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}   # allows the job to push back
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # 1. Install tools
+      - name: Install jsonlint & prettier
+        run: |
+          npm install -g jsonlint prettier
+
+      # 2. Validate every JSON file (fail-fast if any file is invalid)
+      - name: Validate JSON files
+        run: |
+          shopt -s globstar
+          jsonlint **/*.json
+
+      # 3. Format every JSON file with Prettier
+      - name: Format JSON files
+        run: |
+          shopt -s globstar
+          prettier --write "**/*.json"
+
+      # 4. Auto-commit changes if something was reformatted
+      - name: Commit & push changes (if any)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "style: auto-format JSON files"
+            git push
+          fi
