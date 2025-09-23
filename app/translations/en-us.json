@@ -694,12 +694,6 @@
   "link_with_unclear_purpose_title": {
     "value": "Links should have descriptive, meaningful text that makes sense even when taken out of context."
   },
-  "links_new_window_mark_report_message": {
-    "value": "This link should have a warning before automatically opening a new window or tab."
-  },
-  "links_new_window_mark_title": {
-    "value": "Links should indicate if they're going to open in a new window."
-  },
   "links_not_visually_evident_without_color_vision_report_message": {
     "value": "Ensure links are understandable and distinguishable from their surrounding text. Parent element has styles <code>%0</code>, while anchor has styles <code>%1</code>. Change the styles to differentiate between them."
   },
@@ -1165,23 +1159,11 @@
   "table_row_and_column_headers_report_message_3": {
     "value": "If applicable then head of the columns of the table should be wrapped using <code>%0</code> element."
   },
+  "table_row_and_column_headers_report_message_4": {
+    "value": "When the table structure is not trivial (merged cells, multiple header rows, etc.) header cells must explicitly associate themselves with the data cells they label. Use <code>scope</code>, <code>id</code> + <code>headers</code>, or <code>aria-describedby</code>."
+  },
   "table_row_and_column_headers_title": {
     "value": "TABLE should have elements that define headers for each column or row."
-  },
-  "target_size_minimum_report_message_1": {
-    "value": "The element has width: <code>%0px</code> and height: <code>%1px</code>, but should have both minimium <code>24px</code> width and height."
-  },
-  "target_size_minimum_report_message_2": {
-    "value": "Confirm the inline target <code>%0</code> is sufficiently spaced from another inline target <code>%1</code>."
-  },
-  "target_size_minimum_report_message_3": {
-    "value": "Ensure the overlapped target <code>%0</code> meets a minimum target size or has sufficient spacing from the overlapping target <code>%1</code>."
-  },
-  "target_size_minimum_report_message_4": {
-    "value": "Undersized target <code>%0</code> does not have sufficient spacing of 12 CSS pixels from another target <code>%1</code>."
-  },
-  "target_size_minimum_title": {
-    "value": "Interactive elements must have an area of at least 24 by 24 pixels."
   },
   "text_color_convey_information_report_message": {
     "value": "Check that the information conveyed by colors <code>%0</code> is also available in text and that the text is not conditional content."
