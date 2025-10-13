@@ -230,19 +230,19 @@
     "value": "Links must have a corresponding target."
   },
   "capital_letters_words_report_message1": {
-    "value": "Text <code>%0</code> should not be written in uppercase only. Note: the text is transformed using (<code>text-transform: uppercase</code>)."
+    "value": "Element contains <code>%0</code>, which is shown in all-caps by <code>text-transform: uppercase</code>. The text has several long words in uppercase."
   },
   "capital_letters_words_report_message2": {
-    "value": "Element have a text that contains words in uppercase only."
+    "value": "Element text contains several long words written in uppercase."
   },
   "capital_letters_words_report_message3": {
-    "value": "This element has a title attribute that contains words in uppercase."
+    "value": "The title attribute contains several long words written in uppercase."
   },
   "capital_letters_words_report_message4": {
-    "value": "Element have a text and has a title attribute that contains words in uppercase."
+    "value": "Element text and its title attribute each contain several long words written in uppercase."
   },
   "capital_letters_words_title": {
-    "value": "Only use all caps for acronyms."
+    "value": "Limit use of long uppercase words."
   },
   "change_filters": {
     "value": "Change filters"
@@ -821,7 +821,7 @@
     "value": "Links to cross-origin destinations are unsafe."
   },
   "missing_submit_button_report_message_1": {
-    "value": "The form element does not have a submit button."
+    "value": "The form has no keyboard-submit mechanism. Add a submit button or keep only one text field."
   },
   "missing_submit_button_title": {
     "value": "Ensure FORM can be submitted without a pointer."
@@ -975,6 +975,9 @@
   },
   "same_target_anchor_text_more_than_once_title": {
     "value": "Don't use the same target anchor text more than once."
+  },
+  "scan_error_auditor_integrity": {
+    "value": "SiteLint couldn't start the audit because part of the extension is damaged or out of date. Please remove the extension and install it again."
   },
   "select_tool": {
     "value": "Select tool"
@@ -1195,6 +1198,9 @@
   "title_iframe_title": {
     "value": "Missing the title attribute on iframe."
   },
+  "tool_ariaValidator": {
+    "value": "ARIA"
+  },
   "tool_overflow_element": {
     "value": "Overflow element"
   },
@@ -1206,6 +1212,16 @@
   },
   "tool_twentyFourPxCursor_title": {
     "value": "Easily visualize needed space between elements for WCAG Success Criteria 2.5.8's (Target Size Minimum) spacing exception, or compare target sizes in general."
+  },
+  "tool_w3cValidation": {
+    "value": "W3C Standard"
+  },
+  "tool_w3cValidationWithSerialization": {
+    "value": "W3C Serialization"
+  },
+  "tool_w3cValidationWithSerialization_title": {
+    "comment": "Add comment",
+    "value": "Some pages may restrict access to W3C services therefore this option uses serialization of the HTML and sends it to the W3C service."
   },
   "tools": {
     "value": "Tools"
@@ -1255,8 +1271,11 @@
   "unsupported_role_on_element_title": {
     "value": "Do not use unsupported or incorrect role attribute on an element."
   },
+  "validators_tools": {
+    "value": "Validators"
+  },
   "video_audio_descriptions_report_message": {
-    "value": "You have not defined neither <code>%0</code> elements to provide descriptions nor %1 with an audio as an alternative."
+    "value": "You have not defined neither <code>%0</code> elements to provide descriptions nor <code>%1</code> with an audio as an alternative."
   },
   "video_audio_descriptions_title": {
     "value": "Audio, video, and other media need captions or descriptions."
