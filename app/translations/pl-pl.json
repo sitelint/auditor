@@ -1,0 +1,1298 @@
+{
+  "_config": {
+    "locale": "pl-PL",
+    "nativeName": "Polski",
+    "englishName": "Polish"
+  },
+  "accessible_name_mismatch_element_description_report_message_1": {
+    "value": "Dostępna nazwa <code>%0</code> jest zbyt różna od etykiety <code>%1</code>."
+  },
+  "accessible_name_mismatch_element_description_title": {
+    "value": "Dostępna nazwa powinna być zgodna z etykietą kontrolki."
+  },
+  "accessible_svg_report_message_1": {
+    "value": "Element <code>%0</code> nie ma dostępnego opisu."
+  },
+  "accessible_svg_report_message_2": {
+    "value": "Zdefiniowano element <code>%0</code>, ale jego zawartość jest pusta."
+  },
+  "accessible_svg_report_message_3": {
+    "value": "Zdefiniowano element <code>%0</code> i identyfikatory, które odwołują się do elementów, ale powiązane elementy z następującymi atrybutami id nie istnieją: <code>%1</code>."
+  },
+  "accessible_svg_report_message_4": {
+    "value": "Zdefiniowano atrybut <code>tabindex</code> ale wartość <code>%0</code> nie jest prawidłową liczbą całkowitą."
+  },
+  "accessible_svg_title": {
+    "value": "Zawartość SVG musi mieć dostępną nazwę."
+  },
+  "action_close": {
+    "value": "Zamknij"
+  },
+  "action_refresh": {
+    "value": "Odśwież"
+  },
+  "action_scan": {
+    "value": "Analizuj stronę"
+  },
+  "alt_text_include_filename_report_message": {
+    "value": "Nazwa pliku źródłowego elementu obrazu nie może być częścią jego alternatywy tekstowej (<code>alt=\"%0\"</code>)."
+  },
+  "alt_text_include_filename_title": {
+    "value": "Tekst alternatywny obrazu powinien opisywać zawartość obrazu, a nie jego nazwę pliku."
+  },
+  "alt_text_tool": {
+    "value": "Tekst alternatywny"
+  },
+  "analyze_page": {
+    "value": "Analizuj stronę"
+  },
+  "analyzing_the_page_please_wait_a_moment": {
+    "value": "Analizowanie strony. Proszę chwilę poczekać."
+  },
+  "animation_report_message_0": {
+    "value": "Upewnij się, że istnieje mechanizm, dzięki któremu użytkownik może zatrzymać, zatrzymać lub ukryć animację, chyba że ruch, mruganie lub przewijanie jest częścią czynności, w której jest to niezbędne."
+  },
+  "animation_report_message_1": {
+    "value": "Zdefiniowano czas trwania animacji w <code>%0</code> który jest dłuższy niż 5 sekund."
+  },
+  "animation_report_message_2": {
+    "value": "Zdefiniowano liczbę iteracji animacji z wartością <code>%0</code>."
+  },
+  "animation_title": {
+    "value": "Animacje nie powinny być zapętlane w nieskończoność."
+  },
+  "applet_missing_alt_report_message_1": {
+    "value": "Nie zdefiniowano atrybutu <code>alt</code>, który zapewnia tekstową alternatywę dla przeglądarek obsługujących ten element, ale nie mogą one załadować <code>applet</code>."
+  },
+  "applet_missing_alt_report_message_2": {
+    "value": "Zdefiniowano atrybut <code>alt</code> z pustą zawartością, a powinien on opisywać funkcję <code>applet</code>."
+  },
+  "applet_missing_alt_report_message_3": {
+    "value": "Tekst w atrybucie <code>alt</code> powinien opisywać funkcję elementu <code>applet</code>. Zawiera tylko spacje i dlatego jest ignorowany przez technologie wspomagające."
+  },
+  "applet_missing_alt_title": {
+    "value": "Aplety muszą mieć alternatywę tekstową, jeśli nie są obsługiwane."
+  },
+  "applet_missing_body_report_message_1": {
+    "value": "Tylko spacje zostały dostarczone jako alternatywa tekstowa dla treści renderowanej za pomocą elementu <code>%0</code>. Treść elementu <code>%1</code> nie stanowi kompletnej alternatywy tekstowej dla obiektu."
+  },
+  "applet_missing_body_report_message_2": {
+    "value": "Temu elementowi brakuje alternatywy tekstowej dla treści renderowanej przy użyciu <code>%0</code>. Treść elementu <code>%1</code> może być użyta do zapewnienia kompletnej alternatywy tekstowej dla <code>%2</code> lub może zawierać dodatkową zawartość nietekstową z alternatywami tekstowymi."
+  },
+  "applet_missing_body_title": {
+    "value": "Aplety wymagają alternatywy tekstowej."
+  },
+  "area_missing_alt_report_message_1": {
+    "value": "Nie zdefiniowano <code>alt</code>, który opisuje funkcję obszaru mapy obrazu."
+  },
+  "area_missing_alt_report_message_2": {
+    "value": "Zdefiniowano atrybut <code>alt</code> z pustą zawartością, a powinien on opisywać funkcję obszaru mapy obrazu."
+  },
+  "area_missing_alt_report_message_3": {
+    "value": "Tekst w atrybucie <code>alt</code> powinien opisywać funkcję obszaru mapy obrazu. Zawiera on tylko spacje i dlatego jest ignorowany przez technologie wspomagające."
+  },
+  "area_missing_alt_title": {
+    "value": "Obszar mapy obrazu musi mieć alternatywny tekst."
+  },
+  "aria_attribute_conflict_report_message": {
+    "value": "Atrybut ARIA <code>%0</code> jest zbędny, ponieważ występuje natywny atrybut HTML <code>%1</code>. Natywny atrybut HTML z tą samą niejawną semantyką ARIA ma pierwszeństwo."
+  },
+  "aria_attribute_conflict_title": {
+    "value": "Natywne atrybuty HTML i atrybuty ARIA nie powinny być używane razem."
+  },
+  "aria_describedby_association_report_message_1": {
+    "value": "Nie ma elementu z atrybutem <code>id=\"%0\"</code>, do którego odwołuje się <code>aria-describedby=\"%1\"</code>."
+  },
+  "aria_describedby_association_report_message_2": {
+    "value": "Oczekiwano, że atrybut <code>aria-describedby</code> nie będzie pusty."
+  },
+  "aria_describedby_association_title": {
+    "value": "Użyj aria-describedby, aby zapewnić dodatkowe opisy i kontekst dla elementów, które tego potrzebują."
+  },
+  "aria_hidden_false_report_message": {
+    "value": "Zdefiniowano <code>%0</code>. Uwaga, ponieważ zawartość podrzędna jest zawsze czytelna dla czytników ekranu, niezależnie od ustawienia <code>%1</code> dla dowolnego elementu podrzędnego."
+  },
+  "aria_hidden_false_title": {
+    "value": "Zachowaj ostrożność z aria-hidden=\"false\", ponieważ zawartość może nadal zostać nieumyślnie ujawniona."
+  },
+  "aria_hidden_true_focusable_descendants_report_message_1": {
+    "value": "Element, na którym można skupić fokus, nie może być elementem podrzędnym elementu o <code>aria-hidden=\"true\"</code> (parent: <code>%0</code>)."
+  },
+  "aria_hidden_true_focusable_descendants_title": {
+    "value": "Elementy, na których można ustawić fokus, nie powinny być ukryte przed technologiami wspomagającymi."
+  },
+  "aria_labelledby_association_empty_element_report_message_1": {
+    "value": "Elementy z atrybutem <code>id</code> zdefiniowanym w <code>aria-labelledby</code> istnieją, ale są puste. Nie powinny być puste."
+  },
+  "aria_labelledby_association_empty_element_title": {
+    "value": "Atrybut aria-labelledby musi odwoływać się do elementu, który zawiera znaczącą treść."
+  },
+  "aria_labelledby_association_report_message_1": {
+    "value": "Elementy z atrybutem <code>id</code> zdefiniowanym w <code>aria-labelledby</code> nie istnieją."
+  },
+  "aria_labelledby_association_report_message_2": {
+    "value": "Oczekiwano, że atrybut <code>aria-labelledby</code> nie będzie pustym elementem <code>%0</code>."
+  },
+  "aria_labelledby_association_title": {
+    "value": "Atrybut aria-labelledby musi odwoływać się do istniejącego elementu."
+  },
+  "aria_role_dialog_report_message_1": {
+    "value": "Element z atrybutem <code>%0</code> nie ma dostępnej nazwy, ponieważ atrybut <code>%1</code> nie ma zawartości (jest pusty)."
+  },
+  "aria_role_dialog_report_message_2": {
+    "value": "Element z atrybutem <code>%0</code> nie ma dostępnej nazwy."
+  },
+  "aria_role_dialog_title": {
+    "value": "Wyskakujące okienka i i okna modalne muszą mieć dostępne nazwy."
+  },
+  "aria_role_tool": {
+    "value": "Aria i role"
+  },
+  "audio_alternative_report_message_1": {
+    "value": "Treść audio powinna mieć alternatywny tekst. Jedną z metod jest użycie atrybutu <code>aria-describedby</code>, aby odwołać się do tekstu alternatywnego dla treści wyłącznie audio."
+  },
+  "audio_alternative_report_message_2": {
+    "value": "Zdefiniowano element audio, ale nie ma elementu <code>track</code>, który dostarczałby tekst, który chcesz wyświetlić wraz z odtwarzanym plikiem multimedialnym."
+  },
+  "audio_alternative_report_message_3": {
+    "value": "Jeśli celem tego elementu obiektu jest odtwarzanie treści audio, użyj elementu <code>audio</code>, ponieważ zapewnia on lepszą obsługę napisów rozszerzonych i transkrypcji tekstowych."
+  },
+  "audio_alternative_title": {
+    "value": "Treść audio musi mieć alternatywny tekst."
+  },
+  "audio_video_captions_report_message_1": {
+    "value": "Nie zdefiniowano żadnych elementów <code>%0</code>, które dostarczałyby napisy rozsszerzone."
+  },
+  "audio_video_captions_report_message_2": {
+    "value": "Brak atrybutu <code>src</code> w elemencie <code>track</code> z parametrem <code>kind=\"captions\"</code>."
+  },
+  "audio_video_captions_report_message_3": {
+    "value": "Nieobsługiwany format pliku z napisami <code>%0</code>. Obsługiwane są tylko WebVTT i TTML."
+  },
+  "audio_video_captions_report_message_4": {
+    "value": "Użyta ścieżka napisów; rozważ dodanie ścieżki napisów rozszerzonych, która zawiera opisy efektów dźwiękowych"
+  },
+  "audio_video_captions_report_message_5": {
+    "value": "Element ścieżki powinien mieć atrybut <code>label</code> lub <code>srclang</code>, aby pomóc użytkownikom wybrać odpowiednią ścieżkę napisów rozszerzonych."
+  },
+  "audio_video_captions_title": {
+    "value": "Treści audio i wideo wymagają napisów rozszerzonych"
+  },
+  "audyt": {
+    "value": "Audyt"
+  },
+  "audit_summary": {
+    "value": "Podsumowanie audytu"
+  },
+  "audit_type_accessibility": {
+    "value": "Dostępność"
+  },
+  "audit_type_all": {
+    "value": "Wszystko"
+  },
+  "audit_type_logs": {
+    "value": "Dzienniki"
+  },
+  "audit_type_performance": {
+    "value": "Wydajność"
+  },
+  "audit_type_privacy": {
+    "value": "Prywatność"
+  },
+  "audit_type_quality": {
+    "value": "Jakość"
+  },
+  "audit_type_security": {
+    "value": "Bezpieczeństwo"
+  },
+  "audit_type_seo": {
+    "value": "SEO"
+  },
+  "audytor": {
+    "value": "Audytor"
+  },
+  "autocomplete_attribute_usage_report_message_1": {
+    "value": "Elementy wejściowe powinny mieć atrybuty autouzupełniania."
+  },
+  "autocomplete_attribute_usage_title": {
+    "value": "Dodaj atrybut autouzupełniania do kontrolek formularzy, aby ułatwić użytkownikom efektywne wypełnianie formularzy."
+  },
+  "autoplay_audio_video_report_message": {
+    "value": "Zdefiniowano <code>%0</code>. Osoby korzystające z oprogramowania do czytania ekranu mogą mieć trudności z usłyszeniem mowy, jeśli w tym samym czasie odtwarzany jest inny dźwięk. Pozwól użytkownikowi wyłączyć filmy/dźwięki, które uruchamiają się automatycznie po załadowaniu strony (zwłaszcza jeśli trwają dłużej niż 3 sekundy)."
+  },
+  "autoplay_audio_video_title": {
+    "value": "Treści audio i wideo nie powinny być odtwarzane automatycznie."
+  },
+  "broken_same_page_link_report_message": {
+    "value": "Link do innego miejsca na stronie nie ma odpowiadającego mu celu o identyfikatorze <code>id=\"%0\"</code>."
+  },
+  "broken_same_page_link_title": {
+    "value": "Linki muszą mieć odpowiadający im element docelowy."
+  },
+  "capital_letters_words_report_message1": {
+    "value": "Element zawiera <code>%0</code>, który jest wyświetlany wielkimi literami, bo użyto <code>text-transform: uppercase</code>. Tekst składa się z kilku długich słów pisanych wielkimi literami."
+  },
+  "capital_letters_words_report_message2": {
+    "value": "Tekst elementu zawiera kilka długich słów napisanych wielkimi literami."
+  },
+  "capital_letters_words_report_message3": {
+    "value": "Atrybut tytułu zawiera kilka długich słów napisanych wielkimi literami."
+  },
+  "capital_letters_words_report_message4": {
+    "value": "Tekst elementu i jego atrybut title zawierają kilka długich słów napisanych wielkimi literami."
+  },
+  "capital_letters_words_title": {
+    "value": "Ogranicz użycie długich słów pisanych wielkimi literami."
+  },
+  "change_filters": {
+    "value": "Zmień filtry"
+  },
+  "check_for_broken_links_tool": {
+    "value": "Sprawdź, czy linki nie są uszkodzone"
+  },
+  "chromium_extension_updated": {
+    "value": "Rozszerzenie SiteLint zostało zaktualizowane. Musisz ponownie załadować narzędzia programistyczne lub panel boczny."
+  },
+  "close_sitelint_auditor": {
+    "value": "Zamknij SiteLint Auditor"
+  },
+  "color_contrast_aa_report_message_2": {
+    "value": "Element ma tło: przezroczyste z pierwszym planem: <code>%0</code>. Nie znaleziono również żadnego nieprzezroczystego koloru dla żadnego elementu nadrzędnego (w tym body) i dlatego nie można określić współczynnika kontrastu.\n\nMusisz jawnie ustawić kolor tła dla elementu <code>%1</code>, ponieważ rzeczywisty kolor zwracany przez przeglądarkę jest przezroczysty."
+  },
+  "color_contrast_aa_report_message_4": {
+    "value": "Oczekiwany współczynnik kontrastu kolorów dla dużego rozmiaru czcionki wynosi co najmniej 3:1, ale uzyskano współczynnik: <code>%0:1</code>, <code>background-color: %1</code>, <code>foreground-color: %2</code>, <code>font-size: %3</code> (oryginał: <code>%4</code>), <code>font-weight: %5</code>."
+  },
+
+  "color_contrast_aa_report_message_5": {
+    "value": "Oczekiwany współczynnik kontrastu kolorów dla małego rozmiaru czcionki wynosi co najmniej 4,5:1, ale uzyskano współczynnik: <code>%0:1</code>, <code>background-color: %1</code>, <code>foreground-color: %2</code>, <code>font-size: %3</code> (oryginał: <code>%4</code>), <code>font-weight: %5</code>."
+  },
+  "color_contrast_aa_report_message_6": {
+    "value": "Nie można określić kontrastu kolorów między tłem <code>%0</code> a pierwszym planem <code>%1</code>, ponieważ oba kolory są takie same."
+  },
+  "color_contrast_aa_report_message_7": {
+    "value": "Nie można określić kontrastu kolorów między tłem <code>%0</code> a pierwszym planem <code>%1</code>, ponieważ element ma zdefiniowaną przezroczystość w <code>%2</code>."
+  },
+  "color_contrast_aa_report_message_8": {
+    "value": "Nie można określić kontrastu kolorów między tłem <code>%0</code> a pierwszym planem <code>%1</code>, ponieważ element ma zdefiniowaną półprzezroczystość w <code>%2</code>."
+  },
+  "color_contrast_aa_report_message_9": {
+    "value": "Nie można określić kontrastu kolorów między tłem <code>%0</code> a pierwszym planem <code>%1</code>, ponieważ element ma zdefiniowaną wartość <code>mix-blend-mode=\"%2\"</code>."
+  },
+  "color_contrast_aa_title": {
+    "value": "Współczynnik kontrastu powinien wynosić co najmniej 4,5:1 dla normalnego tekstu i 3:1 dla dużego tekstu na tle."
+  },
+  "color_contrast_aa_warning_message": {
+    "value": "<strong>Uwaga</strong>: w tle znajduje się obraz i z dlatego nie można wiarygodnie określić współczynnika kontrastu."
+  },
+  "color_contrast_aaa_report_message_2": {
+    "value": "Element ma tło: przezroczyste z pierwszym planem: <code>%0</code>. Nie znaleziono również żadnego nieprzezroczystego koloru dla żadnego elementu nadrzędnego (w tym body) i dlatego nie można określić współczynnika kontrastu.\n\nMusisz jawnie ustawić kolor tła dla elementu <code>%1</code>, ponieważ rzeczywisty kolor zwracany przez przeglądarkę jest przezroczysty."
+  },
+  "color_contrast_aaa_report_message_3": {
+    "value": "Oczekiwany współczynnik kontrastu kolorów dla dużego rozmiaru czcionki co najmniej 4,5:1, ale mam stosunek: <code>%0:1</code>, <code>background-color: %1</code>, <code>foreground-color: %2</code>, <code>font-size: %3</code> (oryginał: <code>%4</code>), <code>font-weight: %5</code>."
+  },
+  "color_contrast_aaa_report_message_4": {
+    "value": "Oczekiwany współczynnik kontrastu kolorów dla małego rozmiaru czcionki wynosi co najmniej 7:1, ale uzyskany współczynnik: <code>%0:1</code>, <code>background-color: %1</code>, <code>foreground-color: %2</code>, <code>font-size: %3</code> (oryginał: <code>%4</code>), <code>font-weight: %5</code>."
+  },
+  "color_contrast_aaa_report_message_5": {
+    "value": "Oczekiwany współczynnik kontrastu kolorów dla małego rozmiaru czcionki co najmniej 7:1, ale uzyskany współczynnik: <code>%0:1</code>, <code>background-color: %1</code>, <code>foreground-color: %2</code>, <code>font-size: %3</code> (oryginał: <code>%4</code>), <code>font-weight: %5</code>."
+  },
+  "color_contrast_aaa_report_message_6": {
+    "value": "Nie można określić kontrastu kolorów między tłem <code>%0</code> a pierwszym planem <code>%1</code>, ponieważ oba kolory są takie same."
+  },
+  "color_contrast_aaa_report_message_7": {
+    "value": "Nie można określić kontrastu kolorów między tłem <code>%0</code> a pierwszym planem <code>%1</code>, ponieważ element ma zdefiniowaną przezroczystość w <code>%2</code>."
+  },
+  "color_contrast_aaa_report_message_8": {
+    "value": "Nie można określić kontrastu kolorów między tłem <code>%0</code> a pierwszym planem <code>%1</code>, ponieważ element ma zdefiniowaną półprzezroczystość w <code>%2</code>."
+  },
+  "color_contrast_aaa_report_message_9": {
+    "value": "Nie można określić kontrastu kolorów między tłem <code>%0</code> a pierwszym planem <code>%1</code>, ponieważ element ma zdefiniowaną wartość <code>mix-blend-mode=\"%2\"</code>."
+  },
+  "color_contrast_aaa_title": {
+    "value": "Współczynnik kontrastu powinien wynosić co najmniej 7:1 dla normalnego tekstu i 4,5:1 dla dużego tekstu na tle."
+  },
+  "console_log_error_title": {
+    "value": "Błędy zostały zarejestrowane w konsoli błędów."
+  },
+  "content_editable_missing_attributes_report_message1": {
+    "value": "Brak atrybutu <code>role=\"textbox\"</code> w <code>%0</code>."
+  },
+  "content_editable_missing_attributes_report_message2": {
+    "value": "Brak atrybutu <code>aria-multiline=\"true\"</code> w <code>%0</code>."
+  },
+  "content_editable_missing_attributes_report_message3": {
+    "value": "Brak atrybutu <code>aria-labelledby</code> lub <code>aria-label</code> w <code>%0</code>."
+  },
+  "content_editable_missing_attributes_title": {
+    "value": "Edytowalne elementy z contenteditable muszą uwidocznić rolę pola tekstowego, zadeklarować, czy są jedno- czy wielowierszowe, i podawać dostępną nazwę."
+  },
+  "content_wider_than_screen_report_message_1": {
+    "value": "Szerokość zawartości strony <code>%0</code> jest większa niż szerokość ekranu <code>%1</code>, co powoduje przewijanie widoku w poziomie."
+  },
+  "content_wider_than_screen_title": {
+    "value": "Szerokość zawartości strony jest większa niż szerokość ekranu."
+  },
+  "contentinfo_landmark_only_one_report_message": {
+    "value": "Oczekiwano, że atrybut <code>%0</code> zostanie zdefiniowany tylko raz. Masz <code>%1</code>."
+  },
+  "contentinfo_landmark_only_one_title": {
+    "value": "Tylko jeden element może mieć role=\"contentinfo\"."
+  },
+  "context_unable_to_determine": {
+    "value": "Nie można określić kontekstu. Podany kontekst ma typ %0, %1."
+  },
+  "context_unable_to_determine_empty_string": {
+    "value": "Nie można określić kontekstu. Pod warunkiem, że kontekst jest pusty lub zawiera tylko spacje."
+  },
+  "copied_to_clipboard": {
+    "value": "Skopiowane!"
+  },
+  "copy_xpath": {
+    "value": "Kopiuj XPath"
+  },
+  "displayed_issues": {
+    "value": "Wyświetlane problemy"
+  },
+  "duplicated_for_attribute_report_message": {
+    "value": "Atrybut <code>for=\"%0\"</code> powinien być unikalny. Został zdefiniowany <code>%1</code> razy."
+  },
+  "duplicated_for_attribute_title": {
+    "value": "Pojedynczy element etykiety powinien opisywać tylko jedną kontrolkę formularza."
+  },
+  "duplicated_id_attribute_report_message": {
+    "value": "Atrybut <code>id=\"%0\"</code> powinien być unikalny. Został zdefiniowany <code>%1</code> razy."
+  },
+  "duplicated_id_attribute_title": {
+    "value": "Atrybut ID musi być musi być unikalny w dokumencie."
+  },
+  "elements_not_allowed_in_head_report_message": {
+    "value": "Oczekiwano, że <code>%0</code> nie będzie elementem podrzędnym <code>%1</code>."
+  },
+
+  "elements_not_allowed_in_head_title": {
+    "value": "Nieprawidłowe elementy HTML w sekcji HEAD."
+  },
+  "empty_button_description_additional_message": {
+    "value": "Przycisk ma zdefiniowany <code>aria-labelledby=\"%0\"</code>, ale powiązane elementy o identyfikatorach <code>%1</code> nie istnieją."
+  },
+  "empty_button_description_report_message_1": {
+    "value": "W treści przycisku są tylko spacje."
+  },
+  "empty_button_description_report_message_2": {
+    "value": "Przycisk powinien mieć opis, ale zawartość jest pusta."
+  },
+  "empty_button_description_title": {
+    "value": "Przycisk powinien mieć dostępną nazwę, która opisuje jego działanie."
+  },
+  "empty_heading_report_message": {
+    "value": "Element nagłówka nie powinien mieć pustej zawartości."
+  },
+  "empty_heading_title": {
+    "value": "Element nagłówka istnieje, ale nie ma zawartości."
+  },
+  "empty_label_element_report_message": {
+    "value": "Etykieta nie zawiera żadnej zawartości."
+  },
+  "empty_label_element_title": {
+    "value": "Etykiety powinny zawsze zawierać zrozumiały tekst opisujący powiązaną kontrolkę formularza"
+  },
+  "empty_link_element_additional_message": {
+    "value": "Link ma zdefiniowany <code>aria-labelledby=\"%0\"</code>, ale powiązane elementy o następujących identyfikatorach <code>%1</code> nie istnieją."
+  },
+  "empty_link_element_report_message_1": {
+    "value": "W treści linku są tylko spacje."
+  },
+  "empty_link_element_report_message_2": {
+    "value": "Link powinien mieć opis, ale treść jest pusta."
+  },
+  "empty_link_element_title": {
+    "value": "Linki powinny mieć znaczącą, opisową treść."
+  },
+  "empty_title_attribute_report_message": {
+    "value": "Atrybut <code>title</code> ma pustą zawartość."
+  },
+  "empty_title_attribute_title": {
+    "value": "Treść podpowiedzi nie może być pusta."
+  },
+  "engine_version": {
+    "value": "Wersja silnika"
+  },
+  "excessive_css_classes_size_report_message_1": {
+    "value": "Istnieją klasy CSS <code>%0</code>. Oryginalny rozmiar HTML to <code>%1</code> kB, a bez klas CSS to <code>%2</code> kB. Same klasy CSS zwiększają rozmiar HTML o <code>%3</code> procent."
+  },
+  "excessive_css_classes_size_title": {
+    "value": "Unikaj nadmiernego użycia klas CSS."
+  },
+  "extension_version": {
+    "value": "Wersja rozszerzenia"
+  },
+  "fieldset_no_legend_report_message": {
+    "value": "Ten element <code>%0</code> jest pierwszym elementem potomnym <code>fieldset</code>, ale w tym miejscu dozwolony jest tylko element <code>legend</code>, aby utworzyć podpis grupy."
+  },
+  "fieldset_no_legend_title": {
+    "value": "Zgrupowane kontrolki formularza wymagają zdefiniowanego podpisu lub opisu."
+  },
+  "first_contentful_paint_report_message_1": {
+    "value": "Pierwsza treść jest renderowana dla użytkownika w umiarkowanym czasie (<code>%0</code> sekund). Najlepiej zrobić to w < <code>1,8</code> sekundy."
+  },
+  "first_contentful_paint_report_message_2": {
+    "value": "Pierwsza zawartość jest renderowana dla użytkownika w wolnym czasie (<code>%0</code> sekund). Najlepszy czas to < <code>1,8</code> sekundy, średni czas to <code>1,8–3</code> sekund."
+  },
+  "first_contentful_paint_title": {
+    "value": "Użytkownik czeka długo, zanim zobaczy pierwszą treść na ekranie."
+  },
+  "focusable_elements_tool": {
+    "value": "Elementy, na których można ustawić fokus"
+  },
+  "focusable_elements_tool_explanation": {
+    "value": "Określ elementy, na których można się skupić. WCAG 2.1 Kryterium sukcesu 2.4.7 Widoczny fokus (poziom AA)."
+  },
+  "font_style_italic_report_message": {
+    "value": "Zdefiniowano styl czcionki: italic; dla długiego (<code>%0</code> znaków) tekstu. Utrudnia to czytanie treści."
+  },
+
+  "font_style_italic_title": {
+    "value": "Unikaj nadmiernego używania kursywy."
+  },
+  "group_elements_name_attribute_report_message": {
+    "value": "Upewnij się, że wszystkie powiązane kontrolki formularza z <code>name=\"%0\"</code> są zgrupowane."
+  },
+  "group_elements_name_attribute_title": {
+    "value": "Pola wyboru powinny być zgrupowane."
+  },
+  "h1_length_report_message_1": {
+    "value": "Pierwszy nagłówek <code>H1</code> ma <code>%0</code> znaków, ale powinien mieć co najmniej <code>20</code> znaków."
+  },
+  "h1_length_title": {
+    "value": "Długość pierwszego nagłówka H1 powinna wynosić co najmniej 20 znaków."
+  },
+  "h1_must_be_report_message": {
+    "value": "Oczekiwano co najmniej jednego elementu nagłówka <code>H1</code>, ale nie znaleziono żadnego."
+  },
+  "h1_must_be_title": {
+    "value": "Strona musi zawierać jeden nagłówek H1."
+  },
+  "h1_only_one_report_message": {
+    "value": "Oczekiwano tylko jednego elementu nagłówka <code>H1</code>. Łącznie jest <code>%0</code>."
+  },
+  "h1_only_one_title": {
+    "value": "Na stronie powinien znajdować się tylko jeden nagłówek H1."
+  },
+  "headings_hierarchy": {
+    "value": "Hierarchia nagłówków"
+  },
+  "headings_hierarchy_report_message": {
+    "value": "Oczekiwano, że <code>%0</code> będzie równe <code>h%1</code>."
+  },
+  "headings_hierarchy_title": {
+    "value": "Nagłówki nie mogą pomijać poziomów (np. H3 po H1)."
+  },
+  "headings_sibling_unique_report_message": {
+    "value": "Dostępne nazwy elementów nagłówka równorzędnego na tym samym poziomie nie są unikalne. Ten sam poziom <code>%0</code> i ten sam opis: <code>\"%1\"</code>."
+  },
+  "headings_sibling_unique_title": {
+    "value": "Równorzędne elementy nagłówka nie mogą powtarzać tego samego tekstu."
+  },
+  "pomoc": {
+    "value": "Pomoc"
+  },
+  "hidden_from_at_tool": {
+    "value": "Ukryte przed czytnikami ekranu"
+  },
+  "hidden_from_at_tool_title": {
+    "value": "Określ elementy ukryte przed czytnikami ekranu. Elementy te często nie są widoczne, a ich zlokalizowanie pomaga w audycie jakości w celu zidentyfikowania potencjalnych problemów z dostępnością"
+  },
+  "highlight_element": {
+    "value": "Podświetl element"
+  },
+  "horizontal_rule_report_message": {
+    "value": "Element <code>%0</code> dodaje dodatkowy „szum” i może być mylący."
+  },
+  "horizontal_rule_title": {
+    "value": "Oszczędnie korzystaj z poziomej reguły HR."
+  },
+  "html_lang_attr_report_message_1": {
+    "value": "Zdefiniowano atrybut <code>lang</code> w elemencie głównym <code>%0</code>, ale są tam więcej niż 3 parametry językowe: <code>%0</code>."
+  },
+  "html_lang_attr_report_message_2": {
+    "value": "Oczekiwano atrybutu <code>lang</code> w elemencie głównym <code>%0</code>, ale nic nie znaleziono. Element <code>html</code> musi mieć atrybut <code>lang</code>, gdzie treść składa się z 2-literowego kodu języka ISO 639, po którym następuje odpowiedni kod geograficzny ISO 3166. Można użyć html <code>lang='[kod języka]-[kod kraju]'</code>."
+  },
+  "html_lang_attr_report_message_3": {
+    "value": "Zdefiniowano atrybut <code>lang</code> w elemencie głównym <code>%0</code>, ale wartość (<code>%1</code>) jest pusta."
+  },
+  "html_lang_attr_title": {
+    "value": "Strona musi zadeklarować atrybut <code>lang</code> w elemencie HTML."
+  },
+  "identify_input_purpose_report_message_1": {
+    "value": "Oczekiwano jednego z tokenów <code>%0</code> po <code>%1</code>."
+  },
+  "identify_input_purpose_report_message_2": {
+    "value": "Zdefiniowano nieprawidłowy token <code>%0</code>."
+  },
+  "identify_input_purpose_title": {
+    "value": "Cel INPUT musi być zadeklarowany z poprawnym atrybutem autouzupełniania."
+  },
+  "illegal_character_in_link_domain_title": {
+    "value": "Niedozwolony znak w domenie dla atrybutu href."
+  },
+  "illegal_character_in_link_domain_title_report_message_1": {
+    "value": "Następująca domena <code>%0</code> zawiera niedozwolone znaki: <code>%1</code>."
+  },
+  "img_adjacent_duplicate_text_link_report_message_1": {
+    "value": "Sąsiadujący tekst i link do obrazu mają to samo miejsce docelowe. Unikaj niepotrzebnego powielania, które występuje, gdy w dokumencie znajdują się sąsiadujące wersje tekstowe i ikoniczne linku."
+  },
+  "img_adjacent_duplicate_text_link_report_message_2": {
+    "value": "Element <img> wewnątrz linku ma pusty lub brakujący tekst alternatywny, gdy link obok niego zawiera tekst linku. Rozważ połączenie linków."
+  },
+  "img_adjacent_duplicate_text_link_title": {
+    "value": "Sąsiadujące łącza IMG i TEXT muszą mieć to samo miejsce docelowe."
+  },
+  "img_alt_duplicate_text_link_report_message": {
+    "value": "Element <img> wewnątrz łącza nie może używać tekstu alternatywnego, który duplikuje zawartość tekstową łącza."
+  },
+  "img_alt_duplicate_text_link_title": {
+    "value": "Link i jego obraz nie mogą mieć zduplikowanej treści tekstowej."
+  },
+  "img_empty_alt_in_link_report_message_1": {
+    "value": "Zdefiniowano pustą zawartość dla atrybutu <code>alt</code> w elemencie <code>img</code>."
+  },
+  "img_empty_alt_in_link_report_message_2": {
+    "value": "Zdefiniowano atrybut <code>alt</code> w <code>img</code>, ale zawiera on tylko spację."
+  },
+  "img_empty_alt_in_link_title": {
+    "value": "Obraz wewnątrz linku wymaga opisu alternatywnego."
+  },
+  "img_empty_alt_with_empty_title_report_message": {
+    "value": "Obrazy z pustym atrybutem <code>alt</code> nie mogą mieć atrybutu <code>title</code> lub atrybut <code>title</code> musi być pusty, ale <code>title</code> istnieje i nie jest pusty."
+  },
+  "img_empty_alt_with_empty_title_report_message_alt_whitespaces": {
+    "value": "Uwaga: Atrybut <code>alt</code> zawiera tylko spacje."
+  },
+  "img_empty_alt_with_empty_title_title": {
+    "value": "Obrazy dekoracyjne nie powinny mieć atrybutu title."
+  },
+  "impact_level": {
+    "value": "Poziom wpływu"
+  },
+  "uwzględnij": {
+    "value": "Uwzględnij"
+  },
+  "include_best_practices": {
+    "value": "Dobre praktyki "
+  },
+  "include_hidden_elements": {
+    "value": "Elementy ukryte "
+  },
+  "incorrect_document_mime_type_report_message_1": {
+    "value": "Typ MIME dokumentu to <code>%0</code>, a powinien to być <code>text/html</code>. Typ MIME wskazujący rodzaj danych reprezentowanych przez zawartość."
+  },
+  "incorrect_document_mime_type_title": {
+    "value": "Nieprawidłowy typ MIME dla dokumentu."
+  },
+  "incorrect_label_placement_for_associated_input_report_message": {
+    "value": "Nieprawidłowe umiejscowienie etykiety dla powiązanych danych wejściowych"
+  },
+  "incorrect_label_placement_for_associated_input_title": {
+    "value": "Etykieta (<code>label</code> musi być umieszczona bezpośrednio przed lub za polem formularza."
+  },
+  "incorrect_technique_for_hiding_content_report_message": {
+    "value": "Technika CSS text-indent: <code>%0</code> służy do ukrywania tekstu. Powoduje ona jednak problemy z językami pisanymi od prawej do lewej i utrzymuje fokus czytnika ekranu poza widocznym obszarem."
+  },
+  "incorrect_technique_for_hiding_content_title": {
+    "value": "Nie używaj CSS text-indent do ukrywania tekstu."
+  },
+  "input_image_missing_alt_report_message_1": {
+    "value": "Nie zdefiniowano atrybutu <code>alt</code>, który opisuje funkcję przycisku."
+  },
+  "input_image_missing_alt_report_message_2": {
+    "value": "Zdefiniowano atrybut <code>alt</code> z pustą zawartością, a powinien on opisywać funkcję przycisku."
+  },
+  "input_image_missing_alt_report_message_3": {
+    "value": "Tekst w atrybucie <code>alt</code> powinien opisywać funkcję przycisku. Zawiera tylko spacje i dlatego jest ignorowany przez technologie wspomagające."
+  },
+  "input_image_missing_alt_title": {
+    "value": "Przycisk graficzny musi deklarować tekst alternatywny opisujący jego działanie."
+  },
+  "inspect_element": {
+    "value": "Zbadaj element"
+  },
+  "invalid_attribute_dir_value_report_message": {
+    "value": "Atrybut <code>dir</code> ma nieprawidłową wartość <code>%0</code>."
+  },
+  "invalid_attribute_dir_value_title": {
+    "value": "Znaleziono nieprawidłową wartość w atrybucie DIR"
+  },
+  "invisible_image_loaded_report_message_1": {
+    "value": "Obraz jest załadowany, ale nie jest widoczny."
+  },
+  "invisible_image_loaded_title": {
+    "value": "Nie ładuj IMG, który pozostaje niewidoczny."
+  },
+  "label_duplicated_content_title_report_message": {
+    "value": "Ten element ma taką samą zawartość jak jego atrybut <code>title</code>. Rozważ usunięcie <code>title</code> ponieważ niektóre czytniki ekranu odczytują oba te elementy."
+  },
+  "label_duplicated_content_title_title": {
+    "value": "Unikaj powtarzania tekstu LABEL w atrybucie title."
+  },
+  "label_implicitly_associated_report_message_1": {
+    "value": "Niejawnie skojarzono atrybut <code>%0</code>, ale zawiera on tylko spacje i dlatego jest nieprawidłowy. Aby niejawnie powiązać etykietę z etykietowanym elementem podrzędnym, usuń atrybut <code>for</code>. Zwróć uwagę, że niejawna etykieta ma słabą obsługę w Voice Control AT."
+  },
+  "label_implicitly_associated_report_message_2": {
+    "value": "Masz niejawnie powiązany atrybut <code>%0</code>, ale zawiera on więcej niż jeden element, który można oznaczyć etykietą. Powinien zawierać tylko jeden, ponieważ aktywacja etykiety ustawia fokus na pierwszym elemencie do oznaczenia. Należy również pamiętać, że niejawna etykieta ma słabą obsługę w Voice Control AT."
+  },
+  "label_implicitly_associated_title": {
+    "value": "Niejawna etykieta (<code>label</code>) musi być jasna i wystarczająca."
+  },
+  "label_inappropriate_association_report_message_1": {
+    "value": "Brak zdefiniowanej kontrolki powiązanego formularza dla <code>%0</code>."
+  },
+  "label_inappropriate_association_report_message_2": {
+    "value": "Oczekiwano, że <code>%0</code> nie będzie powiązany z kontrolką inną niż formularz."
+  },
+  "label_inappropriate_association_title": {
+    "value": "Powiązanie LABEL musi wskazywać istniejącą kontrolkę formularza."
+  },
+  "landmark_elements_tool": {
+    "value": "Punkty orientacyjne"
+  },
+  "landmarks_none_report_message": {
+    "value": "Strona nie ma zdefiniowanych punktów orientacyjnych. Punkty orientacyjne ułatwiają użytkownikom poruszanie się po stronie, szczególnie osobom korzystającym z technologii wspomagających."
+  },
+  "landmarks_none_title": {
+    "value": "Na stronie nie znaleziono punktów orientacyjnych."
+  },
+  "languages_detection_tool": {
+    "value": "Wykrywanie języków"
+  },
+  "last_update": {
+    "value": "Ostatnia aktualizacja"
+  },
+  "layout_shifts_with_font_display_report_message_1": {
+    "value": "Nieoczekiwane zmiany układu spowodowane przez czcionkę internetową <code>%0</code> i <code>display: %1</code>."
+  },
+  "layout_shifts_with_font_display_title": {
+    "value": "Unikaj przesunięcia układu podczas ładowania FONT."
+  },
+  "legend_first_child_of_fieldset_report_message_1": {
+    "value": "Oczekiwano, że <code>%0</code> będzie pierwszym elementem potomnym elementu <code>%1</code>, a zamiast tego jest <code>%2</code>."
+  },
+  "legend_first_child_of_fieldset_report_message_2": {
+    "value": "Element <code>%0</code> jest pierwszym elementem potomnym elementu <code>%1</code>, ale zawiera tylko spacje."
+  },
+  "legend_first_child_of_fieldset_title": {
+    "value": "LEGEND musi być pierwszym dzieckiem FIELDSET."
+  },
+  "link_page_title_tool": {
+    "value": "Tytuł strony linku"
+  },
+  "link_page_title_tool_title": {
+    "value": "To narzędzie pobiera zdalną stronę, wyodrębnia jej tytuł i wyświetla go obok odpowiedniego tekstu linku, umożliwiając ustalenie faktycznego tytułu zdalnej strony."
+  },
+  "link_with_unclear_purpose_report_message1": {
+    "value": "Treść tego tekstu linku <code>%0</code> jest niejasna poza kontekstem."
+  },
+  "link_with_unclear_purpose_report_message2": {
+    "value": "Ten element wygląda jak link, a jego tekst <code>%0</code> jest niejasny poza kontekstem."
+  },
+  "link_with_unclear_purpose_title": {
+    "value": "Linki powinny zawierać opisowy, zrozumiały tekst, który ma sens nawet wtedy, gdy jest wyjęty z kontekstu."
+  },
+  "links_not_visually_evident_without_color_vision_report_message": {
+    "value": "Upewnij się, że linki są zrozumiałe i odróżniają się od otaczającego je tekstu. Element nadrzędny ma style <code>%0</code>, a element kotwica ma style <code>%1</code>. Zmień style, aby je rozróżnić."
+  },
+  "links_not_visually_evident_without_color_vision_title": {
+    "value": "Linki muszą być zrozumiałe i odróżniać się od otaczającego je tekstu."
+  },
+  "links_same_content_different_url_report_message": {
+    "value": "Znaleziono linki <code>%0</code> z tym samym <code>%1</code> (dostępna nazwa: <code>%2</code>) wskazujące na różne adresy URL. Każdy link powinien mieć unikalną treść."
+  },
+  "links_same_content_different_url_title": {
+    "value": "Wiele linków tekstowych, które wyglądają tak samo, powinno również prowadzić do tej samej treści (np. „Czytaj więcej”)."
+  },
+  "main_element_only_one_report_message": {
+    "value": "Zdefiniowano wiele (<code>%0</code>) elementów <code>%1</code>. Użytkownicy technologii wspomagających oczekują jednego głównego bloku treści i mogą pominąć kolejne bloki <code>main</code>."
+  },
+
+  "main_element_only_one_title": {
+    "value": "Element MAIN powinien być zdefiniowany tylko raz na stronie."
+  },
+  "main_landmark_must_be_top_level_report_message": {
+    "value": "Oczekiwano, że element <code>%0</code> będzie punktem orientacyjnym najwyższego poziomu, ale znajduje się on w elemencie <code>%1</code>."
+  },
+  "main_landmark_must_be_top_level_title": {
+    "value": "Element MAIN musi być punktem orientacyjnym najwyższego poziomu (tj. nie może być zagnieżdżony w żadnym innym regionie punktu orientacyjnego)."
+  },
+  "malformed_json_ld_report_message_1": {
+    "value": "Nieprawidłowy ciąg JSON-LD. Nie może być poprawnie przeanalizowany przez wyszukiwarki, ponieważ jego składnia JSON jest nieprawidłowa."
+  },
+  "malformed_json_ld_report_message_2": {
+    "value": "Treść JSON-LD nie powinna zawierać znaków końca wiersza. Twój plik zawiera <code>%0</code> podziałów wiersza."
+  },
+  "malformed_json_ld_title": {
+    "value": "Znaleziono błędny plik JSON-LD."
+  },
+  "manifest_extension_report_message_1": {
+    "value": "Plik manifestu aplikacji powinien mieć rozszerzenie <code>.webmanifest</code>. Twój plik to <code>%0</code>."
+  },
+  "manifest_extension_title": {
+    "value": "Niestandardowe rozszerzenia plików użyte w pliku manifestu aplikacji internetowej."
+  },
+  "manual_verification": {
+    "value": "Weryfikacja ręczna "
+  },
+  "manual_verification_required": {
+    "value": "Wymagana weryfikacja ręczna "
+  },
+  "meta_description_too_long_or_too_short_report_message_1": {
+    "value": "Opis meta <code>%0</code> ma długość <code>%1</code>, ale powinien mieć od 25 do 160 znaków. Większość robotów wyszukiwarek pokazuje w wynikach wyszukiwania tylko pierwsze 150-160 znaków opisu."
+  },
+  "meta_description_too_long_or_too_short_title": {
+    "value": "Opis meta strony jest za długi lub za krótki."
+  },
+  "meta_description_truncation_short_report_message_1": {
+    "value": "Opis meta <code>%0</code> został obcięty. Zaleca się, aby nie obcinać opisu strony, ponieważ może on być niezrozumiały dla użytkownika podczas wyświetlania w SERP (strona wyników wyszukiwania)."
+  },
+  "meta_description_truncation_title": {
+    "value": "Unikaj obcinania opisu w znaczniku meta description."
+  },
+  "minimize_sitelint_auditor": {
+    "value": "Zminimalizuj SiteLint Auditor"
+  },
+  "minimum_font_size_report_message_1": {
+    "value": "Ten ukryty element ma rozmiar czcionki <code>%0px</code> (oczekiwany minimalny rozmiar czcionki to <code>10px</code>)."
+  },
+  "minimum_font_size_report_message_2": {
+    "value": "Zdefiniowano rozmiar czcionki <code>%0px</code>, a oczekiwany jest rozmiar minimalny co najmniej <code>10px</code>."
+  },
+  "minimum_font_size_title": {
+    "value": "Rozmiar tekstu BODY nie może być mniejszy niż 16 pikseli."
+  },
+  "missing_alt_attribute_report_message": {
+    "value": "Brak zdefiniowanego atrybutu <code>alt</code>."
+  },
+  "missing_alt_attribute_title": {
+    "value": "Brak atrybutu <code>alt</code> w elementach nietekstowych."
+  },
+  "missing_canonical_url_report_message_1": {
+    "value": "Strona nie ma zdefiniowanego kanonicznego adresu URL. Kanoniczny adres URL to adres URL strony, który wyszukiwarka uważa za najbardziej reprezentatywny dla zbioru zduplikowanych stron w Twojej witrynie."
+  },
+  "missing_canonical_url_title": {
+    "value": "Brak zdefiniowanego kanonicznego adresu URL"
+  },
+  "missing_charset_report_message_1": {
+    "value": "Deklaracja zestawu znaków jest zdefiniowana, ale nie znajduje się w pierwszych 1024 bajtach kodu HTML."
+  },
+  "missing_charset_report_message_2": {
+    "value": "Brak zdefiniowanej deklaracji zestawu znaków"
+  },
+  "missing_charset_title": {
+    "value": "Brak deklaracji zestawu znaków lub nie jest on zdefiniowany w pierwszych 1024 bajtach kodu HTML."
+  },
+  "missing_href_on_a_report_message": {
+    "value": "Brak atrybutu <code>href</code> w hiperłączu. Użytkownik nie może nawigować do tego elementu za pomocą klawiatury."
+  },
+  "missing_href_on_a_title": {
+    "value": "Link potrzebuje miejsca docelowego, aby działało poprawnie."
+  },
+  "missing_https_protocol_title": {
+    "value": "Brak protokołu https w celu ochrony prywatności i integralności wymienianych danych."
+  },
+  "missing_https_report_message": {
+    "value": "Strona korzysta z protokołu <code>%0</code>, ale powinna <code>https:</code>."
+  },
+  "missing_label_report_message_1": {
+    "value": "Oczekiwany atrybut <code>id</code> zostanie zdefiniowany w elemencie <code>%0</code> do powiązania z odpowiednim <code>%1</code>."
+  },
+
+  "missing_label_report_message_2": {
+    "value": "Oczekiwano, że element <code>%0</code> zostanie zdefiniowany dla tego elementu."
+  },
+  "missing_label_report_message_3": {
+    "value": "Zdefiniowano wiele etykiet dla elementu <code>%0</code>. Powinna być tylko jedna."
+  },
+  "missing_label_title": {
+    "value": "Kontrolki formularzy wymagają etykiet."
+  },
+  "missing_protocol_http2_report_message_1": {
+    "value": "Twoja witryna nie używa protokołu <code>HTTP2</code> ani <code>HTTP3</code>. Włącz go, aby umożliwić przeglądarkom jednoczesne akceptowanie większej ilości treści z serwera aplikacji, co poprawi wydajność aplikacji."
+  },
+  "missing_protocol_http2_title": {
+    "value": "Brak protokołu HTTP2, który sprawia, że Twoja witryna jest szybsza, prostsza i bardziej niezawodna."
+  },
+  "missing_rel_noopener_report_message_1": {
+    "value": "Element <code>%0</code> powinien mieć zdefiniowany <code>rel=\"noopener\"</code> lub <code>rel=\"noreferrer\"</code>."
+  },
+  "missing_rel_noopener_title": {
+    "value": "Linki do miejsc docelowych z różnych źródeł są niebezpieczne."
+  },
+  "missing_submit_button_report_message_1": {
+    "value": "Formularz nie ma mechanizmu przesyłania za pomocą klawiatury. Dodaj przycisk Prześlij lub zachowaj tylko jedno pole tekstowe."
+  },
+  "missing_submit_button_title": {
+    "value": "Upewnij się, że formularz można przesłać bez wskaźnika."
+  },
+  "misused_aria_on_focusable_element_report_message": {
+    "value": "Użycie <code>%0</code> na widocznym elemencie z fokusem spowoduje, że niektórzy użytkownicy będą skupiać się na „niczym”. "
+  },
+  "misused_aria_on_focusable_element_title": {
+    "value": "Atrybuty ARIA są zbędne w rdzennym elemencie, na którym można ustawić fokus."
+  },
+  "misused_input_attribute_report_message": {
+    "value": "Oczekiwano, że atrybut <code>%0</code> nie będzie zdefiniowany w tym elemencie."
+  },
+  "misused_input_attribute_title": {
+    "value": "Znaleziono błędnie użyty atrybut w elemencie INPUT."
+  },
+  "misused_required_attribute_report_message1": {
+    "value": "Zbędny atrybut: <code>aria-required</code> nie powinien być używany z rdzennym <code>required</code>."
+  },
+  "misused_required_attribute_title": {
+    "value": "Atrybuty \"required\" i \"aria-required\" nie powinny być łączone w tym samym elemencie."
+  },
+  "misused_tabindex_attribute_report_message_1": {
+    "value": "Atrybut <code>tabindex=\"0\"</code> jest zdefiniowany dla natywnie dostępnych elementów i jest zbędny dla następujących elementów (nazwa, ogółem znalezionych): <code>%0</code>."
+  },
+  "misused_tabindex_attribute_title": {
+    "value": "Ustaw tabindex poprawnie, aby dopasować kolejność czytania treści na stronie."
+  },
+  "mixed_content_on_https_report_message_1": {
+    "value": "Lokalizacja elementu <code>%0</code> używa niezabezpieczonego protokołu <code>http</code> w połączeniu z witryną <code>https</code>."
+  },
+  "mixed_content_on_https_title": {
+    "value": "Witryna korzysta z niezabezpieczonych połączeń HTTP na HTTPS (zawartość mieszana)."
+  },
+  "native_clipboard_not_available": {
+    "value": "Wbudowany schowek przeglądarki jest niedostępny. Musisz skopiować treść ręcznie."
+  },
+  "navigation_landmark_restrictions_report_message": {
+    "value": "Elementy z rolą wewnątrz <code>role=\"navigation\"</code> mogą być tylko <code>role=\"region\"</code> lub <code>role=\"search\"</code>."
+  },
+  "navigation_landmark_restrictions_title": {
+    "value": "Punkt orientacyjny NAV może zawierać tylko punkty orientacyjne regionu lub wyszukiwania."
+  },
+  "no_css": {
+    "value": "Brak CSS"
+  },
+  "no_headings_report_message": {
+    "value": "Nie ma zdefiniowanych nagłówków <code>h1-h6</code>."
+  },
+  "no_headings_title": {
+    "value": "Na stronie nie znaleziono żadnych nagłówków."
+  },
+  "no_issues_found_for_a_given_filter_options": {
+    "value": "Na podstawie zastosowanych filtrów, nie są wyświetlane żadne problemy. Dostosuj filtry, aby zobaczyć odpowiednie problemy."
+  },
+  "no_meta_http_equiv_refresh_report_message": {
+    "value": "Zdefiniowano <code>http-equiv=\"refresh\"</code>. Usuń ten element."
+  },
+  "no_meta_http_equiv_refresh_title": {
+    "value": "Strony nie mogą być automatycznie odświeżane ani przekierowywane bez kontroli użytkownika."
+  },
+  "object_missing_body_report_message_1": {
+    "value": "Tekst alternatywny dla treści renderowanej przez <code>%0</code> zawiera tylko spacje. Treść elementu <code>%1</code> musi zawierać kompletną alternatywę tekstową dla obiektu."
+  },
+  "object_missing_body_report_message_2": {
+    "value": "Element <code>%0</code> nie definiuje alternatywy tekstowej. Treść elementu <code>%1</code> może służyć do zapewnienia kompletnej alternatywy tekstowej dla <code>%2</code> lub może zawierać dodatkową treść nietekstową z alternatywami tekstowymi."
+  },
+  "object_missing_body_title": {
+    "value": "Brak alternatywnej treści dla elementu <code>object</code>."
+  },
+  "obsolete_angular_detected_report_message": {
+    "value": "Wykryto wersję AngularJS <code>%0</code>. Po 31 grudnia 2021 r. 1.x AngularJS nie jest już obsługiwany. Istnieje wysokie ryzyko narażenia na nowe luki w zabezpieczeniach."
+  },
+  "obsolete_angular_detected_title": {
+    "value": "Wykryto przestarzały AngularJS 1.x."
+  },
+  "obsolete_html_attributes_report_message": {
+    "value": "Następujące atrybuty <code>%0</code> są przestarzałe (chociaż elementy są nadal częścią języka) i nie powinny być używane przez autorów."
+  },
+  "obsolete_html_attributes_title": {
+    "value": "Znaleziono przestarzały atrybut."
+  },
+  "obsolete_html_elements_report_message": {
+    "value": "Następujący element <code>%0</code> jest całkowicie przestarzały i nie może być używany przez autorów."
+  },
+  "obsolete_html_elements_title": {
+    "value": "Znaleziono przestarzałe elementy HTML."
+  },
+  "open_sitelint_auditor": {
+    "value": "Otwórz SiteLint Auditor"
+  },
+  "opcje": {
+    "value": "Opcje"
+  },
+  "overlay_report_message": {
+    "value": "Na stronie wykryto nakładkę %0, która może zastępować kod problematycznych elementów. Nakładki to widżety innych firm, które próbują automatycznie rozwiązać problemy z dostępnością strony, do której zostały dodane. Dlatego wyniki skanowania mogą być niedokładne."
+  },
+  "overlay_title": {
+    "value": "Unikaj korzystania z nakładek dostępności."
+  },
+  "oversized_images_report_message_1": {
+    "value": "Obraz ma oryginalny rozmiar: <code>%0px</code> wysokości i <code>%1px</code> szerokości, ale jest wyświetlany w rozmiarze: <code>%2px</code> wysokości i <code>%3px</code> szerokości."
+  },
+  "oversized_images_report_message_2": {
+    "value": "Obraz ma oryginalny rozmiar: <code>%0px</code> wysokości i <code>%1px</code> szerokości, ale jest wyświetlany z wysokością <code>%2px</code> znacznie mniejszą niż oryginalna wartość <code>%3px</code>."
+  },
+  "oversized_images_report_message_3": {
+    "value": "Obraz ma oryginalny rozmiar: <code>%0px</code> wysokości i <code>%1px</code> szerokości, ale jest wyświetlany z szerokością <code>%2px</code> znacznie mniejszą niż oryginalna wartość <code>%3px</code>."
+  },
+  "oversized_images_title": {
+    "value": "Unikaj wyświetlania zbyt dużych obrazów."
+  },
+  "page_title_length_report_message_1": {
+    "value": "Tytuł strony (<code>%1</code>) ma długość <code>%0</code>, ale powinien mieć do 60 znaków."
+  },
+  "page_title_length_title": {
+    "value": "Długość tytułu strony powinna wynosić do 60 znaków."
+  },
+  "page_title_words_not_included_in_url_report_message_1": {
+    "value": "Słowa <code>%0</code> w tytule strony <code>%1</code> nie są uwzględnione w adresie URL strony <code>%2</code>."
+  },
+  "page_title_words_not_included_in_url_title": {
+    "value": "Słowa w tytule strony nie są uwzględnione w adresie URL strony."
+  },
+  "positive_tabindex_report_message": {
+    "value": "Nie należy używać dodatniego <code>tabindex=\"%0\"</code>. Poza bardzo specyficznymi skrajnymi przypadkami, tabindex nie powinien mieć dodatniej wartości całkowitej. Użytkownicy, którzy używają klawiatury do interakcji z Internetem, oczekują, że dokument internetowy będzie można przeglądać w kolejności sekwencyjnej, zaczynając od lewego górnego rogu (lub prawego, w zależności od języka dokumentu) i przechodząc od tego miejsca."
+  },
+  "positive_tabindex_title": {
+    "value": "Nie używaj dodatniej wartości tabindex."
+  },
+  "powód": {
+    "value": "Powód"
+  },
+  "wyniki": {
+    "value": "Wyniki"
+  },
+  "rtl_content_report_message": {
+    "value": "Strona używa kierunku RTL (tekst i inne elementy idą od prawej do lewej). Upewnij się, że wszystkie funkcje są dostępne w trybie RTL."
+  },
+  "rtl_content_title": {
+    "value": "Funkcje muszą obsługiwać języki pisane od prawej do lewej."
+  },
+  "rule_id": {
+    "value": "Identyfikator reguły"
+  },
+  "uruchom": {
+    "value": "Uruchom"
+  },
+  "same_target_anchor_text_more_than_once_message_1": {
+    "value": "Tekst zakotwiczenia <code>a</code> <code>%0</code> został użyty więcej niż raz (<code>%1</code> razy), a powinien być unikalny na stronie."
+  },
+  "same_target_anchor_text_more_than_once_title": {
+    "value": "Nie używaj tego samego docelowego tekstu zakotwiczenia więcej niż raz."
+  },
+  "scan_error_auditor_integrity": {
+    "value": "SiteLint nie mógł rozpocząć audytu, ponieważ część rozszerzenia jest uszkodzona lub nieaktualna. Usuń rozszerzenie i zainstaluj je ponownie."
+  },
+  "select_tool": {
+    "value": "Wybierz narzędzie"
+  },
+  "severity_critical": {
+    "value": "Krytyczne"
+  },
+  "severity_high": {
+    "value": "Wysoki"
+  },
+  "severity_info": {
+    "value": "Informacje"
+  },
+  "severity_low": {
+    "value": "Niski"
+  },
+  "severity_type": {
+    "value": "Typ ważności"
+  },
+  "sitelint_auditor_widget": {
+    "value": "Widżet SiteLint Auditor"
+  },
+  "sitelint_component": {
+    "value": "Komponent SiteLint"
+  },
+  "skip_reason_alphaValueColor": {
+    "value": "Nie można określić współczynnika kontrastu kolorów: element lub jeden z jego przodków ma kolor tła z przezroczystością alfa."
+  },
+  "skip_reason_backgroundImageFounded": {
+    "value": "Nie można określić współczynnika kontrastu kolorów: element lub jeden z jego przodków ma obraz tła."
+  },
+  "skip_reason_determinedSemiTransparentBackground": {
+    "value": "Nie można określić współczynnika kontrastu kolorów: element lub jeden z jego przodków ma półprzezroczyste tło z nieprzezroczystością."
+  },
+  "skip_reason_elementHasSemiOpacity": {
+    "value": "Nie można określić współczynnika kontrastu kolorów: element lub jeden z jego przodków ma półprzezroczystość."
+  },
+  "skip_reason_elementNotVisible": {
+    "value": "Element został wykluczony ze skanowania, ponieważ nie jest widoczny."
+  },
+  "skip_reason_elementStylingHighlyLimited": {
+    "value": "Nie można określić współczynnika kontrastu kolorów, ponieważ element ma bardzo ograniczone możliwości stylizacji."
+  },
+  "skip_reason_excludedFromScanning_on_demand": {
+    "value": "Element został jawnie wykluczony ze skanowania przy użyciu atrybutu data-sitelint-skip."
+  },
+  "skip_reason_hiddenFromAssistiveTechnologies": {
+    "value": "Element został wykluczony ze skanowania, ponieważ nie jest uwzględniany przez technologie wspomagające."
+  },
+  "skip_reason_onePxSize": {
+    "value": "Element ma rozmiar szerokości i wysokości <code>1px</code> na <code>1px</code>, dlatego pominięto obliczanie kontrastu kolorów.."
+  },
+  "skip_reason_performancePaintTimingAPInotAvailable": {
+    "value": "Interfejs API PerformancePaintTiming jest niedostępny."
+  },
+  "skip_reason_positionFixed": {
+    "value": "Nie można określić współczynnika kontrastu kolorów, ponieważ element ma stałą pozycję."
+  },
+  "skip_reason_positionSticky": {
+    "value": "Nie można określić współczynnika kontrastu kolorów, ponieważ element ma lepką pozycję."
+  },
+  "skip_reason_sameForegroundBackgroundColorOnElement": {
+    "value": "Nie można określić współczynnika kontrastu kolorów, ponieważ element ma ten sam kolor pierwszego planu i tła."
+  },
+  "skip_reason_sameForegroundBackgroundColorOnElementAndParent": {
+    "value": "Nie można określić współczynnika kontrastu kolorów, ponieważ element ma ten sam kolor pierwszego planu i tła, łącznie z elementami nadrzędnymi."
+  },
+  "skip_reason_skipHiddenElements": {
+    "value": "Element został wykluczony ze skanowania, ponieważ opcja includeHidden jest ustawiona na false."
+  },
+  "skip_reason_skipHiddenElements_byParent": {
+    "value": "Element został wykluczony ze skanowania, ponieważ jest ukryty przez element nadrzędny."
+  },
+  "skip_reason_skipHiddenElements_elementNotVisible": {
+    "value": "Element został wykluczony ze skanowania, ponieważ opcja includeHidden jest ustawiona na false, a element nie jest widoczny."
+  },
+  "skip_reason_specifiedStylesCantBeDetermined": {
+    "value": "Nie można określić wymaganych stylów %0 dla elementu."
+  },
+  "skip_reason_stylesCantBeDetermined": {
+    "value": "Stylów dla elementu nie można w ogóle określić."
+  },
+  "skip_reason_transparentBackground": {
+    "value": "Nie można określić współczynnika kontrastu kolorów, ponieważ element ma kolor tła ustawiony jako przezroczysty."
+  },
+  "standard_level": {
+    "value": "Poziom"
+  },
+  "standard_level_A": {
+    "value": "A"
+  },
+  "standard_level_AA": {
+    "value": "AA"
+  },
+  "standard_level_AAA": {
+    "value": "AAA"
+  },
+  "standard_level_best_practices": {
+    "value": "Dobre praktyki "
+  },
+  "standard_type": {
+    "value": "Standardowy"
+  },
+  "standard_type_sitelint": {
+    "value": "SiteLint"
+  },
+  "standard_type_wcag": {
+    "value": "WCAG"
+  },
+  "standard_version": {
+    "value": "Wersja standardowa"
+  },
+  "standardVersion_v10": {
+    "wartość": "1.0"
+  },
+  "standardVersion_v20": {
+    "wartość": "2.0"
+  },
+  "standardVersion_v21": {
+    "value": "2.1"
+  },
+  "standardVersion_v22": {
+    "value": "2.2"
+  },
+  "subresource_integrity_report_message_1": {
+    "value": "W elemencie <code>%0</code> brakuje zdefiniowanego atrybutu <code>integrity</code> ze zdefiniowanym skrótem (hashem)."
+  },
+  "subresource_integrity_title": {
+    "value": "Brak zdefiniowanej wartości integralności, która umożliwia przeglądarkom sprawdzenie, czy pobierane przez nie zasoby są dostarczane bez nieoczekiwanej manipulacji."
+  },
+  "svg_incorrect_size_unit_report_message_1": {
+    "value": "Nieobsługiwana wartość jednostki <code>%0</code> dla atrybutu <code>height</code> i <code>%0</code> dla atrybutu <code>width</code>."
+  },
+  "svg_incorrect_size_unit_report_message_2": {
+    "value": "Nieobsługiwana wartość jednostki <code>%0</code> dla atrybutu <code>width</code>."
+  },
+  "svg_incorrect_size_unit_report_message_3": {
+    "value": "Nieobsługiwana wartość jednostki <code>%0</code> dla atrybutu <code>height</code>."
+  },
+  "svg_incorrect_size_unit_title": {
+    "value": "Nieobsługiwana jednostka rozmiaru dla SVG."
+  },
+  "svg_too_large_report_message_1": {
+    "value": "Element SVG ma rozmiar <code>%0</code> KB, co zaśmieca znaczniki i wpływa na wydajność strony."
+  },
+  "svg_too_large_title": {
+    "value": "Unikaj dołączania dużych elementów SVG."
+  },
+  "switch_text_direction": {
+    "value": "Zmień kierunek tekstu"
+  },
+  "table_caption_summary_identical_report_message": {
+    "value": "Atrybut <code>summary</code> i element <code>%0</code> mają tę samą zawartość."
+  },
+  "table_caption_summary_identical_title": {
+    "value": "Treść podsumowania i podpisu tabeli powinna być różna."
+  },
+  "table_missing_description_report_message_1": {
+    "value": "Atrybut <code>%0</code> wskazuje powiązane elementy, które nie istnieją. Brakuje następujących elementów z atrybutem <code>id</code>: <code>%1</code>."
+  },
+  "table_missing_description_report_message_2": {
+    "value": "Tabela nie ma elementu <code>caption</code>."
+  },
+  "table_missing_description_report_message_3": {
+    "value": "Tabela zdefiniowała <code>%0</code>, ale jej zawartość jest pusta."
+  },
+  "table_missing_description_report_message_4": {
+    "value": "Tabela ma zdefiniowany atrybut <code>%0</code>, ale jest on pusty. Atrybut ten powinien mieć określony jeden lub więcej identyfikatorów elementów, które odnoszą się do elementów zawierających tekst potrzebny do etykietowania."
+  },
+  "table_missing_description_report_message_5": {
+    "value": "Element <code>caption</code> jest zdefiniowany, ale nie ma zdefiniowanej zawartości. Istnieje tylko: <code>%0</code>."
+  },
+  "table_missing_description_title": {
+    "value": "Tabela powinna mieć opis."
+  },
+  "table_row_and_column_headers_report_message_1": {
+    "value": "Tabela nie ma zdefiniowanych nagłówków. Upewnij się, że wiersze i kolumny są identyfikowane za pomocą elementów <code>%0</code>."
+  },
+  "table_row_and_column_headers_report_message_2": {
+    "value": "Zawartość tabeli powinna być opakowana za pomocą elementu <code>%0</code>."
+  },
+  "table_row_and_column_headers_report_message_3": {
+    "value": "Jeśli ma to zastosowanie, nagłówek kolumn tabeli powinien być objęty elementem <code>%0</code>."
+  },
+  "table_row_and_column_headers_report_message_4": {
+    "value": "Gdy struktura tabeli nie jest trywialna (scalone komórki, wiele wierszy nagłówka itp.), komórki nagłówka muszą jawnie kojarzyć się z komórkami danych, które oznaczają. Użyj <code>scope</code>, <code>id</code> + <code>headers</code> lub <code>aria-describedby</code>."
+  },
+  "table_row_and_column_headers_title": {
+    "value": "Tabela powinna zawierać elementy, które definiują nagłówki dla każdej kolumny lub wiersza."
+  },
+  "text_color_convey_information_report_message": {
+    "value": "Sprawdź, czy informacje przekazywane przez kolory <code>%0</code> są również dostępne w tekście i czy tekst nie jest treścią warunkową."
+  },
+  "text_color_convey_information_title": {
+    "value": "Informacje przekazywane za pomocą koloru muszą być również dostępne w tekście."
+  },
+
+  "text_spacing_tool": {
+    "value": "Odstępy między tekstami"
+  },
+  "text_spacing_tool_explanation": {
+    "value": "Testowanie WCAG 2.1 Kryterium sukcesu 1.4.12 Odstępy w tekście"
+  },
+  "title_for_abbr_report_message_1": {
+    "value": "Nie podano wartości <code>title</code> definiującej skrót."
+  },
+  "title_for_abbr_report_message_2": {
+    "value": "Treść atrybutu <code>title</code> nie powinna być pusta."
+  },
+  "title_for_abbr_title": {
+    "value": "Brak atrybutu <code>title</code> dla elementu ABBR."
+  },
+  "title_iframe_report_message_1": {
+    "value": "Oczekiwano, że atrybut <code>title</code> będzie zdefiniowany w <code>%0</code>. Jeśli jest to <code>iframe</code> bez wartościowej treści dla użytkownika, należy dodać atrybut <code>aria-hidden=\"true\"</code>, aby ukryć go przed technologiami wspomagającymi."
+  },
+  "title_iframe_report_message_2": {
+    "value": "Oczekiwano, że atrybut <code>title</code> w <code>%0</code> nie będzie pusty."
+  },
+  "title_iframe_title": {
+    "value": "Brak atrybutu <code>title</code>  w elemencie <code>iframe</code>."
+  },
+  "tool_ariaValidator": {
+    "value": "ARIA"
+  },
+  "tool_overflow_element": {
+    "value": "Element przepełnienia"
+  },
+  "tool_overflow_element_tip": {
+    "value": "Określa elementy szersze niż szerokość strony. Zwykle prowadzi to do niechcianego przewijania w poziomie."
+  },
+  "tool_twentyFourPxCursor": {
+    "value": "Kursor 24x24 px"
+  },
+  "tool_twentyFourPxCursor_title": {
+    "value": "Łatwa wizualizacja wymaganego odstępu między elementami w przypadku wyjątku dotyczącego odstępów zgodnie z kryteriami sukcesu WCAG 2.5.8 (minimalny rozmiar docelowy) lub porównanie rozmiarów docelowych."
+  },
+  "tool_w3cValidation": {
+    "value": "Standard W3C"
+  },
+  "tool_w3cValidationWithSerialization": {
+    "value": "Serializacja W3C"
+  },
+  "tool_w3cValidationWithSerialization_title": {
+    "comment": "Dodaj komentarz",
+    "value": "Niektóre strony mogą ograniczać dostęp do usług W3C, dlatego ta opcja wykorzystuje serializację kodu HTML i wysyła go do usługi W3C."
+  },
+  "narzędzia": {
+    "value": "Narzędzia"
+  },
+  "total_issues": {
+    "value": "Łączna liczba problemów"
+  },
+  "unable_to_find_element": {
+    "value": "Nie można znaleźć elementu <code>%0</code>, ponieważ nie istnieje on na stronie."
+  },
+  "unable_to_highlight_element": {
+    "value": "Nie można podświetlić elementu <code>%0</code>, ponieważ nie jest on renderowany na stronie."
+  },
+  "unable_to_highlight_element_visually_hidden": {
+    "value": "Element <code>%0</code> nie może zostać wyróżniony, ponieważ nie jest renderowany wizualnie."
+  },
+  "unable_to_run_audit": {
+    "value": "Nie można uruchomić audytu.\n\n%0"
+  },
+  "unclear_anchor_url_report_message_1": {
+    "value": "Adres URL zdefiniowany w atrybucie kotwicy <code>href</code> nie powinien być używany. Może zostać błędnie zinterpretowany przez czytniki ekranu lub działanie może być nieoczekiwane."
+  },
+  "unclear_anchor_url_title": {
+    "value": "Linki muszą mieć jasny, prawidłowy adres docelowy."
+  },
+  "unclear_image_description_report_message_1": {
+    "value": "Obraz ma niejasny, ogólny opis: <code>%0</code>."
+  },
+  "unclear_image_description_title": {
+    "value": "Należy unikać ogólnego tekstu zastępczego alternatywnego. Używaj opisów, które oddają cel lub treść obrazu."
+  },
+  "unclear_page_title_report_message_1": {
+    "value": "Tytuł strony <code>%0</code> nie identyfikuje zawartości celu strony internetowej."
+  },
+  "unclear_page_title_report_message_2": {
+    "value": "Znacznik <code>title</code> strony jest pusty i dlatego nie określa zawartości ani celu strony internetowej."
+  },
+  "unclear_page_title_report_message_3": {
+    "value": "Strona nie zawiera elementu <code>title</code>."
+  },
+  "unclear_page_title_title": {
+    "value": "Element <code>title</code> powinien jasno opisywać zawartość lub cel strony."
+  },
+  "unsupported_role_on_element_report_message": {
+    "value": "Oczekiwano, że atrybut <code>role=\"%0\"</code> nie będzie zdefiniowany w tym elemencie."
+  },
+  "unsupported_role_on_element_title": {
+    "value": "Nie używaj nieobsługiwanego lub nieprawidłowego atrybutu role w elemencie."
+  },
+  "validators_tools": {
+    "value": "Walidatory"
+  },
+  "video_audio_descriptions_report_message": {
+    "value": "Nie zdefiniowano elementów <code>%0</code> do wyświetlania opisów ani <code>%1</code> z dźwiękiem jako alternatywy."
+  },
+  "video_audio_descriptions_title": {
+    "value": "Audio, wideo i inne media wymagają napisów lub opisów."
+  },
+  "view_rule_documentation": {
+    "value": "Wyświetl dokumentację reguły"
+  },
+  "zoom_disabled_report_message": {
+    "value": "Zdefiniowano <code>%0</code>. Usuń parametry z atrybutu <code>content</code>."
+  },
+  "zoom_disabled_title": {
+    "value": "Użytkownik musi mieć możliwość powiększania zawartości strony."
+  }
+}
