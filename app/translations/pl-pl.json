@@ -1,6 +1,6 @@
 {
   "_config": {
-    "locale": "pl-PL",
+    "locale": "pl-pl",
     "nativeName": "Polski",
     "englishName": "Polish"
   },
@@ -178,7 +178,7 @@
   "audio_video_captions_title": {
     "value": "Treści audio i wideo wymagają napisów rozszerzonych"
   },
-  "audyt": {
+  "audit": {
     "value": "Audyt"
   },
   "audit_summary": {
@@ -208,7 +208,7 @@
   "audit_type_seo": {
     "value": "SEO"
   },
-  "audytor": {
+  "auditor": {
     "value": "Audytor"
   },
   "autocomplete_attribute_usage_report_message_1": {
@@ -228,6 +228,9 @@
   },
   "broken_same_page_link_title": {
     "value": "Linki muszą mieć odpowiadający im element docelowy."
+  },
+  "canonical_url_title": {
+    "value": "Kanoniczny adres URL informuje wyszukiwarki, że \"niezależnie od tego, co widzisz na pasku adresu, to właśnie ten adres URL powinieneś zaindeksować i wyświetlać w wynikach\"."
   },
   "capital_letters_words_report_message1": {
     "value": "Element zawiera <code>%0</code>, który jest wyświetlany wielkimi literami, bo użyto <code>text-transform: uppercase</code>. Tekst składa się z kilku długich słów pisanych wielkimi literami."
@@ -262,7 +265,6 @@
   "color_contrast_aa_report_message_4": {
     "value": "Oczekiwany współczynnik kontrastu kolorów dla dużego rozmiaru czcionki wynosi co najmniej 3:1, ale uzyskano współczynnik: <code>%0:1</code>, <code>background-color: %1</code>, <code>foreground-color: %2</code>, <code>font-size: %3</code> (oryginał: <code>%4</code>), <code>font-weight: %5</code>."
   },
-
   "color_contrast_aa_report_message_5": {
     "value": "Oczekiwany współczynnik kontrastu kolorów dla małego rozmiaru czcionki wynosi co najmniej 4,5:1, ale uzyskano współczynnik: <code>%0:1</code>, <code>background-color: %1</code>, <code>foreground-color: %2</code>, <code>font-size: %3</code> (oryginał: <code>%4</code>), <code>font-weight: %5</code>."
   },
@@ -350,6 +352,33 @@
   "copy_xpath": {
     "value": "Kopiuj XPath"
   },
+  "core_web_vitals": {
+    "value": "Core Web Vitals"
+  },
+  "core_web_vitals_CLS": {
+    "value": "Cumulative layout shift"
+  },
+  "core_web_vitals_FCP": {
+    "value": "First contentful paint"
+  },
+  "core_web_vitals_INP": {
+    "value": "Interaction to Next Paint"
+  },
+  "core_web_vitals_LCP": {
+    "value": "Largest contentful paint"
+  },
+  "core_web_vitals_score_good": {
+    "value": "dobrze"
+  },
+  "core_web_vitals_score_needs_improvement": {
+    "value": "wymaga poprawy"
+  },
+  "core_web_vitals_score_poor": {
+    "value": "słabo"
+  },
+  "core_web_vitals_TTFB": {
+    "value": "Time to First Byte"
+  },
   "displayed_issues": {
     "value": "Wyświetlane problemy"
   },
@@ -368,7 +397,6 @@
   "elements_not_allowed_in_head_report_message": {
     "value": "Oczekiwano, że <code>%0</code> nie będzie elementem podrzędnym <code>%1</code>."
   },
-
   "elements_not_allowed_in_head_title": {
     "value": "Nieprawidłowe elementy HTML w sekcji HEAD."
   },
@@ -423,8 +451,14 @@
   "excessive_css_classes_size_title": {
     "value": "Unikaj nadmiernego użycia klas CSS."
   },
+  "extension_options": {
+    "value": "Ustawienia"
+  },
   "extension_version": {
     "value": "Wersja rozszerzenia"
+  },
+  "feedback_action": {
+    "value": "Opinie"
   },
   "fieldset_no_legend_report_message": {
     "value": "Ten element <code>%0</code> jest pierwszym elementem potomnym <code>fieldset</code>, ale w tym miejscu dozwolony jest tylko element <code>legend</code>, aby utworzyć podpis grupy."
@@ -450,7 +484,6 @@
   "font_style_italic_report_message": {
     "value": "Zdefiniowano styl czcionki: italic; dla długiego (<code>%0</code> znaków) tekstu. Utrudnia to czytanie treści."
   },
-
   "font_style_italic_title": {
     "value": "Unikaj nadmiernego używania kursywy."
   },
@@ -493,7 +526,7 @@
   "headings_sibling_unique_title": {
     "value": "Równorzędne elementy nagłówka nie mogą powtarzać tego samego tekstu."
   },
-  "pomoc": {
+  "help_action": {
     "value": "Pomoc"
   },
   "hidden_from_at_tool": {
@@ -531,6 +564,9 @@
   },
   "identify_input_purpose_title": {
     "value": "Cel INPUT musi być zadeklarowany z poprawnym atrybutem autouzupełniania."
+  },
+  "ignored_slash": {
+    "value": "zignorowany ukośnik"
   },
   "illegal_character_in_link_domain_title": {
     "value": "Niedozwolony znak w domenie dla atrybutu href."
@@ -574,7 +610,7 @@
   "impact_level": {
     "value": "Poziom wpływu"
   },
-  "uwzględnij": {
+  "include": {
     "value": "Uwzględnij"
   },
   "include_best_practices": {
@@ -712,7 +748,6 @@
   "main_element_only_one_report_message": {
     "value": "Zdefiniowano wiele (<code>%0</code>) elementów <code>%1</code>. Użytkownicy technologii wspomagających oczekują jednego głównego bloku treści i mogą pominąć kolejne bloki <code>main</code>."
   },
-
   "main_element_only_one_title": {
     "value": "Element MAIN powinien być zdefiniowany tylko raz na stronie."
   },
@@ -803,7 +838,6 @@
   "missing_label_report_message_1": {
     "value": "Oczekiwany atrybut <code>id</code> zostanie zdefiniowany w elemencie <code>%0</code> do powiązania z odpowiednim <code>%1</code>."
   },
-
   "missing_label_report_message_2": {
     "value": "Oczekiwano, że element <code>%0</code> zostanie zdefiniowany dla tego elementu."
   },
@@ -861,6 +895,9 @@
   "mixed_content_on_https_title": {
     "value": "Witryna korzysta z niezabezpieczonych połączeń HTTP na HTTPS (zawartość mieszana)."
   },
+  "n_rules_failed": {
+    "value": "%0 reguł raportuje błędy"
+  },
   "native_clipboard_not_available": {
     "value": "Wbudowany schowek przeglądarki jest niedostępny. Musisz skopiować treść ręcznie."
   },
@@ -887,6 +924,12 @@
   },
   "no_meta_http_equiv_refresh_title": {
     "value": "Strony nie mogą być automatycznie odświeżane ani przekierowywane bez kontroli użytkownika."
+  },
+  "not_determined": {
+    "value": "nie ustalono"
+  },
+  "not_specified": {
+    "value": "nie określono"
   },
   "object_missing_body_report_message_1": {
     "value": "Tekst alternatywny dla treści renderowanej przez <code>%0</code> zawiera tylko spacje. Treść elementu <code>%1</code> musi zawierać kompletną alternatywę tekstową dla obiektu."
@@ -918,7 +961,7 @@
   "open_sitelint_auditor": {
     "value": "Otwórz SiteLint Auditor"
   },
-  "opcje": {
+  "options": {
     "value": "Opcje"
   },
   "overlay_report_message": {
@@ -939,6 +982,39 @@
   "oversized_images_title": {
     "value": "Unikaj wyświetlania zbyt dużych obrazów."
   },
+  "page": {
+    "value": "Strona"
+  },
+  "page_canonical_url": {
+    "value": "Kanoniczny adres URL"
+  },
+  "page_has_canonical_url": {
+    "value": "kanoniczny"
+  },
+  "page_has_non_canonical_url": {
+    "value": "niekanoniczny"
+  },
+  "page_indexable": {
+    "value": "indeksowalny"
+  },
+  "page_information": {
+    "value": "Informacje o stronie"
+  },
+  "page_language": {
+    "value": "Język"
+  },
+  "page_meta_description": {
+    "value": "Meta opis"
+  },
+  "page_meta_robots": {
+    "value": "Meta roboty"
+  },
+  "page_non_indexable": {
+    "value": "nieindeksowalna"
+  },
+  "page_title": {
+    "value": "Tytuł"
+  },
   "page_title_length_report_message_1": {
     "value": "Tytuł strony (<code>%1</code>) ma długość <code>%0</code>, ale powinien mieć do 60 znaków."
   },
@@ -951,16 +1027,19 @@
   "page_title_words_not_included_in_url_title": {
     "value": "Słowa w tytule strony nie są uwzględnione w adresie URL strony."
   },
+  "page_url": {
+    "value": "URL"
+  },
   "positive_tabindex_report_message": {
     "value": "Nie należy używać dodatniego <code>tabindex=\"%0\"</code>. Poza bardzo specyficznymi skrajnymi przypadkami, tabindex nie powinien mieć dodatniej wartości całkowitej. Użytkownicy, którzy używają klawiatury do interakcji z Internetem, oczekują, że dokument internetowy będzie można przeglądać w kolejności sekwencyjnej, zaczynając od lewego górnego rogu (lub prawego, w zależności od języka dokumentu) i przechodząc od tego miejsca."
   },
   "positive_tabindex_title": {
     "value": "Nie używaj dodatniej wartości tabindex."
   },
-  "powód": {
+  "reason": {
     "value": "Powód"
   },
-  "wyniki": {
+  "results": {
     "value": "Wyniki"
   },
   "rtl_content_report_message": {
@@ -972,7 +1051,7 @@
   "rule_id": {
     "value": "Identyfikator reguły"
   },
-  "uruchom": {
+  "run": {
     "value": "Uruchom"
   },
   "same_target_anchor_text_more_than_once_message_1": {
@@ -983,6 +1062,9 @@
   },
   "scan_error_auditor_integrity": {
     "value": "SiteLint nie mógł rozpocząć audytu, ponieważ część rozszerzenia jest uszkodzona lub nieaktualna. Usuń rozszerzenie i zainstaluj je ponownie."
+  },
+  "seconds": {
+    "value": "sekund"
   },
   "select_tool": {
     "value": "Wybierz narzędzie"
@@ -1096,10 +1178,10 @@
     "value": "Wersja standardowa"
   },
   "standardVersion_v10": {
-    "wartość": "1.0"
+    "value": "1.0"
   },
   "standardVersion_v20": {
-    "wartość": "2.0"
+    "value": "2.0"
   },
   "standardVersion_v21": {
     "value": "2.1"
@@ -1173,13 +1255,18 @@
   "table_row_and_column_headers_title": {
     "value": "Tabela powinna zawierać elementy, które definiują nagłówki dla każdej kolumny lub wiersza."
   },
+  "target_size_minimum_report_message_1": {
+    "value": "Element interaktywny ma tylko %0 × %1 pikseli CSS, ale minimalny wymagany rozmiar to %2 × %2 pikseli CSS."
+  },
+  "target_size_minimum_title": {
+    "value": "Elementy interaktywne muszą mieć powierzchnię co najmniej 24 na 24 piksele."
+  },
   "text_color_convey_information_report_message": {
     "value": "Sprawdź, czy informacje przekazywane przez kolory <code>%0</code> są również dostępne w tekście i czy tekst nie jest treścią warunkową."
   },
   "text_color_convey_information_title": {
     "value": "Informacje przekazywane za pomocą koloru muszą być również dostępne w tekście."
   },
-
   "text_spacing_tool": {
     "value": "Odstępy między tekstami"
   },
@@ -1226,10 +1313,9 @@
     "value": "Serializacja W3C"
   },
   "tool_w3cValidationWithSerialization_title": {
-    "comment": "Dodaj komentarz",
     "value": "Niektóre strony mogą ograniczać dostęp do usług W3C, dlatego ta opcja wykorzystuje serializację kodu HTML i wysyła go do usługi W3C."
   },
-  "narzędzia": {
+  "tools": {
     "value": "Narzędzia"
   },
   "total_issues": {
