@@ -229,6 +229,9 @@
   "broken_same_page_link_title": {
     "value": "Links must have a corresponding target."
   },
+  "canonical_url_title": {
+    "value": "Canonical URL tells search engines \"whatever you see in the address bar, this is the URL you should index and show in results.\""
+  },
   "capital_letters_words_report_message1": {
     "value": "Element contains <code>%0</code>, which is shown in all-caps by <code>text-transform: uppercase</code>. The text has several long words in uppercase."
   },
@@ -349,6 +352,33 @@
   "copy_xpath": {
     "value": "Copy XPath"
   },
+  "core_web_vitals": {
+    "value": "Core Web Vitals"
+  },
+  "core_web_vitals_CLS": {
+    "value": "Cumulative layout shift"
+  },
+  "core_web_vitals_FCP": {
+    "value": "First contentful paint"
+  },
+  "core_web_vitals_INP": {
+    "value": "Interaction to Next Paint"
+  },
+  "core_web_vitals_LCP": {
+    "value": "Largest contentful paint"
+  },
+  "core_web_vitals_score_good": {
+    "value": "good"
+  },
+  "core_web_vitals_score_needs_improvement": {
+    "value": "needs improvement"
+  },
+  "core_web_vitals_score_poor": {
+    "value": "poor"
+  },
+  "core_web_vitals_TTFB": {
+    "value": "Time to First Byte"
+  },
   "displayed_issues": {
     "value": "Displayed issues"
   },
@@ -421,8 +451,14 @@
   "excessive_css_classes_size_title": {
     "value": "Avoid excessive CSS classes usage."
   },
+  "extension_options": {
+    "value": "Options"
+  },
   "extension_version": {
     "value": "Extension version"
+  },
+  "feedback_action": {
+    "value": "Feedback"
   },
   "fieldset_no_legend_report_message": {
     "value": "This <code>%0</code> element is the first child of a <code>fieldset</code>, but only a <code>legend</code> is allowed in that position to caption the group."
@@ -490,7 +526,7 @@
   "headings_sibling_unique_title": {
     "value": "Sibling heading elements must not repeat the same text."
   },
-  "help": {
+  "help_action": {
     "value": "Help"
   },
   "hidden_from_at_tool": {
@@ -528,6 +564,9 @@
   },
   "identify_input_purpose_title": {
     "value": "INPUT purpose must be declared with correct autocomplete attribute."
+  },
+  "ignored_slash": {
+    "value": "ignored slash"
   },
   "illegal_character_in_link_domain_title": {
     "value": "Illegal character in the domain for the attribute href."
@@ -856,6 +895,9 @@
   "mixed_content_on_https_title": {
     "value": "The site uses insecure HTTP connections on HTTPS (Mixed Content)."
   },
+  "n_rules_failed": {
+    "value": "%0 rules failed"
+  },
   "native_clipboard_not_available": {
     "value": "The native browser built-in Clipboard is not available. You need to copy the content manually."
   },
@@ -882,6 +924,12 @@
   },
   "no_meta_http_equiv_refresh_title": {
     "value": "Pages must not automatically refresh or redirect without user control."
+  },
+  "not_determined": {
+    "value": "not determined"
+  },
+  "not_specified": {
+    "value": "not specified"
   },
   "object_missing_body_report_message_1": {
     "value": "The text alternative to the content rendered by <code>%0</code> contains only whitespace. The body of the <code>%1</code> element must provide a complete text alternative for the object."
@@ -934,6 +982,39 @@
   "oversized_images_title": {
     "value": "Avoid displaying oversized images."
   },
+  "page": {
+    "value": "Page"
+  },
+  "page_canonical_url": {
+    "value": "Canonical URL"
+  },
+  "page_has_canonical_url": {
+    "value": "canonical"
+  },
+  "page_has_non_canonical_url": {
+    "value": "non-canonical"
+  },
+  "page_indexable": {
+    "value": "indexable"
+  },
+  "page_information": {
+    "value": "Page information"
+  },
+  "page_language": {
+    "value": "Language"
+  },
+  "page_meta_description": {
+    "value": "Meta description"
+  },
+  "page_meta_robots": {
+    "value": "Meta robots"
+  },
+  "page_non_indexable": {
+    "value": "non-indexable"
+  },
+  "page_title": {
+    "value": "Title"
+  },
   "page_title_length_report_message_1": {
     "value": "The page title (<code>%1</code>) length is <code>%0</code>, but should be around 60 characters."
   },
@@ -945,6 +1026,9 @@
   },
   "page_title_words_not_included_in_url_title": {
     "value": "The page title words are not included in the page url."
+  },
+  "page_url": {
+    "value": "URL"
   },
   "positive_tabindex_report_message": {
     "value": "Positive <code>tabindex=\"%0\"</code> should not be used. Outside of very specific corner cases, a tabindex should not be given a positive integer value. Users who use keyboards to interact with the web expect a web document to be navigable in sequential order, starting at the top left (or right depending on language of the document) and going in order from there."
@@ -978,6 +1062,9 @@
   },
   "scan_error_auditor_integrity": {
     "value": "SiteLint couldn't start the audit because part of the extension is damaged or out of date. Please remove the extension and install it again."
+  },
+  "seconds": {
+    "value": "seconds"
   },
   "select_tool": {
     "value": "Select tool"
@@ -1168,6 +1255,12 @@
   "table_row_and_column_headers_title": {
     "value": "TABLE should have elements that define headers for each column or row."
   },
+  "target_size_minimum_report_message_1": {
+    "value": "Interactive element is only %0 × %1 CSS pixels, but minimum required size is %2 × %2 CSS pixels."
+  },
+  "target_size_minimum_title": {
+    "value": "Interactive elements must have an area of at least 24 by 24 pixels."
+  },
   "text_color_convey_information_report_message": {
     "value": "Check that the information conveyed by colors <code>%0</code> is also available in text and that the text is not conditional content."
   },
@@ -1220,11 +1313,13 @@
     "value": "W3C Serialization"
   },
   "tool_w3cValidationWithSerialization_title": {
-    "comment": "Add comment",
     "value": "Some pages may restrict access to W3C services therefore this option uses serialization of the HTML and sends it to the W3C service."
   },
   "tools": {
     "value": "Tools"
+  },
+  "total_characters": {
+    "value": "%0 characters"
   },
   "total_issues": {
     "value": "Total issues"

@@ -1318,6 +1318,9 @@
   "tools": {
     "value": "Narzędzia"
   },
+  "total_characters": {
+    "value": "%0 znaków"
+  },
   "total_issues": {
     "value": "Łączna liczba problemów"
   },
