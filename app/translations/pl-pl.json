@@ -1,4 +1,10 @@
 {
+  "_appDescription": {
+    "value": "Szybkie, offline audyty dostępności, wydajności, bezpieczeństwa i technicznego SEO wewnątrz DevTools i panelu bocznego."
+  },
+  "_appName": {
+    "value": "SiteLint - Narzędzia audytu stron"
+  },
   "_config": {
     "locale": "pl-pl",
     "nativeName": "Polski",
@@ -227,7 +233,7 @@
     "value": "Link do innego miejsca na stronie nie ma odpowiadającego mu celu o identyfikatorze <code>id=\"%0\"</code>."
   },
   "broken_same_page_link_title": {
-    "value": "Linki muszą mieć odpowiadający im element docelowy."
+    "value": "Linki na tej samej stronie muszą mieć odpowiadający im element docelowy."
   },
   "canonical_url_title": {
     "value": "Kanoniczny adres URL informuje wyszukiwarki, że \"niezależnie od tego, co widzisz na pasku adresu, to właśnie ten adres URL powinieneś zaindeksować i wyświetlać w wynikach\"."
@@ -348,6 +354,9 @@
   },
   "copied_to_clipboard": {
     "value": "Skopiowane!"
+  },
+  "copy_content_to_clipboard": {
+    "value": "Kopiuj %0 do schowka"
   },
   "copy_xpath": {
     "value": "Kopiuj XPath"
