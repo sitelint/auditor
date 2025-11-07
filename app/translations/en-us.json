@@ -1,4 +1,10 @@
 {
+  "_appDescription": {
+    "value": "Fast, offline audits for Accessibility, Performance, Security & Technical SEO inside DevTools and Side Panel."
+  },
+  "_appName": {
+    "value": "SiteLint - Web Audit Tools"
+  },
   "_config": {
     "locale": "en-us",
     "nativeName": "English US",
@@ -227,7 +233,7 @@
     "value": "A link to another location on the page does not have a corresponding target with <code>id=\"%0\"</code>."
   },
   "broken_same_page_link_title": {
-    "value": "Links must have a corresponding target."
+    "value": "Same-page links must have a corresponding target."
   },
   "canonical_url_title": {
     "value": "Canonical URL tells search engines \"whatever you see in the address bar, this is the URL you should index and show in results.\""
@@ -348,6 +354,9 @@
   },
   "copied_to_clipboard": {
     "value": "Copied!"
+  },
+  "copy_content_to_clipboard": {
+    "value": "Copy %0 to clipboard"
   },
   "copy_xpath": {
     "value": "Copy XPath"
@@ -1331,7 +1340,7 @@
     "value": "Unable to highlight the element %0 because it's not being rendered on the page."
   },
   "unable_to_highlight_element_visually_hidden": {
-    "value": "The element %0 cannot be highlighted since it has not been rendered visually."
+    "value": "The element cannot be highlighted since it has not been rendered visually."
   },
   "unable_to_run_audit": {
     "value": "Unable to run audit.\n\n%0"
