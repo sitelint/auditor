@@ -535,9 +535,6 @@
   "headings_sibling_unique_title": {
     "value": "Równorzędne elementy nagłówka nie mogą powtarzać tego samego tekstu."
   },
-  "help_action": {
-    "value": "Pomoc"
-  },
   "hidden_from_at_tool": {
     "value": "Ukryte przed czytnikami ekranu"
   },
@@ -1038,6 +1035,9 @@
   },
   "page_url": {
     "value": "URL"
+  },
+  "platform": {
+    "value": "Platforma"
   },
   "positive_tabindex_report_message": {
     "value": "Nie należy używać dodatniego <code>tabindex=\"%0\"</code>. Poza bardzo specyficznymi skrajnymi przypadkami, tabindex nie powinien mieć dodatniej wartości całkowitej. Użytkownicy, którzy używają klawiatury do interakcji z Internetem, oczekują, że dokument internetowy będzie można przeglądać w kolejności sekwencyjnej, zaczynając od lewego górnego rogu (lub prawego, w zależności od języka dokumentu) i przechodząc od tego miejsca."

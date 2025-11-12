@@ -535,9 +535,6 @@
   "headings_sibling_unique_title": {
     "value": "Sibling heading elements must not repeat the same text."
   },
-  "help_action": {
-    "value": "Help"
-  },
   "hidden_from_at_tool": {
     "value": "Hidden from screen readers"
   },
@@ -1038,6 +1035,9 @@
   },
   "page_url": {
     "value": "URL"
+  },
+  "platform": {
+    "value": "Platform"
   },
   "positive_tabindex_report_message": {
     "value": "Positive <code>tabindex=\"%0\"</code> should not be used. Outside of very specific corner cases, a tabindex should not be given a positive integer value. Users who use keyboards to interact with the web expect a web document to be navigable in sequential order, starting at the top left (or right depending on language of the document) and going in order from there."
