@@ -34,6 +34,12 @@
   "action_close": {
     "value": "Zamknij"
   },
+  "action_more": {
+    "value": "Więcej"
+  },
+  "action_options": {
+    "value": "Opcji"
+  },
   "action_refresh": {
     "value": "Odśwież"
   },
@@ -162,6 +168,12 @@
   },
   "audio_alternative_report_message_3": {
     "value": "Jeśli celem tego elementu obiektu jest odtwarzanie treści audio, użyj elementu <code>audio</code>, ponieważ zapewnia on lepszą obsługę napisów rozszerzonych i transkrypcji tekstowych."
+  },
+  "audio_alternative_report_message_4": {
+    "value": "Verify that a text transcript is provided for this audio content. WCAG requires a transcript for prerecorded audio-only media, but its presence cannot be detected automatically."
+  },
+  "audio_alternative_report_message_5": {
+    "value": "If this object element's purpose is to play audio content then use <code>audio</code> element instead as it provides better support for captions and text transcripts."
   },
   "audio_alternative_title": {
     "value": "Treść audio musi mieć alternatywny tekst."
@@ -391,6 +403,9 @@
   "displayed_issues": {
     "value": "Wyświetlane problemy"
   },
+  "download_earl_report": {
+    "value": "Ściągnij EARL raport"
+  },
   "duplicated_for_attribute_report_message": {
     "value": "Atrybut <code>for=\"%0\"</code> powinien być unikalny. Został zdefiniowany <code>%1</code> razy."
   },
@@ -474,6 +489,9 @@
   },
   "fieldset_no_legend_title": {
     "value": "Zgrupowane kontrolki formularza wymagają zdefiniowanego podpisu lub opisu."
+  },
+  "file_an_issue": {
+    "value": "Zgłoś problem"
   },
   "first_contentful_paint_report_message_1": {
     "value": "Pierwsza treść jest renderowana dla użytkownika w umiarkowanym czasie (<code>%0</code> sekund). Najlepiej zrobić to w < <code>1,8</code> sekundy."
@@ -560,7 +578,7 @@
     "value": "Zdefiniowano atrybut <code>lang</code> w elemencie głównym <code>%0</code>, ale wartość (<code>%1</code>) jest pusta."
   },
   "html_lang_attr_title": {
-    "value": "Strona musi zadeklarować atrybut <code>lang</code> w elemencie HTML."
+    "value": "Strona musi zadeklarować atrybut LANG w elemencie HTML."
   },
   "identify_input_purpose_report_message_1": {
     "value": "Oczekiwano jednego z tokenów <code>%0</code> po <code>%1</code>."
@@ -635,7 +653,7 @@
     "value": "Nieprawidłowe umiejscowienie etykiety dla powiązanych danych wejściowych"
   },
   "incorrect_label_placement_for_associated_input_title": {
-    "value": "Etykieta (<code>label</code> musi być umieszczona bezpośrednio przed lub za polem formularza."
+    "value": "Etykieta LABEL musi być umieszczona bezpośrednio przed lub za polem formularza."
   },
   "incorrect_technique_for_hiding_content_report_message": {
     "value": "Technika CSS text-indent: <code>%0</code> służy do ukrywania tekstu. Powoduje ona jednak problemy z językami pisanymi od prawej do lewej i utrzymuje fokus czytnika ekranu poza widocznym obszarem."
@@ -683,7 +701,7 @@
     "value": "Masz niejawnie powiązany atrybut <code>%0</code>, ale zawiera on więcej niż jeden element, który można oznaczyć etykietą. Powinien zawierać tylko jeden, ponieważ aktywacja etykiety ustawia fokus na pierwszym elemencie do oznaczenia. Należy również pamiętać, że niejawna etykieta ma słabą obsługę w Voice Control AT."
   },
   "label_implicitly_associated_title": {
-    "value": "Niejawna etykieta (<code>label</code>) musi być jasna i wystarczająca."
+    "value": "Niejawna etykieta LABEL musi być jasna i wystarczająca."
   },
   "label_inappropriate_association_report_message_1": {
     "value": "Brak zdefiniowanej kontrolki powiązanego formularza dla <code>%0</code>."
@@ -812,7 +830,7 @@
     "value": "Brak zdefiniowanego atrybutu <code>alt</code>."
   },
   "missing_alt_attribute_title": {
-    "value": "Brak atrybutu <code>alt</code> w elementach nietekstowych."
+    "value": "Brak atrybutu ALT w elementach nietekstowych."
   },
   "missing_canonical_url_report_message_1": {
     "value": "Strona nie ma zdefiniowanego kanonicznego adresu URL. Kanoniczny adres URL to adres URL strony, który wyszukiwarka uważa za najbardziej reprezentatywny dla zbioru zduplikowanych stron w Twojej witrynie."
@@ -944,7 +962,7 @@
     "value": "Element <code>%0</code> nie definiuje alternatywy tekstowej. Treść elementu <code>%1</code> może służyć do zapewnienia kompletnej alternatywy tekstowej dla <code>%2</code> lub może zawierać dodatkową treść nietekstową z alternatywami tekstowymi."
   },
   "object_missing_body_title": {
-    "value": "Brak alternatywnej treści dla elementu <code>object</code>."
+    "value": "Brak alternatywnej treści dla elementu OBJECT."
   },
   "obsolete_angular_detected_report_message": {
     "value": "Wykryto wersję AngularJS <code>%0</code>. Po 31 grudnia 2021 r. 1.x AngularJS nie jest już obsługiwany. Istnieje wysokie ryzyko narażenia na nowe luki w zabezpieczeniach."
@@ -1292,7 +1310,7 @@
     "value": "Treść atrybutu <code>title</code> nie powinna być pusta."
   },
   "title_for_abbr_title": {
-    "value": "Brak atrybutu <code>title</code> dla elementu ABBR."
+    "value": "Brak atrybutu TITLE dla elementu ABBR."
   },
   "title_iframe_report_message_1": {
     "value": "Oczekiwano, że atrybut <code>title</code> będzie zdefiniowany w <code>%0</code>. Jeśli jest to <code>iframe</code> bez wartościowej treści dla użytkownika, należy dodać atrybut <code>aria-hidden=\"true\"</code>, aby ukryć go przed technologiami wspomagającymi."
@@ -1301,7 +1319,7 @@
     "value": "Oczekiwano, że atrybut <code>title</code> w <code>%0</code> nie będzie pusty."
   },
   "title_iframe_title": {
-    "value": "Brak atrybutu <code>title</code>  w elemencie <code>iframe</code>."
+    "value": "Brak atrybutu TITLE w elemencie IFRAME."
   },
   "tool_ariaValidator": {
     "value": "ARIA"
@@ -1370,7 +1388,7 @@
     "value": "Strona nie zawiera elementu <code>title</code>."
   },
   "unclear_page_title_title": {
-    "value": "Element <code>title</code> powinien jasno opisywać zawartość lub cel strony."
+    "value": "Element TITLE powinien jasno opisywać zawartość lub cel strony."
   },
   "unsupported_role_on_element_report_message": {
     "value": "Oczekiwano, że atrybut <code>role=\"%0\"</code> nie będzie zdefiniowany w tym elemencie."
