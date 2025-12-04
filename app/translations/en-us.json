@@ -34,6 +34,12 @@
   "action_close": {
     "value": "Close"
   },
+  "action_more": {
+    "value": "More"
+  },
+  "action_options": {
+    "value": "Options"
+  },
   "action_refresh": {
     "value": "Refresh"
   },
@@ -155,16 +161,22 @@
     "value": "Aria and role"
   },
   "audio_alternative_report_message_1": {
-    "value": "Audio content should have an alternative text. One method is to use the <code>aria-describedby</code> attribute to refer to a text alternative to the audio only content."
+    "value": "This audio element does not include playback controls. Provide controls or ensure a custom accessible audio player is implemented."
   },
   "audio_alternative_report_message_2": {
-    "value": "You have defined an audio element, but there is no <code>track</code> element(s) to provide text that you want to display along with the playing media file."
+    "value": "This audio element does not have an accessible name. Provide an aria-label or a descriptive title that explains the purpose or content of the audio."
   },
   "audio_alternative_report_message_3": {
+    "value": "This audio element has no <code>track</code> elements. If the audio contains speech, provide captions and ensure a transcript is available."
+  },
+  "audio_alternative_report_message_4": {
+    "value": "Ensure a text transcript is provided for this audio content."
+  },
+  "audio_alternative_report_message_5": {
     "value": "If this object element's purpose is to play audio content then use <code>audio</code> element instead as it provides better support for captions and text transcripts."
   },
   "audio_alternative_title": {
-    "value": "Audio content must have a text alternative."
+    "value": "Provide accessible alternatives for audio-only content."
   },
   "audio_video_captions_report_message_1": {
     "value": "You have not defined any <code>%0</code> elements to provide captions or subtitles."
@@ -391,6 +403,9 @@
   "displayed_issues": {
     "value": "Displayed issues"
   },
+  "download_earl_report": {
+    "value": "Download EARL Report"
+  },
   "duplicated_for_attribute_report_message": {
     "value": "Attribute <code>for=\"%0\"</code> should be unique. It has been defined <code>%1</code> times."
   },
@@ -474,6 +489,9 @@
   },
   "fieldset_no_legend_title": {
     "value": "Grouped form controls need a defined caption or description."
+  },
+  "file_an_issue": {
+    "value": "File an issue"
   },
   "first_contentful_paint_report_message_1": {
     "value": "First content is rendered for the user in a moderate time (<code>%0</code> seconds). Best is < <code>1.8</code> second."
@@ -560,7 +578,7 @@
     "value": "You have defined <code>lang</code> attribute on the <code>%0</code> root element, but the value (<code>%1</code>) is empty."
   },
   "html_lang_attr_title": {
-    "value": "Page must declare lang attribute on the HTML element."
+    "value": "Page must declare LANG attribute on the HTML element."
   },
   "identify_input_purpose_report_message_1": {
     "value": "Expected one of the token <code>%0</code> after <code>%1</code>."
@@ -812,7 +830,7 @@
     "value": "Missing defined attribute <code>alt</code>."
   },
   "missing_alt_attribute_title": {
-    "value": "Missing alt on non-text elements."
+    "value": "Missing ALT on non-text elements."
   },
   "missing_canonical_url_report_message_1": {
     "value": "The page's missing a defined canonical URL. A canonical URL is the URL of the page that the Search Engine thinks is most representative of a set of duplicate pages on your site."
@@ -1292,7 +1310,7 @@
     "value": "The <code>title</code> content for the abbreviation should not be empty."
   },
   "title_for_abbr_title": {
-    "value": "Missing title for ABBR element."
+    "value": "Missing TITLE attribute for ABBR element."
   },
   "title_iframe_report_message_1": {
     "value": "Expected <code>title</code> attribute to be defined on <code>%0</code>. However, if it is an <code>iframe</code> without valuable content for the user then add the attribute <code>aria-hidden=\"true\"</code> in order to hide it from assistive technologies."
