@@ -34,6 +34,9 @@
   "action_close": {
     "value": "Close"
   },
+  "action_download_earl_title": {
+    "value": "Reports in EARL format are useful for computer programs that automatically run tests and generate results. They are also useful for systems that collect data from various sources and display it in one place. Additionally, software developers and auditors, who review and evaluate data, use EARL reports because they provide data in a structured and easily readable format."
+  },
   "action_more": {
     "value": "More"
   },
