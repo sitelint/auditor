@@ -899,7 +899,7 @@
     "value": "ARIA attributes redundant on native focusable element."
   },
   "misused_input_attribute_report_message": {
-    "value": "Expected attribute <code>%0</code> not to be defined on this element."
+    "value": "Attribute <code>%0</code> is not a valid attribute for INPUT according to the HTML specification."
   },
   "misused_input_attribute_title": {
     "value": "Misused attribute found on INPUT."
