@@ -899,7 +899,7 @@
     "value": "Atrybuty ARIA są zbędne w rdzennym elemencie, na którym można ustawić fokus."
   },
   "misused_input_attribute_report_message": {
-    "value": "Oczekiwano, że atrybut <code>%0</code> nie będzie zdefiniowany w tym elemencie."
+    "value": "Atrybut <code>%0</code> nie jest prawidłowym atrybutem dla elementu INPUT zgodnie ze specyfikacją HTML."
   },
   "misused_input_attribute_title": {
     "value": "Znaleziono błędnie użyty atrybut w elemencie INPUT."
