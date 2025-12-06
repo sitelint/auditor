@@ -161,19 +161,19 @@
     "value": "Aria and role"
   },
   "audio_alternative_report_message_1": {
-    "value": "This audio element does not include playback controls. Provide controls or ensure a custom accessible audio player is implemented."
+    "value": "Playback controls are missing. Add native controls or an accessible custom player."
   },
   "audio_alternative_report_message_2": {
-    "value": "This audio element does not have an accessible name. Provide an aria-label or a descriptive title that explains the purpose or content of the audio."
+    "value": "Provide an accessible name describing the audio."
   },
   "audio_alternative_report_message_3": {
-    "value": "This audio element has no <code>track</code> elements. If the audio contains speech, provide captions and ensure a transcript is available."
+    "value": "No <code>track</code> elements found. Add captions if the audio contains speech."
   },
   "audio_alternative_report_message_4": {
-    "value": "Ensure a text transcript is provided for this audio content."
+    "value": "Ensure a text transcript is available."
   },
   "audio_alternative_report_message_5": {
-    "value": "If this object element's purpose is to play audio content then use <code>audio</code> element instead as it provides better support for captions and text transcripts."
+    "value": "Use an <code>audio</code> element instead of <code>object</code> for better accessibility."
   },
   "audio_alternative_title": {
     "value": "Provide accessible alternatives for audio-only content."
