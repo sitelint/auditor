@@ -161,22 +161,22 @@
     "value": "Aria i role"
   },
   "audio_alternative_report_message_1": {
-    "value": "Treść audio powinna mieć alternatywny tekst. Jedną z metod jest użycie atrybutu <code>aria-describedby</code>, aby odwołać się do tekstu alternatywnego dla treści wyłącznie audio."
+    "value": "Brakuje elementów sterujących odtwarzaniem. Dodaj natywne kontrolki lub własny, dostępny cyfrowo odtwarzacz."
   },
   "audio_alternative_report_message_2": {
-    "value": "Zdefiniowano element audio, ale nie ma elementu <code>track</code>, który dostarczałby tekst, który chcesz wyświetlić wraz z odtwarzanym plikiem multimedialnym."
+    "value": "Dodaj nazwę dostępną opisującą treść audio."
   },
   "audio_alternative_report_message_3": {
-    "value": "Jeśli celem tego elementu obiektu jest odtwarzanie treści audio, użyj elementu <code>audio</code>, ponieważ zapewnia on lepszą obsługę napisów rozszerzonych i transkrypcji tekstowych."
+    "value": "Brak elementów <code>track</code>. Dodaj napisy, jeśli nagranie zawiera mowę."
   },
   "audio_alternative_report_message_4": {
-    "value": "Verify that a text transcript is provided for this audio content. WCAG requires a transcript for prerecorded audio-only media, but its presence cannot be detected automatically."
+    "value": "Upewnij się, że dostępna jest transkrypcja tekstowa."
   },
   "audio_alternative_report_message_5": {
-    "value": "If this object element's purpose is to play audio content then use <code>audio</code> element instead as it provides better support for captions and text transcripts."
+    "value": "Użyj elementu <code>audio</code> zamiast <code>object</code> dla lepszej dostępności."
   },
   "audio_alternative_title": {
-    "value": "Treść audio musi mieć alternatywny tekst."
+    "value": "Zapewnij dostępne alternatywy dla treści audio."
   },
   "audio_video_captions_report_message_1": {
     "value": "Nie zdefiniowano żadnych elementów <code>%0</code>, które dostarczałyby napisy rozsszerzone."
@@ -251,16 +251,16 @@
     "value": "Kanoniczny adres URL informuje wyszukiwarki, że \"niezależnie od tego, co widzisz na pasku adresu, to właśnie ten adres URL powinieneś zaindeksować i wyświetlać w wynikach\"."
   },
   "capital_letters_words_report_message1": {
-    "value": "Element zawiera <code>%0</code>, który jest wyświetlany wielkimi literami, bo użyto <code>text-transform: uppercase</code>. Tekst składa się z kilku długich słów pisanych wielkimi literami."
+    "value": "Element zawiera <code>%0</code>, który jest wyświetlany wielkimi literami (użyto <code>text-transform: uppercase</code>). Tekst składa się z kilku długich słów pisanych wielkimi literami."
   },
   "capital_letters_words_report_message2": {
     "value": "Tekst elementu zawiera kilka długich słów napisanych wielkimi literami."
   },
   "capital_letters_words_report_message3": {
-    "value": "Atrybut tytułu zawiera kilka długich słów napisanych wielkimi literami."
+    "value": "Atrybut TITLE zawiera kilka długich słów napisanych wielkimi literami."
   },
   "capital_letters_words_report_message4": {
-    "value": "Tekst elementu i jego atrybut title zawierają kilka długich słów napisanych wielkimi literami."
+    "value": "Tekst elementu i jego atrybut TITLE zawierają kilka długich słów napisanych wielkimi literami."
   },
   "capital_letters_words_title": {
     "value": "Ogranicz użycie długich słów pisanych wielkimi literami."
