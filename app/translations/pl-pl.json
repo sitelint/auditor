@@ -34,6 +34,9 @@
   "action_close": {
     "value": "Zamknij"
   },
+  "action_download_earl_title": {
+    "value": "Raporty w formacie EARL są przydatne dla programów komputerowych, które automatycznie wykonują testy i generują wyniki. Są również przydatne dla systemów, które zbierają dane z różnych miejsc i wyświetlają je w jednym miejscu. Dodatkowo, osoby tworzące oprogramowanie i kontrolerzy, którzy sprawdzają i oceniają dane, korzystają z raportów EARL, ponieważ dostarczają one danych w uporządkowanym i łatwym do odczytania formacie."
+  },
   "action_more": {
     "value": "Więcej"
   },
