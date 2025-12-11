@@ -770,7 +770,7 @@
     "value": "Found <code>%0</code> links with the same text <code>%1</code> (accessible name: <code>%2</code>) pointing to different URLs. Every link should have unique content."
   },
   "links_same_content_different_url_title": {
-    "value": "Multiple text links that look the same should also link to the same content (such as \"Read more\")."
+    "value": "Avoid link elements that have the same content, but different destination URLs."
   },
   "main_element_only_one_report_message": {
     "value": "You have defined multiple (<code>%0</code>) <code>%1</code> elements. Assistive technology users expect one main content block and may miss subsequent <code>main</code> blocks."
