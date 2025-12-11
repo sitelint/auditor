@@ -770,7 +770,7 @@
     "value": "Znaleziono linki <code>%0</code> z tym samym <code>%1</code> (dostępna nazwa: <code>%2</code>) wskazujące na różne adresy URL. Każdy link powinien mieć unikalną treść."
   },
   "links_same_content_different_url_title": {
-    "value": "Wiele linków tekstowych, które wyglądają tak samo, powinno również prowadzić do tej samej treści (np. „Czytaj więcej”)."
+    "value": "Unikaj elementów odnośników, które mają identyczną treść, lecz różne docelowe adresy URL."
   },
   "main_element_only_one_report_message": {
     "value": "Zdefiniowano wiele (<code>%0</code>) elementów <code>%1</code>. Użytkownicy technologii wspomagających oczekują jednego głównego bloku treści i mogą pominąć kolejne bloki <code>main</code>."
