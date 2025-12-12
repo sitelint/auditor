@@ -997,6 +997,9 @@
   "overlay_title": {
     "value": "Avoid using accessibility overlays."
   },
+  "oversized_images_report_message_0": {
+    "value": "Image size: <code>%0</code>."
+  },
   "oversized_images_report_message_1": {
     "value": "The image has original size: <code>%0px</code> height and <code>%1px</code> width, but it's displayed with size: <code>%2px</code> height and <code>%3px</code> width."
   },
@@ -1370,7 +1373,7 @@
     "value": "Unable to run audit.\n\n%0"
   },
   "unclear_anchor_url_report_message_1": {
-    "value": "The URL defined in an anchor <code>href</code> attribute should not be used and may be misinterpreted by screen readers or the action may be unexpected."
+    "value": "Invalid URL found in anchor <code>href</code> attribute."
   },
   "unclear_anchor_url_title": {
     "value": "Links must have a clear, valid destination."
