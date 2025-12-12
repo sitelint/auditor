@@ -1241,7 +1241,7 @@
     "value": "Nieobsługiwana jednostka rozmiaru dla SVG."
   },
   "svg_too_large_report_message_1": {
-    "value": "Element SVG ma rozmiar <code>%0</code> KB, co zaśmieca znaczniki i wpływa na wydajność strony."
+    "value": "Element SVG ma rozmiar <code>%0</code> KB, co wpływa na szybkość ładowania i renderowania strony."
   },
   "svg_too_large_title": {
     "value": "Unikaj dołączania dużych elementów SVG."
