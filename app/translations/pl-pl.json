@@ -917,7 +917,7 @@
     "value": "Ustaw tabindex poprawnie, aby dopasować kolejność czytania treści na stronie."
   },
   "mixed_content_on_https_report_message_1": {
-    "value": "Lokalizacja elementu <code>%0</code> używa niezabezpieczonego protokołu <code>http</code> w połączeniu z witryną <code>https</code>."
+    "value": "Lokalizacja elementu <code>%0</code> używa protokołu <code>%1</code>, który nie jest zgodny z protokołem strony <code>%2</code>."
   },
   "mixed_content_on_https_title": {
     "value": "Witryna korzysta z niezabezpieczonych połączeń HTTP na HTTPS (zawartość mieszana)."
@@ -1223,10 +1223,10 @@
     "value": "2.2"
   },
   "subresource_integrity_report_message_1": {
-    "value": "W elemencie <code>%0</code> brakuje zdefiniowanego atrybutu <code>integrity</code> ze zdefiniowanym skrótem (hashem)."
+    "value": "%0 elementów typu <code>%1</code> nie ma zdefiniowanego atrybutu <code>integrity</code>."
   },
   "subresource_integrity_title": {
-    "value": "Brak zdefiniowanej wartości integralności, która umożliwia przeglądarkom sprawdzenie, czy pobierane przez nie zasoby są dostarczane bez nieoczekiwanej manipulacji."
+    "value": "Brak zdefiniowanego atrybutu INTEGRITY, która umożliwia przeglądarkom sprawdzenie, czy pobierane przez nie zasoby są dostarczane bez nieoczekiwanej manipulacji."
   },
   "svg_incorrect_size_unit_report_message_1": {
     "value": "Nieobsługiwana wartość jednostki <code>%0</code> dla atrybutu <code>height</code> i <code>%0</code> dla atrybutu <code>width</code>."
