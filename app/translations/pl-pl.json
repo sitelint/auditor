@@ -997,6 +997,9 @@
   "overlay_title": {
     "value": "Unikaj korzystania z nakładek dostępności."
   },
+  "oversized_images_report_message_0": {
+    "value": "Rozmiar obrazka: <code>%0%</code>."
+  },
   "oversized_images_report_message_1": {
     "value": "Obraz ma oryginalny rozmiar: <code>%0px</code> wysokości i <code>%1px</code> szerokości, ale jest wyświetlany w rozmiarze: <code>%2px</code> wysokości i <code>%3px</code> szerokości."
   },
@@ -1007,7 +1010,7 @@
     "value": "Obraz ma oryginalny rozmiar: <code>%0px</code> wysokości i <code>%1px</code> szerokości, ale jest wyświetlany z szerokością <code>%2px</code> znacznie mniejszą niż oryginalna wartość <code>%3px</code>."
   },
   "oversized_images_title": {
-    "value": "Unikaj wyświetlania zbyt dużych obrazów."
+    "value": "Unikaj obrazów, które są znacznie większe niż ich rzeczywisty rozmiar wyświetlania."
   },
   "page": {
     "value": "Strona"
@@ -1370,7 +1373,7 @@
     "value": "Nie można uruchomić audytu.\n\n%0"
   },
   "unclear_anchor_url_report_message_1": {
-    "value": "Adres URL zdefiniowany w atrybucie kotwicy <code>href</code> nie powinien być używany. Może zostać błędnie zinterpretowany przez czytniki ekranu lub działanie może być nieoczekiwane."
+    "value": "Nieprawidłowy adres URL w atrybucie <code>href</code> elementu anchor."
   },
   "unclear_anchor_url_title": {
     "value": "Linki muszą mieć jasny, prawidłowy adres docelowy."
