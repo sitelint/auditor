@@ -686,10 +686,10 @@
     "value": "Znaleziono nieprawidłową wartość w atrybucie DIR"
   },
   "invisible_image_loaded_report_message_1": {
-    "value": "Obraz jest załadowany, ale nie jest widoczny."
+    "value": "Obraz został załadowany podczas ładowania strony, ale znajdował się poza początkowym widokiem użytkownika."
   },
   "invisible_image_loaded_title": {
-    "value": "Nie ładuj IMG, który pozostaje niewidoczny."
+    "value": "Nie ładuj IMG, który pozostaje niewidoczny dla użytkownika."
   },
   "label_duplicated_content_title_report_message": {
     "value": "Ten element ma taką samą zawartość jak jego atrybut <code>title</code>. Rozważ usunięcie <code>title</code> ponieważ niektóre czytniki ekranu odczytują oba te elementy."
