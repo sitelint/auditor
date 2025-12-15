@@ -686,10 +686,10 @@
     "value": "Invalid value found in DIR attribute."
   },
   "invisible_image_loaded_report_message_1": {
-    "value": "The image is loaded but is not visible."
+    "value": "The image was loaded during page load but was outside the initial viewport."
   },
   "invisible_image_loaded_title": {
-    "value": "Do not load IMG that remains invisible."
+    "value": "Do not load IMG that remains invisible for the user."
   },
   "label_duplicated_content_title_report_message": {
     "value": "This element has the same content as its <code>title</code> attribute. Consider removing <code>title</code> as some screen readers read both."
