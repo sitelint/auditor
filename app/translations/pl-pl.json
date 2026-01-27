@@ -31,11 +31,26 @@
   "accessible_svg_title": {
     "value": "Zawartość SVG musi mieć dostępną nazwę."
   },
+  "action_check_for_local_ai": {
+    "value": "Sprawdź lokalny model AI"
+  },
+  "action_check_for_local_ai_title": {
+    "value": "Uwaga: ta funkcja ma charakter eksperymentalny. Choć jest w pełni wspierana w przeglądarce Google Chrome, obecnie może nie działać poprawnie w innych przeglądarkach opartych na silniku Chromium."
+  },
   "action_close": {
     "value": "Zamknij"
   },
   "action_download_earl_title": {
     "value": "Raporty w formacie EARL są przydatne dla programów komputerowych, które automatycznie wykonują testy i generują wyniki. Są również przydatne dla systemów, które zbierają dane z różnych miejsc i wyświetlają je w jednym miejscu. Dodatkowo, osoby tworzące oprogramowanie i kontrolerzy, którzy sprawdzają i oceniają dane, korzystają z raportów EARL, ponieważ dostarczają one danych w uporządkowanym i łatwym do odczytania formacie."
+  },
+  "action_download_report_in_html_title": {
+    "value": "Ściągnij raport w formacie wygenerowanej pełnej strony HTML"
+  },
+  "action_get_explanation_of_the_issue": {
+    "value": "Uzyskaj wyjaśnienie problemu"
+  },
+  "action_get_explanation_of_the_issue_title": {
+    "value": "Uzyskaj wyjaśnienie problemu i rozpocznij rozwiązywanie problemów z użyciem AI. Uwaga! To jest rozwiązanie na ten moment eksperymentalne."
   },
   "action_more": {
     "value": "Więcej"
@@ -48,6 +63,99 @@
   },
   "action_scan": {
     "value": "Analizuj stronę"
+  },
+  "ai_chat_cancel": {
+    "value": "Anuluj"
+  },
+  "ai_chat_close": {
+    "value": "Zamknij"
+  },
+  "ai_chat_label": {
+    "value": "Wiadomość do AI"
+  },
+  "ai_chat_message_prefix": {
+    "value": "Wiadomość czatu #%0"
+  },
+  "ai_chat_placeholder": {
+    "value": "Zadaj pytanie uzupełniające..."
+  },
+  "ai_chat_send": {
+    "value": "Wyślij"
+  },
+  "ai_chat_user_prefix": {
+    "value": "Ty:"
+  },
+  "ai_check_success": {
+    "value": "Lokalny model AI LLM został pomyślnie wykryty!"
+  },
+  "ai_dl_background_info": {
+    "value": "Możesz zamknąć to okno lub rozszerzenie w dowolnym momencie. Przeglądarka będzie kontynuować pobieranie w tle."
+  },
+  "ai_dl_button": {
+    "value": "Pobierz i włącz"
+  },
+  "ai_dl_description": {
+    "value": "Wymagane jest jednorazowe pobranie modelu AI, aby mógł on działać lokalnie na Twoim urządzeniu. Zapewnia to prywatność danych i działanie w trybie offline."
+  },
+  "ai_dl_finalizing": {
+    "value": "Finalizowanie i ładowanie modelu."
+  },
+  "ai_dl_restart_note": {
+    "value": "Proszę zrestartować przeglądarkę, aby włączyć funkcje AI."
+  },
+  "ai_dl_retry_button": {
+    "value": "Ponów pobieranie"
+  },
+  "ai_dl_size_info": {
+    "value": "Rozmiar pobierania:"
+  },
+  "ai_dl_starting": {
+    "value": "Rozpoczynanie pobierania."
+  },
+  "ai_dl_status_init": {
+    "value": "Inicjalizacja. Proszę czekać."
+  },
+  "ai_dl_success": {
+    "value": "Lokalny model AI LLM został pomyślnie załadowany! Uruchamianie sesji."
+  },
+  "ai_dl_title": {
+    "value": "Pobieranie modelu AI"
+  },
+  "ai_documentation_help": {
+    "value": "Przeczytaj więcej o flagach przeglądarki w dokumentacji."
+  },
+  "ai_error_api_not_found": {
+    "value": "Nie znaleziono lokalnego modelu AI LLM ani API. Proszę włączyć wymagane flagi przeglądarki."
+  },
+  "ai_error_disabled": {
+    "value": "Funkcje lokalnego modelu AI LLM nie są obsługiwane lub zostały wyłączone."
+  },
+  "ai_error_init_title": {
+    "value": "Błąd inicjalizacji AI"
+  },
+  "ai_error_unknown_download": {
+    "value": "Wystąpił nieznany błąd podczas procesu pobierania."
+  },
+  "ai_preparing_explanation": {
+    "value": "Przygotowywanie wyjaśnienia. Proszę czekać."
+  },
+  "ai_status_available": {
+    "value": "Lokalny model AI LLM oraz API są dostępne."
+  },
+  "ai_status_downloading": {
+    "value": "Lokalny model AI LLM jest obecnie pobierany w tle."
+  },
+  "ai_status_not_found": {
+    "value": "Nie znaleziono lokalnego API ani modelu LLM. Proszę włączyć wymagane flagi przeglądarki."
+  },
+  "ai_status_processing_desc": {
+    "value": "Przeglądarka rozpakowuje i weryfikuje dane modelu. Ten proces często zatrzymuje się na 91% na dłuższą chwilę - prosimy o cierpliwość."
+  },
+  "ai_status_processing_title": {
+    "value": "Kończenie instalacji."
+  },
+  "ai_status_stalled": {
+    "value": "Pobieranie wydaje się wstrzymane lub zakolejkowane przez przeglądarkę. Możesz poczekać lub spróbować ponownie."
   },
   "alt_text_include_filename_report_message": {
     "value": "Nazwa pliku źródłowego elementu obrazu nie może być częścią jego alternatywy tekstowej (<code>alt=\"%0\"</code>)."
@@ -181,6 +289,24 @@
   "audio_alternative_title": {
     "value": "Zapewnij dostępne alternatywy dla treści audio."
   },
+  "audio_control_manual_check": {
+    "value": "Jeśli dźwięk lub wideo odtwarza się automatycznie dłużej niż 3 sekundy, sprawdź, czy istnieje mechanizm umożliwiający wstrzymanie, zatrzymanie lub niezależną regulację głośności."
+  },
+  "audio_control_title": {
+    "value": "Weryfikacja sterowania dźwiękiem"
+  },
+  "audio_description_prerecorded_manual_check": {
+    "value": "Sprawdź, czy nagranie wideo zawiera ścieżkę z audiodeskrypcją opisującą ważne informacje wizualne dla osób niewidomych."
+  },
+  "audio_description_prerecorded_title": {
+    "value": "Weryfikacja audiodeskrypcji (nagranie)"
+  },
+  "audio_only_live_manual_check": {
+    "value": "Sprawdź, czy dla transmisji audio na żywo dostępna jest tekstowa alternatywa prezentująca te same informacje."
+  },
+  "audio_only_live_title": {
+    "value": "Weryfikacja treści audio na żywo"
+  },
   "audio_video_captions_report_message_1": {
     "value": "Nie zdefiniowano żadnych elementów <code>%0</code>, które dostarczałyby napisy rozsszerzone."
   },
@@ -201,6 +327,12 @@
   },
   "audit": {
     "value": "Audyt"
+  },
+  "audit_date": {
+    "value": "Data audytu"
+  },
+  "audit_requirement": {
+    "value": "Wymóg audytu"
   },
   "audit_summary": {
     "value": "Podsumowanie audytu"
@@ -238,17 +370,35 @@
   "autocomplete_attribute_usage_title": {
     "value": "Dodaj atrybut autouzupełniania do kontrolek formularzy, aby ułatwić użytkownikom efektywne wypełnianie formularzy."
   },
+  "automated_evaluation_report": {
+    "value": "Raport z Automatycznej Oceny"
+  },
   "autoplay_audio_video_report_message": {
     "value": "Zdefiniowano <code>%0</code>. Osoby korzystające z oprogramowania do czytania ekranu mogą mieć trudności z usłyszeniem mowy, jeśli w tym samym czasie odtwarzany jest inny dźwięk. Pozwól użytkownikowi wyłączyć filmy/dźwięki, które uruchamiają się automatycznie po załadowaniu strony (zwłaszcza jeśli trwają dłużej niż 3 sekundy)."
   },
   "autoplay_audio_video_title": {
     "value": "Treści audio i wideo nie powinny być odtwarzane automatycznie."
   },
+  "broken_data_url_image_report_message_1": {
+    "value": "Wykryto problem z obrazem data URL: %0"
+  },
+  "broken_data_url_image_report_message_2": {
+    "value": "Nieprawidłowy format data URL: %0"
+  },
+  "broken_data_url_image_report_message_3": {
+    "value": "Nie udało się zdekodować obrazu: %0"
+  },
+  "broken_data_url_image_title": {
+    "value": "Uszkodzony lub nieprawidłowy data URL w adresie obrazu."
+  },
   "broken_same_page_link_report_message": {
     "value": "Link do innego miejsca na stronie nie ma odpowiadającego mu celu o identyfikatorze <code>id=\"%0\"</code>."
   },
   "broken_same_page_link_title": {
     "value": "Linki na tej samej stronie muszą mieć odpowiadający im element docelowy."
+  },
+  "browser": {
+    "value": "Przeglądarka"
   },
   "canonical_url_title": {
     "value": "Kanoniczny adres URL informuje wyszukiwarki, że \"niezależnie od tego, co widzisz na pasku adresu, to właśnie ten adres URL powinieneś zaindeksować i wyświetlać w wynikach\"."
@@ -268,8 +418,20 @@
   "capital_letters_words_title": {
     "value": "Ogranicz użycie długich słów pisanych wielkimi literami."
   },
+  "captions_live_manual_check": {
+    "value": "Dla transmisji wideo na żywo sprawdź, czy dostarczane są napisy w czasie rzeczywistym umożliwiające zrozumienie treści audio."
+  },
+  "captions_live_title": {
+    "value": "Weryfikacja napisów na żywo"
+  },
   "change_filters": {
     "value": "Zmień filtry"
+  },
+  "character_key_shortcuts_manual_check": {
+    "value": "Jeśli aplikacja wykorzystuje skróty klawiaturowe oparte na pojedynczych znakach (np. 'a', '1' lub symbole), sprawdź, czy istnieje mechanizm ich wyłączenia, zmiany na skróty z klawiszem modyfikującym (np. Ctrl lub Alt) lub czy skrót jest aktywny tylko wtedy, gdy dany komponent posiada fokus."
+  },
+  "character_key_shortcuts_title": {
+    "value": "Verify character key shortcuts"
   },
   "check_for_broken_links_tool": {
     "value": "Sprawdź, czy linki nie są uszkodzone"
@@ -349,6 +511,12 @@
   "content_editable_missing_attributes_title": {
     "value": "Edytowalne elementy z contenteditable muszą uwidocznić rolę pola tekstowego, zadeklarować, czy są jedno- czy wielowierszowe, i podawać dostępną nazwę."
   },
+  "content_on_hover_focus_manual_check": {
+    "value": "Upewnij się, że dodatkowa treść (np. tooltip) może zostać zamknięta bez poruszania kursorem i pozostaje widoczna, gdy kursor znajduje się nad nią."
+  },
+  "content_on_hover_focus_title": {
+    "value": "Weryfikacja treści po najechaniu lub fokusie"
+  },
   "content_wider_than_screen_report_message_1": {
     "value": "Szerokość zawartości strony <code>%0</code> jest większa niż szerokość ekranu <code>%1</code>, co powoduje przewijanie widoku w poziomie."
   },
@@ -403,11 +571,20 @@
   "core_web_vitals_TTFB": {
     "value": "Time to First Byte"
   },
+  "criteria": {
+    "value": "Kryterium"
+  },
   "displayed_issues": {
     "value": "Wyświetlane problemy"
   },
+  "does_not_support": {
+    "value": "Nie spełnia"
+  },
   "download_earl_report": {
     "value": "Ściągnij EARL raport"
+  },
+  "download_html_report": {
+    "value": "Ściągnij raport w formacie HTML"
   },
   "duplicated_for_attribute_report_message": {
     "value": "Atrybut <code>for=\"%0\"</code> powinien być unikalny. Został zdefiniowany <code>%1</code> razy."
@@ -472,11 +649,20 @@
   "engine_version": {
     "value": "Wersja silnika"
   },
+  "environment": {
+    "value": "Środowisko"
+  },
   "excessive_css_classes_size_report_message_1": {
     "value": "Istnieją klasy CSS <code>%0</code>. Oryginalny rozmiar HTML to <code>%1</code> kB, a bez klas CSS to <code>%2</code> kB. Same klasy CSS zwiększają rozmiar HTML o <code>%3</code> procent."
   },
   "excessive_css_classes_size_title": {
     "value": "Unikaj nadmiernego użycia klas CSS."
+  },
+  "extended_audio_description_prerecorded_manual_check": {
+    "value": "W sytuacjach, gdy przerwy w dialogach są zbyt krótkie, sprawdź, czy dostępna jest rozszerzona audiodeskrypcja wstrzymująca wideo."
+  },
+  "extended_audio_description_prerecorded_title": {
+    "value": "Weryfikacja rozszerzonej audiodeskrypcji"
   },
   "extension_options": {
     "value": "Ustawienia"
@@ -583,6 +769,12 @@
   "html_lang_attr_title": {
     "value": "Strona musi zadeklarować atrybut LANG w elemencie HTML."
   },
+  "identify_component_purpose_manual_check": {
+    "value": "Sprawdź, czy przeznaczenie komponentów interfejsu użytkownika może być określone programowo, aby umożliwić personalizację ikon i opisów."
+  },
+  "identify_component_purpose_title": {
+    "value": "Weryfikacja identyfikacji celu komponentu"
+  },
   "identify_input_purpose_report_message_1": {
     "value": "Oczekiwano jednego z tokenów <code>%0</code> po <code>%1</code>."
   },
@@ -601,17 +793,23 @@
   "illegal_character_in_link_domain_title_report_message_1": {
     "value": "Następująca domena <code>%0</code> zawiera niedozwolone znaki: <code>%1</code>."
   },
+  "images_of_text_no_exception_manual_check": {
+    "value": "Upewnij się, że ten obraz nie służy do prezentowania tekstu, jeśli ten sam efekt wizualny można osiągnąć za pomocą standardowego kodu CSS/HTML."
+  },
+  "images_of_text_no_exception_title": {
+    "value": "Weryfikacja obrazów tekstu (brak wyjątków)"
+  },
   "img_adjacent_duplicate_text_link_report_message_1": {
     "value": "Sąsiadujący tekst i link do obrazu mają to samo miejsce docelowe. Unikaj niepotrzebnego powielania, które występuje, gdy w dokumencie znajdują się sąsiadujące wersje tekstowe i ikoniczne linku."
   },
   "img_adjacent_duplicate_text_link_report_message_2": {
-    "value": "Element <img> wewnątrz linku ma pusty lub brakujący tekst alternatywny, gdy link obok niego zawiera tekst linku. Rozważ połączenie linków."
+    "value": "Element IMG wewnątrz linku ma pusty lub brakujący tekst alternatywny, gdy link obok niego zawiera tekst linku. Rozważ połączenie linków."
   },
   "img_adjacent_duplicate_text_link_title": {
     "value": "Sąsiadujące łącza IMG i TEXT muszą mieć to samo miejsce docelowe."
   },
   "img_alt_duplicate_text_link_report_message": {
-    "value": "Element <img> wewnątrz łącza nie może używać tekstu alternatywnego, który duplikuje zawartość tekstową łącza."
+    "value": "Element IMG wewnątrz łącza nie może używać tekstu alternatywnego, który duplikuje zawartość tekstową łącza."
   },
   "img_alt_duplicate_text_link_title": {
     "value": "Link i jego obraz nie mogą mieć zduplikowanej treści tekstowej."
@@ -679,6 +877,12 @@
   "inspect_element": {
     "value": "Zbadaj element"
   },
+  "interruptions_postponed_manual_check": {
+    "value": "Upewnij się, że istnieje mechanizm umożliwiający użytkownikowi odłożenie lub wyłączenie przerw w pracy, takich jak alerty, powiadomienia lub automatyczne aktualizacje, z wyjątkiem sytuacji awaryjnych."
+  },
+  "interruptions_postponed_title": {
+    "value": "Weryfikacja odkładania przerw"
+  },
   "invalid_attribute_dir_value_report_message": {
     "value": "Atrybut <code>dir</code> ma nieprawidłową wartość <code>%0</code>."
   },
@@ -690,6 +894,18 @@
   },
   "invisible_image_loaded_title": {
     "value": "Nie ładuj IMG, który pozostaje niewidoczny dla użytkownika."
+  },
+  "keyboard_functionality_manual_check": {
+    "value": "Sprawdź, czy ten element jest dostępny za pomocą klawisza <kbd>Tab</kbd> i czy można go w pełni obsłużyć za pomocą klawiatury (<kbd>Enter</kbd>, <kbd>Spacja</kbd> lub strzałki)."
+  },
+  "keyboard_functionality_title": {
+    "value": "Weryfikacja dostępności klawiatury"
+  },
+  "keyboard_no_exception_manual_check": {
+    "value": "Sprawdź, czy każdą funkcję tego komponentu można wykonać za pomocą klawiatury bez konieczności zachowania określonego tempa naciskania klawiszy."
+  },
+  "keyboard_no_exception_title": {
+    "value": "Weryfikacja pełnej obsługi klawiaturą (AAA)"
   },
   "label_duplicated_content_title_report_message": {
     "value": "Ten element ma taką samą zawartość jak jego atrybut <code>title</code>. Rozważ usunięcie <code>title</code> ponieważ niektóre czytniki ekranu odczytują oba te elementy."
@@ -745,6 +961,9 @@
   "legend_first_child_of_fieldset_title": {
     "value": "LEGEND musi być pierwszym dzieckiem FIELDSET."
   },
+  "level": {
+    "value": "Poziom"
+  },
   "link_page_title_tool": {
     "value": "Tytuł strony linku"
   },
@@ -771,6 +990,18 @@
   },
   "links_same_content_different_url_title": {
     "value": "Unikaj elementów odnośników, które mają identyczną treść, lecz różne docelowe adresy URL."
+  },
+  "local_resource_leak_report_message_1": {
+    "value": "Źródło <code>%0</code> elementu <code>%1</code> wskazuje na lokalne środowisko programistyczne. Będzie on niedostępny dla użytkowników na produkcji."
+  },
+  "local_resource_leak_title": {
+    "value": "Wykryto zasób z lokalnego środowiska programistycznego."
+  },
+  "low_background_audio_manual_check": {
+    "value": "Sprawdź, czy dźwięk tła jest o co najmniej 20 decybeli cichszy niż główna mowa, lub czy użytkownik może go całkowicie wyłączyć."
+  },
+  "low_background_audio_title": {
+    "value": "Weryfikacja dźwięku tła"
   },
   "main_element_only_one_report_message": {
     "value": "Zdefiniowano wiele (<code>%0</code>) elementów <code>%1</code>. Użytkownicy technologii wspomagających oczekują jednego głównego bloku treści i mogą pominąć kolejne bloki <code>main</code>."
@@ -804,6 +1035,18 @@
   },
   "manual_verification_required": {
     "value": "Wymagana weryfikacja ręczna "
+  },
+  "meaningful_sequence_manual_check": {
+    "value": "Sprawdź, czy po wyłączeniu stylów CSS treść strony nadal jest prezentowana w logicznej kolejności, która nie zmienia jej znaczenia."
+  },
+  "meaningful_sequence_title": {
+    "value": "Weryfikacja logicznej kolejności treści"
+  },
+  "media_alternative_prerecorded_manual_check": {
+    "value": "Sprawdź, czy dostępna jest tekstowa alternatywa (transkrypcja opisowa) dla zsynchronizowanych mediów lub materiałów wideo."
+  },
+  "media_alternative_prerecorded_title": {
+    "value": "Weryfikacja alternatywy dla mediów"
   },
   "meta_description_too_long_or_too_short_report_message_1": {
     "value": "Opis meta <code>%0</code> ma długość <code>%1</code>, ale powinien mieć od 25 do 160 znaków. Większość robotów wyszukiwarek pokazuje w wynikach wyszukiwania tylko pierwsze 150-160 znaków opisu."
@@ -850,6 +1093,12 @@
   "missing_charset_title": {
     "value": "Brak deklaracji zestawu znaków lub nie jest on zdefiniowany w pierwszych 1024 bajtach kodu HTML."
   },
+  "missing_favicon_report_message": {
+    "value": "Strona nie ma zdefiniowanego favicon, który pomaga użytkownikom w identyfikacji witryny w kartach przeglądarki, zakładkach i wynikach wyszukiwania."
+  },
+  "missing_favicon_title": {
+    "value": "Strona powinna definiować favikonę."
+  },
   "missing_href_on_a_report_message": {
     "value": "Brak atrybutu <code>href</code> w hiperłączu. Użytkownik nie może nawigować do tego elementu za pomocą klawiatury."
   },
@@ -873,6 +1122,12 @@
   },
   "missing_label_title": {
     "value": "Kontrolki formularzy wymagają etykiet."
+  },
+  "missing_opengraph_report_message": {
+    "value": "Strona nie ma zdefiniowanych znaczników Open Graph, które poprawiają wyświetlanie podglądów linków w różnych wyszukiwarkach, serwisach i aplikacjach."
+  },
+  "missing_opengraph_title": {
+    "value": "Strona powinna definiować znaczniki Open Graph"
   },
   "missing_protocol_http2_report_message_1": {
     "value": "Twoja witryna nie używa protokołu <code>HTTP2</code> ani <code>HTTP3</code>. Włącz go, aby umożliwić przeglądarkom jednoczesne akceptowanie większej ilości treści z serwera aplikacji, co poprawi wydajność aplikacji."
@@ -946,14 +1201,32 @@
   "no_issues_found_for_a_given_filter_options": {
     "value": "Na podstawie zastosowanych filtrów, nie są wyświetlane żadne problemy. Dostosuj filtry, aby zobaczyć odpowiednie problemy."
   },
+  "no_keyboard_trap_manual_check": {
+    "value": "Upewnij się, że jeśli użytkownik przejdzie do tego elementu za pomocą klawiatury, może go również opuścić, korzystając wyłącznie z klawiatury (bez blokowania fokusu)."
+  },
+  "no_keyboard_trap_title": {
+    "value": "Weryfikacja pułapki klawiaturowej"
+  },
   "no_meta_http_equiv_refresh_report_message": {
     "value": "Zdefiniowano <code>http-equiv=\"refresh\"</code>. Usuń ten element."
   },
   "no_meta_http_equiv_refresh_title": {
     "value": "Strony nie mogą być automatycznie odświeżane ani przekierowywane bez kontroli użytkownika."
   },
+  "no_timing_manual_check": {
+    "value": "Upewnij się, że strona nie zawiera żadnych limitów czasowych dla aktywności użytkownika. Czas nie powinien być istotną częścią działania lub funkcjonalności, z wyjątkiem mediów synchronizowanych nieinteraktywnych oraz zdarzeń w czasie rzeczywistym."
+  },
+  "no_timing_title": {
+    "value": "Weryfikacja braku limitów czasowych"
+  },
+  "none": {
+    "value": "Brak"
+  },
   "not_determined": {
     "value": "nie ustalono"
+  },
+  "not_evaluated": {
+    "value": "Nie oceniono"
   },
   "not_specified": {
     "value": "nie określono"
@@ -990,6 +1263,9 @@
   },
   "options": {
     "value": "Opcje"
+  },
+  "overall_score": {
+    "value": "Wynik ogólny"
   },
   "overlay_report_message": {
     "value": "Na stronie wykryto nakładkę %0, która może zastępować kod problematycznych elementów. Nakładki to widżety innych firm, które próbują automatycznie rozwiązać problemy z dostępnością strony, do której zostały dodane. Dlatego wyniki skanowania mogą być niedokładne."
@@ -1072,8 +1348,23 @@
   "positive_tabindex_title": {
     "value": "Nie używaj dodatniej wartości tabindex."
   },
+  "re_authentication_state_persistence_manual_check": {
+    "value": "Upewnij się, że jeśli uwierzytelniona sesja wygaśnie, użytkownik może kontynuować aktywność bez utraty danych po ponownym zalogowaniu (np. dane wprowadzone do formularza zostają zachowane)."
+  },
+  "re_authentication_state_persistence_title": {
+    "value": "Weryfikacja zachowania danych po ponownym logowaniu"
+  },
   "reason": {
     "value": "Powód"
+  },
+  "reflow_content_manual_check": {
+    "value": "Zmień rozmiar okna przeglądarki do szerokości <code>320px</code>. Sprawdź, czy zawartość skaluje się bez utraty informacji i czy nie pojawia się poziomy pasek przewijania."
+  },
+  "reflow_content_title": {
+    "value": "Weryfikacja dopasowania (Reflow)"
+  },
+  "report_generated_via": {
+    "value": "Raport wygenerowany przez"
   },
   "results": {
     "value": "Wyniki"
@@ -1105,6 +1396,15 @@
   "select_tool": {
     "value": "Wybierz narzędzie"
   },
+  "sensory_characteristics_manual_check": {
+    "value": "Upewnij się, że instrukcje nie opierają się wyłącznie na cechach takich jak kształt, rozmiar, lokalizacja wizualna lub dźwięk (np. 'kliknij okrągły przycisk')."
+  },
+  "sensory_characteristics_title": {
+    "value": "Weryfikacja cech sensorycznych"
+  },
+  "severity": {
+    "value": "Priorytet"
+  },
   "severity_critical": {
     "value": "Krytyczne"
   },
@@ -1120,8 +1420,17 @@
   "severity_type": {
     "value": "Typ ważności"
   },
+  "sign_language_prerecorded_manual_check": {
+    "value": "Sprawdź, czy dla ścieżki dźwiękowej w tym nagraniu wideo dostępny jest tłumacz języka migowego. Jest to niezbędne dla osób niesłyszących, dla których język migowy jest głównym środkiem komunikacji."
+  },
+  "sign_language_prerecorded_title": {
+    "value": "Weryfikacja języka migowego (nagranie)"
+  },
   "sitelint_auditor_widget": {
     "value": "Widżet SiteLint Auditor"
+  },
+  "sitelint_best_practices": {
+    "value": "Najlepsze praktyki SiteLint"
   },
   "sitelint_component": {
     "value": "Komponent SiteLint"
@@ -1225,11 +1534,20 @@
   "standardVersion_v22": {
     "value": "2.2"
   },
+  "status": {
+    "value": "Status"
+  },
   "subresource_integrity_report_message_1": {
     "value": "%0 elementów typu <code>%1</code> nie ma zdefiniowanego atrybutu <code>integrity</code>."
   },
   "subresource_integrity_title": {
     "value": "Brak zdefiniowanego atrybutu INTEGRITY, która umożliwia przeglądarkom sprawdzenie, czy pobierane przez nie zasoby są dostarczane bez nieoczekiwanej manipulacji."
+  },
+  "success_criteria_rules_total": {
+    "value": "łączna liczba zasad kryteriów sukcesu"
+  },
+  "support": {
+    "value": "Spełnia"
   },
   "svg_incorrect_size_unit_report_message_1": {
     "value": "Nieobsługiwana wartość jednostki <code>%0</code> dla atrybutu <code>height</code> i <code>%0</code> dla atrybutu <code>width</code>."
@@ -1303,11 +1621,35 @@
   "text_color_convey_information_title": {
     "value": "Informacje przekazywane za pomocą koloru muszą być również dostępne w tekście."
   },
+  "text_spacing_manual_check": {
+    "value": "Sprawdź, czy nie dochodzi do utraty treści lub funkcjonalności, gdy użytkownik wymusi własne ustawienia wysokości linii, odstępów między literami lub akapitami."
+  },
+  "text_spacing_title": {
+    "value": "Weryfikacja odstępów w tekście"
+  },
   "text_spacing_tool": {
     "value": "Odstępy między tekstami"
   },
   "text_spacing_tool_explanation": {
     "value": "Testowanie WCAG 2.1 Kryterium sukcesu 1.4.12 Odstępy w tekście"
+  },
+  "three_flashes_no_exception_manual_check": {
+    "value": "Upewnij się, że strona nie zawiera żadnych treści, które błyskają więcej niż trzy razy w ciągu jednej sekundy."
+  },
+  "three_flashes_no_exception_title": {
+    "value": "Weryfikacja potrójnego błysku (bez wyjątków)"
+  },
+  "three_flashes_threshold_manual_check": {
+    "value": "Upewnij się, że zawartość nie błyska więcej niż trzy razy w ciągu jednej sekundy lub że błysk mieści się poniżej ogólnych progów błysku i czerwonego błysku."
+  },
+  "three_flashes_threshold_title": {
+    "value": "Weryfikacja progu potrójnego błysku"
+  },
+  "timeouts_data_loss_prevention_manual_check": {
+    "value": "Upewnij się, że użytkownicy są ostrzegani o każdym limicie czasu, który może spowodować utratę danych (np. automatyczne wylogowanie lub odświeżenie strony), chyba że dane są przechowywane przez co najmniej 20 godzin bezczynności użytkownika."
+  },
+  "timeouts_data_loss_prevention_title": {
+    "value": "Weryfikacja zapobiegania utracie danych przy limitach czasowych"
   },
   "title_for_abbr_report_message_1": {
     "value": "Nie podano wartości <code>title</code> definiującej skrót."
@@ -1413,6 +1755,18 @@
   },
   "view_rule_documentation": {
     "value": "Wyświetl dokumentację reguły"
+  },
+  "visual_presentation_customization_manual_check": {
+    "value": "Sprawdź, czy użytkownik ma możliwość zmiany koloru tekstu i tła oraz czy interlinia wynosi co najmniej 1,5 wysokości czcionki, a odstępy między akapitami są odpowiednio szerokie."
+  },
+  "visual_presentation_customization_title": {
+    "value": "Weryfikacja prezentacji tekstu (AAA)"
+  },
+  "wcag": {
+    "value": "WCAG"
+  },
+  "wcag_standards_compliance_checklist": {
+    "value": "Lista kontrolna zgodności ze standardami WCAG"
   },
   "zoom_disabled_report_message": {
     "value": "Zdefiniowano <code>%0</code>. Usuń parametry z atrybutu <code>content</code>."
