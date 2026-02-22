@@ -10,6 +10,12 @@
     "nativeName": "English US",
     "englishName": "English US"
   },
+  "abbreviations_manual_check": {
+    "value": "Verify that a mechanism for identifying the expanded form or explanation of abbreviations is available (e.g., using the <abbr> tag with a title attribute, or providing the expansion in text upon first use)."
+  },
+  "abbreviations_title": {
+    "value": "Verify abbreviation expansions"
+  },
   "accessible_name_mismatch_element_description_report_message_1": {
     "value": "The accessible name <code>%0</code> is too different from the label <code>%1</code>."
   },
@@ -40,11 +46,17 @@
   "action_close": {
     "value": "Close"
   },
+  "action_copy": {
+    "value": "Copy"
+  },
   "action_download_earl_title": {
     "value": "Reports in EARL format are useful for computer programs that automatically run tests and generate results. They are also useful for systems that collect data from various sources and display it in one place. Additionally, software developers and auditors, who review and evaluate data, use EARL reports because they provide data in a structured and easily readable format."
   },
+  "action_download_json_title": {
+    "value": "Download report in JSON format"
+  },
   "action_download_report_in_html_title": {
-    "value": "Download Report in HTML format"
+    "value": "Download report as HTML page that can be opened in any browser and shared with others."
   },
   "action_get_explanation_of_the_issue": {
     "value": "Get explanation of the issue"
@@ -64,11 +76,20 @@
   "action_scan": {
     "value": "Analyze page"
   },
+  "action_share_link_to_report": {
+    "value": "Share link to the report"
+  },
+  "additional_information": {
+    "value": "Additional information"
+  },
   "ai_chat_cancel": {
     "value": "Cancel"
   },
   "ai_chat_close": {
     "value": "Close"
+  },
+  "ai_chat_input_label": {
+    "value": "Enter question"
   },
   "ai_chat_label": {
     "value": "Message AI"
@@ -139,6 +160,15 @@
   "ai_preparing_explanation": {
     "value": "Preparing explanation. Please wait."
   },
+  "ai_prompt_answer_follow_up": {
+    "value": "Answer follow-up"
+  },
+  "ai_prompt_part_1": {
+    "value": "Context: %0 audit for \"%1\". Description: %2. XPath: %3. Element HTML: %4. Manual verification: %5."
+  },
+  "ai_prompt_part_2": {
+    "value": "Explain this issue clearly and concisely to a non-technical user. Translate technical terms to visual descriptions. If manual verification is set as %0 then explain why rule could not be evaluated automatically and require manual verification."
+  },
   "ai_status_available": {
     "value": "Local AI LLM model and API are available."
   },
@@ -149,7 +179,7 @@
     "value": "Local AI API and LLM model not found. Please enable the required browser flags."
   },
   "ai_status_processing_desc": {
-    "value": "The browser is currently extracting and verifying the model data. This process often pauses at 91% for a moment - please wait."
+    "value": "The browser is currently extracting and verifying the model data. The progress bar may pause briefly during this final phase. Please wait."
   },
   "ai_status_processing_title": {
     "value": "Finishing installation."
@@ -171,6 +201,12 @@
   },
   "analyzing_the_page_please_wait_a_moment": {
     "value": "Analyzing the page. Please wait a moment."
+  },
+  "animation_interaction_manual_check": {
+    "value": "Verify that motion animation triggered by interaction can be disabled, unless the animation is essential to the functionality or the information being conveyed (e.g., check for support of the `prefers-reduced-motion` media query)."
+  },
+  "animation_interaction_title": {
+    "value": "Verify animation from interactions"
   },
   "animation_report_message_0": {
     "value": "Make sure that there is a mechanism for the user to pause, stop, or hide it unless the movement, blinking, or scrolling is part of an activity where it is essential."
@@ -446,10 +482,10 @@
     "value": "The element has background: transparent with foreground: <code>%0</code>. We also couldn't find any non-transparent color for any parent element (including body) and therefore the contrast ratio cannot be determined.\n\nYou need to set the background color for <code>%1</code> element explicitly because the actual color returned by the browser is transparent."
   },
   "color_contrast_aa_report_message_4": {
-    "value": "Expected color contrast ratio for large font size at least 3:1, but got ratio: <code>%0:1</code>, <code>background-color: %1</code>, <code>foreground-color: %2</code>, <code>font-size: %3</code> (original: <code>%4</code>), <code>font-weight: %5</code>."
+    "value": "Expected color contrast ratio for large font size at least 3:1, but got ratio: %0:1, <code>background-color: %1</code>, <code>foreground-color: %2</code>, <code>font-size: %3</code> (original: <code>%4</code>), <code>font-weight: %5</code>."
   },
   "color_contrast_aa_report_message_5": {
-    "value": "Expected color contrast ratio for small font size at least 4.5:1, but got ratio: <code>%0:1</code>, <code>background-color: %1</code>, <code>foreground-color: %2</code>, <code>font-size: %3</code> (original: <code>%4</code>), <code>font-weight: %5</code>."
+    "value": "Expected color contrast ratio for small font size at least 4.5:1, but got ratio: %0:1, <code>background-color: %1</code>, <code>foreground-color: %2</code>, <code>font-size: %3</code> (original: <code>%4</code>), <code>font-weight: %5</code>."
   },
   "color_contrast_aa_report_message_6": {
     "value": "The color contrast between background <code>%0</code> and foreground <code>%1</code> cannot be determined because both colors are the same."
@@ -473,13 +509,13 @@
     "value": "The element has background: transparent with foreground: <code>%0</code>. We also couldn't find any non-transparent color for any parent element (including body) and therefore the contrast ratio cannot be determined.\n\nYou need to set the background color for <code>%1</code> element explicitly because the actual color returned by the browser is transparent."
   },
   "color_contrast_aaa_report_message_3": {
-    "value": "Expected color contrast ratio for large font size at least 4.5:1, but got ratio: <code>%0:1</code>, <code>background-color: %1</code>, <code>foreground-color: %2</code>, <code>font-size: %3</code> (original: <code>%4</code>), <code>font-weight: %5</code>."
+    "value": "Expected color contrast ratio for large font size at least 4.5:1, but got ratio: %0:1, <code>background-color: %1</code>, <code>foreground-color: %2</code>, <code>font-size: %3</code> (original: <code>%4</code>), <code>font-weight: %5</code>."
   },
   "color_contrast_aaa_report_message_4": {
-    "value": "Expected color contrast ratio for small font size at least 7:1, but got ratio: <code>%0:1</code>, <code>background-color: %1</code>, <code>foreground-color: %2</code>, <code>font-size: %3</code> (original: <code>%4</code>), <code>font-weight: %5</code>."
+    "value": "Expected color contrast ratio for small font size at least 7:1, but got ratio: %0:1, <code>background-color: %1</code>, <code>foreground-color: %2</code>, <code>font-size: %3</code> (original: <code>%4</code>), <code>font-weight: %5</code>."
   },
   "color_contrast_aaa_report_message_5": {
-    "value": "Expected color contrast ratio for small font size at least 7:1, but got ratio: <code>%0:1</code>, <code>background-color: %1</code>, <code>foreground-color: %2</code>, <code>font-size: %3</code> (original: <code>%4</code>), <code>font-weight: %5</code>."
+    "value": "Expected color contrast ratio for small font size at least 7:1, but got ratio: %0:1, <code>background-color: %1</code>, <code>foreground-color: %2</code>, <code>font-size: %3</code> (original: <code>%4</code>), <code>font-weight: %5</code>."
   },
   "color_contrast_aaa_report_message_6": {
     "value": "The color contrast between background <code>%0</code> and foreground <code>%1</code> cannot be determined because both colors are the same."
@@ -495,6 +531,24 @@
   },
   "color_contrast_aaa_title": {
     "value": "The contrast ratio should be at least 7:1 for normal text and 4.5:1 for large text against a background."
+  },
+  "color_contrast_suggestion_background": {
+    "value": "Adjusting the <strong>background color</strong> to <code>%0</code> will make the color contrast pass."
+  },
+  "color_contrast_suggestion_foreground": {
+    "value": "Adjusting the <strong>foreground color</strong> to <code>%0</code> will make the color contrast pass."
+  },
+  "color_contrast_suggestion_foreground_background": {
+    "value": "Adjusting the <strong>foreground color</strong> to <code>%0</code> and the <strong>background color</strong> to <code>%1</code> will make the color contrast pass."
+  },
+  "concurrent_input_mechanisms_manual_check": {
+    "value": "Verify that the Web content does not restrict use of input modalities available on the platform except where the restriction is essential, required to ensure the security of the content, or required to respect user settings. Users should be able to switch between mouse, keyboard, touch, and speech input at any time."
+  },
+  "concurrent_input_mechanisms_title": {
+    "value": "Verify concurrent input mechanisms"
+  },
+  "conformity_audit": {
+    "value": "Conformity audit"
   },
   "console_log_error_title": {
     "value": "The errors were logged to the error console."
@@ -581,10 +635,13 @@
     "value": "Does Not Support"
   },
   "download_earl_report": {
-    "value": "Download EARL Report"
+    "value": "Download EARL report"
   },
   "download_html_report": {
-    "value": "Download Report in HTML"
+    "value": "Download report in HTML"
+  },
+  "download_json_report": {
+    "value": "Download report in JSON"
   },
   "duplicated_for_attribute_report_message": {
     "value": "Attribute <code>for=\"%0\"</code> should be unique. It has been defined <code>%1</code> times."
@@ -691,6 +748,30 @@
   "first_contentful_paint_title": {
     "value": "The user waits a long time before it sees the first content on the screen."
   },
+  "focus_appearance_manual_check": {
+    "value": "Total interactive elements on the page: %0. Verify that each has a focus indicator with sufficient area (at least a 2 CSS pixel thick perimeter) and a contrast ratio of at least 3:1 between the focused and unfocused states."
+  },
+  "focus_appearance_title": {
+    "value": "Verify focus appearance (AAA)"
+  },
+  "focus_not_obscured_enhanced_manual_check": {
+    "value": "Total interactive elements on the page: %0. Verify that when an element receives keyboard focus, it is fully visible and no part of it is hidden by author-created content (like sticky headers, footers, or floating overlays)."
+  },
+  "focus_not_obscured_enhanced_title": {
+    "value": "Verify focus not obscured (enhanced)"
+  },
+  "focus_not_obscured_minimum_manual_check": {
+    "value": "Verify that when an element receives keyboard focus, it is at least partially visible and not entirely hidden by author-created content (like sticky headers, footers, or non-modal overlays)."
+  },
+  "focus_not_obscured_minimum_title": {
+    "value": "Verify focus not obscured (minimum)"
+  },
+  "focus_visible_manual_check": {
+    "value": "Verify that any keyboard-operable user interface has a mode of operation where the keyboard focus indicator is visible. Ensure the focus ring has sufficient contrast against the background."
+  },
+  "focus_visible_title": {
+    "value": "Verify visible focus"
+  },
   "focusable_elements_tool": {
     "value": "Focusable elements"
   },
@@ -702,6 +783,9 @@
   },
   "font_style_italic_title": {
     "value": "Avoid excessive use of italic text."
+  },
+  "group_by_wcag_success_criteria": {
+    "value": "Group by WCAG Success Criteria"
   },
   "group_elements_name_attribute_report_message": {
     "value": "Ensure all related form controls with <code>name=\"%0\"</code> are grouped together."
@@ -756,6 +840,9 @@
   },
   "horizontal_rule_title": {
     "value": "Use horizontal rule HR sparingly."
+  },
+  "how_to_verify": {
+    "value": "How to verify"
   },
   "html_lang_attr_report_message_1": {
     "value": "You have defined the lang attribute on the <code>%0</code> root element, but you have more than 3 languages parameters defined there: <code>%0</code>."
@@ -902,7 +989,7 @@
     "value": "Verify keyboard accessibility"
   },
   "keyboard_no_exception_manual_check": {
-    "value": "Verify that every function of this component can be performed via keyboard without requiring specific timing for individual keystrokes."
+    "value": "Total interactive elements on the page: %0. Verify that every function of the element can be performed via keyboard without requiring specific timing for individual keystrokes."
   },
   "keyboard_no_exception_title": {
     "value": "Verify full keyboard operation (no exception)"
@@ -940,6 +1027,12 @@
   "landmarks_none_title": {
     "value": "No landmarks found on page."
   },
+  "language_of_parts_manual_check": {
+    "value": "Verify that the language of the element content accurately relates to the attribute <code>lang=\"%0\"</code>."
+  },
+  "language_of_parts_title": {
+    "value": "Verify language of parts"
+  },
   "languages_detection_tool": {
     "value": "Languages detection"
   },
@@ -970,6 +1063,12 @@
   "link_page_title_tool_title": {
     "value": "This tool fetches a remote page, extracts its title, and displays it next to the corresponding link text, allowing you to determine the actual title of the remote page."
   },
+  "link_purpose_in_context_manual_check": {
+    "value": "Verify that the purpose of each link can be determined from the link text alone or from the link text together with its programmatically determined link context (e.g., the surrounding sentence, paragraph, or list item)."
+  },
+  "link_purpose_in_context_title": {
+    "value": "Verify link purpose in context"
+  },
   "link_with_unclear_purpose_report_message1": {
     "value": "This link text content <code>%0</code> is unclear out of context."
   },
@@ -991,11 +1090,20 @@
   "links_same_content_different_url_title": {
     "value": "Avoid link elements that have the same content, but different destination URLs."
   },
+  "links_to_resources_are_in_english_language_only": {
+    "value": "The SiteLint documentation is available in English, and links to it are provided for users who require further information or guidance on using the tool effectively."
+  },
   "local_resource_leak_report_message_1": {
     "value": "The source <code>%0</code> of the element <code>%1</code> points to a local development environment. This will be inaccessible to users in production."
   },
   "local_resource_leak_title": {
     "value": "Local development resource detected."
+  },
+  "location_indicator_manual_check": {
+    "value": "Verify that information about the user's location within a set of web pages is available (e.g., through breadcrumbs, a highlighted current menu item, or a step indicator in a multi-step process)."
+  },
+  "location_indicator_title": {
+    "value": "Verify location indicator"
   },
   "low_background_audio_manual_check": {
     "value": "Verify that background audio is at least 20 decibels quieter than the main speech, or that the user can turn it off completely."
@@ -1030,8 +1138,20 @@
   "manifest_extension_title": {
     "value": "Non-standard file extensions used for the web app manifest file."
   },
+  "manual_audit": {
+    "value": "Manual audit"
+  },
   "manual_verification": {
-    "value": "Manual verification"
+    "value": "Filter problems by"
+  },
+  "manual_verification_include_all": {
+    "value": "Include all"
+  },
+  "manual_verification_not_required": {
+    "value": "Do not require manual verification"
+  },
+  "manual_verification_only_required": {
+    "value": "Require manual verification"
   },
   "manual_verification_required": {
     "value": "Manual verification required"
@@ -1047,6 +1167,12 @@
   },
   "media_alternative_prerecorded_title": {
     "value": "Verify media alternative"
+  },
+  "message_id": {
+    "value": "Message Id"
+  },
+  "message_to_clipboard": {
+    "value": "message %0 to clipboard"
   },
   "meta_description_too_long_or_too_short_report_message_1": {
     "value": "Meta description <code>%0</code> has length <code>%1</code>, but it should be between 25 and 160 characters. Most search engine crawlers only show the first 150-160 characters of the description in the search results."
@@ -1176,6 +1302,18 @@
   },
   "mixed_content_on_https_title": {
     "value": "The site uses insecure HTTP connections on HTTPS (Mixed Content)."
+  },
+  "motion_actuation_manual_check": {
+    "value": "Verify that functionality triggered by device motion (like shaking or tilting) can also be operated by user interface components, and that the motion trigger can be disabled to prevent accidental activation."
+  },
+  "motion_actuation_title": {
+    "value": "Verify motion actuation"
+  },
+  "multiple_ways_manual_check": {
+    "value": "Verify that more than one way is available to locate a web page within a set of web pages (e.g., a site map, a search function, or a navigation menu), except where the page is the result of, or a step in, a process."
+  },
+  "multiple_ways_title": {
+    "value": "Verify multiple ways to locate pages"
   },
   "n_rules_failed": {
     "value": "%0 rules failed"
@@ -1325,10 +1463,10 @@
     "value": "Title"
   },
   "page_title_length_report_message_1": {
-    "value": "The page title (<code>%1</code>) length is <code>%0</code>, but should be around 60 characters."
+    "value": "The page title length is <code>%0</code> characters, which exceeds 120 characters and may be cut off in search results. Current title: <code>%1</code>"
   },
   "page_title_length_title": {
-    "value": "The length of the page title should be around 60 characters."
+    "value": "The page title should not exceed 120 characters to reduce the chance of being cut off in search results."
   },
   "page_title_words_not_included_in_url_report_message_1": {
     "value": "Following page title <code>%0</code> words <code>%1</code> are not included in the page url <code>%2</code>."
@@ -1342,17 +1480,41 @@
   "platform": {
     "value": "Platform"
   },
+  "pointer_cancellation_manual_check": {
+    "value": "Verify that for functions that can be operated using a single pointer, at least one of the following is true: the down-event is not used to execute the function, completion is on the up-event, a mechanism is available to abort the function, or the up-event reverses the down-event."
+  },
+  "pointer_cancellation_title": {
+    "value": "Verify pointer cancellation"
+  },
+  "pointer_gestures_manual_check": {
+    "value": "Verify that all functionality that uses multipoint or path-based gestures for operation can be operated with a single pointer without a path-based gesture, unless a multipoint or path-based gesture is essential."
+  },
+  "pointer_gestures_title": {
+    "value": "Verify pointer gestures"
+  },
   "positive_tabindex_report_message": {
     "value": "Positive <code>tabindex=\"%0\"</code> should not be used. Outside of very specific corner cases, a tabindex should not be given a positive integer value. Users who use keyboards to interact with the web expect a web document to be navigable in sequential order, starting at the top left (or right depending on language of the document) and going in order from there."
   },
   "positive_tabindex_title": {
     "value": "Do not use positive tabindex."
   },
+  "pronunciation_clarification_manual_check": {
+    "value": "Verify that a mechanism is available for identifying the specific pronunciation of words where the meaning of the words, in context, is ambiguous without knowing the pronunciation (e.g., heteronyms like 'lead' (to guide) vs 'lead' (the metal))."
+  },
+  "pronunciation_clarification_title": {
+    "value": "Verify pronunciation"
+  },
   "re_authentication_state_persistence_manual_check": {
     "value": "Verify that if an authenticated session expires, the user can continue the activity without loss of data after re-authenticating (e.g., data entered into a form is preserved)."
   },
   "re_authentication_state_persistence_title": {
     "value": "Verify re-authentication data preservation"
+  },
+  "reading_level_summary_manual_check": {
+    "value": "Verify that when text requires reading ability more advanced than the lower secondary education level (after removal of proper names and titles), supplemental content or a version that does not require advanced reading ability is available."
+  },
+  "reading_level_summary_title": {
+    "value": "Verify reading level"
   },
   "reason": {
     "value": "Reason"
@@ -1393,6 +1555,9 @@
   "seconds": {
     "value": "seconds"
   },
+  "select_test_result": {
+    "value": "Select test result"
+  },
   "select_tool": {
     "value": "Select tool"
   },
@@ -1416,6 +1581,12 @@
   },
   "severity_low": {
     "value": "Low"
+  },
+  "severity_n": {
+    "value": "Not Applicable"
+  },
+  "severity_na": {
+    "value": "N/A"
   },
   "severity_type": {
     "value": "Severity type"
@@ -1544,7 +1715,7 @@
     "value": "Missing defined INTEGRITY attribute that enables browsers to verify that resources they fetch are delivered without unexpected manipulation."
   },
   "success_criteria_rules_total": {
-    "value": "Success Criteria rules total"
+    "value": "Success Criteria total"
   },
   "support": {
     "value": "Support"
@@ -1609,11 +1780,71 @@
   "table_row_and_column_headers_title": {
     "value": "TABLE should have elements that define headers for each column or row."
   },
+  "target_size_enhanced_manual_check": {
+    "value": "Total interactive elements on the page: %0. Verify that each element has a size of at least 44 by 44 CSS pixels for pointer inputs, except when the target is in a sentence or block of text, or if a specific presentation is essential to the information being conveyed."
+  },
+  "target_size_enhanced_title": {
+    "value": "Verify target size (enhanced)"
+  },
   "target_size_minimum_report_message_1": {
     "value": "Interactive element is only %0 × %1 CSS pixels, but minimum required size is %2 × %2 CSS pixels."
   },
   "target_size_minimum_title": {
     "value": "Interactive elements must have an area of at least 24 by 24 pixels."
+  },
+  "test_group_assistive_technology": {
+    "value": "Assistive technology"
+  },
+  "test_group_captcha": {
+    "value": "Captcha"
+  },
+  "test_group_color_contrast": {
+    "value": "Color contrast"
+  },
+  "test_group_common_navigation": {
+    "value": "Common navigation"
+  },
+  "test_group_form": {
+    "value": "Form"
+  },
+  "test_group_keyboard_navigation": {
+    "value": "Keyboard navigation"
+  },
+  "test_group_layout": {
+    "value": "Layout"
+  },
+  "test_group_multimedia": {
+    "value": "Multimedia"
+  },
+  "test_group_non_text_content": {
+    "value": "Non-text content"
+  },
+  "test_group_structure": {
+    "value": "Structure"
+  },
+  "test_group_text_content": {
+    "value": "Text content"
+  },
+  "test_group_touch_and_interactions": {
+    "value": "Touch and interactions"
+  },
+  "test_group_touch_screen": {
+    "value": "Touch Screen"
+  },
+  "test_group_uncategorized": {
+    "value": "Uncategorized"
+  },
+  "test_result_compliant": {
+    "value": "Compliant"
+  },
+  "test_result_non_compliant": {
+    "value": "Non compliant"
+  },
+  "test_result_not_applicable": {
+    "value": "Not applicable"
+  },
+  "test_result_not_tested": {
+    "value": "Not tested"
   },
   "text_color_convey_information_report_message": {
     "value": "Check that the information conveyed by colors <code>%0</code> is also available in text and that the text is not conditional content."
@@ -1634,7 +1865,7 @@
     "value": "Testing WCAG 2.1 Success Criterion 1.4.12 Text Spacing"
   },
   "three_flashes_no_exception_manual_check": {
-    "value": "Verify that the page does not contain any content that flashes more than three times in any one-second period."
+    "value": "Total interactive elements on the page: %0. Verify that the page does not contain any content that flashes more than three times in any one-second period."
   },
   "three_flashes_no_exception_title": {
     "value": "Verify three flashes (no exceptions)"
@@ -1743,6 +1974,12 @@
   },
   "unsupported_role_on_element_title": {
     "value": "Do not use unsupported or incorrect role attribute on an element."
+  },
+  "unusual_words_definition_manual_check": {
+    "value": "Verify that a mechanism is available for identifying specific definitions of words or phrases used in an unusual or restricted way, including idioms and jargon."
+  },
+  "unusual_words_definition_title": {
+    "value": "Verify definitions for unusual words"
   },
   "validators_tools": {
     "value": "Validators"

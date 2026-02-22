@@ -10,6 +10,12 @@
     "nativeName": "Polski",
     "englishName": "Polish"
   },
+  "abbreviations_manual_check": {
+    "value": "Upewnij się, że dostępny jest mechanizm pozwalający na identyfikację pełnej formy lub objaśnienia skrótów (np. poprzez użycie znacznika <abbr> z atrybutem title lub podanie rozwinięcia w tekście przy pierwszym użyciu)."
+  },
+  "abbreviations_title": {
+    "value": "Weryfikacja rozwinięć skrótów"
+  },
   "accessible_name_mismatch_element_description_report_message_1": {
     "value": "Dostępna nazwa <code>%0</code> jest zbyt różna od etykiety <code>%1</code>."
   },
@@ -35,16 +41,22 @@
     "value": "Sprawdź lokalny model AI"
   },
   "action_check_for_local_ai_title": {
-    "value": "Uwaga: ta funkcja ma charakter eksperymentalny. Choć jest w pełni wspierana w przeglądarce Google Chrome, obecnie może nie działać poprawnie w innych przeglądarkach opartych na silniku Chromium."
+    "value": "Użyj sztucznej inteligencji. Uwaga! Rozwiązanie eksperymentalne."
   },
   "action_close": {
     "value": "Zamknij"
   },
+  "action_copy": {
+    "value": "Kopiuj"
+  },
   "action_download_earl_title": {
     "value": "Raporty w formacie EARL są przydatne dla programów komputerowych, które automatycznie wykonują testy i generują wyniki. Są również przydatne dla systemów, które zbierają dane z różnych miejsc i wyświetlają je w jednym miejscu. Dodatkowo, osoby tworzące oprogramowanie i kontrolerzy, którzy sprawdzają i oceniają dane, korzystają z raportów EARL, ponieważ dostarczają one danych w uporządkowanym i łatwym do odczytania formacie."
   },
+  "action_download_json_title": {
+    "value": "Ściągnij pełny raport w formacie JSON"
+  },
   "action_download_report_in_html_title": {
-    "value": "Ściągnij raport w formacie wygenerowanej pełnej strony HTML"
+    "value": "Ściągnij pełny raport w formacie wygenerowanej strony HTML"
   },
   "action_get_explanation_of_the_issue": {
     "value": "Uzyskaj wyjaśnienie problemu"
@@ -64,11 +76,20 @@
   "action_scan": {
     "value": "Analizuj stronę"
   },
+  "action_share_link_to_report": {
+    "value": "Udostępnij link do raportu"
+  },
+  "additional_information": {
+    "value": "Dodatkowe informacje"
+  },
   "ai_chat_cancel": {
     "value": "Anuluj"
   },
   "ai_chat_close": {
     "value": "Zamknij"
+  },
+  "ai_chat_input_label": {
+    "value": "Wprowadź pytanie"
   },
   "ai_chat_label": {
     "value": "Wiadomość do AI"
@@ -139,6 +160,15 @@
   "ai_preparing_explanation": {
     "value": "Przygotowywanie wyjaśnienia. Proszę czekać."
   },
+  "ai_prompt_answer_follow_up": {
+    "value": "Udziel odpowiedzi dodatkowej"
+  },
+  "ai_prompt_part_1": {
+    "value": "Kontekst: %0 audyt dla \"%1\". Opis: %2. XPath: %3. Element HTML: %4. Weryfikacja ręczna: %5."
+  },
+  "ai_prompt_part_2": {
+    "value": "Wyjaśnij tę kwestię jasno i zwięźle użytkownikowi nietechnicznemu. Przetłumacz terminy techniczne na opisy wizualne. Jeśli weryfikacja ręczna jest ustawiona jako %0, wyjaśnij, dlaczego zasada nie mogła być oceniona automatycznie i wymaga weryfikacji ręcznej."
+  },
   "ai_status_available": {
     "value": "Lokalny model AI LLM oraz API są dostępne."
   },
@@ -149,7 +179,7 @@
     "value": "Nie znaleziono lokalnego API ani modelu LLM. Proszę włączyć wymagane flagi przeglądarki."
   },
   "ai_status_processing_desc": {
-    "value": "Przeglądarka rozpakowuje i weryfikuje dane modelu. Ten proces często zatrzymuje się na 91% na dłuższą chwilę - prosimy o cierpliwość."
+    "value": "Przeglądarka rozpakowuje i weryfikuje dane modelu. Pasek postępu może zatrzymać się w tej końcowej fazie. Proszę chwilę zaczekać."
   },
   "ai_status_processing_title": {
     "value": "Kończenie instalacji."
@@ -171,6 +201,12 @@
   },
   "analyzing_the_page_please_wait_a_moment": {
     "value": "Analizowanie strony. Proszę chwilę poczekać."
+  },
+  "animation_interaction_manual_check": {
+    "value": "Upewnij się, że animacje ruchu wywoływane przez interakcję użytkownika mogą zostać wyłączone, chyba że animacja jest niezbędna dla funkcjonalności lub przekazywanych informacji."
+  },
+  "animation_interaction_title": {
+    "value": "Weryfikacja animacji wywoływanych interakcją"
   },
   "animation_report_message_0": {
     "value": "Upewnij się, że istnieje mechanizm, dzięki któremu użytkownik może zatrzymać, zatrzymać lub ukryć animację, chyba że ruch, mruganie lub przewijanie jest częścią czynności, w której jest to niezbędne."
@@ -446,10 +482,10 @@
     "value": "Element ma tło: przezroczyste z pierwszym planem: <code>%0</code>. Nie znaleziono również żadnego nieprzezroczystego koloru dla żadnego elementu nadrzędnego (w tym body) i dlatego nie można określić współczynnika kontrastu.\n\nMusisz jawnie ustawić kolor tła dla elementu <code>%1</code>, ponieważ rzeczywisty kolor zwracany przez przeglądarkę jest przezroczysty."
   },
   "color_contrast_aa_report_message_4": {
-    "value": "Oczekiwany współczynnik kontrastu kolorów dla dużego rozmiaru czcionki wynosi co najmniej 3:1, ale uzyskano współczynnik: <code>%0:1</code>, <code>background-color: %1</code>, <code>foreground-color: %2</code>, <code>font-size: %3</code> (oryginał: <code>%4</code>), <code>font-weight: %5</code>."
+    "value": "Oczekiwany współczynnik kontrastu kolorów dla dużego rozmiaru czcionki wynosi co najmniej 3:1, ale uzyskano współczynnik: %0:1, <code>background-color: %1</code>, <code>foreground-color: %2</code>, <code>font-size: %3</code> (oryginał: <code>%4</code>), <code>font-weight: %5</code>."
   },
   "color_contrast_aa_report_message_5": {
-    "value": "Oczekiwany współczynnik kontrastu kolorów dla małego rozmiaru czcionki wynosi co najmniej 4,5:1, ale uzyskano współczynnik: <code>%0:1</code>, <code>background-color: %1</code>, <code>foreground-color: %2</code>, <code>font-size: %3</code> (oryginał: <code>%4</code>), <code>font-weight: %5</code>."
+    "value": "Oczekiwany współczynnik kontrastu kolorów dla małego rozmiaru czcionki wynosi co najmniej 4,5:1, ale uzyskano współczynnik: %0:1, <code>background-color: %1</code>, <code>foreground-color: %2</code>, <code>font-size: %3</code> (oryginał: <code>%4</code>), <code>font-weight: %5</code>."
   },
   "color_contrast_aa_report_message_6": {
     "value": "Nie można określić kontrastu kolorów między tłem <code>%0</code> a pierwszym planem <code>%1</code>, ponieważ oba kolory są takie same."
@@ -473,13 +509,13 @@
     "value": "Element ma tło: przezroczyste z pierwszym planem: <code>%0</code>. Nie znaleziono również żadnego nieprzezroczystego koloru dla żadnego elementu nadrzędnego (w tym body) i dlatego nie można określić współczynnika kontrastu.\n\nMusisz jawnie ustawić kolor tła dla elementu <code>%1</code>, ponieważ rzeczywisty kolor zwracany przez przeglądarkę jest przezroczysty."
   },
   "color_contrast_aaa_report_message_3": {
-    "value": "Oczekiwany współczynnik kontrastu kolorów dla dużego rozmiaru czcionki co najmniej 4,5:1, ale mam stosunek: <code>%0:1</code>, <code>background-color: %1</code>, <code>foreground-color: %2</code>, <code>font-size: %3</code> (oryginał: <code>%4</code>), <code>font-weight: %5</code>."
+    "value": "Oczekiwany współczynnik kontrastu kolorów dla dużego rozmiaru czcionki co najmniej 4.5:1, ale mam stosunek: %0:1, <code>background-color: %1</code>, <code>foreground-color: %2</code>, <code>font-size: %3</code> (oryginał: <code>%4</code>), <code>font-weight: %5</code>."
   },
   "color_contrast_aaa_report_message_4": {
-    "value": "Oczekiwany współczynnik kontrastu kolorów dla małego rozmiaru czcionki wynosi co najmniej 7:1, ale uzyskany współczynnik: <code>%0:1</code>, <code>background-color: %1</code>, <code>foreground-color: %2</code>, <code>font-size: %3</code> (oryginał: <code>%4</code>), <code>font-weight: %5</code>."
+    "value": "Oczekiwany współczynnik kontrastu kolorów dla małego rozmiaru czcionki wynosi co najmniej 7:1, ale uzyskany współczynnik: %0:1, <code>background-color: %1</code>, <code>foreground-color: %2</code>, <code>font-size: %3</code> (oryginał: <code>%4</code>), <code>font-weight: %5</code>."
   },
   "color_contrast_aaa_report_message_5": {
-    "value": "Oczekiwany współczynnik kontrastu kolorów dla małego rozmiaru czcionki co najmniej 7:1, ale uzyskany współczynnik: <code>%0:1</code>, <code>background-color: %1</code>, <code>foreground-color: %2</code>, <code>font-size: %3</code> (oryginał: <code>%4</code>), <code>font-weight: %5</code>."
+    "value": "Oczekiwany współczynnik kontrastu kolorów dla małego rozmiaru czcionki co najmniej 7:1, ale uzyskany współczynnik: %0:1, <code>background-color: %1</code>, <code>foreground-color: %2</code>, <code>font-size: %3</code> (oryginał: <code>%4</code>), <code>font-weight: %5</code>."
   },
   "color_contrast_aaa_report_message_6": {
     "value": "Nie można określić kontrastu kolorów między tłem <code>%0</code> a pierwszym planem <code>%1</code>, ponieważ oba kolory są takie same."
@@ -495,6 +531,24 @@
   },
   "color_contrast_aaa_title": {
     "value": "Współczynnik kontrastu powinien wynosić co najmniej 7:1 dla normalnego tekstu i 4,5:1 dla dużego tekstu na tle."
+  },
+  "color_contrast_suggestion_background": {
+    "value": "Zmiana <strong>koloru tła</strong> na <code>%0</code> spowoduje, że kontrast kolorów spełni wymagania."
+  },
+  "color_contrast_suggestion_foreground": {
+    "value": "Zmiana <strong>koloru tekstu</strong> na <code>%0</code> spowoduje, że kontrast kolorów spełni wymagania."
+  },
+  "color_contrast_suggestion_foreground_background": {
+    "value": "Zmiana <strong>koloru tekstu</strong> na <code>%0</code> oraz <strong>koloru tła</strong> na <code>%1</code> spowoduje, że kontrast kolorów spełni wymagania."
+  },
+  "concurrent_input_mechanisms_manual_check": {
+    "value": "Upewnij się, że treść internetowa nie ogranicza możliwości korzystania z różnych metod wprowadzania danych dostępnych na platformie (np. myszy, klawiatury, dotyku, mowy), chyba że ograniczenie jest niezbędne, wymagane ze względów bezpieczeństwa lub wynika z ustawień użytkownika."
+  },
+  "concurrent_input_mechanisms_title": {
+    "value": "Weryfikacja równoległych mechanizmów wejściowych"
+  },
+  "conformity_audit": {
+    "value": "Audyt zgodności"
   },
   "console_log_error_title": {
     "value": "Błędy zostały zarejestrowane w konsoli błędów."
@@ -585,6 +639,9 @@
   },
   "download_html_report": {
     "value": "Ściągnij raport w formacie HTML"
+  },
+  "download_json_report": {
+    "value": "Ściągnij raport w formacie JSON"
   },
   "duplicated_for_attribute_report_message": {
     "value": "Atrybut <code>for=\"%0\"</code> powinien być unikalny. Został zdefiniowany <code>%1</code> razy."
@@ -691,6 +748,30 @@
   "first_contentful_paint_title": {
     "value": "Użytkownik czeka długo, zanim zobaczy pierwszą treść na ekranie."
   },
+  "focus_appearance_manual_check": {
+    "value": "Liczba elementów interaktywnych na stronie: %0. Upewnij się, że każdy z nich posiada wskaźnik fokusu o wystarczającej powierzchni (przynajmniej 2 pikseli grubości obramowania CSS) i współczynnik kontrastu co najmniej 3:1 między stanem fokusu a stanem bez fokusu."
+  },
+  "focus_appearance_title": {
+    "value": "Weryfikacja wyglądu fokusu (AAA)"
+  },
+  "focus_not_obscured_enhanced_manual_check": {
+    "value": "Liczba elementów interaktywnych na stronie: %0. Upewnij się, że każdy z nich otrzymuje fokus klawiaturowy, jest on w pełni widoczny i żadna jego część nie jest przesłonięta przez treści utworzone przez autora (takie jak przyklejone nagłówki, stopki lub pływające nakładki)."
+  },
+  "focus_not_obscured_enhanced_title": {
+    "value": "Weryfikacja nieprzesłoniętego fokusu (rozszerzona)"
+  },
+  "focus_not_obscured_minimum_manual_check": {
+    "value": "Upewnij się, że gdy element otrzymuje fokus klawiaturowy, jest on przynajmniej częściowo widoczny i nie został całkowicie przesłonięty przez treści utworzone przez autora (takie jak przyklejone nagłówki, stopki lub niemodalne nakładki)."
+  },
+  "focus_not_obscured_minimum_title": {
+    "value": "Weryfikacja nieprzesłoniętego fokusu (minimum)"
+  },
+  "focus_visible_manual_check": {
+    "value": "Upewnij się, że każdy interfejs użytkownika obsługiwany za pomocą klawiatury posiada tryb pracy, w którym wskaźnik fokusu jest widoczny. Sprawdź, czy obramowanie fokusu ma wystarczający kontrast względem tła."
+  },
+  "focus_visible_title": {
+    "value": "Weryfikacja widoczności fokusu"
+  },
   "focusable_elements_tool": {
     "value": "Elementy, na których można ustawić fokus"
   },
@@ -702,6 +783,9 @@
   },
   "font_style_italic_title": {
     "value": "Unikaj nadmiernego używania kursywy."
+  },
+  "group_by_wcag_success_criteria": {
+    "value": "Grupuj według Kryteriów Sukcesu WCAG"
   },
   "group_elements_name_attribute_report_message": {
     "value": "Upewnij się, że wszystkie powiązane kontrolki formularza z <code>name=\"%0\"</code> są zgrupowane."
@@ -756,6 +840,9 @@
   },
   "horizontal_rule_title": {
     "value": "Oszczędnie korzystaj z poziomej reguły HR."
+  },
+  "how_to_verify": {
+    "value": "Jak zweryfikować"
   },
   "html_lang_attr_report_message_1": {
     "value": "Zdefiniowano atrybut <code>lang</code> w elemencie głównym <code>%0</code>, ale są tam więcej niż 3 parametry językowe: <code>%0</code>."
@@ -902,7 +989,7 @@
     "value": "Weryfikacja dostępności klawiatury"
   },
   "keyboard_no_exception_manual_check": {
-    "value": "Sprawdź, czy każdą funkcję tego komponentu można wykonać za pomocą klawiatury bez konieczności zachowania określonego tempa naciskania klawiszy."
+    "value": "Liczba elementów interaktywnych na stronie: %0. Sprawdź, czy każdą funkcję elementu można wykonać za pomocą klawiatury bez konieczności zachowania określonego tempa naciskania klawiszy."
   },
   "keyboard_no_exception_title": {
     "value": "Weryfikacja pełnej obsługi klawiaturą (AAA)"
@@ -940,6 +1027,12 @@
   "landmarks_none_title": {
     "value": "Na stronie nie znaleziono punktów orientacyjnych."
   },
+  "language_of_parts_manual_check": {
+    "value": "Upewnij się, że język treść zawarta w elemencie jest zgodna z atrybutem <code>lang=\"%0\"</code>."
+  },
+  "language_of_parts_title": {
+    "value": "Weryfikacja języka części treści"
+  },
   "languages_detection_tool": {
     "value": "Wykrywanie języków"
   },
@@ -970,6 +1063,12 @@
   "link_page_title_tool_title": {
     "value": "To narzędzie pobiera zdalną stronę, wyodrębnia jej tytuł i wyświetla go obok odpowiedniego tekstu linku, umożliwiając ustalenie faktycznego tytułu zdalnej strony."
   },
+  "link_purpose_in_context_manual_check": {
+    "value": "Upewnij się, że cel każdego linku można określić na podstawie samej treści linku lub z treści linku wraz z jego kontekstem (np. otaczającym zdaniem, akapitem lub elementem listy)."
+  },
+  "link_purpose_in_context_title": {
+    "value": "Weryfikacja celu linku w kontekście"
+  },
   "link_with_unclear_purpose_report_message1": {
     "value": "Treść tego tekstu linku <code>%0</code> jest niejasna poza kontekstem."
   },
@@ -991,11 +1090,20 @@
   "links_same_content_different_url_title": {
     "value": "Unikaj elementów odnośników, które mają identyczną treść, lecz różne docelowe adresy URL."
   },
+  "links_to_resources_are_in_english_language_only": {
+    "value": "Dokumentacja SiteLint jest dostępna w języku angielskim, a linki do niej są dostarczane dla użytkowników, którzy wymagają dalszych informacji lub wskazówek na temat skutecznego korzystania z narzędzia."
+  },
   "local_resource_leak_report_message_1": {
     "value": "Źródło <code>%0</code> elementu <code>%1</code> wskazuje na lokalne środowisko programistyczne. Będzie on niedostępny dla użytkowników na produkcji."
   },
   "local_resource_leak_title": {
     "value": "Wykryto zasób z lokalnego środowiska programistycznego."
+  },
+  "location_indicator_manual_check": {
+    "value": "Upewnij się, że informacje o położeniu użytkownika w obrębie serwisu są dostępne (np. poprzez ścieżkę powrotu typu breadcrumbs, wyróżnienie bieżącej pozycji w menu lub wskaźnik etapu w procesie wielokrokowym)."
+  },
+  "location_indicator_title": {
+    "value": "Weryfikacja wskaźnika lokalizacji"
   },
   "low_background_audio_manual_check": {
     "value": "Sprawdź, czy dźwięk tła jest o co najmniej 20 decybeli cichszy niż główna mowa, lub czy użytkownik może go całkowicie wyłączyć."
@@ -1030,8 +1138,20 @@
   "manifest_extension_title": {
     "value": "Niestandardowe rozszerzenia plików użyte w pliku manifestu aplikacji internetowej."
   },
+  "manual_audit": {
+    "value": "Ręczny audyt"
+  },
   "manual_verification": {
-    "value": "Weryfikacja ręczna "
+    "value": "Pokaż problemy, które"
+  },
+  "manual_verification_include_all": {
+    "value": "Uwzględnij wszystkie"
+  },
+  "manual_verification_not_required": {
+    "value": "Nie wymagają weryfikacji ręcznej"
+  },
+  "manual_verification_only_required": {
+    "value": "Wymagają weryfikacji ręcznej"
   },
   "manual_verification_required": {
     "value": "Wymagana weryfikacja ręczna "
@@ -1047,6 +1167,12 @@
   },
   "media_alternative_prerecorded_title": {
     "value": "Weryfikacja alternatywy dla mediów"
+  },
+  "message_id": {
+    "value": "Identyfikator wiadomości"
+  },
+  "message_to_clipboard": {
+    "value": "message %0 to clipboard"
   },
   "meta_description_too_long_or_too_short_report_message_1": {
     "value": "Opis meta <code>%0</code> ma długość <code>%1</code>, ale powinien mieć od 25 do 160 znaków. Większość robotów wyszukiwarek pokazuje w wynikach wyszukiwania tylko pierwsze 150-160 znaków opisu."
@@ -1103,7 +1229,7 @@
     "value": "Brak atrybutu <code>href</code> w hiperłączu. Użytkownik nie może nawigować do tego elementu za pomocą klawiatury."
   },
   "missing_href_on_a_title": {
-    "value": "Link potrzebuje miejsca docelowego, aby działało poprawnie."
+    "value": "Łącze potrzebuje miejsca docelowego, aby działało poprawnie."
   },
   "missing_https_protocol_title": {
     "value": "Brak protokołu https w celu ochrony prywatności i integralności wymienianych danych."
@@ -1176,6 +1302,18 @@
   },
   "mixed_content_on_https_title": {
     "value": "Witryna korzysta z niezabezpieczonych połączeń HTTP na HTTPS (zawartość mieszana)."
+  },
+  "motion_actuation_manual_check": {
+    "value": "Upewnij się, że funkcje uruchamiane przez ruch urządzenia (np. potrząsanie lub przechylanie) mogą być również obsługiwane za pomocą elementów interfejsu użytkownika oraz że wyzwalanie ruchem można wyłączyć, aby zapobiec przypadkowej aktywacji."
+  },
+  "motion_actuation_title": {
+    "value": "Weryfikacja aktywacji ruchem"
+  },
+  "multiple_ways_manual_check": {
+    "value": "Upewnij się, że dostępnych jest więcej niż jeden sposób zlokalizowania strony internetowej w obrębie serwisu (np. mapa strony, wyszukiwarka lub menu nawigacyjne), chyba że strona jest wynikiem lub etapem określonego procesu."
+  },
+  "multiple_ways_title": {
+    "value": "Weryfikacja wielu dróg do znalezienia strony"
   },
   "n_rules_failed": {
     "value": "%0 reguł raportuje błędy"
@@ -1325,10 +1463,10 @@
     "value": "Tytuł"
   },
   "page_title_length_report_message_1": {
-    "value": "Tytuł strony (<code>%1</code>) ma długość <code>%0</code>, ale powinien mieć do 60 znaków."
+    "value": "Długość tytułu strony wynosi <code>%0</code> znaków, co przekracza 120 znaków i może ulec przycięciu w wynikach wyszukiwania. Aktualny tytuł: <code>%1</code>"
   },
   "page_title_length_title": {
-    "value": "Długość tytułu strony powinna wynosić do 60 znaków."
+    "value": "Tytuł strony nie powinien przekraczać 120 znaków, aby zmniejszyć ryzyko przycięcia w wynikach wyszukiwania"
   },
   "page_title_words_not_included_in_url_report_message_1": {
     "value": "Słowa <code>%0</code> w tytule strony <code>%1</code> nie są uwzględnione w adresie URL strony <code>%2</code>."
@@ -1342,17 +1480,41 @@
   "platform": {
     "value": "Platforma"
   },
+  "pointer_cancellation_manual_check": {
+    "value": "Upewnij się, że w przypadku funkcji obsługiwanych pojedynczym wskaźnikiem spełniony jest co najmniej jeden z warunków: zdarzenie naciśnięcia (zdarzenie naciśnięcia) nie uruchamia funkcji, akcja kończy się przy zwolnieniu (zdarzenie zwolnienia), dostępny jest mechanizm przerwania funkcji lub zdarzenie zwolnienia odwraca skutki naciśnięcia."
+  },
+  "pointer_cancellation_title": {
+    "value": "Weryfikacja anulowania wskaźnika"
+  },
+  "pointer_gestures_manual_check": {
+    "value": "Upewnij się, że wszystkie funkcje wykorzystujące do obsługi gesty wielopunktowe lub oparte na ścieżce mogą być obsługiwane za pomocą pojedynczego wskaźnika bez gestu opartego na ścieżce, chyba że taki gest jest niezbędny."
+  },
+  "pointer_gestures_title": {
+    "value": "Weryfikacja gestów wskaźnika"
+  },
   "positive_tabindex_report_message": {
     "value": "Nie należy używać dodatniego <code>tabindex=\"%0\"</code>. Poza bardzo specyficznymi skrajnymi przypadkami, tabindex nie powinien mieć dodatniej wartości całkowitej. Użytkownicy, którzy używają klawiatury do interakcji z Internetem, oczekują, że dokument internetowy będzie można przeglądać w kolejności sekwencyjnej, zaczynając od lewego górnego rogu (lub prawego, w zależności od języka dokumentu) i przechodząc od tego miejsca."
   },
   "positive_tabindex_title": {
     "value": "Nie używaj dodatniej wartości tabindex."
   },
+  "pronunciation_clarification_manual_check": {
+    "value": "Upewnij się, że dostępny jest mechanizm pozwalający na określenie wymowy słów, których znaczenie w danym kontekście jest dwuznaczne bez znajomości ich wymowy (np. homografy)."
+  },
+  "pronunciation_clarification_title": {
+    "value": "Weryfikacja wymowy"
+  },
   "re_authentication_state_persistence_manual_check": {
     "value": "Upewnij się, że jeśli uwierzytelniona sesja wygaśnie, użytkownik może kontynuować aktywność bez utraty danych po ponownym zalogowaniu (np. dane wprowadzone do formularza zostają zachowane)."
   },
   "re_authentication_state_persistence_title": {
     "value": "Weryfikacja zachowania danych po ponownym logowaniu"
+  },
+  "reading_level_summary_manual_check": {
+    "value": "Upewnij się, że gdy tekst wymaga umiejętności czytania na poziomie bardziej zaawansowanym, niż podstawowy (po usunięciu nazw własnych i tytułów), dostępna jest treść uzupełniająca lub wersja, która nie wymaga zaawansowanych umiejętności czytania."
+  },
+  "reading_level_summary_title": {
+    "value": "Weryfikacja poziomu czytelności"
   },
   "reason": {
     "value": "Powód"
@@ -1361,7 +1523,7 @@
     "value": "Zmień rozmiar okna przeglądarki do szerokości <code>320px</code>. Sprawdź, czy zawartość skaluje się bez utraty informacji i czy nie pojawia się poziomy pasek przewijania."
   },
   "reflow_content_title": {
-    "value": "Weryfikacja dopasowania (Reflow)"
+    "value": "Dopasowanie do ekranu"
   },
   "report_generated_via": {
     "value": "Raport wygenerowany przez"
@@ -1393,6 +1555,9 @@
   "seconds": {
     "value": "sekund"
   },
+  "select_test_result": {
+    "value": "Wybierz wynik testu"
+  },
   "select_tool": {
     "value": "Wybierz narzędzie"
   },
@@ -1416,6 +1581,12 @@
   },
   "severity_low": {
     "value": "Niski"
+  },
+  "severity_n": {
+    "value": "Nie dotyczy"
+  },
+  "severity_na": {
+    "value": "ND."
   },
   "severity_type": {
     "value": "Typ ważności"
@@ -1544,7 +1715,7 @@
     "value": "Brak zdefiniowanego atrybutu INTEGRITY, która umożliwia przeglądarkom sprawdzenie, czy pobierane przez nie zasoby są dostarczane bez nieoczekiwanej manipulacji."
   },
   "success_criteria_rules_total": {
-    "value": "łączna liczba zasad kryteriów sukcesu"
+    "value": "łączna liczba kryteriów sukcesu"
   },
   "support": {
     "value": "Spełnia"
@@ -1609,11 +1780,71 @@
   "table_row_and_column_headers_title": {
     "value": "Tabela powinna zawierać elementy, które definiują nagłówki dla każdej kolumny lub wiersza."
   },
+  "target_size_enhanced_manual_check": {
+    "value": "Liczba elementów interaktywnych na stronie: %0. Upewnij się, że dla każdego elementu rozmiar obszaru klikalnego dla urządzeń wskazujących wynosi co najmniej 44 na 44 piksele CSS, z wyjątkiem sytuacji, gdy cel znajduje się wewnątrz zdania lub bloku tekstu, bądź gdy konkretna prezentacja jest niezbędna dla przekazywanej informacji."
+  },
+  "target_size_enhanced_title": {
+    "value": "Weryfikacja rozmiaru celu (rozszerzona)"
+  },
   "target_size_minimum_report_message_1": {
     "value": "Element interaktywny ma tylko %0 × %1 pikseli CSS, ale minimalny wymagany rozmiar to %2 × %2 pikseli CSS."
   },
   "target_size_minimum_title": {
     "value": "Elementy interaktywne muszą mieć powierzchnię co najmniej 24 na 24 piksele."
+  },
+  "test_group_assistive_technology": {
+    "value": "Technologie wspomagające"
+  },
+  "test_group_captcha": {
+    "value": "Captcha"
+  },
+  "test_group_color_contrast": {
+    "value": "Kontrast kolorów"
+  },
+  "test_group_common_navigation": {
+    "value": "Nawigacja główna"
+  },
+  "test_group_form": {
+    "value": "Formularz"
+  },
+  "test_group_keyboard_navigation": {
+    "value": "Nawigacja za pomocą klawiatury"
+  },
+  "test_group_layout": {
+    "value": "Układ strony"
+  },
+  "test_group_multimedia": {
+    "value": "Multimedia"
+  },
+  "test_group_non_text_content": {
+    "value": "Treść nietekstowa"
+  },
+  "test_group_structure": {
+    "value": "Struktura"
+  },
+  "test_group_text_content": {
+    "value": "Treść tekstowa"
+  },
+  "test_group_touch_and_interactions": {
+    "value": "Dotyk i interakcje"
+  },
+  "test_group_touch_screen": {
+    "value": "Ekran dotykowy"
+  },
+  "test_group_uncategorized": {
+    "value": "Nieskategoryzowane"
+  },
+  "test_result_compliant": {
+    "value": "Zgodny"
+  },
+  "test_result_non_compliant": {
+    "value": "Niezgodny"
+  },
+  "test_result_not_applicable": {
+    "value": "Nie dotyczy"
+  },
+  "test_result_not_tested": {
+    "value": "Nie przetestowano"
   },
   "text_color_convey_information_report_message": {
     "value": "Sprawdź, czy informacje przekazywane przez kolory <code>%0</code> są również dostępne w tekście i czy tekst nie jest treścią warunkową."
@@ -1634,7 +1865,7 @@
     "value": "Testowanie WCAG 2.1 Kryterium sukcesu 1.4.12 Odstępy w tekście"
   },
   "three_flashes_no_exception_manual_check": {
-    "value": "Upewnij się, że strona nie zawiera żadnych treści, które błyskają więcej niż trzy razy w ciągu jednej sekundy."
+    "value": "Liczba elementów interaktywnych na stronie: %0. Upewnij się, że strona nie zawiera żadnych treści, które błyskają więcej niż trzy razy w ciągu jednej sekundy."
   },
   "three_flashes_no_exception_title": {
     "value": "Weryfikacja potrójnego błysku (bez wyjątków)"
@@ -1743,6 +1974,12 @@
   },
   "unsupported_role_on_element_title": {
     "value": "Nie używaj nieobsługiwanego lub nieprawidłowego atrybutu role w elemencie."
+  },
+  "unusual_words_definition_manual_check": {
+    "value": "Upewnij się, że dostępny jest mechanizm pozwalający na znalezienie definicji słów lub fraz używanych w nietypowy lub ograniczony sposób, w tym idiomów i żargonu."
+  },
+  "unusual_words_definition_title": {
+    "value": "Weryfikacja definicji nietypowych słów"
   },
   "validators_tools": {
     "value": "Walidatory"
