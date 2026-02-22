@@ -1,0 +1,2338 @@
+{
+  "1.1.1": {
+    "num": "1.1.1",
+    "url": "https://www.w3.org/TR/WCAG22/#non-text-content",
+    "scId": "WCAG2:non-text-content",
+    "scAltId": [
+      "text-equiv-all"
+    ],
+    "test": "WCAG2:text-equiv-all",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#non-text-content",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html",
+    "handle": "Non-text Content",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Do informative images have appropriate text alternatives?",
+        "wcag": [
+          "1.1.1 A"
+        ],
+        "verifier": "<ul><li>Check that <code>img</code>, <code>area</code>, <code>canvas</code>, <code>svg</code>, elements with <code>role=\"img\"</code>, and <code>input type=\"image\"</code> have accessible names</li><li>Verify accessible names are not provided solely via <code>title</code> attribute</li><li>For decorative images, verify <code>alt</code> is empty or element has <code>role=\"presentation\"</code>, <code>role=\"none\"</code>, or <code>aria-hidden=\"true\"</code></li><li>For complex images, verify descriptive text is provided adjacent to the image</li><li>Verify no informative content is conveyed via CSS background images</li><li>For embedded audio/video, verify alternative text is provided in adjacent content</li></ul>",
+        "group": "Non-text Content",
+        "complement": ""
+      },
+      {
+        "title": "Does each CAPTCHA image have an appropriate accessible name?",
+        "wcag": [
+          "1.1.1 A"
+        ],
+        "verifier": "<p>Verify that each CAPTCHA image has an accessible name describing its purpose (e.g., \"Security check image\") rather than describing its visual content.</p>",
+        "group": "Captcha",
+        "complement": ""
+      },
+      {
+        "title": "Does each CAPTCHA provide alternative access methods for users with disabilities?",
+        "wcag": [
+          "1.1.1 A"
+        ],
+        "verifier": "<p>For CAPTCHAs that are visual-only or audio-only, verify one of the following alternatives is provided:</p><ul><li>Both audio and visual CAPTCHA options</li><li>Logic puzzles or cognitive tests (e.g., simple math problems, obvious questions)</li><li>An alternative method to access the protected functionality that does not require CAPTCHA</li></ul>",
+        "group": "Captcha",
+        "complement": ""
+      },
+      {
+        "title": "Does ASCII art, emoticons, and leetspeak have appropriate text alternatives?",
+        "wcag": [
+          "1.1.1 A"
+        ],
+        "verifier": "<ul><li>Verify text alternatives are provided using:<ul><li><code>abbr</code> element with <code>title</code> attribute</li><li>Adjacent descriptive text</li><li>ARIA labels where appropriate</li></ul></li><li>Verify the alternative text conveys the same meaning as the original content</li></ul>",
+        "group": "Non-text Content",
+        "complement": ""
+      }
+    ]
+  },
+  "1.2.1": {
+    "num": "1.2.1",
+    "url": "https://www.w3.org/TR/WCAG22/#audio-only-and-video-only-prerecorded",
+    "scId": "WCAG2:audio-only-and-video-only-prerecorded",
+    "scAltId": [
+      "media-equiv-av-only-alt"
+    ],
+    "test": "WCAG2:media-equiv-av-only-alt",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#audio-only-and-video-only-prerecorded",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded.html",
+    "handle": "Audio-only and Video-only (Prerecorded)",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Does pre-recorded audio-only media have an equivalent text transcript?",
+        "wcag": [
+          "1.2.1 A"
+        ],
+        "verifier": "<p>Verify that a complete text transcript containing all auditory information is provided as plain text or HTML:</p><ul><li>Embedded directly in the page, or</li><li>Available via a link immediately adjacent to the audio content</li></ul>",
+        "group": "Multimedia",
+        "complement": ""
+      },
+      {
+        "title": "Does pre-recorded video-only media have an equivalent text transcript or audio description?",
+        "wcag": [
+          "1.2.1 A"
+        ],
+        "verifier": "<p>Verify that one of the following is provided as plain text or HTML:</p><ul><li>A complete text transcript describing all visual information, either:<ul><li>Embedded directly in the page, or</li><li>Available via a link immediately adjacent to the video content</li></ul></li><li>An audio track presenting equivalent information to the visual content</li></ul>",
+        "group": "Multimedia",
+        "complement": ""
+      }
+    ]
+  },
+  "1.2.2": {
+    "num": "1.2.2",
+    "url": "https://www.w3.org/TR/WCAG22/#captions-prerecorded",
+    "scId": "WCAG2:captions-prerecorded",
+    "scAltId": [
+      "media-equiv-captions"
+    ],
+    "test": "WCAG2:media-equiv-captions",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#captions-prerecorded",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html",
+    "handle": "Captions (Prerecorded)",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Does pre-recorded video with audio have synchronized captions?",
+        "wcag": [
+          "1.2.2 A"
+        ],
+        "verifier": "<ul><li>Verify captions are available for all pre-recorded video content with audio</li><li>Verify captions include all auditory information needed to understand the content (dialogue, speaker identification, sound effects)</li><li>Verify captions do not obscure important visual information in the video</li></ul>",
+        "group": "Multimedia",
+        "complement": ""
+      }
+    ]
+  },
+  "1.2.3": {
+    "num": "1.2.3",
+    "url": "https://www.w3.org/TR/WCAG22/#audio-description-or-media-alternative-prerecorded",
+    "scId": "WCAG2:audio-description-or-media-alternative-prerecorded",
+    "scAltId": [
+      "media-equiv-audio-desc"
+    ],
+    "test": "WCAG2:media-equiv-audio-desc",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#audio-description-or-media-alternative-prerecorded",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/audio-description-or-media-alternative-prerecorded.html",
+    "handle": "Audio Description or Media Alternative (Prerecorded)",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Does pre-recorded video have an audio description or full text alternative?",
+        "wcag": [
+          "1.2.3 A"
+        ],
+        "verifier": "<p>Verify one of the following is provided:</p><ul><li>A complete text transcript containing all visual and auditory information, either:<ul><li>Embedded directly in the page, or</li><li>Available via a link immediately adjacent to the video content</li></ul></li><li>An audio description track that:<ul><li>Is synchronized with the video</li><li>Does not conflict with or obscure existing audio content</li><li>Accurately describes all relevant visual information</li></ul></li></ul>",
+        "group": "Multimedia",
+        "complement": ""
+      }
+    ]
+  },
+  "1.2.4": {
+    "num": "1.2.4",
+    "url": "https://www.w3.org/TR/WCAG22/#captions-live",
+    "scId": "WCAG2:captions-live",
+    "scAltId": [
+      "media-equiv-real-time-captions"
+    ],
+    "test": "WCAG2:media-equiv-real-time-captions",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#captions-live",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/captions-live.html",
+    "handle": "Captions (Live)",
+    "level": "AA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Does live video with audio have synchronized captions?",
+        "wcag": [
+          "1.2.4 AA"
+        ],
+        "verifier": "<ul><li>Verify captions are available for all live video content with audio</li><li>Verify captions include all auditory information needed to understand the content (dialogue, speaker identification, sound effects, music, laughter)</li></ul>",
+        "complement": "<h5>Captions</h5><p>Captions must convey not only spoken dialogue but also non-dialogue audio information essential to understanding the program content, including sound effects, music, laughter, speaker identification, and location.</p>",
+        "group": "Multimedia"
+      }
+    ]
+  },
+  "1.2.5": {
+    "num": "1.2.5",
+    "url": "https://www.w3.org/TR/WCAG22/#audio-description-prerecorded",
+    "scId": "WCAG2:audio-description-prerecorded",
+    "scAltId": [
+      "media-equiv-audio-desc-only"
+    ],
+    "test": "WCAG2:media-equiv-audio-desc-only",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#audio-description-prerecorded",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded.html",
+    "handle": "Audio Description (Prerecorded)",
+    "level": "AA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Does pre-recorded video have synchronized audio description?",
+        "wcag": [
+          "1.2.5 AA"
+        ],
+        "verifier": "<ul><li>Verify audio description is provided for all pre-recorded video content</li><li>Verify the audio description is synchronized with the video</li><li>Verify the audio description does not conflict with or obscure existing audio content</li><li>Verify the audio description accurately describes all relevant visual information</li></ul>",
+        "group": "Multimedia",
+        "complement": ""
+      }
+    ]
+  },
+  "1.2.6": {
+    "num": "1.2.6",
+    "url": "https://www.w3.org/TR/WCAG22/#sign-language-prerecorded",
+    "scId": "WCAG2:sign-language-prerecorded",
+    "scAltId": [
+      "media-equiv-sign"
+    ],
+    "test": "WCAG2:media-equiv-sign",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#sign-language-prerecorded",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/sign-language-prerecorded.html",
+    "handle": "Sign Language (Prerecorded)",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Does pre-recorded synchronized media have sign language interpretation?",
+        "wcag": [
+          "1.2.6 AAA"
+        ],
+        "verifier": "<ul><li>Verify sign language interpretation is provided for all pre-recorded audio content in synchronized media</li><li>Verify the interpretation is synchronized with the audio</li><li>Verify the sign language interpreter is clearly visible</li></ul>",
+        "group": "Multimedia",
+        "complement": ""
+      }
+    ]
+  },
+  "1.2.7": {
+    "num": "1.2.7",
+    "url": "https://www.w3.org/TR/WCAG22/#extended-audio-description-prerecorded",
+    "scId": "WCAG2:extended-audio-description-prerecorded",
+    "scAltId": [
+      "media-equiv-extended-ad"
+    ],
+    "test": "WCAG2:media-equiv-extended-ad",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#extended-audio-description-prerecorded",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/extended-audio-description-prerecorded.html",
+    "handle": "Extended Audio Description (Prerecorded)",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Does pre-recorded video have extended audio description when pausing is insufficient?",
+        "wcag": [
+          "1.2.7 AAA"
+        ],
+        "verifier": "<ul><li>Verify extended audio description is provided when the video content cannot be sufficiently described during natural pauses in dialogue</li><li>Verify the video can be paused to allow additional description time</li><li>Verify the description accurately conveys all essential visual information</li></ul>",
+        "group": "Multimedia",
+        "complement": ""
+      }
+    ]
+  },
+  "1.2.8": {
+    "num": "1.2.8",
+    "url": "https://www.w3.org/TR/WCAG22/#media-alternative-prerecorded",
+    "scId": "WCAG2:media-alternative-prerecorded",
+    "scAltId": [
+      "media-equiv-text-doc"
+    ],
+    "test": "WCAG2:media-equiv-text-doc",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#media-alternative-prerecorded",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/media-alternative-prerecorded.html",
+    "handle": "Media Alternative (Prerecorded)",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Does pre-recorded synchronized media have a full text alternative?",
+        "wcag": [
+          "1.2.8 AAA"
+        ],
+        "verifier": "<ul><li>Verify a text transcript is provided containing all visual and auditory information from the pre-recorded synchronized media</li><li>Verify the transcript includes descriptions of all visual content, actions, expressions, and scene changes</li><li>Verify the transcript includes all dialogue, speaker identification, and non-speech audio information</li></ul>",
+        "group": "Multimedia",
+        "complement": ""
+      }
+    ]
+  },
+  "1.2.9": {
+    "num": "1.2.9",
+    "url": "https://www.w3.org/TR/WCAG22/#audio-only-live",
+    "scId": "WCAG2:audio-only-live",
+    "scAltId": [
+      "media-equiv-live-audio-only"
+    ],
+    "test": "WCAG2:media-equiv-live-audio-only",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#audio-only-live",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/audio-only-live.html",
+    "handle": "Audio-only (Live)",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Does live audio-only content have an equivalent text alternative?",
+        "wcag": [
+          "1.2.9 AAA"
+        ],
+        "verifier": "<ul><li>Verify a live text transcript or real-time captioning is provided for all live audio-only content</li><li>Verify the alternative conveys all auditory information including speaker identification and non-speech sounds</li><li>Verify the alternative is delivered with minimal delay from the live audio</li></ul>",
+        "group": "Multimedia",
+        "complement": ""
+      }
+    ]
+  },
+  "1.3.1": {
+    "num": "1.3.1",
+    "url": "https://www.w3.org/TR/WCAG22/#info-and-relationships",
+    "scId": "WCAG2:info-and-relationships",
+    "scAltId": [
+      "content-structure-separation-programmatic"
+    ],
+    "test": "WCAG2:content-structure-separation-programmatic",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#info-and-relationships",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html",
+    "handle": "Info and Relationships",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Does each form field have an accessible name?",
+        "wcag": [
+          "1.3.1 A",
+          "4.1.2 A"
+        ],
+        "verifier": "<ul><li>Verify all form fields have accessible names via one of:<ul><li><code>aria-labelledby</code> attribute</li><li><code>aria-label</code> attribute</li><li><code>&lt;label&gt;</code> with <code>for</code> attribute matching field <code>id</code></li><li><code>title</code> attribute</li></ul></li><li>Verify data format hints are programmatically associated with fields via:<ul><li>Text within <code>&lt;label&gt;</code></li><li><code>aria-label</code> modification</li><li><code>aria-labelledby</code> referencing format hint ID</li><li><code>aria-describedby</code> referencing format hint</li></ul></li></ul>",
+        "complement": "<p>Placeholder text alone is not sufficient as an accessible name; it must be accompanied by one of the techniques listed above.</p>",
+        "group": "Form"
+      },
+      {
+        "title": "Are related form elements properly grouped?",
+        "wcag": [
+          "1.3.1 A"
+        ],
+        "verifier": "<ul><li>Verify related fields are grouped using <code>&lt;fieldset&gt;</code> or <code>role='group'</code></li><li>Verify each group has an associated legend via <code>&lt;legend&gt;</code> or <code>aria-labelledby</code></li></ul>",
+        "complement": "<p>Group elements only when necessary, for example:</p><ul><li>To differentiate multiple fields with identical labels (e.g., delivery address vs. billing address)</li><li>When a legend is needed to facilitate choice among radio buttons or checkboxes</li></ul>",
+        "group": "Form"
+      },
+      {
+        "title": "Are required fields programmatically identified?",
+        "wcag": [
+          "1.3.1 A",
+          "3.3.2 A"
+        ],
+        "verifier": "<ul><li>Verify required fields are indicated by text or visual element (e.g., asterisk)</li><li>Verify the indicator meaning is explained in text before first use</li><li>Verify one of the following programmatic techniques is implemented:<ul><li>Indicator is in <code>&lt;label&gt;</code> or linked via <code>aria-labelledby</code></li><li><code>required</code> or <code>aria-required='true'</code> attribute is present</li></ul></li></ul><p>When all fields are required except one optional field, the optional field may be identified instead using the methods above.</p>",
+        "group": "Form",
+        "complement": ""
+      },
+      {
+        "title": "Is content structured using appropriate heading elements?",
+        "wcag": [
+          "1.3.1 A"
+        ],
+        "verifier": "<ul><li>Verify heading-like elements use proper heading tags (<code>h1-h6</code> or <code>role='heading'</code> with <code>aria-level</code>)</li><li>Verify heading levels follow a logical hierarchy without skipping levels unnecessarily</li></ul>",
+        "group": "Text Content",
+        "complement": ""
+      },
+      {
+        "title": "Does the document use semantic markup appropriately?",
+        "wcag": [
+          "1.3.1 A"
+        ],
+        "verifier": "<ul><li>Verify content is wrapped in semantic elements (e.g., <code>&lt;p&gt;</code>) to convey structural relationships</li><li>Verify long quotations use <code>&lt;blockquote&gt;</code></li><li>Verify short inline quotations use <code>&lt;q&gt;</code></li><li>Verify visually presented lists use proper HTML list structures:<ul><li>Unordered lists: <code>&lt;ul&gt;</code> / <code>&lt;li&gt;</code></li><li>Ordered lists: <code>&lt;ol&gt;</code> / <code>&lt;li&gt;</code></li><li>Description lists: <code>&lt;dl&gt;</code> / <code>&lt;dt&gt;</code> / <code>&lt;dd&gt;</code></li></ul></li><li>Verify links (<code>&lt;a&gt;</code>) are used for URL navigation</li><li>Verify buttons (<code>&lt;button&gt;</code> or <code>&lt;input type='button/submit'&gt;</code>) are used for actions, validation, or selections</li></ul><p>Note: ARIA roles can modify semantics but not interactivity; ensure they are used accessibly.</p>",
+        "group": "Text Content",
+        "complement": ""
+      },
+      {
+        "title": "Are data tables properly structured?",
+        "wcag": [
+          "1.3.1 A"
+        ],
+        "verifier": "<p>For layout tables: verify semantic table elements (<code>caption, summary, th, scope, headers</code>) are removed and <code>role='presentation'</code> is applied to the <code>&lt;table&gt;</code> element.</p><p>For data tables:</p><ol><li>If the table has a title/caption, verify it is programmatically associated via:<ul><li><code>&lt;caption&gt;</code> element</li><li><code>aria-label</code> on table*</li><li><code>aria-labelledby</code> referencing title ID*</li><li><code>title</code> attribute on table*</li></ul><p><small>* Test with target assistive technologies/browsers</small></p></li><li>Verify the title is relevant (not empty, describes table content)</li><li>If a summary is provided, verify it is programmatically linked via:<ul><li>HTML5: summary text (visually hidden if needed) linked via <code>aria-describedby</code></li><li>Legacy HTML: <code>summary</code> attribute on <code>&lt;table&gt;</code></li></ul></li><li>Verify the summary is relevant and distinct from the title</li><li>For single-header tables: verify <code>&lt;th&gt;</code> elements are present and not empty</li><li>For double-header tables: verify <code>scope='col'</code> on column headers and <code>scope='row'</code> on row headers</li><li>For complex tables: verify <code>&lt;th&gt;</code>, <code>id</code>, and <code>headers</code> attributes are used appropriately</li></ol>",
+        "group": "Text Content",
+        "complement": ""
+      },
+      {
+        "title": "Is informative content preserved when CSS is disabled?",
+        "wcag": [
+          "1.3.1 A"
+        ],
+        "verifier": "<p>Verify no information is lost when CSS is disabled.</p>",
+        "complement": "<ul><li>No information should be conveyed solely via CSS-generated content (e.g., <code>::before</code>/<code>::after</code> pseudo-elements, <code>content</code> property, CSS background images)</li><li>CSS-generated content should be decorative only</li></ul>",
+        "group": "Layout"
+      }
+    ]
+  },
+  "1.3.2": {
+    "num": "1.3.2",
+    "url": "https://www.w3.org/TR/WCAG22/#meaningful-sequence",
+    "scId": "WCAG2:meaningful-sequence",
+    "scAltId": [
+      "content-structure-separation-sequence"
+    ],
+    "test": "WCAG2:content-structure-separation-sequence",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#meaningful-sequence",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/meaningful-sequence.html",
+    "handle": "Meaningful Sequence",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Does content remain understandable when CSS is disabled?",
+        "wcag": [
+          "1.3.2 A"
+        ],
+        "verifier": "<p>If specific reading order is required to understand content, verify the linearized content remains meaningful when CSS is disabled.</p><p><strong>Example:</strong> Multi-column layouts must render in correct reading order without CSS.</p><p>If no specific reading order is required, the criterion is not applicable.</p>",
+        "complement": "<h5>Additional Information</h5><p>The DOM order must remain understandable and generally match the visual display order.</p><p>Test content using:</p><ul><li>CSS positioning properties (<code>top</code>, <code>left</code>, <code>float</code>, etc.)</li><li>Flexbox (<code>display: flex</code>) or Grid (<code>display: grid</code>)</li><li>Layout tables</li></ul>",
+        "group": "Layout"
+      },
+      {
+        "title": "Are text direction changes programmatically indicated?",
+        "wcag": [
+          "1.3.2 A"
+        ],
+        "verifier": "<p>Verify <code>dir='rtl'</code> or <code>dir='ltr'</code> attributes are applied when text direction changes occur.</p>",
+        "group": "Layout",
+        "complement": ""
+      }
+    ]
+  },
+  "1.3.3": {
+    "num": "1.3.3",
+    "url": "https://www.w3.org/TR/WCAG22/#sensory-characteristics",
+    "scId": "WCAG2:sensory-characteristics",
+    "scAltId": [
+      "content-structure-separation-understanding"
+    ],
+    "test": "WCAG2:content-structure-separation-understanding",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#sensory-characteristics",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics.html",
+    "handle": "Sensory Characteristics",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Is information conveyed by means other than sensory characteristics alone?",
+        "wcag": [
+          "1.3.3 A"
+        ],
+        "verifier": "<p>Verify information conveyed by sensory characteristics (shape, size, position, orientation, sound) is also available via text, alternative content, or explicit messaging.</p><p><strong>Non-conformance examples:</strong></p><ul><li>Instructions relying solely on position: \"press the button on the right\" or \"choose one of the links above the image\"</li><li>Instructions relying solely on visual shape: \"press the round button to exit\"</li></ul>",
+        "group": "Colors and contrasts",
+        "complement": ""
+      }
+    ]
+  },
+  "1.3.4": {
+    "num": "1.3.4",
+    "url": "https://www.w3.org/TR/WCAG22/#orientation",
+    "scId": "WCAG2:orientation",
+    "scAltId": [],
+    "test": "WCAG2:orientation",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#orientation",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/orientation.html",
+    "handle": "Orientation",
+    "level": "AA",
+    "wcagType": "2.1",
+    "testCases": [
+      {
+        "title": "Is content accessible in both portrait and landscape orientations?",
+        "wcag": [
+          "1.3.4 AA"
+        ],
+        "verifier": "<p>Verify content and functionality are available in both orientations without loss of information or truncated elements.</p>",
+        "group": "Layout",
+        "complement": ""
+      }
+    ]
+  },
+  "1.3.5": {
+    "num": "1.3.5",
+    "url": "https://www.w3.org/TR/WCAG22/#identify-input-purpose",
+    "scId": "WCAG2:identify-input-purpose",
+    "scAltId": [],
+    "test": "WCAG2:identify-input-purpose",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#identify-input-purpose",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose.html",
+    "handle": "Identify Input Purpose",
+    "level": "AA",
+    "wcagType": "2.1",
+    "testCases": [
+      {
+        "title": "Do input fields for personal user information have appropriate autocomplete attributes?",
+        "wcag": [
+          "1.3.5 AA"
+        ],
+        "verifier": "<ul><li>Verify <code>autocomplete</code> attribute is present on input fields collecting personal user information (name, address, contact details, etc.)</li><li>Verify the <code>autocomplete</code> value matches the expected information type per <a href='https://www.w3.org/TR/WCAG22/#input-purposes' target='_blank' aria-label='list of valid autocomplete values (opens in new window)'>valid autocomplete token values</a></li></ul>",
+        "group": "Form",
+        "complement": ""
+      }
+    ]
+  },
+  "1.3.6": {
+    "num": "1.3.6",
+    "url": "https://www.w3.org/TR/WCAG22/#identify-purpose",
+    "scId": "WCAG2:identify-purpose",
+    "scAltId": [],
+    "test": "WCAG2:identify-purpose",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#identify-purpose",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/identify-purpose.html",
+    "handle": "Identify Purpose",
+    "level": "AAA",
+    "wcagType": "2.1",
+    "testCases": [
+      {
+        "title": "Are icons, regions, and components programmatically identifiable?",
+        "wcag": [
+          "1.3.6 AAA"
+        ],
+        "verifier": "<ul><li>Verify icons used to identify specific purposes have appropriate text alternatives</li><li>Verify regions of the page use landmark roles or ARIA region attributes to identify purpose</li><li>Verify UI components use ARIA attributes or native semantics to convey their purpose</li></ul>",
+        "group": "Structure",
+        "complement": ""
+      }
+    ]
+  },
+  "1.4.1": {
+    "num": "1.4.1",
+    "url": "https://www.w3.org/TR/WCAG22/#use-of-color",
+    "scId": "WCAG2:use-of-color",
+    "scAltId": [
+      "visual-audio-contrast-without-color"
+    ],
+    "test": "WCAG2:visual-audio-contrast-without-color",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#use-of-color",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html",
+    "handle": "Use of Color",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Is information conveyed by means other than color alone?",
+        "wcag": [
+          "1.4.1 A"
+        ],
+        "verifier": "<p>Verify color is not the sole means of conveying information:</p><ul><li>Information is also available in text form, or</li><li>Visual indicators (icons, shapes, patterns) accompany color coding, or</li><li>Colors conveying information have sufficient luminosity contrast (minimum 3:1 ratio)</li></ul><p>For links within text blocks:</p><ul><li>Verify links have minimum 3:1 contrast ratio with surrounding text, and</li><li>Provide a non-color visual indicator on focus/hover (e.g., underline)</li></ul>",
+        "group": "Colors and contrasts",
+        "complement": ""
+      }
+    ]
+  },
+  "1.4.2": {
+    "num": "1.4.2",
+    "url": "https://www.w3.org/TR/WCAG22/#audio-control",
+    "scId": "WCAG2:audio-control",
+    "scAltId": [
+      "visual-audio-contrast-dis-audio"
+    ],
+    "test": "WCAG2:visual-audio-contrast-dis-audio",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#audio-control",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/audio-control.html",
+    "handle": "Audio Control",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Can users control auto-playing audio that lasts more than 3 seconds?",
+        "wcag": [
+          "1.4.2 A"
+        ],
+        "verifier": "<p>Verify users can:</p><ul><li>Pause or stop the auto-playing audio, or</li><li>Control the audio volume independently from system volume level</li></ul>",
+        "group": "Multimedia",
+        "complement": ""
+      }
+    ]
+  },
+  "1.4.3": {
+    "num": "1.4.3",
+    "url": "https://www.w3.org/TR/WCAG22/#contrast-minimum",
+    "scId": "WCAG2:contrast-minimum",
+    "scAltId": [
+      "visual-audio-contrast-contrast"
+    ],
+    "test": "WCAG2:visual-audio-contrast-contrast",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#contrast-minimum",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+    "handle": "Contrast (Minimum)",
+    "level": "AA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Does text have sufficient contrast against its background?",
+        "wcag": [
+          "1.4.3 AA"
+        ],
+        "verifier": "<ul><li>Verify text and images of text meet minimum contrast ratios:<ul><li>Regular text under 24px: 4.5:1 minimum</li><li>Regular text 24px and larger: 3:1 minimum</li><li>Bold text under 18.5px: 4.5:1 minimum</li><li>Bold text 18.5px and larger: 3:1 minimum</li></ul></li><li>For non-underlined links in text blocks, verify sufficient contrast between link text and surrounding body text</li></ul>",
+        "group": "Colors and contrasts",
+        "complement": ""
+      },
+      {
+        "title": "Are foreground and background colors both explicitly defined?",
+        "wcag": [
+          "1.4.3 AA"
+        ],
+        "verifier": "<ul><li>If text color is defined (<code>color</code>), background color must also be defined (<code>background-color</code>)</li><li>If background color is defined (<code>background-color</code>), text color must also be defined (<code>color</code>)</li><li>If background images are used (<code>background-image</code>), a fallback background color must be defined (<code>background-color</code>)</li></ul>",
+        "complement": "<ul><li>These properties may be inherited from parent elements</li><li>Test by changing browser default colors: In Firefox, go to Settings > Language and Appearance > Colors, select \"Override the colors specified by the page with your selections above\" and customize text/background colors. If only one color appears without the other on the same element, the test fails</li><li>For text on background images, use browser developer tools to hide background images and verify text remains readable and sufficiently contrasted</li></ul>",
+        "group": "Colors and contrasts"
+      }
+    ]
+  },
+  "1.4.4": {
+    "num": "1.4.4",
+    "url": "https://www.w3.org/TR/WCAG22/#resize-text",
+    "scId": "WCAG2:resize-text",
+    "scAltId": [
+      "visual-audio-contrast-scale"
+    ],
+    "test": "WCAG2:visual-audio-contrast-scale",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#resize-text",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html",
+    "handle": "Resize text",
+    "level": "AA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Does content remain functional when text is resized to 200%?",
+        "wcag": [
+          "1.4.4 AA"
+        ],
+        "verifier": "<p>Verify no loss of content or functionality occurs when text is resized to 200%:</p><ul><li>No content becomes truncated, obscured, or unreachable</li><li>All functionality remains operable</li></ul><p><strong>Note:</strong> On mobile devices, text zoom must be permitted. The viewport meta tag must not contain:</p><ul><li><code>user-scalable='no'</code>, or</li><li><code>maximum-scale</code> value less than 2</li></ul>",
+        "group": "Layout",
+        "complement": ""
+      }
+    ]
+  },
+  "1.4.5": {
+    "num": "1.4.5",
+    "url": "https://www.w3.org/TR/WCAG22/#images-of-text",
+    "scId": "WCAG2:images-of-text",
+    "scAltId": [
+      "visual-audio-contrast-text-presentation"
+    ],
+    "test": "WCAG2:visual-audio-contrast-text-presentation",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#images-of-text",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/images-of-text.html",
+    "handle": "Images of Text",
+    "level": "AA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Is text presented as real text rather than images of text?",
+        "wcag": [
+          "1.4.5 AA"
+        ],
+        "verifier": "<p>Verify text content is rendered as actual text using CSS rather than embedded in images (<code>img</code>, <code>input type='image'</code>, <code>object</code>, <code>embed</code>, <code>canvas</code>).</p><p>Exceptions where images of text are permitted:</p><ul><li>SVG containing real text</li><li>Logotypes (brand logos)</li><li>CAPTCHA</li><li>Text is essential (e.g., specific font representation required)</li><li>Image is customizable by the user</li></ul>",
+        "group": "Non-text Content",
+        "complement": ""
+      }
+    ]
+  },
+  "1.4.6": {
+    "num": "1.4.6",
+    "url": "https://www.w3.org/TR/WCAG22/#contrast-enhanced",
+    "scId": "WCAG2:contrast-enhanced",
+    "scAltId": [
+      "visual-audio-contrast7"
+    ],
+    "test": "WCAG2:visual-audio-contrast7",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#contrast-enhanced",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced.html",
+    "handle": "Contrast (Enhanced)",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Does text have enhanced contrast against its background?",
+        "wcag": [
+          "1.4.6 AAA"
+        ],
+        "verifier": "<ul><li>Verify text and images of text meet enhanced contrast ratios:<ul><li>Regular text under 24px: 7:1 minimum</li><li>Regular text 24px and larger: 4.5:1 minimum</li><li>Bold text under 18.5px: 7:1 minimum</li><li>Bold text 18.5px and larger: 4.5:1 minimum</li></ul></li><li>For non-underlined links in text blocks, verify enhanced contrast between link text and surrounding body text</li></ul>",
+        "group": "Colors and contrasts",
+        "complement": ""
+      }
+    ]
+  },
+  "1.4.7": {
+    "num": "1.4.7",
+    "url": "https://www.w3.org/TR/WCAG22/#low-or-no-background-audio",
+    "scId": "WCAG2:low-or-no-background-audio",
+    "scAltId": [
+      "visual-audio-contrast-noaudio"
+    ],
+    "test": "WCAG2:visual-audio-contrast-noaudio",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#low-or-no-background-audio",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/low-or-no-background-audio.html",
+    "handle": "Low or No Background Audio",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Is background audio sufficiently low or absent in speech content?",
+        "wcag": [
+          "1.4.7 AAA"
+        ],
+        "verifier": "<p>Verify for pre-recorded audio content containing primarily speech:</p><ul><li>Background sounds are absent, or</li><li>Background sounds are at least 20 decibels lower than foreground speech, or</li><li>Background audio can be turned off</li></ul>",
+        "group": "Multimedia",
+        "complement": ""
+      }
+    ]
+  },
+  "1.4.8": {
+    "num": "1.4.8",
+    "url": "https://www.w3.org/TR/WCAG22/#visual-presentation",
+    "scId": "WCAG2:visual-presentation",
+    "scAltId": [
+      "visual-audio-contrast-visual-presentation"
+    ],
+    "test": "WCAG2:visual-audio-contrast-visual-presentation",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#visual-presentation",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation.html",
+    "handle": "Visual Presentation",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Can users customize text presentation?",
+        "wcag": [
+          "1.4.8 AAA"
+        ],
+        "verifier": "<p>Verify users can control text presentation via browser or user stylesheet:</p><ul><li>Foreground and background colors can be selected</li><li>Line width is no more than 80 characters (40 for CJK)</li><li>Text is not justified</li><li>Line spacing is at least 1.5 within paragraphs and paragraph spacing is at least 1.5 times line spacing</li><li>Text can be resized up to 200% without assistive technology</li></ul>",
+        "group": "Layout",
+        "complement": ""
+      }
+    ]
+  },
+  "1.4.9": {
+    "num": "1.4.9",
+    "url": "https://www.w3.org/TR/WCAG22/#images-of-text-no-exception",
+    "scId": "WCAG2:images-of-text-no-exception",
+    "scAltId": [
+      "visual-audio-contrast-text-images"
+    ],
+    "test": "WCAG2:visual-audio-contrast-text-images",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#images-of-text-no-exception",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/images-of-text-no-exception.html",
+    "handle": "Images of Text (No Exception)",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Is all text presented as real text without exceptions?",
+        "wcag": [
+          "1.4.9 AAA"
+        ],
+        "verifier": "<p>Verify no images of text are used for any text content. All text must be rendered as actual text using CSS or SVG with real text elements.</p><p>No exceptions permitted (unlike 1.4.5).</p>",
+        "group": "Non-text Content",
+        "complement": ""
+      }
+    ]
+  },
+  "1.4.10": {
+    "num": "1.4.10",
+    "url": "https://www.w3.org/TR/WCAG22/#reflow",
+    "scId": "WCAG2:reflow",
+    "scAltId": [],
+    "test": "WCAG2:reflow",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#reflow",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html",
+    "handle": "Reflow",
+    "level": "AA",
+    "wcagType": "2.1",
+    "testCases": [
+      {
+        "title": "Does content reflow without requiring two-dimensional scrolling?",
+        "wcag": [
+          "1.4.10 AA"
+        ],
+        "verifier": "<p>Verify content can be presented without loss of information or functionality and without requiring scrolling in two dimensions:</p><ul><li>Vertical scrolling content: no horizontal scroll at 320px viewport width</li><li>Horizontal scrolling content: no vertical scroll at 256px viewport height</li></ul><p>Note: Scrollbars may be present but should not be required to access content or functionality.</p>",
+        "group": "Layout",
+        "complement": ""
+      }
+    ]
+  },
+  "1.4.11": {
+    "num": "1.4.11",
+    "url": "https://www.w3.org/TR/WCAG22/#non-text-contrast",
+    "scId": "WCAG2:non-text-contrast",
+    "scAltId": [],
+    "test": "WCAG2:non-text-contrast",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#non-text-contrast",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html",
+    "handle": "Non-text Contrast",
+    "level": "AA",
+    "wcagType": "2.1",
+    "testCases": [
+      {
+        "title": "Do non-text elements have sufficient contrast against adjacent colors?",
+        "wcag": [
+          "1.4.11 AA"
+        ],
+        "verifier": "<p>Verify the following have minimum 3:1 contrast ratio with adjacent colors:</p><ul><li>User interface components (boundaries, states, focus indicators)</li><li>Graphical objects required to understand content</li><li>Icons and informative graphics</li></ul>",
+        "group": "Colors and contrasts",
+        "complement": ""
+      }
+    ]
+  },
+  "1.4.12": {
+    "num": "1.4.12",
+    "url": "https://www.w3.org/TR/WCAG22/#text-spacing",
+    "scId": "WCAG2:text-spacing",
+    "scAltId": [],
+    "test": "WCAG2:text-spacing",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#text-spacing",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html",
+    "handle": "Text Spacing",
+    "level": "AA",
+    "wcagType": "2.1",
+    "testCases": [
+      {
+        "title": "Does content remain functional when text spacing is increased?",
+        "wcag": [
+          "1.4.12 AA"
+        ],
+        "verifier": "<p>Verify no loss of content or functionality when applying these text spacing values:</p><ul><li>Line height: at least 1.5 times font size</li><li>Paragraph spacing: at least 2 times font size</li><li>Letter spacing: at least 0.12 times font size</li><li>Word spacing: at least 0.16 times font size</li><li>No text truncation or overlap occurs</li></ul>",
+        "complement": "<p>Use the following bookmarklet to test: <a href='javascript:(function(){document.querySelector(%27body%27).classList.add(%27text-spacing%27);%20var%20style%20=%20document.createElement(%27style%27),%20styleContent%20=%20document.createTextNode(%27.text-spacing%20*%20{%20line-height:%201.5%20!important;%20letter-spacing:%200.12em%20!important;%20word-spacing:%200.16em%20!important;%20}%20.text-spacing%20p{%20margin-bottom:%202em%20!important;%20}%20%27);%20style.appendChild(styleContent%20);%20var%20caput%20=%20document.getElementsByTagName(%27head%27);%20caput[0].appendChild(style);%20})();'>Text Spacing Test</a></p>",
+        "group": "Layout"
+      }
+    ]
+  },
+  "1.4.13": {
+    "num": "1.4.13",
+    "url": "https://www.w3.org/TR/WCAG22/#content-on-hover-or-focus",
+    "scId": "WCAG2:content-on-hover-or-focus",
+    "scAltId": [],
+    "test": "WCAG2:content-on-hover-or-focus",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#content-on-hover-or-focus",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html",
+    "handle": "Content on Hover or Focus",
+    "level": "AA",
+    "wcagType": "2.1",
+    "testCases": [
+      {
+        "title": "Can additional content appearing on hover or focus be controlled?",
+        "wcag": [
+          "1.4.13 AA"
+        ],
+        "verifier": "<p>For content that appears on hover or focus (e.g., tooltips, dropdowns):</p><ul><li>Verify content can be dismissed without moving pointer or focus (e.g., via Escape key)</li><li>Verify pointer can hover over the new content without it disappearing</li><li>Verify content remains visible until dismissed by user or loses validity</li></ul>",
+        "group": "Common navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.1.1": {
+    "num": "2.1.1",
+    "url": "https://www.w3.org/TR/WCAG22/#keyboard",
+    "scId": "WCAG2:keyboard",
+    "scAltId": [
+      "keyboard-operation-keyboard-operable"
+    ],
+    "test": "WCAG2:keyboard-operation-keyboard-operable",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#keyboard",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html",
+    "handle": "Keyboard",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Is all functionality available via keyboard?",
+        "wcag": [
+          "2.1.1 A"
+        ],
+        "verifier": "<ul><li>Verify all mouse-operable functionality is also operable via keyboard alone</li><li>Verify content displayed on hover is also available on keyboard focus</li></ul><p>Not applicable to user agent-generated tooltips (e.g., <code>title</code> attribute tooltips).</p>",
+        "group": "Keyboard navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.1.2": {
+    "num": "2.1.2",
+    "url": "https://www.w3.org/TR/WCAG22/#no-keyboard-trap",
+    "scId": "WCAG2:no-keyboard-trap",
+    "scAltId": [
+      "keyboard-operation-trapping"
+    ],
+    "test": "WCAG2:keyboard-operation-trapping",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#no-keyboard-trap",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap.html",
+    "handle": "No Keyboard Trap",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Can keyboard focus be moved away from all focusable components?",
+        "wcag": [
+          "2.1.2 A"
+        ],
+        "verifier": "<p>Verify keyboard focus is not trapped within any component or page region. Users must be able to navigate away from all focusable elements using standard keyboard commands.</p>",
+        "group": "Keyboard navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.1.3": {
+    "num": "2.1.3",
+    "url": "https://www.w3.org/TR/WCAG22/#keyboard-no-exception",
+    "scId": "WCAG2:keyboard-no-exception",
+    "scAltId": [
+      "keyboard-operation-all-funcs"
+    ],
+    "test": "WCAG2:keyboard-operation-all-funcs",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#keyboard-no-exception",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/keyboard-no-exception.html",
+    "handle": "Keyboard (No Exception)",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Is all functionality operable via keyboard without exception?",
+        "wcag": [
+          "2.1.3 AAA"
+        ],
+        "verifier": "<p>Verify all functionality is operable through a keyboard interface without requiring specific timing for individual keystrokes. No exceptions permitted (unlike 2.1.1).</p>",
+        "group": "Keyboard navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.1.4": {
+    "num": "2.1.4",
+    "url": "https://www.w3.org/TR/WCAG22/#character-key-shortcuts",
+    "scId": "WCAG2:character-key-shortcuts",
+    "scAltId": [],
+    "test": "WCAG2:character-key-shortcuts",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#character-key-shortcuts",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/character-key-shortcuts.html",
+    "handle": "Character Key Shortcuts",
+    "level": "A",
+    "wcagType": "2.1",
+    "testCases": [
+      {
+        "title": "Can character key shortcuts be modified or disabled?",
+        "wcag": [
+          "2.1.4 A"
+        ],
+        "verifier": "<p>If single-character keyboard shortcuts exist, verify one of the following:</p><ul><li>Shortcut can be disabled by user</li><li>Shortcut only activates when component has focus</li><li>Mechanism exists to remap shortcut to include non-printable modifier keys (e.g., <kbd>Ctrl</kbd>, <kbd>Alt</kbd>)</li></ul>",
+        "group": "Keyboard navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.2.1": {
+    "num": "2.2.1",
+    "url": "https://www.w3.org/TR/WCAG22/#timing-adjustable",
+    "scId": "WCAG2:timing-adjustable",
+    "scAltId": [
+      "time-limits-required-behaviors"
+    ],
+    "test": "WCAG2:time-limits-required-behaviors",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#timing-adjustable",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable.html",
+    "handle": "Timing Adjustable",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Can users adjust or disable time limits?",
+        "wcag": [
+          "2.2.1 A"
+        ],
+        "verifier": "<p>Verify one of the following is available:</p><ul><li>User can turn off time limit before encountering it</li><li>User can adjust time limit to at least 10 times the default</li><li>User is warned before expiration and given at least 20 seconds to extend via simple action</li><li>Time limit exceeds 20 hours</li></ul>",
+        "group": "Common navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.2.2": {
+    "num": "2.2.2",
+    "url": "https://www.w3.org/TR/WCAG22/#pause-stop-hide",
+    "scId": "WCAG2:pause-stop-hide",
+    "scAltId": [
+      "time-limits-pause"
+    ],
+    "test": "WCAG2:time-limits-pause",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#pause-stop-hide",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html",
+    "handle": "Pause, Stop, Hide",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Can users control moving, blinking, or auto-updating content?",
+        "wcag": [
+          "2.2.2 A"
+        ],
+        "verifier": "<p>For content that starts automatically, lasts more than 5 seconds, and involves movement, scrolling, blinking, or auto-updating:</p><ul><li>Verify mechanism exists to pause, stop, or hide the content</li><li>For auto-updating content, verify mechanism exists to control update frequency</li></ul>",
+        "group": "Common navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.2.3": {
+    "num": "2.2.3",
+    "url": "https://www.w3.org/TR/WCAG22/#no-timing",
+    "scId": "WCAG2:no-timing",
+    "scAltId": [
+      "time-limits-no-exceptions"
+    ],
+    "test": "WCAG2:time-limits-no-exceptions",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#no-timing",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/no-timing.html",
+    "handle": "No Timing",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Is content free of time limits?",
+        "wcag": [
+          "2.2.3 AAA"
+        ],
+        "verifier": "<p>Verify no time limits are imposed on content reading or interaction, except for real-time events (e.g., auctions) where timing is essential.</p>",
+        "group": "Common navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.2.4": {
+    "num": "2.2.4",
+    "url": "https://www.w3.org/TR/WCAG22/#interruptions",
+    "scId": "WCAG2:interruptions",
+    "scAltId": [
+      "time-limits-postponed"
+    ],
+    "test": "WCAG2:time-limits-postponed",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#interruptions",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/interruptions.html",
+    "handle": "Interruptions",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Can interruptions be postponed or suppressed?",
+        "wcag": [
+          "2.2.4 AAA"
+        ],
+        "verifier": "<p>Verify users can postpone or suppress interruptions, updates, and distractions unless the interruption involves an emergency.</p>",
+        "group": "Common navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.2.5": {
+    "num": "2.2.5",
+    "url": "https://www.w3.org/TR/WCAG22/#re-authenticating",
+    "scId": "WCAG2:re-authenticating",
+    "scAltId": [
+      "time-limits-server-timeout"
+    ],
+    "test": "WCAG2:time-limits-server-timeout",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#re-authenticating",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/re-authenticating.html",
+    "handle": "Re-authenticating",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Is data preserved during re-authentication?",
+        "wcag": [
+          "2.2.5 AAA"
+        ],
+        "verifier": "<p>Verify when authenticated sessions expire, users can re-authenticate without loss of data they were submitting.</p>",
+        "group": "Common navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.2.6": {
+    "num": "2.2.6",
+    "url": "https://www.w3.org/TR/WCAG22/#timeouts",
+    "scId": "WCAG2:timeouts",
+    "scAltId": [],
+    "test": "WCAG2:timeouts",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#timeouts",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/timeouts.html",
+    "handle": "Timeouts",
+    "level": "AAA",
+    "wcagType": "2.1",
+    "testCases": [
+      {
+        "title": "Are users warned about data loss due to inactivity?",
+        "wcag": [
+          "2.2.6 AAA"
+        ],
+        "verifier": "<p>Verify users are warned about periods of inactivity that could cause data loss, unless data is preserved for more than 20 hours of inactivity.</p>",
+        "group": "Common navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.3.1": {
+    "num": "2.3.1",
+    "url": "https://www.w3.org/TR/WCAG22/#three-flashes-or-below-threshold",
+    "scId": "WCAG2:three-flashes-or-below-threshold",
+    "scAltId": [
+      "seizure-does-not-violate"
+    ],
+    "test": "WCAG2:seizure-does-not-violate",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#three-flashes-or-below-threshold",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html",
+    "handle": "Three Flashes or Below Threshold",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Does content avoid flashing more than three times per second?",
+        "wcag": [
+          "2.3.1 A"
+        ],
+        "verifier": "<p>Verify content does not flash more than 3 times per second, OR if it does, the flashing area is smaller than 21,824 square pixels (approximately 10% of a 1024x768 display).</p>",
+        "group": "Common navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.3.2": {
+    "num": "2.3.2",
+    "url": "https://www.w3.org/TR/WCAG22/#three-flashes",
+    "scId": "WCAG2:three-flashes",
+    "scAltId": [
+      "seizure-three-times"
+    ],
+    "test": "WCAG2:seizure-three-times",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#three-flashes",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/three-flashes.html",
+    "handle": "Three Flashes",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Does content avoid any flashing?",
+        "wcag": [
+          "2.3.2 AAA"
+        ],
+        "verifier": "<p>Verify content does not flash more than 3 times in any one second period, regardless of area size (unlike 2.3.1 which allows small areas).</p>",
+        "group": "Common navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.3.3": {
+    "num": "2.3.3",
+    "url": "https://www.w3.org/TR/WCAG22/#animation-from-interactions",
+    "scId": "WCAG2:animation-from-interactions",
+    "scAltId": [],
+    "test": "WCAG2:animation-from-interactions",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#animation-from-interactions",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html",
+    "handle": "Animation from Interactions",
+    "level": "AAA",
+    "wcagType": "2.1",
+    "testCases": [
+      {
+        "title": "Can motion animation from interactions be disabled?",
+        "wcag": [
+          "2.3.3 AAA"
+        ],
+        "verifier": "<p>Verify motion animations triggered by user interaction can be disabled, unless the animation is essential to functionality or the information being conveyed.</p><p>Note: This applies to parallax effects, zooming, panning, and other motion effects that could cause vestibular disorders.</p>",
+        "group": "Common navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.4.1": {
+    "num": "2.4.1",
+    "url": "https://www.w3.org/TR/WCAG22/#bypass-blocks",
+    "scId": "WCAG2:bypass-blocks",
+    "scAltId": [
+      "navigation-mechanisms-skip"
+    ],
+    "test": "WCAG2:navigation-mechanisms-skip",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#bypass-blocks",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks.html",
+    "handle": "Bypass Blocks",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Is there a mechanism to bypass repetitive content blocks?",
+        "wcag": [
+          "2.4.1 A"
+        ],
+        "verifier": "<p>Verify at least one mechanism exists to bypass blocks of content repeated across pages:</p><ul><li>Skip links to main content</li><li>Proper heading hierarchy (<code>h1-h6</code>)</li><li>Landmark regions (<code>header</code>, <code>nav</code>, <code>main</code>, etc.)</li><li>Table of contents or in-page navigation</li></ul>",
+        "group": "Common navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.4.2": {
+    "num": "2.4.2",
+    "url": "https://www.w3.org/TR/WCAG22/#page-titled",
+    "scId": "WCAG2:page-titled",
+    "scAltId": [
+      "navigation-mechanisms-title"
+    ],
+    "test": "WCAG2:navigation-mechanisms-title",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#page-titled",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/page-titled.html",
+    "handle": "Page Titled",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Does each page have an appropriate title?",
+        "wcag": [
+          "2.4.2 A"
+        ],
+        "verifier": "<ul><li>Verify each page has a <code>&lt;title&gt;</code> element</li><li>Verify the title is unique and describes the page content/purpose</li><li>Verify the title updates appropriately when page context changes dynamically (SPA navigation, form validation, search results)</li></ul>",
+        "group": "Text Content",
+        "complement": ""
+      }
+    ]
+  },
+  "2.4.3": {
+    "num": "2.4.3",
+    "url": "https://www.w3.org/TR/WCAG22/#focus-order",
+    "scId": "WCAG2:focus-order",
+    "scAltId": [
+      "navigation-mechanisms-focus-order"
+    ],
+    "test": "WCAG2:navigation-mechanisms-focus-order",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#focus-order",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/focus-order.html",
+    "handle": "Focus Order",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Does focus order follow a logical sequence?",
+        "wcag": [
+          "2.4.3 A"
+        ],
+        "verifier": "<p>Verify focusable components receive focus in an order that preserves meaning and operability, generally matching the visual reading order.</p>",
+        "group": "Keyboard navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.4.4": {
+    "num": "2.4.4",
+    "url": "https://www.w3.org/TR/WCAG22/#link-purpose-in-context",
+    "scId": "WCAG2:link-purpose-in-context",
+    "scAltId": [
+      "navigation-mechanisms-refs"
+    ],
+    "test": "WCAG2:navigation-mechanisms-refs",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#link-purpose-in-context",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context.html",
+    "handle": "Link Purpose (In Context)",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Can link purpose be determined from link text and context?",
+        "wcag": [
+          "2.4.4 A"
+        ],
+        "verifier": "<p>Verify users can determine link purpose from the link text alone or from the link text combined with its programmatic context:</p><ul><li>No identical link text points to different destinations</li><li>Link purpose is clear from accessible name, OR</li><li>Link purpose can be inferred from context (same sentence, paragraph, list item, table cell, or associated table header)</li></ul>",
+        "complement": "<h5>Context includes:</h5><ul><li>Same sentence or paragraph (<code>p</code>)</li><li>Same list item (<code>li</code>)</li><li>Same table cell (<code>td</code>) or associated header cell (<code>th</code>)</li></ul>",
+        "group": "Common navigation"
+      }
+    ]
+  },
+  "2.4.5": {
+    "num": "2.4.5",
+    "url": "https://www.w3.org/TR/WCAG22/#multiple-ways",
+    "scId": "WCAG2:multiple-ways",
+    "scAltId": [
+      "navigation-mechanisms-mult-loc"
+    ],
+    "test": "WCAG2:navigation-mechanisms-mult-loc",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#multiple-ways",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways.html",
+    "handle": "Multiple Ways",
+    "level": "AA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Are there multiple ways to navigate to pages?",
+        "wcag": [
+          "2.4.5 AA"
+        ],
+        "verifier": "<p>Verify at least two of the following navigation mechanisms are available:</p><ul><li>Site navigation menu</li><li>Table of contents</li><li>Site map</li><li>Search functionality</li><li>Links between related pages</li></ul>",
+        "group": "Common navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.4.6": {
+    "num": "2.4.6",
+    "url": "https://www.w3.org/TR/WCAG22/#headings-and-labels",
+    "scId": "WCAG2:headings-and-labels",
+    "scAltId": [
+      "navigation-mechanisms-descriptive"
+    ],
+    "test": "WCAG2:navigation-mechanisms-descriptive",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#headings-and-labels",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels.html",
+    "handle": "Headings and Labels",
+    "level": "AA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Are form labels descriptive?",
+        "wcag": [
+          "2.4.6 AA"
+        ],
+        "verifier": "<ul><li>Verify each form field has a relevant label describing its purpose</li><li>Verify any format requirements indicated are relevant and clear</li><li>Verify field groupings have relevant legends</li></ul>",
+        "complement": "<p>Check both visible labels and accessible names for relevance.</p>",
+        "group": "Form"
+      },
+      {
+        "title": "Are headings descriptive?",
+        "wcag": [
+          "2.4.6 AA"
+        ],
+        "verifier": "<ul><li>Verify headings accurately describe the content they introduce</li><li>Verify heading levels are appropriate to their content hierarchy</li></ul>",
+        "group": "Text Content",
+        "complement": ""
+      },
+      {
+        "title": "Are button labels descriptive?",
+        "wcag": [
+          "2.4.6 AA"
+        ],
+        "verifier": "<p>Verify button accessible names clearly describe the action performed. If accessible name is missing, also check 4.1.2 Name, Role, Value.</p>",
+        "group": "Common navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.4.7": {
+    "num": "2.4.7",
+    "url": "https://www.w3.org/TR/WCAG22/#focus-visible",
+    "scId": "WCAG2:focus-visible",
+    "scAltId": [
+      "navigation-mechanisms-focus-visible"
+    ],
+    "test": "WCAG2:navigation-mechanisms-focus-visible",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#focus-visible",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/focus-visible.html",
+    "handle": "Focus Visible",
+    "level": "AA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Is keyboard focus indicator visible?",
+        "wcag": [
+          "2.4.7 AA"
+        ],
+        "verifier": "<p>Verify a visible focus indicator is present when components receive keyboard focus. If browser default focus is suppressed, a custom focus indicator must be provided.</p>",
+        "group": "Keyboard navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.4.8": {
+    "num": "2.4.8",
+    "url": "https://www.w3.org/TR/WCAG22/#location",
+    "scId": "WCAG2:location",
+    "scAltId": [
+      "navigation-mechanisms-location"
+    ],
+    "test": "WCAG2:navigation-mechanisms-location",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#location",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/location.html",
+    "handle": "Location",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Is user location within the site indicated?",
+        "wcag": [
+          "2.4.8 AAA"
+        ],
+        "verifier": "<p>Verify user's current location is indicated visually and programmatically:</p><ul><li>Breadcrumb navigation, OR</li><li>Visual indicator (sufficiently contrasted, not color-only) with <code>aria-current</code> attribute</li></ul>",
+        "group": "Common navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.4.9": {
+    "num": "2.4.9",
+    "url": "https://www.w3.org/TR/WCAG22/#link-purpose-link-only",
+    "scId": "WCAG2:link-purpose-link-only",
+    "scAltId": [
+      "navigation-mechanisms-link"
+    ],
+    "test": "WCAG2:navigation-mechanisms-link",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#link-purpose-link-only",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-link-only.html",
+    "handle": "Link Purpose (Link Only)",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Can link purpose be determined from link text alone?",
+        "wcag": [
+          "2.4.9 AAA"
+        ],
+        "verifier": "<p>Verify link purpose is clear from accessible name alone, without requiring context:</p><ul><li>Link text describes destination or action</li><li>No identical link text points to different destinations</li></ul>",
+        "group": "Common navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.4.10": {
+    "num": "2.4.10",
+    "url": "https://www.w3.org/TR/WCAG22/#section-headings",
+    "scId": "WCAG2:section-headings",
+    "scAltId": [
+      "navigation-mechanisms-headings"
+    ],
+    "test": "WCAG2:navigation-mechanisms-headings",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#section-headings",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/section-headings.html",
+    "handle": "Section Headings",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Are sections organized with headings?",
+        "wcag": [
+          "2.4.10 AAA"
+        ],
+        "verifier": "<p>Verify sections of content are organized with headings that describe the topic or purpose of each section.</p>",
+        "group": "Text Content",
+        "complement": ""
+      }
+    ]
+  },
+  "2.4.11": {
+    "num": "2.4.11",
+    "url": "https://www.w3.org/TR/WCAG22/#focus-not-obscured-minimum",
+    "scId": "WCAG2:focus-not-obscured-minimum",
+    "scAltId": [],
+    "test": "WCAG2:focus-not-obscured-minimum",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#focus-not-obscured-minimum",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum.html",
+    "handle": "Focus Not Obscured (Minimum)",
+    "level": "AA",
+    "wcagType": "2.2",
+    "testCases": [
+      {
+        "title": "Is focused element at least partially visible?",
+        "wcag": [
+          "2.4.11 AA"
+        ],
+        "verifier": "<p>Verify when an element receives keyboard focus, it is not completely hidden by other content.</p>",
+        "complement": "<h5>Exceptions:</h5><ul><li>User-movable content: test only initial position</li><li>Focus can be revealed without moving focus (e.g., closing overlay)</li><li>Obscuring content has less than 100% opacity</li></ul>",
+        "group": "Keyboard navigation"
+      }
+    ]
+  },
+  "2.4.12": {
+    "num": "2.4.12",
+    "url": "https://www.w3.org/TR/WCAG22/#focus-not-obscured-enhanced",
+    "scId": "WCAG2:focus-not-obscured-enhanced",
+    "scAltId": [],
+    "test": "WCAG2:focus-not-obscured-enhanced",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#focus-not-obscured-enhanced",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-enhanced.html",
+    "handle": "Focus Not Obscured (Enhanced)",
+    "level": "AAA",
+    "wcagType": "2.2",
+    "testCases": [
+      {
+        "title": "Is focused element fully visible?",
+        "wcag": [
+          "2.4.12 AAA"
+        ],
+        "verifier": "<p>Verify when an element receives keyboard focus, no part of it is hidden by other content.</p>",
+        "group": "Keyboard navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.4.13": {
+    "num": "2.4.13",
+    "url": "https://www.w3.org/TR/WCAG22/#focus-appearance",
+    "scId": "WCAG2:focus-appearance",
+    "scAltId": [],
+    "test": "WCAG2:focus-appearance",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#focus-appearance",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/focus-appearance.html",
+    "handle": "Focus Appearance",
+    "level": "AAA",
+    "wcagType": "2.2",
+    "testCases": [
+      {
+        "title": "Does focus indicator meet minimum size and contrast requirements?",
+        "wcag": [
+          "2.4.13 AAA"
+        ],
+        "verifier": "<p>Verify focus indicator meets all of the following:</p><ul><li>Area at least as large as 2 CSS pixels thick perimeter of unfocused component, OR at least 8 CSS pixels along shortest side</li><li>Contrast ratio at least 3:1 between focused and unfocused states</li><li>Contrast ratio at least 3:1 between indicator and adjacent colors</li></ul>",
+        "group": "Keyboard navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.5.1": {
+    "num": "2.5.1",
+    "url": "https://www.w3.org/TR/WCAG22/#pointer-gestures",
+    "scId": "WCAG2:pointer-gestures",
+    "scAltId": [],
+    "test": "WCAG2:pointer-gestures",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#pointer-gestures",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/pointer-gestures.html",
+    "handle": "Pointer Gestures",
+    "level": "A",
+    "wcagType": "2.1",
+    "testCases": [
+      {
+        "title": "Do multipoint or path-based gestures have single-pointer alternatives?",
+        "wcag": [
+          "2.5.1 A"
+        ],
+        "verifier": "<p>Verify multipoint gestures (multiple fingers) and path-based gestures have alternatives operable with a single pointer without path-based movement.</p>",
+        "complement": "<h5>Example:</h5><p>Map zoom functionality provides (+/-) buttons as alternative to two-finger pinch gesture.</p>",
+        "group": "Touch Screen"
+      }
+    ]
+  },
+  "2.5.2": {
+    "num": "2.5.2",
+    "url": "https://www.w3.org/TR/WCAG22/#pointer-cancellation",
+    "scId": "WCAG2:pointer-cancellation",
+    "scAltId": [],
+    "test": "WCAG2:pointer-cancellation",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#pointer-cancellation",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation.html",
+    "handle": "Pointer Cancellation",
+    "level": "A",
+    "wcagType": "2.1",
+    "testCases": [
+      {
+        "title": "Can pointer actions be cancelled or undone?",
+        "wcag": [
+          "2.5.2 A"
+        ],
+        "verifier": "<p>Verify single pointer actions can be cancelled:</p><ul><li>Action not triggered on <code>mousedown</code> or <code>touchstart</code>; can abort by moving pointer outside target, OR</li><li>If action triggers on press, it cancels when pointer is released outside target, OR</li><li>For complex actions (e.g., drag and drop), cancellation mechanism exists (e.g., confirmation dialog)</li></ul><p>Exception: Actions essential for functionality (e.g., virtual keyboard, piano keys).</p>",
+        "group": "Touch and interactions",
+        "complement": ""
+      }
+    ]
+  },
+  "2.5.3": {
+    "num": "2.5.3",
+    "url": "https://www.w3.org/TR/WCAG22/#label-in-name",
+    "scId": "WCAG2:label-in-name",
+    "scAltId": [],
+    "test": "WCAG2:label-in-name",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#label-in-name",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/label-in-name.html",
+    "handle": "Label in Name",
+    "level": "A",
+    "wcagType": "2.1",
+    "testCases": [
+      {
+        "title": "Does accessible name include visible label text?",
+        "wcag": [
+          "2.5.3 A"
+        ],
+        "verifier": "<p>Verify the visible label text is contained within the accessible name of the component. The accessible name may include additional text but must start with or contain the exact visible label.</p>",
+        "complement": "<p>Example: For visible label \"Start\", acceptable accessible names: \"Start playing\" or \"Start game\". Not acceptable: \"Begin playing\" (missing \"Start\").</p>",
+        "group": "Common navigation"
+      }
+    ]
+  },
+  "2.5.4": {
+    "num": "2.5.4",
+    "url": "https://www.w3.org/TR/WCAG22/#motion-actuation",
+    "scId": "WCAG2:motion-actuation",
+    "scAltId": [],
+    "test": "WCAG2:motion-actuation",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#motion-actuation",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation.html",
+    "handle": "Motion Actuation",
+    "level": "A",
+    "wcagType": "2.1",
+    "testCases": [
+      {
+        "title": "Are motion-actuated functions available via alternative controls?",
+        "wcag": [
+          "2.5.4 A"
+        ],
+        "verifier": "<ul><li>Verify functions triggered by device motion (shake, tilt) or user motion have alternative UI controls (e.g., buttons)</li><li>Verify motion detection can be disabled to prevent accidental activation</li></ul>",
+        "group": "Touch Screen",
+        "complement": ""
+      }
+    ]
+  },
+  "2.5.5": {
+    "num": "2.5.5",
+    "url": "https://www.w3.org/TR/WCAG22/#target-size-enhanced",
+    "scId": "WCAG2:target-size-enhanced",
+    "scAltId": [
+      "target-size"
+    ],
+    "test": "WCAG2:target-size-enhanced",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#target-size-enhanced",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html",
+    "handle": "Target Size (Enhanced)",
+    "level": "AAA",
+    "wcagType": "2.1",
+    "testCases": [
+      {
+        "title": "Do interactive elements meet enhanced target size requirements?",
+        "wcag": [
+          "2.5.5 AAA"
+        ],
+        "verifier": "<p>Verify interactive elements have target size of at least 44x44 CSS pixels, except where:</p><ul><li>Equivalent control exists with sufficient size</li><li>Target is in sentence or block of text</li><li>Size is essential for functionality</li><li>Size is determined by user agent and not modified</li></ul>",
+        "group": "Layout",
+        "complement": ""
+      }
+    ]
+  },
+  "2.5.6": {
+    "num": "2.5.6",
+    "url": "https://www.w3.org/TR/WCAG22/#concurrent-input-mechanisms",
+    "scId": "WCAG2:concurrent-input-mechanisms",
+    "scAltId": [],
+    "test": "WCAG2:concurrent-input-mechanisms",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#concurrent-input-mechanisms",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/concurrent-input-mechanisms.html",
+    "handle": "Concurrent Input Mechanisms",
+    "level": "AAA",
+    "wcagType": "2.1",
+    "testCases": [
+      {
+        "title": "Are multiple input methods supported simultaneously?",
+        "wcag": [
+          "2.5.6 AAA"
+        ],
+        "verifier": "<p>Verify content does not restrict input to specific modalities. Users should be able to switch between or use multiple input methods (touch, mouse, keyboard, voice) as needed.</p>",
+        "group": "Touch and interactions",
+        "complement": ""
+      }
+    ]
+  },
+  "2.5.7": {
+    "num": "2.5.7",
+    "url": "https://www.w3.org/TR/WCAG22/#dragging-movements",
+    "scId": "WCAG2:dragging-movements",
+    "scAltId": [],
+    "test": "WCAG2:dragging-movements",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#dragging-movements",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html",
+    "handle": "Dragging Movements",
+    "level": "AA",
+    "wcagType": "2.2",
+    "testCases": [
+      {
+        "title": "Do dragging actions have single-pointer alternatives?",
+        "wcag": [
+          "2.5.7 AA"
+        ],
+        "verifier": "<p>Verify drag-and-drop functionality has an alternative operable with single pointer clicks (e.g., move buttons, select and confirm).</p>",
+        "complement": "<p>Applies to actions where only start and end points matter (e.g., moving items between lists). Does not cover multipoint or path-based gestures (see 2.5.1).</p>",
+        "group": "Touch and interactions"
+      }
+    ]
+  },
+  "2.5.8": {
+    "num": "2.5.8",
+    "url": "https://www.w3.org/TR/WCAG22/#target-size-minimum",
+    "scId": "WCAG2:target-size-minimum",
+    "scAltId": [],
+    "test": "WCAG2:target-size-minimum",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#target-size-minimum",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html",
+    "handle": "Target Size (Minimum)",
+    "level": "AA",
+    "wcagType": "2.2",
+    "testCases": [
+      {
+        "title": "Do interactive elements meet minimum target size requirements?",
+        "wcag": [
+          "2.5.8 AA"
+        ],
+        "verifier": "<p>Verify interactive elements meet minimum target size of 24x24 CSS pixels, OR:</p><ul><li>Spacing exception: 24px diameter circle centered on target does not overlap other targets</li><li>Alternative exception: Undersized target has compliant alternative performing same action</li><li>Inline exception: Target is in sentence or constrained by surrounding text line height</li></ul>",
+        "group": "Layout",
+        "complement": ""
+      }
+    ]
+  },
+  "3.1.1": {
+    "num": "3.1.1",
+    "url": "https://www.w3.org/TR/WCAG22/#language-of-page",
+    "scId": "WCAG2:language-of-page",
+    "scAltId": [
+      "meaning-doc-lang-id"
+    ],
+    "test": "WCAG2:meaning-doc-lang-id",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#language-of-page",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/language-of-page.html",
+    "handle": "Language of Page",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Is the default language of the page correctly identified?",
+        "wcag": [
+          "3.1.1 A"
+        ],
+        "verifier": "<ul><li>Verify <code>lang</code> attribute is present on <code>&lt;html&gt;</code> element (note: <code>xml:lang</code> alone is not sufficient)</li><li>Verify the <code>lang</code> value matches the primary language of the page content</li></ul>",
+        "group": "Text Content",
+        "complement": ""
+      }
+    ]
+  },
+  "3.1.2": {
+    "num": "3.1.2",
+    "url": "https://www.w3.org/TR/WCAG22/#language-of-parts",
+    "scId": "WCAG2:language-of-parts",
+    "scAltId": [
+      "meaning-other-lang-id"
+    ],
+    "test": "WCAG2:meaning-other-lang-id",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#language-of-parts",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/language-of-parts.html",
+    "handle": "Language of Parts",
+    "level": "AA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Are language changes within content identified?",
+        "wcag": [
+          "3.1.2 AA"
+        ],
+        "verifier": "<p>Verify <code>lang</code> attribute is used for content in a different language than the page default.</p><p>Exceptions: Common loanwords (e.g., déjà vu, hors d'oeuvre) and proper nouns do not require language identification.</p>",
+        "group": "Text Content",
+        "complement": ""
+      }
+    ]
+  },
+  "3.1.3": {
+    "num": "3.1.3",
+    "url": "https://www.w3.org/TR/WCAG22/#unusual-words",
+    "scId": "WCAG2:unusual-words",
+    "scAltId": [
+      "meaning-idioms"
+    ],
+    "test": "WCAG2:meaning-idioms",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#unusual-words",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/unusual-words.html",
+    "handle": "Unusual Words",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Are unusual words and idioms explained?",
+        "wcag": [
+          "3.1.3 AAA"
+        ],
+        "verifier": "<p>Verify mechanisms are available for identifying definitions of unusual words, idioms, or jargon, such as:</p><ul><li>Glossary or definition links</li><li>Inline definitions</li><li>Contextual explanations</li></ul>",
+        "group": "Text Content",
+        "complement": ""
+      }
+    ]
+  },
+  "3.1.4": {
+    "num": "3.1.4",
+    "url": "https://www.w3.org/TR/WCAG22/#abbreviations",
+    "scId": "WCAG2:abbreviations",
+    "scAltId": [
+      "meaning-located"
+    ],
+    "test": "WCAG2:meaning-located",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#abbreviations",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/abbreviations.html",
+    "handle": "Abbreviations",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Are abbreviations expanded or explained?",
+        "wcag": [
+          "3.1.4 AAA"
+        ],
+        "verifier": "<p>Verify mechanisms are available for identifying the expanded form or meaning of abbreviations, such as:</p><ul><li>Expansion on first use</li><li>Glossary or definition links</li><li><code>abbr</code> element with <code>title</code> attribute</li></ul>",
+        "group": "Text Content",
+        "complement": ""
+      }
+    ]
+  },
+  "3.1.5": {
+    "num": "3.1.5",
+    "url": "https://www.w3.org/TR/WCAG22/#reading-level",
+    "scId": "WCAG2:reading-level",
+    "scAltId": [
+      "meaning-supplements"
+    ],
+    "test": "WCAG2:meaning-supplements",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#reading-level",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/reading-level.html",
+    "handle": "Reading Level",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Is content available at lower secondary education level?",
+        "wcag": [
+          "3.1.5 AAA"
+        ],
+        "verifier": "<p>Verify content requiring reading ability beyond lower secondary education level (approximately 9 years of schooling) has:</p><ul><li>Supplementary content, OR</li><li>Version at lower reading level</li></ul>",
+        "group": "Text Content",
+        "complement": ""
+      }
+    ]
+  },
+  "3.1.6": {
+    "num": "3.1.6",
+    "url": "https://www.w3.org/TR/WCAG22/#pronunciation",
+    "scId": "WCAG2:pronunciation",
+    "scAltId": [
+      "meaning-pronunciation"
+    ],
+    "test": "WCAG2:meaning-pronunciation",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#pronunciation",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/pronunciation.html",
+    "handle": "Pronunciation",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Is pronunciation information available for words where meaning depends on pronunciation?",
+        "wcag": [
+          "3.1.6 AAA"
+        ],
+        "verifier": "<p>Verify pronunciation information is provided for words where meaning cannot be determined without knowing how to pronounce them (e.g., heteronyms like 'lead' or 'tear').</p>",
+        "group": "Text Content",
+        "complement": ""
+      }
+    ]
+  },
+  "3.2.1": {
+    "num": "3.2.1",
+    "url": "https://www.w3.org/TR/WCAG22/#on-focus",
+    "scId": "WCAG2:on-focus",
+    "scAltId": [
+      "consistent-behavior-receive-focus"
+    ],
+    "test": "WCAG2:consistent-behavior-receive-focus",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#on-focus",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/on-focus.html",
+    "handle": "On Focus",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Does receiving focus trigger unexpected context changes?",
+        "wcag": [
+          "3.2.1 A"
+        ],
+        "verifier": "<p>Verify no context change occurs when components receive focus, unless the user is informed beforehand.</p>",
+        "complement": "<h5>Context Change Definition:</h5><p>Major changes that can confuse users if unexpected:</p><ul><li>User agent change (opening external application)</li><li>Viewport change (scrolling to different section, new window)</li><li>Focus position change (unexpected focus movement)</li><li>Content changes that alter page meaning</li></ul><p>Acceptable if initiated by explicit button/link or user is warned via text.</p>",
+        "group": "Common navigation"
+      }
+    ]
+  },
+  "3.2.2": {
+    "num": "3.2.2",
+    "url": "https://www.w3.org/TR/WCAG22/#on-input",
+    "scId": "WCAG2:on-input",
+    "scAltId": [
+      "consistent-behavior-unpredictable-change"
+    ],
+    "test": "WCAG2:consistent-behavior-unpredictable-change",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#on-input",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/on-input.html",
+    "handle": "On Input",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Does changing input values trigger unexpected context changes?",
+        "wcag": [
+          "3.2.2 A"
+        ],
+        "verifier": "<p>Verify no context change occurs when changing form control values (checking boxes, entering text, selecting options), unless the user is informed beforehand.</p><p>Note: Activating links or buttons is not considered an input change.</p>",
+        "complement": "<h5>Context Change Definition:</h5><p>Major changes that can confuse users if unexpected:</p><ul><li>User agent change (opening external application)</li><li>Viewport change (scrolling to different section, new window)</li><li>Focus position change (unexpected focus movement)</li><li>Content changes that alter page meaning</li></ul><p>Acceptable if initiated by explicit button/link or user is warned via text.</p>",
+        "group": "Common navigation"
+      }
+    ]
+  },
+  "3.2.3": {
+    "num": "3.2.3",
+    "url": "https://www.w3.org/TR/WCAG22/#consistent-navigation",
+    "scId": "WCAG2:consistent-navigation",
+    "scAltId": [
+      "consistent-behavior-consistent-locations"
+    ],
+    "test": "WCAG2:consistent-behavior-consistent-locations",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#consistent-navigation",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation.html",
+    "handle": "Consistent Navigation",
+    "level": "AA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Are navigation mechanisms consistently positioned across pages?",
+        "wcag": [
+          "3.2.3 AA"
+        ],
+        "verifier": "<p>Verify navigation mechanisms repeated across pages maintain consistent relative order and positioning (visually and in DOM).</p>",
+        "group": "Layout",
+        "complement": ""
+      }
+    ]
+  },
+  "3.2.4": {
+    "num": "3.2.4",
+    "url": "https://www.w3.org/TR/WCAG22/#consistent-identification",
+    "scId": "WCAG2:consistent-identification",
+    "scAltId": [
+      "consistent-behavior-consistent-functionality"
+    ],
+    "test": "WCAG2:consistent-behavior-consistent-functionality",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#consistent-identification",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification.html",
+    "handle": "Consistent Identification",
+    "level": "AA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Are functionally identical components labeled consistently?",
+        "wcag": [
+          "3.2.4 AA"
+        ],
+        "verifier": "<p>Verify components with identical functions have consistent accessible names across pages and within the same page when repeated.</p>",
+        "group": "Layout",
+        "complement": ""
+      }
+    ]
+  },
+  "3.2.5": {
+    "num": "3.2.5",
+    "url": "https://www.w3.org/TR/WCAG22/#change-on-request",
+    "scId": "WCAG2:change-on-request",
+    "scAltId": [
+      "consistent-behavior-no-extreme-changes-context"
+    ],
+    "test": "WCAG2:consistent-behavior-no-extreme-changes-context",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#change-on-request",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/change-on-request.html",
+    "handle": "Change on Request",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Are context changes only made on user request?",
+        "wcag": [
+          "3.2.5 AAA"
+        ],
+        "verifier": "<p>Verify context changes only occur when explicitly requested by the user, or a mechanism is available to disable automatic context changes.</p>",
+        "group": "Common navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "3.2.6": {
+    "num": "3.2.6",
+    "url": "https://www.w3.org/TR/WCAG22/#consistent-help",
+    "scId": "WCAG2:consistent-help",
+    "scAltId": [],
+    "test": "WCAG2:consistent-help",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#consistent-help",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/consistent-help.html",
+    "handle": "Consistent Help",
+    "level": "A",
+    "wcagType": "2.2",
+    "testCases": [
+      {
+        "title": "Are help mechanisms consistently located across pages?",
+        "wcag": [
+          "3.2.6 A"
+        ],
+        "verifier": "<p>Verify help mechanisms (contact info, chat, FAQ) appear in consistent relative order across all pages and viewports.</p><p>Exceptions:</p><ul><li>Same DOM order but different visual positioning</li><li>Repositioning due to user-initiated display changes (orientation, zoom)</li><li>Page-specific promotional content that doesn't affect help mechanism order</li></ul>",
+        "complement": "<h5>Additional Information:</h5><ul><li>Help mechanisms include: email, phone, contact forms, chat, FAQ</li><li>Criterion does not require help mechanisms to exist, only that they be consistent if present</li><li>Test each user profile separately if page structure varies by profile</li></ul>",
+        "group": "Common navigation"
+      }
+    ]
+  },
+  "3.3.1": {
+    "num": "3.3.1",
+    "url": "https://www.w3.org/TR/WCAG22/#error-identification",
+    "scId": "WCAG2:error-identification",
+    "scAltId": [
+      "minimize-error-identified"
+    ],
+    "test": "WCAG2:minimize-error-identified",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#error-identification",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html",
+    "handle": "Error Identification",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Are form fields in error programmatically identified?",
+        "wcag": [
+          "3.3.1 A"
+        ],
+        "verifier": "<ul><li>Verify field label, accessible name, or description indicates error state (e.g., addition of \"error\" text, icon, <code>aria-labelledby</code>, or <code>aria-describedby</code>)</li><li>Verify field has <code>aria-invalid='true'</code> attribute</li></ul>",
+        "group": "Form",
+        "complement": ""
+      },
+      {
+        "title": "Are error messages descriptive?",
+        "wcag": [
+          "3.3.1 A"
+        ],
+        "verifier": "<ul><li>Verify error message is visible</li><li>Verify field in error is precisely identified</li><li>Verify nature of error is clearly described (e.g., required field, invalid format)</li></ul>",
+        "complement": "<p>Exception: Security-sensitive forms (e.g., authentication) where specifically identifying which field is in error would compromise security.</p>",
+        "group": "Form"
+      }
+    ]
+  },
+  "3.3.2": {
+    "num": "3.3.2",
+    "url": "https://www.w3.org/TR/WCAG22/#labels-or-instructions",
+    "scId": "WCAG2:labels-or-instructions",
+    "scAltId": [
+      "minimize-error-cues"
+    ],
+    "test": "WCAG2:minimize-error-cues",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#labels-or-instructions",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html",
+    "handle": "Labels or Instructions",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Do form fields have visible labels?",
+        "wcag": [
+          "3.3.2 A"
+        ],
+        "verifier": "<ul><li>Verify visible label is present near form field, OR</li><li>Verify field has <code>title</code> attribute, OR</li><li>Verify text becomes visible on focus</li></ul><p>Exception: Fields with obvious purpose (e.g., search field with magnifying glass button, row selection checkbox).</p>",
+        "complement": "<p>Placeholder text alone is not sufficient; it must be accompanied by persistent text near the field.</p>",
+        "group": "Form"
+      },
+      {
+        "title": "Are required data formats clearly indicated?",
+        "wcag": [
+          "3.3.2 A"
+        ],
+        "verifier": "<p>Verify input format requirements are visible and visually associated with the appropriate field.</p>",
+        "group": "Form",
+        "complement": ""
+      },
+      {
+        "title": "Are required fields clearly identified?",
+        "wcag": [
+          "1.3.1 A",
+          "3.3.2 A"
+        ],
+        "verifier": "<ul><li>Verify required fields are indicated by text or visual element (e.g., asterisk)</li><li>Verify indicator meaning is explained before first use</li><li>Verify programmatic association via <code>label</code>, <code>aria-labelledby</code>, <code>required</code>, or <code>aria-required</code></li></ul><p>Alternative: When all fields are required except one, identify only the optional field.</p>",
+        "group": "Form",
+        "complement": ""
+      }
+    ]
+  },
+  "3.3.3": {
+    "num": "3.3.3",
+    "url": "https://www.w3.org/TR/WCAG22/#error-suggestion",
+    "scId": "WCAG2:error-suggestion",
+    "scAltId": [
+      "minimize-error-suggestions"
+    ],
+    "test": "WCAG2:minimize-error-suggestions",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#error-suggestion",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion.html",
+    "handle": "Error Suggestion",
+    "level": "AA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Are correction suggestions provided for input errors?",
+        "wcag": [
+          "3.3.3 AA"
+        ],
+        "verifier": "<p>Verify error messages provide information necessary to correct errors, such as:</p><ul><li>Additional help facilitating correction</li><li>Suggestions from limited list of values</li><li>Examples of valid input format</li></ul>",
+        "group": "Form",
+        "complement": ""
+      }
+    ]
+  },
+  "3.3.4": {
+    "num": "3.3.4",
+    "url": "https://www.w3.org/TR/WCAG22/#error-prevention-legal-financial-data",
+    "scId": "WCAG2:error-prevention-legal-financial-data",
+    "scAltId": [
+      "minimize-error-reversible"
+    ],
+    "test": "WCAG2:minimize-error-reversible",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#error-prevention-legal-financial-data",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data.html",
+    "handle": "Error Prevention (Legal, Financial, Data)",
+    "level": "AA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Can users review, confirm, and correct submissions of sensitive data?",
+        "wcag": [
+          "3.3.4 AA"
+        ],
+        "verifier": "<p>For forms that modify/delete user data, submit test responses, or cause legal/financial commitments:</p><ul><li>Verify users can review and modify/cancel before final submission, OR</li><li>Verify explicit confirmation mechanism exists (e.g., checkbox)</li></ul>",
+        "group": "Form",
+        "complement": ""
+      }
+    ]
+  },
+  "3.3.5": {
+    "num": "3.3.5",
+    "url": "https://www.w3.org/TR/WCAG22/#help",
+    "scId": "WCAG2:help",
+    "scAltId": [
+      "minimize-error-context-help"
+    ],
+    "test": "WCAG2:minimize-error-context-help",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#help",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/help.html",
+    "handle": "Help",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Is context-sensitive help available?",
+        "wcag": [
+          "3.3.5 AAA"
+        ],
+        "verifier": "<p>Verify context-sensitive help is available for form fields requiring user input, such as:</p><ul><li>Help text near field</li><li>Tooltip or popup with guidance</li><li>Link to detailed instructions</li></ul>",
+        "group": "Form",
+        "complement": ""
+      }
+    ]
+  },
+  "3.3.6": {
+    "num": "3.3.6",
+    "url": "https://www.w3.org/TR/WCAG22/#error-prevention-all",
+    "scId": "WCAG2:error-prevention-all",
+    "scAltId": [
+      "minimize-error-reversible-all"
+    ],
+    "test": "WCAG2:minimize-error-reversible-all",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#error-prevention-all",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-all.html",
+    "handle": "Error Prevention (All)",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Can users review and correct all form submissions?",
+        "wcag": [
+          "3.3.6 AAA"
+        ],
+        "verifier": "<p>For all forms requiring user input:</p><ul><li>Verify users can review and modify/cancel before final submission, OR</li><li>Verify explicit confirmation mechanism exists</li></ul>",
+        "group": "Form",
+        "complement": ""
+      }
+    ]
+  },
+  "3.3.7": {
+    "num": "3.3.7",
+    "url": "https://www.w3.org/TR/WCAG22/#redundant-entry",
+    "scId": "WCAG2:redundant-entry",
+    "scAltId": [],
+    "test": "WCAG2:redundant-entry",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#redundant-entry",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry.html",
+    "handle": "Redundant Entry",
+    "level": "A",
+    "wcagType": "2.2",
+    "testCases": [
+      {
+        "title": "Is previously entered information auto-populated when requested again?",
+        "wcag": [
+          "3.3.7 A"
+        ],
+        "verifier": "<p>Verify previously provided information is auto-populated or available for selection when requested again in same process/session.</p><p>Exceptions:</p><ul><li>Re-entering information is essential (e.g., memory game)</li><li>Security requirement (e.g., password confirmation)</li><li>Previously entered information is no longer valid</li></ul>",
+        "complement": "<p>Valid mechanisms: auto-fill, dropdown selection, copy-paste area, checkbox to use previous data (e.g., billing address same as shipping).</p>",
+        "group": "Form"
+      }
+    ]
+  },
+  "3.3.8": {
+    "num": "3.3.8",
+    "url": "https://www.w3.org/TR/WCAG22/#accessible-authentication-minimum",
+    "scId": "WCAG2:accessible-authentication-minimum",
+    "scAltId": [],
+    "test": "WCAG2:accessible-authentication-minimum",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#accessible-authentication-minimum",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html",
+    "handle": "Accessible Authentication (Minimum)",
+    "level": "AA",
+    "wcagType": "2.2",
+    "testCases": [
+      {
+        "title": "Does authentication avoid cognitive function tests?",
+        "wcag": [
+          "3.3.8 AA"
+        ],
+        "verifier": "<p>Verify authentication does not rely on cognitive tests (memorization, manipulation, transcription), unless alternative is provided:</p><ul><li>Alternative authentication method</li><li>Assistance mechanism</li><li>Object recognition</li><li>Recognition of user's own non-text content</li></ul><p>Note: Copy/paste must be allowed in password fields or auto-fill must be supported.</p>",
+        "group": "Form",
+        "complement": ""
+      },
+      {
+        "title": "Does two-factor authentication avoid cognitive function tests?",
+        "wcag": [
+          "3.3.8 AA"
+        ],
+        "verifier": "<p>Verify 2FA does not rely on cognitive tests, allowing:</p><ul><li>Pasting verification codes</li><li>USB security keys</li><li>QR code scanning</li><li>Device notifications with biometric/PIN confirmation</li><li>User agent auto-fill of codes</li></ul>",
+        "group": "Form",
+        "complement": ""
+      },
+      {
+        "title": "Does CAPTCHA in authentication have accessible alternatives?",
+        "wcag": [
+          "3.3.8 AA"
+        ],
+        "verifier": "<p>Verify CAPTCHA alternatives do not rely on cognitive tests. Permitted: object recognition or identification of user's own non-text content.</p><ul><li>Security must prevent third-party guessing for personal content recognition</li><li>Password fields must allow character display option</li></ul>",
+        "group": "Form",
+        "complement": ""
+      }
+    ]
+  },
+  "3.3.9": {
+    "num": "3.3.9",
+    "url": "https://www.w3.org/TR/WCAG22/#accessible-authentication-enhanced",
+    "scId": "WCAG2:accessible-authentication-enhanced",
+    "scAltId": [],
+    "test": "WCAG2:accessible-authentication-enhanced",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#accessible-authentication-enhanced",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-enhanced.html",
+    "handle": "Accessible Authentication (Enhanced)",
+    "level": "AAA",
+    "wcagType": "2.2",
+    "testCases": [
+      {
+        "title": "Does authentication avoid all cognitive function tests without exception?",
+        "wcag": [
+          "3.3.9 AAA"
+        ],
+        "verifier": "<p>Verify authentication does not rely on any cognitive tests (memorization, manipulation, transcription). Alternative methods must not require cognitive tests either.</p><p>Note: Copy/paste must be allowed or auto-fill supported. Password display option must be available.</p>",
+        "group": "Form",
+        "complement": ""
+      },
+      {
+        "title": "Does two-factor authentication avoid all cognitive function tests?",
+        "wcag": [
+          "3.3.9 AAA"
+        ],
+        "verifier": "<p>Verify 2FA does not rely on cognitive tests. Allowed methods:</p><ul><li>Pasting verification codes</li><li>USB security keys</li><li>QR code scanning</li><li>Device notifications with biometric/PIN</li><li>User agent auto-fill</li></ul>",
+        "group": "Form",
+        "complement": ""
+      },
+      {
+        "title": "Does CAPTCHA in authentication have accessible alternatives without cognitive tests?",
+        "wcag": [
+          "3.3.9 AAA"
+        ],
+        "verifier": "<p>Verify CAPTCHA alternatives do not rely on any cognitive tests. Only biometric or device-based alternatives permitted.</p><ul><li>Security must prevent third-party guessing</li><li>Password display option must be available</li></ul>",
+        "group": "Form",
+        "complement": ""
+      }
+    ]
+  },
+  "4.1.1": {
+    "num": "4.1.1",
+    "url": "https://www.w3.org/TR/WCAG22/#parsing",
+    "scId": "WCAG2:parsing",
+    "scAltId": [
+      "ensure-compat-parses"
+    ],
+    "test": "WCAG2:ensure-compat-parses",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#parsing",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/parsing.html",
+    "handle": "Parsing",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Is markup valid and well-formed?",
+        "wcag": [
+          "4.1.1 A"
+        ],
+        "verifier": "<p>Verify content uses valid markup according to specification:</p><ul><li>Elements have complete start and end tags</li><li>Elements are nested according to specification</li><li>Elements do not contain duplicate attributes</li><li>IDs are unique within the page</li></ul>",
+        "group": "Structure",
+        "complement": ""
+      }
+    ]
+  },
+  "4.1.2": {
+    "num": "4.1.2",
+    "url": "https://www.w3.org/TR/WCAG22/#name-role-value",
+    "scId": "WCAG2:name-role-value",
+    "scAltId": [
+      "ensure-compat-rsv"
+    ],
+    "test": "WCAG2:ensure-compat-rsv",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#name-role-value",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html",
+    "handle": "Name, Role, Value",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Do form fields have accessible names and proper associations?",
+        "wcag": [
+          "1.3.1 A",
+          "4.1.2 A"
+        ],
+        "verifier": "<ul><li>Verify labels are properly associated via:<ul><li><code>aria-labelledby</code></li><li><code>aria-label</code></li><li><code>&lt;label&gt;</code> with <code>for</code> attribute</li><li><code>title</code> attribute</li></ul></li><li>Verify format hints are programmatically associated via <code>aria-describedby</code>, <code>aria-labelledby</code>, or included in label</li></ul>",
+        "complement": "<p>Placeholder alone is not sufficient as accessible name.</p>",
+        "group": "Form"
+      },
+      {
+        "title": "Do frames have descriptive titles?",
+        "wcag": [
+          "4.1.2 A"
+        ],
+        "verifier": "<p>Verify <code>&lt;iframe&gt;</code> and <code>&lt;frame&gt;</code> elements have <code>title</code> attributes describing their content or purpose.</p>",
+        "group": "Non-text Content",
+        "complement": ""
+      },
+      {
+        "title": "Are custom controls accessible to assistive technologies?",
+        "wcag": [
+          "4.1.2 A"
+        ],
+        "verifier": "<p>Verify custom components have:</p><ul><li>Appropriate ARIA roles per design pattern</li><li>States and values programmatically set and updatable</li><li>State changes announced to assistive technologies</li></ul>",
+        "group": "Assistive technology",
+        "complement": ""
+      }
+    ]
+  },
+  "4.1.3": {
+    "num": "4.1.3",
+    "url": "https://www.w3.org/TR/WCAG22/#status-messages",
+    "scId": "WCAG2:status-messages",
+    "scAltId": [],
+    "test": "WCAG2:status-messages",
+    "howToMeetUrl": "https://www.w3.org/WAI/WCAG22/quickref/#status-messages",
+    "understandingUrl": "https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html",
+    "handle": "Status Messages",
+    "level": "AA",
+    "wcagType": "2.1",
+    "testCases": [
+      {
+        "title": "Are status messages announced to assistive technologies?",
+        "wcag": [
+          "4.1.3 AA"
+        ],
+        "verifier": "<p>Verify status messages (search results, notifications, chat messages, file uploads, cart updates, loading progress) use appropriate ARIA:</p><ul><li><code>role='status'</code> for informative messages</li><li><code>role='alert'</code> for error messages</li><li><code>role='log'</code>, <code>progressbar</code>, or <code>status</code> for progress updates</li><li><code>aria-live</code> regions for dynamic content</li></ul>",
+        "group": "Common navigation",
+        "complement": ""
+      }
+    ]
+  }
+}

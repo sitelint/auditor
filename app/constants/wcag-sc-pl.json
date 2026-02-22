@@ -1,0 +1,2338 @@
+{
+  "1.1.1": {
+    "num": "1.1.1",
+    "url": "https://wcag.lepszyweb.pl/#non-text-content",
+    "scId": "WCAG2:non-text-content",
+    "scAltId": [
+      "text-equiv-all"
+    ],
+    "test": "WCAG2:text-equiv-all",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#non-text-content",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/tresc-nietekstowa",
+    "handle": "Treść nietekstowa",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy obrazy informacyjne mają odpowiednie alternatywy tekstowe?",
+        "wcag": [
+          "1.1.1 A"
+        ],
+        "verifier": "<ul><li>Sprawdź, czy elementy <code>img</code>, <code>area</code>, <code>canvas</code>, <code>svg</code>, elementy z <code>role=\"img\"</code> oraz <code>input type=\"image\"</code> mają dostępne nazwy</li><li>Zweryfikuj, czy dostępne nazwy nie są dostarczane wyłącznie przez atrybut <code>title</code></li><li>Dla obrazów dekoracyjnych sprawdź, czy <code>alt</code> jest pusty lub element ma <code>role=\"presentation\"</code>, <code>role=\"none\"</code> albo <code>aria-hidden=\"true\"</code></li><li>Dla złożonych obrazów sprawdź, czy tekst opisowy jest umieszczony w sąsiedztwie obrazu</li><li>Sprawdź, czy żadne informacje nie są przekazywane wyłącznie przez obrazy tła CSS</li><li>Dla osadzonego audio/wideo sprawdź, czy alternatywa tekstowa jest dostarczona w przyległej treści</li></ul>",
+        "group": "Non-text Content",
+        "complement": ""
+      },
+      {
+        "title": "Czy każdy obraz CAPTCHA ma odpowiednią dostępną nazwę?",
+        "wcag": [
+          "1.1.1 A"
+        ],
+        "verifier": "<p>Sprawdź, czy każdy obraz CAPTCHA ma dostępną nazwę opisującą jego cel (np. \"Obraz weryfikacyjny\"), a nie opisującą jego treść wizualną.</p>",
+        "group": "Captcha",
+        "complement": ""
+      },
+      {
+        "title": "Czy każda CAPTCHA zapewnia alternatywne metody dostępu dla użytkowników z niepełnosprawnościami?",
+        "wcag": [
+          "1.1.1 A"
+        ],
+        "verifier": "<p>Dla CAPTCHA wyłącznie wzrokowej lub wyłącznie dźwiękowej sprawdź, czy zapewniona jest jedna z następujących alternatyw:</p><ul><li>Opcje CAPTCHA zarówno audio, jak i wizualne</li><li>Zagadki logiczne lub testy poznawcze (np. proste zadania matematyczne, oczywiste pytania)</li><li>Alternatywna metoda dostępu do chronionej funkcjonalności, która nie wymaga CAPTCHA</li></ul>",
+        "group": "Captcha",
+        "complement": ""
+      },
+      {
+        "title": "Czy ASCII art, emotikony i slang internetowy (leetspeak) mają odpowiednie alternatywy tekstowe?",
+        "wcag": [
+          "1.1.1 A"
+        ],
+        "verifier": "<ul><li>Sprawdź, czy alternatywy tekstowe są dostarczone przy użyciu:<ul><li>Elementu <code>abbr</code> z atrybutem <code>title</code></li><li>Sąsiadującego tekstu opisowego</li><li>Etykiet ARIA tam, gdzie to właściwe</li></ul></li><li>Sprawdź, czy tekst alternatywny przekazuje takie samo znaczenie jak oryginalna treść</li></ul>",
+        "group": "Non-text Content",
+        "complement": ""
+      }
+    ]
+  },
+  "1.2.1": {
+    "num": "1.2.1",
+    "url": "https://wcag.lepszyweb.pl/#audio-only-and-video-only-prerecorded",
+    "scId": "WCAG2:audio-only-and-video-only-prerecorded",
+    "scAltId": [
+      "media-equiv-av-only-alt"
+    ],
+    "test": "WCAG2:media-equiv-av-only-alt",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#audio-only-and-video-only-prerecorded",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/tylko-audio-lub-tylko-wideo-nagranie.html",
+    "handle": "Tylko audio lub tylko wideo (nagranie)",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy nagrania wyłącznie dźwiękowe mają równoważny transkrypt tekstowy?",
+        "wcag": [
+          "1.2.1 A"
+        ],
+        "verifier": "<p>Sprawdź, czy kompletny transkrypt tekstowy zawierający wszystkie informacje dźwiękowe jest dostarczony jako zwykły tekst lub HTML:</p><ul><li>Osadzony bezpośrednio na stronie, lub</li><li>Dostępny za pomocą łącza bezpośrednio sąsiadującego z treścią audio</li></ul>",
+        "group": "Multimedia",
+        "complement": ""
+      },
+      {
+        "title": "Czy nagrania wyłącznie wideo mają równoważny transkrypt tekstowy lub audiodeskrypcję?",
+        "wcag": [
+          "1.2.1 A"
+        ],
+        "verifier": "<p>Sprawdź, czy jedno z poniższych jest dostarczone jako zwykły tekst lub HTML:</p><ul><li>Kompletny transkrypt tekstowy opisujący wszystkie informacje wizualne:<ul><li>Osadzony bezpośrednio na stronie, lub</li><li>Dostępny za pomocą łącza bezpośrednio sąsiadującego z treścią wideo</li></ul></li><li>Ścieżka audio prezentująca informacje równoważne treści wizualnej</li></ul>",
+        "group": "Multimedia",
+        "complement": ""
+      }
+    ]
+  },
+  "1.2.2": {
+    "num": "1.2.2",
+    "url": "https://wcag.lepszyweb.pl/#captions-prerecorded",
+    "scId": "WCAG2:captions-prerecorded",
+    "scAltId": [
+      "media-equiv-captions"
+    ],
+    "test": "WCAG2:media-equiv-captions",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#captions-prerecorded",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/understanding/napisy-rozszerzone-nagranie.html",
+    "handle": "Napisy rozszerzone (nagranie)",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy nagrania wideo z dźwiękiem mają zsynchronizowane napisy?",
+        "wcag": [
+          "1.2.2 A"
+        ],
+        "verifier": "<ul><li>Sprawdź, czy napisy są dostępne dla wszystkich nagranych treści wideo z dźwiękiem</li><li>Sprawdź, czy napisy zawierają wszystkie informacje dźwiękowe niezbędne do zrozumienia treści (dialogi, identyfikacja mówcy, efekty dźwiękowe)</li><li>Sprawdź, czy napisy nie zasłaniają ważnych informacji wizualnych w nagraniu</li></ul>",
+        "group": "Multimedia",
+        "complement": ""
+      }
+    ]
+  },
+  "1.2.3": {
+    "num": "1.2.3",
+    "url": "https://wcag.lepszyweb.pl/#audio-description-or-media-alternative-prerecorded",
+    "scId": "WCAG2:audio-description-or-media-alternative-prerecorded",
+    "scAltId": [
+      "media-equiv-audio-desc"
+    ],
+    "test": "WCAG2:media-equiv-audio-desc",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#audio-description-or-media-alternative-prerecorded",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/audiodeskrypcja-lub-alternatywa-dla-mediow-nagranie.html",
+    "handle": "Audiodeskrypcja lub alternatywa dla mediów (nagranie)",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy nagrania wideo mają audiodeskrypcję lub pełną alternatywę tekstową?",
+        "wcag": [
+          "1.2.3 A"
+        ],
+        "verifier": "<p>Sprawdź, czy zapewnione jest jedno z poniższych:</p><ul><li>Kompletny transkrypt tekstowy zawierający wszystkie informacje wizualne i dźwiękowe:<ul><li>Osadzony bezpośrednio na stronie, lub</li><li>Dostępny za pomocą łącza bezpośrednio sąsiadującego z treścią wideo</li></ul></li><li>Ścieżka audiodeskrypcji, która:<ul><li>Jest zsynchronizowana z nagraniem wideo</li><li>Nie koliduje z istniejącą treścią dźwiękową ani jej nie zasłania</li><li>Dokładnie opisuje wszystkie istotne informacje wizualne</li></ul></li></ul>",
+        "group": "Multimedia",
+        "complement": ""
+      }
+    ]
+  },
+  "1.2.4": {
+    "num": "1.2.4",
+    "url": "https://wcag.lepszyweb.pl/#captions-live",
+    "scId": "WCAG2:captions-live",
+    "scAltId": [
+      "media-equiv-real-time-captions"
+    ],
+    "test": "WCAG2:media-equiv-real-time-captions",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#captions-live",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/napisy-rozszerzone-na-zywo.html",
+    "handle": "Napisy rozszerzone (na żywo)",
+    "level": "AA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy transmisje wideo na żywo z dźwiękiem mają zsynchronizowane napisy?",
+        "wcag": [
+          "1.2.4 AA"
+        ],
+        "verifier": "<ul><li>Sprawdź, czy napisy są dostępne dla wszystkich transmisji wideo na żywo z dźwiękiem</li><li>Sprawdź, czy napisy zawierają wszystkie informacje dźwiękowe niezbędne do zrozumienia treści (dialogi, identyfikacja mówcy, efekty dźwiękowe, muzyka, śmiech)</li></ul>",
+        "complement": "<h5>Napisy</h5><p>Napisy muszą przekazywać nie tylko mówione dialogi, ale również informacje dźwiękowe spoza dialogów, niezbędne do zrozumienia treści programu, w tym efekty dźwiękowe, muzykę, śmiech, identyfikację mówcy i lokalizację.</p>",
+        "group": "Multimedia"
+      }
+    ]
+  },
+  "1.2.5": {
+    "num": "1.2.5",
+    "url": "https://wcag.lepszyweb.pl/#audio-description-prerecorded",
+    "scId": "WCAG2:audio-description-prerecorded",
+    "scAltId": [
+      "media-equiv-audio-desc-only"
+    ],
+    "test": "WCAG2:media-equiv-audio-desc-only",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#audio-description-prerecorded",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/audiodeskrypcja-nagranie.html",
+    "handle": "Audiodeskrypcja (nagranie)",
+    "level": "AA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy nagrania wideo mają zsynchronizowaną audiodeskrypcję?",
+        "wcag": [
+          "1.2.5 AA"
+        ],
+        "verifier": "<ul><li>Sprawdź, czy audiodeskrypcja jest dostarczona dla wszystkich nagranych treści wideo</li><li>Sprawdź, czy audiodeskrypcja jest zsynchronizowana z nagraniem wideo</li><li>Sprawdź, czy audiodeskrypcja nie koliduje z istniejącą treścią dźwiękową ani jej nie zasłania</li><li>Sprawdź, czy audiodeskrypcja dokładnie opisuje wszystkie istotne informacje wizualne</li></ul>",
+        "group": "Multimedia",
+        "complement": ""
+      }
+    ]
+  },
+  "1.2.6": {
+    "num": "1.2.6",
+    "url": "https://wcag.lepszyweb.pl/#sign-language-prerecorded",
+    "scId": "WCAG2:sign-language-prerecorded",
+    "scAltId": [
+      "media-equiv-sign"
+    ],
+    "test": "WCAG2:media-equiv-sign",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#sign-language-prerecorded",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/jezyk-migowy-nagranie",
+    "handle": "Język migowy (nagranie)",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy nagrane zsynchronizowane multimedia mają tłumaczenie na język migowy?",
+        "wcag": [
+          "1.2.6 AAA"
+        ],
+        "verifier": "<ul><li>Sprawdź, czy tłumaczenie na język migowy jest dostarczone dla całej nagranej treści audio w zsynchronizowanych multimediach</li><li>Sprawdź, czy tłumaczenie jest zsynchronizowane z dźwiękiem</li><li>Sprawdź, czy tłumacz języka migowego jest wyraźnie widoczny</li></ul>",
+        "group": "Multimedia",
+        "complement": ""
+      }
+    ]
+  },
+  "1.2.7": {
+    "num": "1.2.7",
+    "url": "https://wcag.lepszyweb.pl/#extended-audio-description-prerecorded",
+    "scId": "WCAG2:extended-audio-description-prerecorded",
+    "scAltId": [
+      "media-equiv-extended-ad"
+    ],
+    "test": "WCAG2:media-equiv-extended-ad",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#extended-audio-description-prerecorded",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/audiodeskrypcja-rozszerzona-nagranie.html",
+    "handle": "Audiodeskrypcja rozszerzona (nagranie)",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy nagrania wideo mają rozszerzoną audiodeskrypcję, gdy pauza jest niewystarczająca?",
+        "wcag": [
+          "1.2.7 AAA"
+        ],
+        "verifier": "<ul><li>Sprawdź, czy rozszerzona audiodeskrypcja jest dostarczona, gdy treści wideo nie można wystarczająco opisać podczas naturalnych przerw w dialogu</li><li>Sprawdź, czy nagranie wideo można wstrzymać, aby umożliwić dodatkowy czas na opis</li><li>Sprawdź, czy opis dokładnie przekazuje wszystkie istotne informacje wizualne</li></ul>",
+        "group": "Multimedia",
+        "complement": ""
+      }
+    ]
+  },
+  "1.2.8": {
+    "num": "1.2.8",
+    "url": "https://wcag.lepszyweb.pl/#media-alternative-prerecorded",
+    "scId": "WCAG2:media-alternative-prerecorded",
+    "scAltId": [
+      "media-equiv-text-doc"
+    ],
+    "test": "WCAG2:media-equiv-text-doc",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#media-alternative-prerecorded",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/alternatywa-dla-mediow-nagranie.html",
+    "handle": "Alternatywa dla mediów (nagranie)",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy nagrane zsynchronizowane multimedia mają pełną alternatywę tekstową?",
+        "wcag": [
+          "1.2.8 AAA"
+        ],
+        "verifier": "<ul><li>Sprawdź, czy dostarczony jest transkrypt tekstowy zawierający wszystkie informacje wizualne i dźwiękowe z nagranych zsynchronizowanych multimediów</li><li>Sprawdź, czy transkrypt zawiera opisy całej treści wizualnej, działań, wyrazów twarzy i zmian scen</li><li>Sprawdź, czy transkrypt zawiera wszystkie dialogi, identyfikację mówcy i informacje dźwiękowe inne niż mowa</li></ul>",
+        "group": "Multimedia",
+        "complement": ""
+      }
+    ]
+  },
+  "1.2.9": {
+    "num": "1.2.9",
+    "url": "https://wcag.lepszyweb.pl/#audio-only-live",
+    "scId": "WCAG2:audio-only-live",
+    "scAltId": [
+      "media-equiv-live-audio-only"
+    ],
+    "test": "WCAG2:media-equiv-live-audio-only",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#audio-only-live",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/tylko-audio-na-zywo.html",
+    "handle": "Tylko audio (na żywo)",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy treści audio na żywo mają równoważną alternatywę tekstową?",
+        "wcag": [
+          "1.2.9 AAA"
+        ],
+        "verifier": "<ul><li>Sprawdź, czy dla wszystkich treści audio na żywo dostępny jest transkrypt na żywo lub napisy w czasie rzeczywistym</li><li>Sprawdź, czy alternatywa przekazuje wszystkie informacje dźwiękowe, w tym identyfikację mówcy i dźwięki inne niż mowa</li><li>Sprawdź, czy alternatywa jest dostarczana z minimalnym opóźnieniem względem transmisji na żywo</li></ul>",
+        "group": "Multimedia",
+        "complement": ""
+      }
+    ]
+  },
+  "1.3.1": {
+    "num": "1.3.1",
+    "url": "https://wcag.lepszyweb.pl/#info-and-relationships",
+    "scId": "WCAG2:info-and-relationships",
+    "scAltId": [
+      "content-structure-separation-programmatic"
+    ],
+    "test": "WCAG2:content-structure-separation-programmatic",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#info-and-relationships",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/informacje-i-relacje.html",
+    "handle": "Informacje i relacje",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy każde pole formularza ma dostępną nazwę?",
+        "wcag": [
+          "1.3.1 A",
+          "4.1.2 A"
+        ],
+        "verifier": "<ul><li>Sprawdź, czy wszystkie pola formularza mają dostępne nazwy za pomocą jednej z metod:<ul><li>Atrybut <code>aria-labelledby</code></li><li>Atrybut <code>aria-label</code></li><li>Element <code>&lt;label&gt;</code> z atrybutem <code>for</code> odpowiadającym <code>id</code> pola</li><li>Atrybut <code>title</code></li></ul></li><li>Sprawdź, czy wskazówki dotyczące formatu danych są programowo powiązane z polami za pomocą:<ul><li>Tekstu wewnątrz elementu <code>&lt;label&gt;</code></li><li>Modyfikacji <code>aria-label</code></li><li>Atrybutu <code>aria-labelledby</code> odwołującego się do identyfikatora wskazówki formatu</li><li>Atrybutu <code>aria-describedby</code> odwołującego się do wskazówki formatu</li></ul></li></ul>",
+        "complement": "<p>Sam tekst zastępczy (placeholder) nie jest wystarczający jako dostępna nazwa; musi mu towarzyszyć jedna z technik wymienionych powyżej.</p>",
+        "group": "Form"
+      },
+      {
+        "title": "Czy powiązane elementy formularza są odpowiednio zgrupowane?",
+        "wcag": [
+          "1.3.1 A"
+        ],
+        "verifier": "<ul><li>Sprawdź, czy powiązane pola są zgrupowane za pomocą elementu <code>&lt;fieldset&gt;</code> lub <code>role='group'</code></li><li>Sprawdź, czy każda grupa ma powiązany opis via <code>&lt;legend&gt;</code> lub <code>aria-labelledby</code></li></ul>",
+        "complement": "<p>Grupuj elementy tylko wtedy, gdy jest to konieczne, na przykład:</p><ul><li>Aby rozróżnić wiele pól z identycznymi etykietami (np. adres dostawy a adres rozliczeniowy)</li><li>Gdy legenda jest potrzebna do ułatwienia wyboru spośród przycisków opcji lub pól wyboru</li></ul>",
+        "group": "Form"
+      },
+      {
+        "title": "Czy wymagane pola są programowo zidentyfikowane?",
+        "wcag": [
+          "1.3.1 A",
+          "3.3.2 A"
+        ],
+        "verifier": "<ul><li>Sprawdź, czy wymagane pola są oznaczone tekstem lub elementem wizualnym (np. gwiazdką)</li><li>Sprawdź, czy znaczenie wskaźnika jest wyjaśnione w tekście przed pierwszym użyciem</li><li>Sprawdź, czy zaimplementowana jest jedna z następujących technik programowych:<ul><li>Wskaźnik jest umieszczony w elemencie <code>&lt;label&gt;</code> lub powiązany via <code>aria-labelledby</code></li><li>Atrybut <code>required</code> lub <code>aria-required='true'</code> jest obecny</li></ul></li></ul><p>Gdy wszystkie pola są wymagane z wyjątkiem jednego opcjonalnego, można zamiast tego identyfikować pole opcjonalne metodami opisanymi powyżej.</p>",
+        "group": "Form",
+        "complement": ""
+      },
+      {
+        "title": "Czy treść jest zorganizowana przy użyciu odpowiednich elementów nagłówków?",
+        "wcag": [
+          "1.3.1 A"
+        ],
+        "verifier": "<ul><li>Sprawdź, czy elementy przypominające nagłówki używają właściwych znaczników nagłówków (<code>h1-h6</code> lub <code>role='heading'</code> z <code>aria-level</code>)</li><li>Sprawdź, czy poziomy nagłówków tworzą logiczną hierarchię bez pomijania poziomów bez uzasadnienia</li></ul>",
+        "group": "Text Content",
+        "complement": ""
+      },
+      {
+        "title": "Czy dokument używa znaczników semantycznych w odpowiedni sposób?",
+        "wcag": [
+          "1.3.1 A"
+        ],
+        "verifier": "<ul><li>Sprawdź, czy treść jest owinięta w elementy semantyczne (np. <code>&lt;p&gt;</code>) w celu przekazania relacji strukturalnych</li><li>Sprawdź, czy długie cytaty używają elementu <code>&lt;blockquote&gt;</code></li><li>Sprawdź, czy krótkie cytaty wbudowane używają elementu <code>&lt;q&gt;</code></li><li>Sprawdź, czy wizualnie prezentowane listy używają odpowiednich struktur HTML:<ul><li>Listy nieuporządkowane: <code>&lt;ul&gt;</code> / <code>&lt;li&gt;</code></li><li>Listy uporządkowane: <code>&lt;ol&gt;</code> / <code>&lt;li&gt;</code></li><li>Listy opisowe: <code>&lt;dl&gt;</code> / <code>&lt;dt&gt;</code> / <code>&lt;dd&gt;</code></li></ul></li><li>Sprawdź, czy łącza (<code>&lt;a&gt;</code>) są używane do nawigacji URL</li><li>Sprawdź, czy przyciski (<code>&lt;button&gt;</code> lub <code>&lt;input type='button/submit'&gt;</code>) są używane do działań, walidacji lub selekcji</li></ul><p>Uwaga: Role ARIA mogą modyfikować semantykę, ale nie interaktywność; upewnij się, że są używane dostępnie.</p>",
+        "group": "Text Content",
+        "complement": ""
+      },
+      {
+        "title": "Czy tabele danych są właściwie zbudowane?",
+        "wcag": [
+          "1.3.1 A"
+        ],
+        "verifier": "<p>Dla tabel układu: sprawdź, czy semantyczne elementy tabeli (<code>caption, summary, th, scope, headers</code>) są usunięte i czy do elementu <code>&lt;table&gt;</code> zastosowano <code>role='presentation'</code>.</p><p>Dla tabel danych:</p><ol><li>Jeśli tabela ma tytuł/podpis, sprawdź, czy jest on programowo powiązany za pomocą:<ul><li>Elementu <code>&lt;caption&gt;</code></li><li>Atrybutu <code>aria-label</code> na tabeli*</li><li>Atrybutu <code>aria-labelledby</code> odwołującego się do identyfikatora tytułu*</li><li>Atrybutu <code>title</code> na tabeli*</li></ul><p><small>* Przetestuj z docelowymi technologiami wspomagającymi/przeglądarkami</small></p></li><li>Sprawdź, czy tytuł jest odpowiedni (nie pusty, opisuje zawartość tabeli)</li><li>Jeśli streszczenie jest dostarczone, sprawdź, czy jest programowo powiązane za pomocą:<ul><li>HTML5: tekst streszczenia (wizualnie ukryty, jeśli potrzeba) powiązany via <code>aria-describedby</code></li><li>Stary HTML: atrybut <code>summary</code> na elemencie <code>&lt;table&gt;</code></li></ul></li><li>Sprawdź, czy streszczenie jest odpowiednie i różni się od tytułu</li><li>Dla tabel z jednym nagłówkiem: sprawdź, czy elementy <code>&lt;th&gt;</code> są obecne i nie są puste</li><li>Dla tabel z podwójnym nagłówkiem: sprawdź, czy kolumny mają <code>scope='col'</code>, a wiersze <code>scope='row'</code></li><li>Dla tabel złożonych: sprawdź, czy atrybuty <code>&lt;th&gt;</code>, <code>id</code> i <code>headers</code> są używane odpowiednio</li></ol>",
+        "group": "Text Content",
+        "complement": ""
+      },
+      {
+        "title": "Czy treści informacyjne są zachowane po wyłączeniu CSS?",
+        "wcag": [
+          "1.3.1 A"
+        ],
+        "verifier": "<p>Sprawdź, czy żadne informacje nie są tracone po wyłączeniu CSS.</p>",
+        "complement": "<ul><li>Żadne informacje nie powinny być przekazywane wyłącznie przez treści generowane przez CSS (np. pseudoelementy <code>::before</code>/<code>::after</code>, właściwość <code>content</code>, obrazy tła CSS)</li><li>Treści generowane przez CSS powinny być wyłącznie dekoracyjne</li></ul>",
+        "group": "Layout"
+      }
+    ]
+  },
+  "1.3.2": {
+    "num": "1.3.2",
+    "url": "https://wcag.lepszyweb.pl/#meaningful-sequence",
+    "scId": "WCAG2:meaningful-sequence",
+    "scAltId": [
+      "content-structure-separation-sequence"
+    ],
+    "test": "WCAG2:content-structure-separation-sequence",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#meaningful-sequence",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/#zrozumiala-kolejnosc",
+    "handle": "Zrozumiała kolejność",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy treść pozostaje zrozumiała po wyłączeniu CSS?",
+        "wcag": [
+          "1.3.2 A"
+        ],
+        "verifier": "<p>Jeśli określona kolejność czytania jest wymagana do zrozumienia treści, sprawdź, czy treść po linearyzacji pozostaje zrozumiała po wyłączeniu CSS.</p><p><strong>Przykład:</strong> Układy wielokolumnowe muszą być renderowane w prawidłowej kolejności czytania bez CSS.</p><p>Jeśli nie jest wymagana żadna konkretna kolejność czytania, kryterium nie ma zastosowania.</p>",
+        "complement": "<h5>Dodatkowe informacje</h5><p>Kolejność w DOM musi pozostać zrozumiała i ogólnie odpowiadać wizualnej kolejności wyświetlania.</p><p>Przetestuj treść używając:</p><ul><li>Właściwości CSS pozycjonowania (<code>top</code>, <code>left</code>, <code>float</code> itp.)</li><li>Flexbox (<code>display: flex</code>) lub Grid (<code>display: grid</code>)</li><li>Tabel układu</li></ul>",
+        "group": "Layout"
+      },
+      {
+        "title": "Czy zmiany kierunku tekstu są programowo wskazane?",
+        "wcag": [
+          "1.3.2 A"
+        ],
+        "verifier": "<p>Sprawdź, czy atrybuty <code>dir='rtl'</code> lub <code>dir='ltr'</code> są stosowane przy zmianach kierunku tekstu.</p>",
+        "group": "Layout",
+        "complement": ""
+      }
+    ]
+  },
+  "1.3.3": {
+    "num": "1.3.3",
+    "url": "https://wcag.lepszyweb.pl/#sensory-characteristics",
+    "scId": "WCAG2:sensory-characteristics",
+    "scAltId": [
+      "content-structure-separation-understanding"
+    ],
+    "test": "WCAG2:content-structure-separation-understanding",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#sensory-characteristics",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/wlasciwosci-zmyslowe.html",
+    "handle": "Właściwości zmysłowe",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy informacje są przekazywane innymi metodami niż wyłącznie przez cechy sensoryczne?",
+        "wcag": [
+          "1.3.3 A"
+        ],
+        "verifier": "<p>Sprawdź, czy informacje przekazywane przez cechy sensoryczne (kształt, rozmiar, położenie, orientacja, dźwięk) są również dostępne w formie tekstu, alternatywnej treści lub wyraźnych komunikatów.</p><p><strong>Przykłady niezgodności:</strong></p><ul><li>Instrukcje opierające się wyłącznie na położeniu: \"naciśnij przycisk po prawej stronie\" lub \"wybierz jeden z łączy powyżej obrazu\"</li><li>Instrukcje opierające się wyłącznie na kształcie wizualnym: \"naciśnij okrągły przycisk, aby wyjść\"</li></ul>",
+        "group": "Colors and contrasts",
+        "complement": ""
+      }
+    ]
+  },
+  "1.3.4": {
+    "num": "1.3.4",
+    "url": "https://wcag.lepszyweb.pl/#orientation",
+    "scId": "WCAG2:orientation",
+    "scAltId": [],
+    "test": "WCAG2:orientation",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#orientation",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/orientacja.html",
+    "handle": "Orientacja",
+    "level": "AA",
+    "wcagType": "2.1",
+    "testCases": [
+      {
+        "title": "Czy treść jest dostępna zarówno w orientacji pionowej, jak i poziomej?",
+        "wcag": [
+          "1.3.4 AA"
+        ],
+        "verifier": "<p>Sprawdź, czy treść i funkcjonalność są dostępne w obu orientacjach bez utraty informacji lub obcinania elementów.</p>",
+        "group": "Layout",
+        "complement": ""
+      }
+    ]
+  },
+  "1.3.5": {
+    "num": "1.3.5",
+    "url": "https://wcag.lepszyweb.pl/#identify-input-purpose",
+    "scId": "WCAG2:identify-input-purpose",
+    "scAltId": [],
+    "test": "WCAG2:identify-input-purpose",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#identify-input-purpose",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/okreslenie-pozadanej-wartosci.html",
+    "handle": "Określenie pożądanej wartości",
+    "level": "AA",
+    "wcagType": "2.1",
+    "testCases": [
+      {
+        "title": "Czy pola wprowadzania danych osobowych użytkownika mają odpowiednie atrybuty autouzupełniania?",
+        "wcag": [
+          "1.3.5 AA"
+        ],
+        "verifier": "<ul><li>Sprawdź, czy atrybut <code>autocomplete</code> jest obecny w polach zbierających dane osobowe użytkownika (imię i nazwisko, adres, dane kontaktowe itp.)</li><li>Sprawdź, czy wartość <code>autocomplete</code> odpowiada oczekiwanemu typowi informacji zgodnie z <a href='https://www.w3.org/TR/WCAG22/#input-purposes' target='_blank' aria-label='lista prawidłowych wartości autouzupełniania (otwiera się w nowym oknie)'>prawidłowymi wartościami tokenów autocomplete</a></li></ul>",
+        "group": "Form",
+        "complement": ""
+      }
+    ]
+  },
+  "1.3.6": {
+    "num": "1.3.6",
+    "url": "https://wcag.lepszyweb.pl/#identify-purpose",
+    "scId": "WCAG2:identify-purpose",
+    "scAltId": [],
+    "test": "WCAG2:identify-purpose",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#identify-purpose",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/okreslenie-przeznaczenia.html",
+    "handle": "Określenie przeznaczenia",
+    "level": "AAA",
+    "wcagType": "2.1",
+    "testCases": [
+      {
+        "title": "Czy ikony, regiony i komponenty są programowo identyfikowalne?",
+        "wcag": [
+          "1.3.6 AAA"
+        ],
+        "verifier": "<ul><li>Sprawdź, czy ikony używane do identyfikowania określonych celów mają odpowiednie alternatywy tekstowe</li><li>Sprawdź, czy regiony strony używają ról landmark lub atrybutów regionu ARIA do identyfikacji celu</li><li>Sprawdź, czy komponenty UI używają atrybutów ARIA lub natywnej semantyki do przekazania swojego celu</li></ul>",
+        "group": "Structure",
+        "complement": ""
+      }
+    ]
+  },
+  "1.4.1": {
+    "num": "1.4.1",
+    "url": "https://wcag.lepszyweb.pl/#use-of-color",
+    "scId": "WCAG2:use-of-color",
+    "scAltId": [
+      "visual-audio-contrast-without-color"
+    ],
+    "test": "WCAG2:visual-audio-contrast-without-color",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#use-of-color",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/uzycie-koloru.html",
+    "handle": "Użycie koloru",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy informacje są przekazywane innymi metodami niż wyłącznie przez kolor?",
+        "wcag": [
+          "1.4.1 A"
+        ],
+        "verifier": "<p>Sprawdź, czy kolor nie jest jedynym sposobem przekazywania informacji:</p><ul><li>Informacje są również dostępne w formie tekstu, lub</li><li>Wskaźniki wizualne (ikony, kształty, wzory) towarzyszą kodowaniu kolorami, lub</li><li>Kolory przekazujące informacje mają wystarczający kontrast luminancji (minimum 3:1)</li></ul><p>Dla łączy w blokach tekstu:</p><ul><li>Sprawdź, czy łącza mają minimalny współczynnik kontrastu 3:1 z otaczającym tekstem, oraz</li><li>Zapewnij niekolorowy wskaźnik wizualny przy fokusie/najechaniu kursorem (np. podkreślenie)</li></ul>",
+        "group": "Colors and contrasts",
+        "complement": ""
+      }
+    ]
+  },
+  "1.4.2": {
+    "num": "1.4.2",
+    "url": "https://wcag.lepszyweb.pl/#audio-control",
+    "scId": "WCAG2:audio-control",
+    "scAltId": [
+      "visual-audio-contrast-dis-audio"
+    ],
+    "test": "WCAG2:visual-audio-contrast-dis-audio",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#audio-control",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/kontrola-odtwarzania-dzwieku.html",
+    "handle": "Kontrola odtwarzania dźwięku",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy użytkownicy mogą kontrolować automatycznie odtwarzane audio trwające dłużej niż 3 sekundy?",
+        "wcag": [
+          "1.4.2 A"
+        ],
+        "verifier": "<p>Sprawdź, czy użytkownicy mogą:</p><ul><li>Wstrzymać lub zatrzymać automatycznie odtwarzane audio, lub</li><li>Kontrolować głośność audio niezależnie od poziomu głośności systemu</li></ul>",
+        "group": "Multimedia",
+        "complement": ""
+      }
+    ]
+  },
+  "1.4.3": {
+    "num": "1.4.3",
+    "url": "https://wcag.lepszyweb.pl/#contrast-minimum",
+    "scId": "WCAG2:contrast-minimum",
+    "scAltId": [
+      "visual-audio-contrast-contrast"
+    ],
+    "test": "WCAG2:visual-audio-contrast-contrast",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#contrast-minimum",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/kontrast-minimum.htm",
+    "handle": "Kontrast (minimum)",
+    "level": "AA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy tekst ma wystarczający kontrast względem tła?",
+        "wcag": [
+          "1.4.3 AA"
+        ],
+        "verifier": "<ul><li>Sprawdź, czy tekst i obrazy tekstu spełniają minimalne współczynniki kontrastu:<ul><li>Zwykły tekst poniżej 24px: minimum 4,5:1</li><li>Zwykły tekst 24px i większy: minimum 3:1</li><li>Tekst pogrubiony poniżej 18,5px: minimum 4,5:1</li><li>Tekst pogrubiony 18,5px i większy: minimum 3:1</li></ul></li><li>Dla niepodkreślonych łączy w blokach tekstu sprawdź wystarczający kontrast między tekstem łącza a otaczającym tekstem głównym</li></ul>",
+        "group": "Colors and contrasts",
+        "complement": ""
+      },
+      {
+        "title": "Czy kolory pierwszego planu i tła są oba jawnie zdefiniowane?",
+        "wcag": [
+          "1.4.3 AA"
+        ],
+        "verifier": "<ul><li>Jeśli zdefiniowano kolor tekstu (<code>color</code>), kolor tła musi być również zdefiniowany (<code>background-color</code>)</li><li>Jeśli zdefiniowano kolor tła (<code>background-color</code>), kolor tekstu musi być również zdefiniowany (<code>color</code>)</li><li>Jeśli używane są obrazy tła (<code>background-image</code>), musi być zdefiniowany zapasowy kolor tła (<code>background-color</code>)</li></ul>",
+        "complement": "<ul><li>Te właściwości mogą być dziedziczone z elementów nadrzędnych</li><li>Przetestuj zmieniając domyślne kolory przeglądarki: W Firefox przejdź do Ustawienia > Język i wygląd > Kolory, wybierz \"Zastąp kolory określone przez stronę swoimi wyborami\" i dostosuj kolory tekstu/tła. Jeśli tylko jeden kolor pojawia się bez drugiego na tym samym elemencie, test nie przechodzi</li><li>Dla tekstu na obrazach tła użyj narzędzi deweloperskich przeglądarki, aby ukryć obrazy tła i sprawdzić, czy tekst pozostaje czytelny i wystarczająco skontrastowany</li></ul>",
+        "group": "Colors and contrasts"
+      }
+    ]
+  },
+  "1.4.4": {
+    "num": "1.4.4",
+    "url": "https://wcag.lepszyweb.pl/resize-text",
+    "scId": "WCAG2:resize-text",
+    "scAltId": [
+      "visual-audio-contrast-scale"
+    ],
+    "test": "WCAG2:visual-audio-contrast-scale",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/resize-text",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/zmiana-rozmiaru-tekstu.html",
+    "handle": "Zmiana rozmiaru tekstu",
+    "level": "AA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy treść pozostaje funkcjonalna po powiększeniu tekstu do 200%?",
+        "wcag": [
+          "1.4.4 AA"
+        ],
+        "verifier": "<p>Sprawdź, czy brak utraty treści lub funkcjonalności przy powiększeniu tekstu do 200%:</p><ul><li>Żadna treść nie jest obcięta, zasłonięta ani niedostępna</li><li>Wszystkie funkcje pozostają operowalne</li></ul><p><strong>Uwaga:</strong> Na urządzeniach mobilnych powiększenie tekstu musi być dozwolone. Znacznik meta viewport nie może zawierać:</p><ul><li><code>user-scalable='no'</code>, ani</li><li>Wartości <code>maximum-scale</code> mniejszej niż 2</li></ul>",
+        "group": "Layout",
+        "complement": ""
+      }
+    ]
+  },
+  "1.4.5": {
+    "num": "1.4.5",
+    "url": "https://wcag.lepszyweb.pl/images-of-text",
+    "scId": "WCAG2:images-of-text",
+    "scAltId": [
+      "visual-audio-contrast-text-presentation"
+    ],
+    "test": "WCAG2:visual-audio-contrast-text-presentation",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/images-of-text",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/",
+    "handle": "Obrazy tekstu",
+    "level": "AA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy tekst jest prezentowany jako prawdziwy tekst, a nie jako obraz tekstu?",
+        "wcag": [
+          "1.4.5 AA"
+        ],
+        "verifier": "<p>Sprawdź, czy treść tekstowa jest renderowana jako rzeczywisty tekst przy użyciu CSS, a nie osadzona w obrazach (<code>img</code>, <code>input type='image'</code>, <code>object</code>, <code>embed</code>, <code>canvas</code>).</p><p>Wyjątki, w których dopuszczalne są obrazy tekstu:</p><ul><li>SVG zawierający prawdziwy tekst</li><li>Logotypy (logo marki)</li><li>CAPTCHA</li><li>Tekst jest niezbędny (np. wymagana jest konkretna reprezentacja czcionki)</li><li>Obraz jest konfigurowalny przez użytkownika</li></ul>",
+        "group": "Non-text Content",
+        "complement": ""
+      }
+    ]
+  },
+  "1.4.6": {
+    "num": "1.4.6",
+    "url": "https://wcag.lepszyweb.pl/#contrast-enhanced",
+    "scId": "WCAG2:contrast-enhanced",
+    "scAltId": [
+      "visual-audio-contrast7"
+    ],
+    "test": "WCAG2:visual-audio-contrast7",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#contrast-enhanced",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/kontrast-wzmocniony.html",
+    "handle": "Kontrast (wzmocniony)",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy tekst ma podwyższony kontrast względem tła?",
+        "wcag": [
+          "1.4.6 AAA"
+        ],
+        "verifier": "<ul><li>Sprawdź, czy tekst i obrazy tekstu spełniają podwyższone współczynniki kontrastu:<ul><li>Zwykły tekst poniżej 24px: minimum 7:1</li><li>Zwykły tekst 24px i większy: minimum 4,5:1</li><li>Tekst pogrubiony poniżej 18,5px: minimum 7:1</li><li>Tekst pogrubiony 18,5px i większy: minimum 4,5:1</li></ul></li><li>Dla niepodkreślonych łączy w blokach tekstu sprawdź podwyższony kontrast między tekstem łącza a otaczającym tekstem głównym</li></ul>",
+        "group": "Colors and contrasts",
+        "complement": ""
+      }
+    ]
+  },
+  "1.4.7": {
+    "num": "1.4.7",
+    "url": "https://wcag.lepszyweb.pl/#low-or-no-background-audio",
+    "scId": "WCAG2:low-or-no-background-audio",
+    "scAltId": [
+      "visual-audio-contrast-noaudio"
+    ],
+    "test": "WCAG2:visual-audio-contrast-noaudio",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#low-or-no-background-audio",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/niska-glosnosc-lub-bez-dzwiekow-w-tle.html",
+    "handle": "Niska głośność lub bez dźwięków w tle",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy dźwięk tła jest wystarczająco cichy lub nieobecny w treściach mowy?",
+        "wcag": [
+          "1.4.7 AAA"
+        ],
+        "verifier": "<p>Sprawdź, czy dla nagranych treści audio zawierających głównie mowę:</p><ul><li>Dźwięki tła są nieobecne, lub</li><li>Dźwięki tła są co najmniej 20 decybeli cichsze niż mowa na pierwszym planie, lub</li><li>Dźwięk tła może być wyłączony</li></ul>",
+        "group": "Multimedia",
+        "complement": ""
+      }
+    ]
+  },
+  "1.4.8": {
+    "num": "1.4.8",
+    "url": "https://wcag.lepszyweb.pl/#visual-presentation",
+    "scId": "WCAG2:visual-presentation",
+    "scAltId": [
+      "visual-audio-contrast-visual-presentation"
+    ],
+    "test": "WCAG2:visual-audio-contrast-visual-presentation",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#visual-presentation",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/prezentacja-wizualna.html",
+    "handle": "Prezentacja wizualna",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy użytkownicy mogą dostosować prezentację tekstu?",
+        "wcag": [
+          "1.4.8 AAA"
+        ],
+        "verifier": "<p>Sprawdź, czy użytkownicy mogą kontrolować prezentację tekstu za pomocą przeglądarki lub arkusza stylów użytkownika:</p><ul><li>Kolory pierwszego planu i tła mogą być wybrane</li><li>Szerokość wiersza nie przekracza 80 znaków (40 dla CJK)</li><li>Tekst nie jest wyjustowany</li><li>Odstęp między wierszami wynosi co najmniej 1,5 w akapitach, a odstęp między akapitami wynosi co najmniej 1,5-krotność odstępu między wierszami</li><li>Tekst można powiększyć do 200% bez technologii wspomagającej</li></ul>",
+        "group": "Layout",
+        "complement": ""
+      }
+    ]
+  },
+  "1.4.9": {
+    "num": "1.4.9",
+    "url": "https://wcag.lepszyweb.pl/#images-of-text-no-exception",
+    "scId": "WCAG2:images-of-text-no-exception",
+    "scAltId": [
+      "visual-audio-contrast-text-images"
+    ],
+    "test": "WCAG2:visual-audio-contrast-text-images",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#images-of-text-no-exception",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/obrazy-tekstu-bez-wyjatkow.html",
+    "handle": "Obrazy tekstu (bez wyjątków)",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy cały tekst jest prezentowany jako prawdziwy tekst bez wyjątków?",
+        "wcag": [
+          "1.4.9 AAA"
+        ],
+        "verifier": "<p>Sprawdź, czy żadne obrazy tekstu nie są używane dla żadnych treści tekstowych. Cały tekst musi być renderowany jako rzeczywisty tekst przy użyciu CSS lub SVG z prawdziwymi elementami tekstowymi.</p><p>Żadne wyjątki nie są dozwolone (w odróżnieniu od 1.4.5).</p>",
+        "group": "Non-text Content",
+        "complement": ""
+      }
+    ]
+  },
+  "1.4.10": {
+    "num": "1.4.10",
+    "url": "https://wcag.lepszyweb.pl/#reflow",
+    "scId": "WCAG2:reflow",
+    "scAltId": [],
+    "test": "WCAG2:reflow",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#reflow",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/dopasowanie-do-ekranu.html",
+    "handle": "Dopasowanie do ekranu",
+    "level": "AA",
+    "wcagType": "2.1",
+    "testCases": [
+      {
+        "title": "Czy treść dostosowuje się bez konieczności przewijania w dwóch wymiarach?",
+        "wcag": [
+          "1.4.10 AA"
+        ],
+        "verifier": "<p>Sprawdź, czy treść może być prezentowana bez utraty informacji lub funkcjonalności i bez konieczności przewijania w dwóch wymiarach:</p><ul><li>Treść przewijana pionowo: brak poziomego przewijania przy szerokości okna 320px</li><li>Treść przewijana poziomo: brak pionowego przewijania przy wysokości okna 256px</li></ul><p>Uwaga: Paski przewijania mogą być obecne, ale nie powinny być wymagane do dostępu do treści lub funkcjonalności.</p>",
+        "group": "Layout",
+        "complement": ""
+      }
+    ]
+  },
+  "1.4.11": {
+    "num": "1.4.11",
+    "url": "https://wcag.lepszyweb.pl/#non-text-contrast",
+    "scId": "WCAG2:non-text-contrast",
+    "scAltId": [],
+    "test": "WCAG2:non-text-contrast",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#non-text-contrast",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/kontrast-elementow-nietekstowych.html",
+    "handle": "Kontrast elementów nietekstowych",
+    "level": "AA",
+    "wcagType": "2.1",
+    "testCases": [
+      {
+        "title": "Czy elementy inne niż tekstowe mają wystarczający kontrast względem sąsiadujących kolorów?",
+        "wcag": [
+          "1.4.11 AA"
+        ],
+        "verifier": "<p>Sprawdź, czy poniższe elementy mają minimalny współczynnik kontrastu 3:1 z sąsiadującymi kolorami:</p><ul><li>Komponenty interfejsu użytkownika (granice, stany, wskaźniki fokusa)</li><li>Obiekty graficzne niezbędne do zrozumienia treści</li><li>Ikony i grafiki informacyjne</li></ul>",
+        "group": "Colors and contrasts",
+        "complement": ""
+      }
+    ]
+  },
+  "1.4.12": {
+    "num": "1.4.12",
+    "url": "https://wcag.lepszyweb.pl/#text-spacing",
+    "scId": "WCAG2:text-spacing",
+    "scAltId": [],
+    "test": "WCAG2:text-spacing",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#text-spacing",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/odstepy-w-tekscie.html",
+    "handle": "Odstępy w tekście",
+    "level": "AA",
+    "wcagType": "2.1",
+    "testCases": [
+      {
+        "title": "Czy treść pozostaje funkcjonalna po zwiększeniu odstępów między tekstem?",
+        "wcag": [
+          "1.4.12 AA"
+        ],
+        "verifier": "<p>Sprawdź, czy brak utraty treści lub funkcjonalności przy zastosowaniu tych wartości odstępów tekstu:</p><ul><li>Wysokość wiersza: co najmniej 1,5-krotność rozmiaru czcionki</li><li>Odstęp między akapitami: co najmniej 2-krotność rozmiaru czcionki</li><li>Odstęp między literami: co najmniej 0,12-krotność rozmiaru czcionki</li><li>Odstęp między wyrazami: co najmniej 0,16-krotność rozmiaru czcionki</li><li>Brak obcinania lub nakładania się tekstu</li></ul>",
+        "complement": "<p>Użyj poniższego zakładkowego skryptu (bookmarklet) do testowania: <a href='javascript:(function(){document.querySelector(%27body%27).classList.add(%27text-spacing%27);%20var%20style%20=%20document.createElement(%27style%27),%20styleContent%20=%20document.createTextNode(%27.text-spacing%20*%20{%20line-height:%201.5%20!important;%20letter-spacing:%200.12em%20!important;%20word-spacing:%200.16em%20!important;%20}%20.text-spacing%20p{%20margin-bottom:%202em%20!important;%20}%20%27);%20style.appendChild(styleContent%20);%20var%20caput%20=%20document.getElementsByTagName(%27head%27);%20caput[0].appendChild(style);%20})();'>Test odstępów tekstu</a></p>",
+        "group": "Layout"
+      }
+    ]
+  },
+  "1.4.13": {
+    "num": "1.4.13",
+    "url": "https://wcag.lepszyweb.pl/#content-on-hover-or-focus",
+    "scId": "WCAG2:content-on-hover-or-focus",
+    "scAltId": [],
+    "test": "WCAG2:content-on-hover-or-focus",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#content-on-hover-or-focus",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/tresc-spod-kursora-lub-fokusu.html",
+    "handle": "Treść spod kursora lub fokusu",
+    "level": "AA",
+    "wcagType": "2.1",
+    "testCases": [
+      {
+        "title": "Czy dodatkowa treść pojawiająca się przy najechaniu kursorem lub fokusie może być kontrolowana?",
+        "wcag": [
+          "1.4.13 AA"
+        ],
+        "verifier": "<p>Dla treści pojawiającej się przy najechaniu kursorem lub fokusie (np. podpowiedzi, listy rozwijane):</p><ul><li>Sprawdź, czy treść może być zamknięta bez przesuwania kursora lub fokusa (np. klawiszem Escape)</li><li>Sprawdź, czy kursor może najechać na nową treść bez jej znikania</li><li>Sprawdź, czy treść pozostaje widoczna do czasu zamknięcia przez użytkownika lub utraty ważności</li></ul>",
+        "group": "Common navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.1.1": {
+    "num": "2.1.1",
+    "url": "https://wcag.lepszyweb.pl/#keyboard",
+    "scId": "WCAG2:keyboard",
+    "scAltId": [
+      "keyboard-operation-keyboard-operable"
+    ],
+    "test": "WCAG2:keyboard-operation-keyboard-operable",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#keyboard",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/klawiatura.html",
+    "handle": "Klawiatura",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy wszystkie funkcje są dostępne za pomocą klawiatury?",
+        "wcag": [
+          "2.1.1 A"
+        ],
+        "verifier": "<ul><li>Sprawdź, czy wszystkie funkcje obsługiwane myszą są również dostępne wyłącznie za pomocą klawiatury</li><li>Sprawdź, czy treść wyświetlana po najechaniu kursorem jest również dostępna przy fokusie klawiatury</li></ul><p>Nie dotyczy podpowiedzi generowanych przez klienta użytkownika (np. podpowiedzi z atrybutu <code>title</code>).</p>",
+        "group": "Keyboard navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.1.2": {
+    "num": "2.1.2",
+    "url": "https://wcag.lepszyweb.pl/#no-keyboard-trap",
+    "scId": "WCAG2:no-keyboard-trap",
+    "scAltId": [
+      "keyboard-operation-trapping"
+    ],
+    "test": "WCAG2:keyboard-operation-trapping",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#no-keyboard-trap",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/bez-pulapki-na-klawiature.html",
+    "handle": "Bez pułapki na klawiaturę",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy fokus klawiatury może być przeniesiony ze wszystkich skupialnych komponentów?",
+        "wcag": [
+          "2.1.2 A"
+        ],
+        "verifier": "<p>Sprawdź, czy fokus klawiatury nie jest zablokowany wewnątrz żadnego komponentu lub regionu strony. Użytkownicy muszą móc nawigować z dala od wszystkich skupialnych elementów za pomocą standardowych poleceń klawiatury.</p>",
+        "group": "Keyboard navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.1.3": {
+    "num": "2.1.3",
+    "url": "https://wcag.lepszyweb.pl/#keyboard-no-exception",
+    "scId": "WCAG2:keyboard-no-exception",
+    "scAltId": [
+      "keyboard-operation-all-funcs"
+    ],
+    "test": "WCAG2:keyboard-operation-all-funcs",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#keyboard-no-exception",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/klawiatura-bez-wyjatkow.html",
+    "handle": "Klawiatura (bez wyjątków)",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy wszystkie funkcje są obsługiwalne za pomocą klawiatury bez wyjątku?",
+        "wcag": [
+          "2.1.3 AAA"
+        ],
+        "verifier": "<p>Sprawdź, czy wszystkie funkcje są obsługiwalne za pomocą interfejsu klawiatury bez wymagania określonego czasu dla poszczególnych naciśnięć klawiszy. Żadne wyjątki nie są dozwolone (w odróżnieniu od 2.1.1).</p>",
+        "group": "Keyboard navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.1.4": {
+    "num": "2.1.4",
+    "url": "https://wcag.lepszyweb.pl/#character-key-shortcuts",
+    "scId": "WCAG2:character-key-shortcuts",
+    "scAltId": [],
+    "test": "WCAG2:character-key-shortcuts",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#character-key-shortcuts",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/jednoznakowe-skroty-klawiaturowe.html",
+    "handle": "Jednoznakowe skróty klawiaturowe",
+    "level": "A",
+    "wcagType": "2.1",
+    "testCases": [
+      {
+        "title": "Czy skróty klawiszowe mogą być modyfikowane lub wyłączane?",
+        "wcag": [
+          "2.1.4 A"
+        ],
+        "verifier": "<p>Jeśli istnieją skróty klawiszowe jednoklawiszowe, sprawdź, czy spełniony jest jeden z poniższych warunków:</p><ul><li>Skrót może być wyłączony przez użytkownika</li><li>Skrót aktywuje się tylko wtedy, gdy komponent ma fokus</li><li>Istnieje mechanizm do przemapowania skrótu z uwzględnieniem klawiszy modyfikujących (np. <kbd>Ctrl</kbd>, <kbd>Alt</kbd>)</li></ul>",
+        "group": "Keyboard navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.2.1": {
+    "num": "2.2.1",
+    "url": "https://wcag.lepszyweb.pl/#timing-adjustable",
+    "scId": "WCAG2:timing-adjustable",
+    "scAltId": [
+      "time-limits-required-behaviors"
+    ],
+    "test": "WCAG2:time-limits-required-behaviors",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#timing-adjustable",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/dostosowanie-czasu.html",
+    "handle": "Dostosowanie czasu",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy użytkownicy mogą dostosować lub wyłączyć limity czasowe?",
+        "wcag": [
+          "2.2.1 A"
+        ],
+        "verifier": "<p>Sprawdź, czy dostępne jest jedno z poniższych:</p><ul><li>Użytkownik może wyłączyć limit czasowy przed jego napotkaniem</li><li>Użytkownik może dostosować limit czasowy do co najmniej 10-krotności wartości domyślnej</li><li>Użytkownik jest ostrzegany przed wygaśnięciem i ma co najmniej 20 sekund na przedłużenie za pomocą prostej akcji</li><li>Limit czasowy przekracza 20 godzin</li></ul>",
+        "group": "Common navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.2.2": {
+    "num": "2.2.2",
+    "url": "https://wcag.lepszyweb.pl/#pause-stop-hide",
+    "scId": "WCAG2:pause-stop-hide",
+    "scAltId": [
+      "time-limits-pause"
+    ],
+    "test": "WCAG2:time-limits-pause",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#pause-stop-hide",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/#pause-stop-hide",
+    "handle": "Pauza, zatrzymanie, ukrycie",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy użytkownicy mogą kontrolować ruchome, migające lub automatycznie aktualizowane treści?",
+        "wcag": [
+          "2.2.2 A"
+        ],
+        "verifier": "<p>Dla treści, które uruchamiają się automatycznie, trwają dłużej niż 5 sekund i obejmują ruch, przewijanie, miganie lub automatyczne aktualizacje:</p><ul><li>Sprawdź, czy istnieje mechanizm umożliwiający wstrzymanie, zatrzymanie lub ukrycie treści</li><li>Dla automatycznie aktualizowanych treści sprawdź, czy istnieje mechanizm kontrolowania częstotliwości aktualizacji</li></ul>",
+        "group": "Common navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.2.3": {
+    "num": "2.2.3",
+    "url": "https://wcag.lepszyweb.pl/#no-timing",
+    "scId": "WCAG2:no-timing",
+    "scAltId": [
+      "time-limits-no-exceptions"
+    ],
+    "test": "WCAG2:time-limits-no-exceptions",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#no-timing",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/bez-ograniczen-czasowych.html",
+    "handle": "Bez ograniczeń czasowych",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy treść jest wolna od limitów czasowych?",
+        "wcag": [
+          "2.2.3 AAA"
+        ],
+        "verifier": "<p>Sprawdź, czy na czytanie treści lub interakcję nie są nakładane żadne limity czasowe, z wyjątkiem wydarzeń w czasie rzeczywistym (np. aukcji), gdzie czas jest niezbędny.</p>",
+        "group": "Common navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.2.4": {
+    "num": "2.2.4",
+    "url": "https://wcag.lepszyweb.pl/#interruptions",
+    "scId": "WCAG2:interruptions",
+    "scAltId": [
+      "time-limits-postponed"
+    ],
+    "test": "WCAG2:time-limits-postponed",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#interruptions",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/przerywanie.html",
+    "handle": "Przerywanie",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy przerwy mogą być odroczone lub stłumione?",
+        "wcag": [
+          "2.2.4 AAA"
+        ],
+        "verifier": "<p>Sprawdź, czy użytkownicy mogą odraczać lub tłumić przerwy, aktualizacje i rozpraszacze, chyba że przerwa dotyczy sytuacji awaryjnej.</p>",
+        "group": "Common navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.2.5": {
+    "num": "2.2.5",
+    "url": "https://wcag.lepszyweb.pl/#re-authenticating",
+    "scId": "WCAG2:re-authenticating",
+    "scAltId": [
+      "time-limits-server-timeout"
+    ],
+    "test": "WCAG2:time-limits-server-timeout",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#re-authenticating",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/ponowne-uwierzytelnienie.html",
+    "handle": "Ponowne uwierzytelnienie",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy dane są zachowywane podczas ponownego uwierzytelniania?",
+        "wcag": [
+          "2.2.5 AAA"
+        ],
+        "verifier": "<p>Sprawdź, czy po wygaśnięciu uwierzytelnionych sesji użytkownicy mogą ponownie się uwierzytelnić bez utraty danych, które wprowadzali.</p>",
+        "group": "Common navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.2.6": {
+    "num": "2.2.6",
+    "url": "https://wcag.lepszyweb.pl/#timeouts",
+    "scId": "WCAG2:timeouts",
+    "scAltId": [],
+    "test": "WCAG2:timeouts",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#timeouts",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/ostrzezenie-o-limicie-czasu.html",
+    "handle": "Ostrzeżenie o limicie czasu",
+    "level": "AAA",
+    "wcagType": "2.1",
+    "testCases": [
+      {
+        "title": "Czy użytkownicy są ostrzegani o utracie danych spowodowanej nieaktywnością?",
+        "wcag": [
+          "2.2.6 AAA"
+        ],
+        "verifier": "<p>Sprawdź, czy użytkownicy są ostrzegani o okresach nieaktywności, które mogą spowodować utratę danych, chyba że dane są zachowywane przez ponad 20 godzin nieaktywności.</p>",
+        "group": "Common navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.3.1": {
+    "num": "2.3.1",
+    "url": "https://wcag.lepszyweb.pl/#three-flashes-or-below-threshold",
+    "scId": "WCAG2:three-flashes-or-below-threshold",
+    "scAltId": [
+      "seizure-does-not-violate"
+    ],
+    "test": "WCAG2:seizure-does-not-violate",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#three-flashes-or-below-threshold",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/trzy-blyski-lub-wartosci-ponizej-progu.html",
+    "handle": "Trzy błyski lub wartości poniżej progu",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy treść unika migania częściej niż trzy razy na sekundę?",
+        "wcag": [
+          "2.3.1 A"
+        ],
+        "verifier": "<p>Sprawdź, czy treść nie miga częściej niż 3 razy na sekundę, LUB jeśli tak, czy migający obszar jest mniejszy niż 21 824 piksele kwadratowe (około 10% wyświetlacza 1024x768).</p>",
+        "group": "Common navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.3.2": {
+    "num": "2.3.2",
+    "url": "https://wcag.lepszyweb.pl/#three-flashes",
+    "scId": "WCAG2:three-flashes",
+    "scAltId": [
+      "seizure-three-times"
+    ],
+    "test": "WCAG2:seizure-three-times",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#three-flashes",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/trzy-blyski.html",
+    "handle": "Trzy błyski",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy treść unika wszelkiego migania?",
+        "wcag": [
+          "2.3.2 AAA"
+        ],
+        "verifier": "<p>Sprawdź, czy treść nie miga częściej niż 3 razy w ciągu jednej sekundy, niezależnie od rozmiaru obszaru (w odróżnieniu od 2.3.1, które dopuszcza małe obszary).</p>",
+        "group": "Common navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.3.3": {
+    "num": "2.3.3",
+    "url": "https://wcag.lepszyweb.pl/#animation-from-interactions",
+    "scId": "WCAG2:animation-from-interactions",
+    "scAltId": [],
+    "test": "WCAG2:animation-from-interactions",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#animation-from-interactions",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/animacja-po-interakcji.html",
+    "handle": "Animacja po interakcji",
+    "level": "AAA",
+    "wcagType": "2.1",
+    "testCases": [
+      {
+        "title": "Czy animacje ruchu wywołane interakcjami mogą być wyłączone?",
+        "wcag": [
+          "2.3.3 AAA"
+        ],
+        "verifier": "<p>Sprawdź, czy animacje ruchu wyzwalane interakcją użytkownika mogą być wyłączone, chyba że animacja jest niezbędna dla funkcjonalności lub przekazywanych informacji.</p><p>Uwaga: Dotyczy to efektów paralaksy, powiększania, przesuwania i innych efektów ruchu, które mogą powodować zaburzenia przedsionkowe.</p>",
+        "group": "Common navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.4.1": {
+    "num": "2.4.1",
+    "url": "https://wcag.lepszyweb.pl/#bypass-blocks",
+    "scId": "WCAG2:bypass-blocks",
+    "scAltId": [
+      "navigation-mechanisms-skip"
+    ],
+    "test": "WCAG2:navigation-mechanisms-skip",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#bypass-blocks",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/mozliwosc-pominiecia-blokow.html",
+    "handle": "Możliwość pominięcia bloków",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy istnieje mechanizm pomijania powtarzających się bloków treści?",
+        "wcag": [
+          "2.4.1 A"
+        ],
+        "verifier": "<p>Sprawdź, czy istnieje co najmniej jeden mechanizm pomijania bloków treści powtarzających się na różnych stronach:</p><ul><li>Łącza pomijające do treści głównej</li><li>Odpowiednia hierarchia nagłówków (<code>h1-h6</code>)</li><li>Regiony landmark (<code>header</code>, <code>nav</code>, <code>main</code> itp.)</li><li>Spis treści lub nawigacja wewnątrzstronicowa</li></ul>",
+        "group": "Common navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.4.2": {
+    "num": "2.4.2",
+    "url": "https://wcag.lepszyweb.pl/#page-titled",
+    "scId": "WCAG2:page-titled",
+    "scAltId": [
+      "navigation-mechanisms-title"
+    ],
+    "test": "WCAG2:navigation-mechanisms-title",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#page-titled",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/tytul-strony.html",
+    "handle": "Tytuł strony",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy każda strona ma odpowiedni tytuł?",
+        "wcag": [
+          "2.4.2 A"
+        ],
+        "verifier": "<ul><li>Sprawdź, czy każda strona ma element <code>&lt;title&gt;</code></li><li>Sprawdź, czy tytuł jest unikalny i opisuje treść/cel strony</li><li>Sprawdź, czy tytuł jest odpowiednio aktualizowany przy dynamicznych zmianach kontekstu strony (nawigacja SPA, walidacja formularza, wyniki wyszukiwania)</li></ul>",
+        "group": "Text Content",
+        "complement": ""
+      }
+    ]
+  },
+  "2.4.3": {
+    "num": "2.4.3",
+    "url": "https://wcag.lepszyweb.pl/#focus-order",
+    "scId": "WCAG2:focus-order",
+    "scAltId": [
+      "navigation-mechanisms-focus-order"
+    ],
+    "test": "WCAG2:navigation-mechanisms-focus-order",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#focus-order",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/kolejnosc-fokusu.html",
+    "handle": "Kolejność fokusu",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy kolejność fokusa odpowiada logicznej sekwencji?",
+        "wcag": [
+          "2.4.3 A"
+        ],
+        "verifier": "<p>Sprawdź, czy skupialne komponenty otrzymują fokus w kolejności zachowującej znaczenie i operatywność, ogólnie odpowiadającej wizualnej kolejności czytania.</p>",
+        "group": "Keyboard navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.4.4": {
+    "num": "2.4.4",
+    "url": "https://wcag.lepszyweb.pl/#link-purpose-in-context",
+    "scId": "WCAG2:link-purpose-in-context",
+    "scAltId": [
+      "navigation-mechanisms-refs"
+    ],
+    "test": "WCAG2:navigation-mechanisms-refs",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#link-purpose-in-context",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/cel-lacza-w-kontekscie.html",
+    "handle": "Cel łącza (w kontekście)",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy cel łącza można określić na podstawie tekstu łącza i kontekstu?",
+        "wcag": [
+          "2.4.4 A"
+        ],
+        "verifier": "<p>Sprawdź, czy użytkownicy mogą określić cel łącza na podstawie samego tekstu łącza lub tekstu łącza połączonego z jego programowym kontekstem:</p><ul><li>Żadne identyczne teksty łączy nie wskazują na różne miejsca docelowe</li><li>Cel łącza jest jasny na podstawie dostępnej nazwy, lub</li><li>Cel łącza można wywnioskować z kontekstu (to samo zdanie, akapit, element listy, komórka tabeli lub powiązany nagłówek tabeli)</li></ul>",
+        "complement": "<h5>Kontekst obejmuje:</h5><ul><li>To samo zdanie lub akapit (<code>p</code>)</li><li>Ten sam element listy (<code>li</code>)</li><li>Tę samą komórkę tabeli (<code>td</code>) lub powiązaną komórkę nagłówka (<code>th</code>)</li></ul>",
+        "group": "Common navigation"
+      }
+    ]
+  },
+  "2.4.5": {
+    "num": "2.4.5",
+    "url": "https://wcag.lepszyweb.pl/#multiple-ways",
+    "scId": "WCAG2:multiple-ways",
+    "scAltId": [
+      "navigation-mechanisms-mult-loc"
+    ],
+    "test": "WCAG2:navigation-mechanisms-mult-loc",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#multiple-ways",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/wiele-drog.html",
+    "handle": "Wiele dróg",
+    "level": "AA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy istnieje wiele sposobów nawigacji do stron?",
+        "wcag": [
+          "2.4.5 AA"
+        ],
+        "verifier": "<p>Sprawdź, czy dostępne są co najmniej dwa z następujących mechanizmów nawigacji:</p><ul><li>Menu nawigacyjne witryny</li><li>Spis treści</li><li>Mapa witryny</li><li>Funkcja wyszukiwania</li><li>Łącza między powiązanymi stronami</li></ul>",
+        "group": "Common navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.4.6": {
+    "num": "2.4.6",
+    "url": "https://wcag.lepszyweb.pl/#headings-and-labels",
+    "scId": "WCAG2:headings-and-labels",
+    "scAltId": [
+      "navigation-mechanisms-descriptive"
+    ],
+    "test": "WCAG2:navigation-mechanisms-descriptive",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#headings-and-labels",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/naglowki-i-etykiety.html",
+    "handle": "Nagłówki i etykiety",
+    "level": "AA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy etykiety formularzy są opisowe?",
+        "wcag": [
+          "2.4.6 AA"
+        ],
+        "verifier": "<ul><li>Sprawdź, czy każde pole formularza ma odpowiednią etykietę opisującą jego cel</li><li>Sprawdź, czy wskazane wymagania dotyczące formatu są odpowiednie i jasne</li><li>Sprawdź, czy grupowania pól mają odpowiednie legendy</li></ul>",
+        "complement": "<p>Sprawdź zarówno widoczne etykiety, jak i dostępne nazwy pod kątem trafności.</p>",
+        "group": "Form"
+      },
+      {
+        "title": "Czy nagłówki są opisowe?",
+        "wcag": [
+          "2.4.6 AA"
+        ],
+        "verifier": "<ul><li>Sprawdź, czy nagłówki dokładnie opisują treść, którą wprowadzają</li><li>Sprawdź, czy poziomy nagłówków są odpowiednie dla hierarchii treści</li></ul>",
+        "group": "Text Content",
+        "complement": ""
+      },
+      {
+        "title": "Czy etykiety przycisków są opisowe?",
+        "wcag": [
+          "2.4.6 AA"
+        ],
+        "verifier": "<p>Sprawdź, czy dostępne nazwy przycisków jasno opisują wykonywaną akcję. Jeśli brakuje dostępnej nazwy, sprawdź również 4.1.2 Nazwa, rola, wartość.</p>",
+        "group": "Common navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.4.7": {
+    "num": "2.4.7",
+    "url": "https://wcag.lepszyweb.pl/#focus-visible",
+    "scId": "WCAG2:focus-visible",
+    "scAltId": [
+      "navigation-mechanisms-focus-visible"
+    ],
+    "test": "WCAG2:navigation-mechanisms-focus-visible",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#focus-visible",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/widoczny-fokus.html",
+    "handle": "Widoczny fokus",
+    "level": "AA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy wskaźnik fokusa klawiatury jest widoczny?",
+        "wcag": [
+          "2.4.7 AA"
+        ],
+        "verifier": "<p>Sprawdź, czy widoczny wskaźnik fokusa jest obecny, gdy komponenty otrzymują fokus klawiatury. Jeśli domyślny fokus przeglądarki jest wytłumiony, musi być dostarczony niestandardowy wskaźnik fokusa.</p>",
+        "group": "Keyboard navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.4.8": {
+    "num": "2.4.8",
+    "url": "https://wcag.lepszyweb.pl/#location",
+    "scId": "WCAG2:location",
+    "scAltId": [
+      "navigation-mechanisms-location"
+    ],
+    "test": "WCAG2:navigation-mechanisms-location",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#location",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/lokalizacja.html",
+    "handle": "Lokalizacja",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy lokalizacja użytkownika w witrynie jest wskazana?",
+        "wcag": [
+          "2.4.8 AAA"
+        ],
+        "verifier": "<p>Sprawdź, czy bieżąca lokalizacja użytkownika jest wskazana wizualnie i programowo:</p><ul><li>Nawigacja okruszkowa (breadcrumb), lub</li><li>Wskaźnik wizualny (wystarczający kontrast, nie tylko kolor) z atrybutem <code>aria-current</code></li></ul>",
+        "group": "Common navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.4.9": {
+    "num": "2.4.9",
+    "url": "https://wcag.lepszyweb.pl/#link-purpose-link-only",
+    "scId": "WCAG2:link-purpose-link-only",
+    "scAltId": [
+      "navigation-mechanisms-link"
+    ],
+    "test": "WCAG2:navigation-mechanisms-link",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#link-purpose-link-only",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/cel-lacza-z-samego-lacza.html",
+    "handle": "Cel łącza (z samego łącza)",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy cel łącza można określić wyłącznie na podstawie tekstu łącza?",
+        "wcag": [
+          "2.4.9 AAA"
+        ],
+        "verifier": "<p>Sprawdź, czy cel łącza jest jasny wyłącznie na podstawie dostępnej nazwy, bez potrzeby kontekstu:</p><ul><li>Tekst łącza opisuje miejsce docelowe lub akcję</li><li>Żadne identyczne teksty łączy nie wskazują na różne miejsca docelowe</li></ul>",
+        "group": "Common navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.4.10": {
+    "num": "2.4.10",
+    "url": "https://wcag.lepszyweb.pl/#section-headings",
+    "scId": "WCAG2:section-headings",
+    "scAltId": [
+      "navigation-mechanisms-headings"
+    ],
+    "test": "WCAG2:navigation-mechanisms-headings",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#section-headings",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/naglowki-sekcji.html",
+    "handle": "Nagłówki sekcji",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy sekcje są zorganizowane za pomocą nagłówków?",
+        "wcag": [
+          "2.4.10 AAA"
+        ],
+        "verifier": "<p>Sprawdź, czy sekcje treści są zorganizowane za pomocą nagłówków opisujących temat lub cel każdej sekcji.</p>",
+        "group": "Text Content",
+        "complement": ""
+      }
+    ]
+  },
+  "2.4.11": {
+    "num": "2.4.11",
+    "url": "https://wcag.lepszyweb.pl/#focus-not-obscured-minimum",
+    "scId": "WCAG2:focus-not-obscured-minimum",
+    "scAltId": [],
+    "test": "WCAG2:focus-not-obscured-minimum",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#focus-not-obscured-minimum",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/fokus-niezakryty-minimum.html",
+    "handle": "Fokus niezakryty (minimum)",
+    "level": "AA",
+    "wcagType": "2.2",
+    "testCases": [
+      {
+        "title": "Czy skupiony element jest co najmniej częściowo widoczny?",
+        "wcag": [
+          "2.4.11 AA"
+        ],
+        "verifier": "<p>Sprawdź, czy gdy element otrzymuje fokus klawiatury, nie jest całkowicie ukryty przez inną treść.</p>",
+        "complement": "<h5>Wyjątki:</h5><ul><li>Treść przesuwalna przez użytkownika: testuj tylko pozycję początkową</li><li>Fokus może być odsłonięty bez przesuwania fokusa (np. przez zamknięcie nakładki)</li><li>Zasłaniająca treść ma nieprzezroczystość mniejszą niż 100%</li></ul>",
+        "group": "Keyboard navigation"
+      }
+    ]
+  },
+  "2.4.12": {
+    "num": "2.4.12",
+    "url": "https://wcag.lepszyweb.pl/#focus-not-obscured-enhanced",
+    "scId": "WCAG2:focus-not-obscured-enhanced",
+    "scAltId": [],
+    "test": "WCAG2:focus-not-obscured-enhanced",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#focus-not-obscured-enhanced",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/fokus-niezakryty-ulepszony",
+    "handle": "Fokus niezakryty (ulepszony)",
+    "level": "AAA",
+    "wcagType": "2.2",
+    "testCases": [
+      {
+        "title": "Czy skupiony element jest w pełni widoczny?",
+        "wcag": [
+          "2.4.12 AAA"
+        ],
+        "verifier": "<p>Sprawdź, czy gdy element otrzymuje fokus klawiatury, żadna jego część nie jest ukryta przez inną treść.</p>",
+        "group": "Keyboard navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.4.13": {
+    "num": "2.4.13",
+    "url": "https://wcag.lepszyweb.pl/#focus-appearance",
+    "scId": "WCAG2:focus-appearance",
+    "scAltId": [],
+    "test": "WCAG2:focus-appearance",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#focus-appearance",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/wyglad-fokusu",
+    "handle": "Wygląd fokusu",
+    "level": "AAA",
+    "wcagType": "2.2",
+    "testCases": [
+      {
+        "title": "Czy wskaźnik fokusa spełnia minimalne wymagania dotyczące rozmiaru i kontrastu?",
+        "wcag": [
+          "2.4.13 AAA"
+        ],
+        "verifier": "<p>Sprawdź, czy wskaźnik fokusa spełnia wszystkie poniższe warunki:</p><ul><li>Obszar co najmniej tak duży jak obwód nieskupionego komponentu o grubości 2 pikseli CSS, lub co najmniej 8 pikseli CSS wzdłuż najkrótszego boku</li><li>Współczynnik kontrastu co najmniej 3:1 między stanem skupionym a nieskupionym</li><li>Współczynnik kontrastu co najmniej 3:1 między wskaźnikiem a sąsiadującymi kolorami</li></ul>",
+        "group": "Keyboard navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "2.5.1": {
+    "num": "2.5.1",
+    "url": "https://wcag.lepszyweb.pl/#pointer-gestures",
+    "scId": "WCAG2:pointer-gestures",
+    "scAltId": [],
+    "test": "WCAG2:pointer-gestures",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#pointer-gestures",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/gesty-wskaznika.html",
+    "handle": "Gesty wskaźnika",
+    "level": "A",
+    "wcagType": "2.1",
+    "testCases": [
+      {
+        "title": "Czy gesty wielopunktowe lub oparte na ścieżce mają alternatywy jednopalcowe?",
+        "wcag": [
+          "2.5.1 A"
+        ],
+        "verifier": "<p>Sprawdź, czy gesty wielopunktowe (wiele palców) i gesty oparte na ścieżce mają alternatywy obsługiwalne jednym wskaźnikiem bez ruchu opartego na ścieżce.</p>",
+        "complement": "<h5>Przykład:</h5><p>Funkcja powiększania mapy zapewnia przyciski (+/-) jako alternatywę dla gestu szczypania dwoma palcami.</p>",
+        "group": "Touch Screen"
+      }
+    ]
+  },
+  "2.5.2": {
+    "num": "2.5.2",
+    "url": "https://wcag.lepszyweb.pl/#pointer-cancellation",
+    "scId": "WCAG2:pointer-cancellation",
+    "scAltId": [],
+    "test": "WCAG2:pointer-cancellation",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#pointer-cancellation",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/rezygnacja-ze-wskazania.html",
+    "handle": "Rezygnacja ze wskazania",
+    "level": "A",
+    "wcagType": "2.1",
+    "testCases": [
+      {
+        "title": "Czy działania wskaźnikowe mogą być anulowane lub cofnięte?",
+        "wcag": [
+          "2.5.2 A"
+        ],
+        "verifier": "<p>Sprawdź, czy działania jednopalcowe mogą być anulowane:</p><ul><li>Działanie nie jest wyzwalane przy <code>mousedown</code> lub <code>touchstart</code>; można przerwać, przesuwając wskaźnik poza cel, lub</li><li>Jeśli działanie wyzwala się przy naciśnięciu, anuluje się po zwolnieniu wskaźnika poza celem, lub</li><li>Dla złożonych działań (np. przeciąganie i upuszczanie) istnieje mechanizm anulowania (np. okno dialogowe potwierdzenia)</li></ul><p>Wyjątek: Działania niezbędne dla funkcjonalności (np. wirtualna klawiatura, klawisze pianina).</p>",
+        "group": "Touch and interactions",
+        "complement": ""
+      }
+    ]
+  },
+  "2.5.3": {
+    "num": "2.5.3",
+    "url": "https://wcag.lepszyweb.pl/#label-in-name",
+    "scId": "WCAG2:label-in-name",
+    "scAltId": [],
+    "test": "WCAG2:label-in-name",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#label-in-name",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/etykieta-w-nazwie.html",
+    "handle": "Etykieta w nazwie",
+    "level": "A",
+    "wcagType": "2.1",
+    "testCases": [
+      {
+        "title": "Czy dostępna nazwa zawiera tekst widocznej etykiety?",
+        "wcag": [
+          "2.5.3 A"
+        ],
+        "verifier": "<p>Sprawdź, czy tekst widocznej etykiety jest zawarty w dostępnej nazwie komponentu. Dostępna nazwa może zawierać dodatkowy tekst, ale musi zaczynać się od lub zawierać dokładną widoczną etykietę.</p>",
+        "complement": "<p>Przykład: Dla widocznej etykiety \"Start\" akceptowalne dostępne nazwy to: \"Start odtwarzania\" lub \"Start gry\". Nieakceptowalne: \"Rozpocznij odtwarzanie\" (brak słowa \"Start\").</p>",
+        "group": "Common navigation"
+      }
+    ]
+  },
+  "2.5.4": {
+    "num": "2.5.4",
+    "url": "https://wcag.lepszyweb.pl/#motion-actuation",
+    "scId": "WCAG2:motion-actuation",
+    "scAltId": [],
+    "test": "WCAG2:motion-actuation",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#motion-actuation",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/aktywowanie-ruchem.html",
+    "handle": "Aktywowanie ruchem",
+    "level": "A",
+    "wcagType": "2.1",
+    "testCases": [
+      {
+        "title": "Czy funkcje aktywowane ruchem są dostępne przez alternatywne kontrolki?",
+        "wcag": [
+          "2.5.4 A"
+        ],
+        "verifier": "<ul><li>Sprawdź, czy funkcje wyzwalane ruchem urządzenia (potrząsanie, przechylanie) lub ruchem użytkownika mają alternatywne kontrolki UI (np. przyciski)</li><li>Sprawdź, czy wykrywanie ruchu może być wyłączone, aby zapobiec przypadkowej aktywacji</li></ul>",
+        "group": "Touch Screen",
+        "complement": ""
+      }
+    ]
+  },
+  "2.5.5": {
+    "num": "2.5.5",
+    "url": "https://wcag.lepszyweb.pl/#target-size",
+    "scId": "WCAG2:target-size-enhanced",
+    "scAltId": [
+      "target-size"
+    ],
+    "test": "WCAG2:target-size-enhanced",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#target-size",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/rozmiar-celu-minimalny.htm",
+    "handle": "Rozmiar celu",
+    "level": "AAA",
+    "wcagType": "2.1",
+    "testCases": [
+      {
+        "title": "Czy elementy interaktywne spełniają podwyższone wymagania dotyczące rozmiaru celu?",
+        "wcag": [
+          "2.5.5 AAA"
+        ],
+        "verifier": "<p>Sprawdź, czy elementy interaktywne mają rozmiar celu co najmniej 44x44 piksele CSS, z wyjątkiem gdy:</p><ul><li>Istnieje równoważna kontrolka o wystarczającym rozmiarze</li><li>Cel jest w zdaniu lub bloku tekstu</li><li>Rozmiar jest niezbędny dla funkcjonalności</li><li>Rozmiar jest określany przez klienta użytkownika i nie jest modyfikowany</li></ul>",
+        "group": "Layout",
+        "complement": ""
+      }
+    ]
+  },
+  "2.5.6": {
+    "num": "2.5.6",
+    "url": "https://wcag.lepszyweb.pl/#concurrent-input-mechanisms",
+    "scId": "WCAG2:concurrent-input-mechanisms",
+    "scAltId": [],
+    "test": "WCAG2:concurrent-input-mechanisms",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#concurrent-input-mechanisms",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/rownolegly-mechanizm-wprowadzania-danych.html",
+    "handle": "Równoległy mechanizm wprowadzania danych",
+    "level": "AAA",
+    "wcagType": "2.1",
+    "testCases": [
+      {
+        "title": "Czy obsługiwane są jednocześnie różne metody wprowadzania?",
+        "wcag": [
+          "2.5.6 AAA"
+        ],
+        "verifier": "<p>Sprawdź, czy treść nie ogranicza wprowadzania do określonych modalności. Użytkownicy powinni móc przełączać się między lub używać wielu metod wprowadzania (dotyk, mysz, klawiatura, głos) według potrzeb.</p>",
+        "group": "Touch and interactions",
+        "complement": ""
+      }
+    ]
+  },
+  "2.5.7": {
+    "num": "2.5.7",
+    "url": "https://wcag.lepszyweb.pl/#dragging-movements",
+    "scId": "WCAG2:dragging-movements",
+    "scAltId": [],
+    "test": "WCAG2:dragging-movements",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#dragging-movements",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/ruch-przeciagania.html",
+    "handle": "Ruch przeciągania",
+    "level": "AA",
+    "wcagType": "2.2",
+    "testCases": [
+      {
+        "title": "Czy działania przeciągania mają alternatywy jednopalcowe?",
+        "wcag": [
+          "2.5.7 AA"
+        ],
+        "verifier": "<p>Sprawdź, czy funkcjonalność przeciągania i upuszczania ma alternatywę obsługiwaną jednopalcowymi kliknięciami (np. przyciski przenoszenia, zaznaczenie i potwierdzenie).</p>",
+        "complement": "<p>Dotyczy działań, w których liczy się tylko punkt początkowy i końcowy (np. przenoszenie elementów między listami). Nie dotyczy gestów wielopunktowych lub opartych na ścieżce (patrz 2.5.1).</p>",
+        "group": "Touch and interactions"
+      }
+    ]
+  },
+  "2.5.8": {
+    "num": "2.5.8",
+    "url": "https://wcag.lepszyweb.pl/#target-size-minimum",
+    "scId": "WCAG2:target-size-minimum",
+    "scAltId": [],
+    "test": "WCAG2:target-size-minimum",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#target-size-minimum",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/rozmiar-celu-minimalny.html",
+    "handle": "Rozmiar celu (minimalny)",
+    "level": "AA",
+    "wcagType": "2.2",
+    "testCases": [
+      {
+        "title": "Czy elementy interaktywne spełniają minimalne wymagania dotyczące rozmiaru celu?",
+        "wcag": [
+          "2.5.8 AA"
+        ],
+        "verifier": "<p>Sprawdź, czy elementy interaktywne spełniają minimalny rozmiar celu 24x24 piksele CSS, lub:</p><ul><li>Wyjątek odstępu: okrąg o średnicy 24px wyśrodkowany na celu nie nakłada się na inne cele</li><li>Wyjątek alternatywy: niedostateczny cel ma zgodną alternatywę wykonującą tę samą akcję</li><li>Wyjątek inline: cel jest w zdaniu lub ograniczony wysokością linii otaczającego tekstu</li></ul>",
+        "group": "Layout",
+        "complement": ""
+      }
+    ]
+  },
+  "3.1.1": {
+    "num": "3.1.1",
+    "url": "https://wcag.lepszyweb.pl/#language-of-page",
+    "scId": "WCAG2:language-of-page",
+    "scAltId": [
+      "meaning-doc-lang-id"
+    ],
+    "test": "WCAG2:meaning-doc-lang-id",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#language-of-page",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/jezyk-strony.html",
+    "handle": "Język strony",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy domyślny język strony jest poprawnie zidentyfikowany?",
+        "wcag": [
+          "3.1.1 A"
+        ],
+        "verifier": "<ul><li>Sprawdź, czy atrybut <code>lang</code> jest obecny w elemencie <code>&lt;html&gt;</code> (uwaga: sam <code>xml:lang</code> nie jest wystarczający)</li><li>Sprawdź, czy wartość <code>lang</code> odpowiada głównemu językowi treści strony</li></ul>",
+        "group": "Text Content",
+        "complement": ""
+      }
+    ]
+  },
+  "3.1.2": {
+    "num": "3.1.2",
+    "url": "https://wcag.lepszyweb.pl/#language-of-parts",
+    "scId": "WCAG2:language-of-parts",
+    "scAltId": [
+      "meaning-other-lang-id"
+    ],
+    "test": "WCAG2:meaning-other-lang-id",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#language-of-parts",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/jezyk-czesci.html",
+    "handle": "Język części",
+    "level": "AA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy zmiany języka w treści są identyfikowane?",
+        "wcag": [
+          "3.1.2 AA"
+        ],
+        "verifier": "<p>Sprawdź, czy atrybut <code>lang</code> jest używany dla treści w języku innym niż domyślny język strony.</p><p>Wyjątki: Pospolite zapożyczenia (np. déjà vu, hors d'oeuvre) i nazwy własne nie wymagają identyfikacji języka.</p>",
+        "group": "Text Content",
+        "complement": ""
+      }
+    ]
+  },
+  "3.1.3": {
+    "num": "3.1.3",
+    "url": "https://wcag.lepszyweb.pl/#unusual-words",
+    "scId": "WCAG2:unusual-words",
+    "scAltId": [
+      "meaning-idioms"
+    ],
+    "test": "WCAG2:meaning-idioms",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#unusual-words",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/nietypowe-slowa.html",
+    "handle": "Nietypowe słowa",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy niezwykłe słowa i idiomy są wyjaśnione?",
+        "wcag": [
+          "3.1.3 AAA"
+        ],
+        "verifier": "<p>Sprawdź, czy dostępne są mechanizmy identyfikowania definicji niezwykłych słów, idiomów lub żargonu, takie jak:</p><ul><li>Łącza do glosariusza lub definicji</li><li>Definicje wbudowane</li><li>Wyjaśnienia kontekstowe</li></ul>",
+        "group": "Text Content",
+        "complement": ""
+      }
+    ]
+  },
+  "3.1.4": {
+    "num": "3.1.4",
+    "url": "https://wcag.lepszyweb.pl/#abbreviations",
+    "scId": "WCAG2:abbreviations",
+    "scAltId": [
+      "meaning-located"
+    ],
+    "test": "WCAG2:meaning-located",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#abbreviations",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/skroty.html",
+    "handle": "Skróty",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy skróty są rozwijane lub wyjaśniane?",
+        "wcag": [
+          "3.1.4 AAA"
+        ],
+        "verifier": "<p>Sprawdź, czy dostępne są mechanizmy identyfikowania pełnej formy lub znaczenia skrótów, takie jak:</p><ul><li>Rozwinięcie przy pierwszym użyciu</li><li>Łącza do glosariusza lub definicji</li><li>Element <code>abbr</code> z atrybutem <code>title</code></li></ul>",
+        "group": "Text Content",
+        "complement": ""
+      }
+    ]
+  },
+  "3.1.5": {
+    "num": "3.1.5",
+    "url": "https://wcag.lepszyweb.pl/#reading-level",
+    "scId": "WCAG2:reading-level",
+    "scAltId": [
+      "meaning-supplements"
+    ],
+    "test": "WCAG2:meaning-supplements",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#reading-level",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/poziom-umiejetnosci-czytania.html",
+    "handle": "Poziom umiejętności czytania",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy treść jest dostępna na poziomie niższego wykształcenia średniego?",
+        "wcag": [
+          "3.1.5 AAA"
+        ],
+        "verifier": "<p>Sprawdź, czy treść wymagająca umiejętności czytania powyżej poziomu niższego wykształcenia średniego (około 9 lat nauki) ma:</p><ul><li>Treść uzupełniającą, lub</li><li>Wersję na niższym poziomie czytelności</li></ul>",
+        "group": "Text Content",
+        "complement": ""
+      }
+    ]
+  },
+  "3.1.6": {
+    "num": "3.1.6",
+    "url": "https://wcag.lepszyweb.pl/#pronunciation",
+    "scId": "WCAG2:pronunciation",
+    "scAltId": [
+      "meaning-pronunciation"
+    ],
+    "test": "WCAG2:meaning-pronunciation",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#pronunciation",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/wymowa.html",
+    "handle": "Wymowa",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy dostępne są informacje o wymowie słów, których znaczenie zależy od wymowy?",
+        "wcag": [
+          "3.1.6 AAA"
+        ],
+        "verifier": "<p>Sprawdź, czy informacje o wymowie są dostarczone dla słów, których znaczenia nie można określić bez znajomości sposobu ich wymowy (np. polisemy o różnej wymowie).</p>",
+        "group": "Text Content",
+        "complement": ""
+      }
+    ]
+  },
+  "3.2.1": {
+    "num": "3.2.1",
+    "url": "https://wcag.lepszyweb.pl/#on-focus",
+    "scId": "WCAG2:on-focus",
+    "scAltId": [
+      "consistent-behavior-receive-focus"
+    ],
+    "test": "WCAG2:consistent-behavior-receive-focus",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#on-focus",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/po-otrzymaniu-fokusu.html",
+    "handle": "Po otrzymaniu fokusu",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy otrzymanie fokusa powoduje nieoczekiwane zmiany kontekstu?",
+        "wcag": [
+          "3.2.1 A"
+        ],
+        "verifier": "<p>Sprawdź, czy żadna zmiana kontekstu nie następuje, gdy komponenty otrzymują fokus, chyba że użytkownik jest o tym wcześniej poinformowany.</p>",
+        "complement": "<h5>Definicja zmiany kontekstu:</h5><p>Poważne zmiany, które mogą dezorientować użytkowników, jeśli są nieoczekiwane:</p><ul><li>Zmiana klienta użytkownika (otwieranie zewnętrznej aplikacji)</li><li>Zmiana okna widoku (przewijanie do innej sekcji, nowe okno)</li><li>Zmiana pozycji fokusa (nieoczekiwane przesunięcie fokusa)</li><li>Zmiany treści zmieniające znaczenie strony</li></ul><p>Akceptowalne, jeśli inicjowane przez wyraźny przycisk/łącze lub użytkownik jest ostrzegany w tekście.</p>",
+        "group": "Common navigation"
+      }
+    ]
+  },
+  "3.2.2": {
+    "num": "3.2.2",
+    "url": "https://wcag.lepszyweb.pl/#on-input",
+    "scId": "WCAG2:on-input",
+    "scAltId": [
+      "consistent-behavior-unpredictable-change"
+    ],
+    "test": "WCAG2:consistent-behavior-unpredictable-change",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#on-input",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/podczas-wprowadzania-danych.html",
+    "handle": "Podczas wprowadzania danych",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy zmiana wartości wprowadzanych danych powoduje nieoczekiwane zmiany kontekstu?",
+        "wcag": [
+          "3.2.2 A"
+        ],
+        "verifier": "<p>Sprawdź, czy żadna zmiana kontekstu nie następuje przy zmianie wartości kontrolek formularza (zaznaczanie pól wyboru, wprowadzanie tekstu, wybieranie opcji), chyba że użytkownik jest o tym wcześniej poinformowany.</p><p>Uwaga: Aktywowanie łączy lub przycisków nie jest uważane za zmianę danych wejściowych.</p>",
+        "complement": "<h5>Definicja zmiany kontekstu:</h5><p>Poważne zmiany, które mogą dezorientować użytkowników, jeśli są nieoczekiwane:</p><ul><li>Zmiana klienta użytkownika (otwieranie zewnętrznej aplikacji)</li><li>Zmiana okna widoku (przewijanie do innej sekcji, nowe okno)</li><li>Zmiana pozycji fokusa (nieoczekiwane przesunięcie fokusa)</li><li>Zmiany treści zmieniające znaczenie strony</li></ul><p>Akceptowalne, jeśli inicjowane przez wyraźny przycisk/łącze lub użytkownik jest ostrzegany w tekście.</p>",
+        "group": "Common navigation"
+      }
+    ]
+  },
+  "3.2.3": {
+    "num": "3.2.3",
+    "url": "https://wcag.lepszyweb.pl/#consistent-navigation",
+    "scId": "WCAG2:consistent-navigation",
+    "scAltId": [
+      "consistent-behavior-consistent-locations"
+    ],
+    "test": "WCAG2:consistent-behavior-consistent-locations",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#consistent-navigation",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/spojna-nawigacja.html",
+    "handle": "Spójna nawigacja",
+    "level": "AA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy mechanizmy nawigacji są spójnie rozmieszczone na różnych stronach?",
+        "wcag": [
+          "3.2.3 AA"
+        ],
+        "verifier": "<p>Sprawdź, czy mechanizmy nawigacji powtarzające się na różnych stronach zachowują spójną względną kolejność i rozmieszczenie (wizualnie i w DOM).</p>",
+        "group": "Layout",
+        "complement": ""
+      }
+    ]
+  },
+  "3.2.4": {
+    "num": "3.2.4",
+    "url": "https://wcag.lepszyweb.pl/#consistent-identification",
+    "scId": "WCAG2:consistent-identification",
+    "scAltId": [
+      "consistent-behavior-consistent-functionality"
+    ],
+    "test": "WCAG2:consistent-behavior-consistent-functionality",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#consistent-identification",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/spojna-identyfikacja.html",
+    "handle": "Spójna identyfikacja",
+    "level": "AA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy funkcjonalnie identyczne komponenty są spójnie oznaczone?",
+        "wcag": [
+          "3.2.4 AA"
+        ],
+        "verifier": "<p>Sprawdź, czy komponenty o identycznych funkcjach mają spójne dostępne nazwy na różnych stronach i w tej samej stronie, gdy są powtarzane.</p>",
+        "group": "Layout",
+        "complement": ""
+      }
+    ]
+  },
+  "3.2.5": {
+    "num": "3.2.5",
+    "url": "https://wcag.lepszyweb.pl/#change-on-request",
+    "scId": "WCAG2:change-on-request",
+    "scAltId": [
+      "consistent-behavior-no-extreme-changes-context"
+    ],
+    "test": "WCAG2:consistent-behavior-no-extreme-changes-context",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#change-on-request",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/zmiana-na-zadanie.html",
+    "handle": "Zmiana na żądanie",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy zmiany kontekstu następują wyłącznie na żądanie użytkownika?",
+        "wcag": [
+          "3.2.5 AAA"
+        ],
+        "verifier": "<p>Sprawdź, czy zmiany kontekstu następują wyłącznie wtedy, gdy wyraźnie zażąda tego użytkownik, lub czy dostępny jest mechanizm wyłączania automatycznych zmian kontekstu.</p>",
+        "group": "Common navigation",
+        "complement": ""
+      }
+    ]
+  },
+  "3.2.6": {
+    "num": "3.2.6",
+    "url": "https://wcag.lepszyweb.pl/#consistent-help",
+    "scId": "WCAG2:consistent-help",
+    "scAltId": [],
+    "test": "WCAG2:consistent-help",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#consistent-help",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/spojna-pomoc.html",
+    "handle": "Spójna pomocnie",
+    "level": "A",
+    "wcagType": "2.2",
+    "testCases": [
+      {
+        "title": "Czy mechanizmy pomocy są spójnie rozmieszczone na różnych stronach?",
+        "wcag": [
+          "3.2.6 A"
+        ],
+        "verifier": "<p>Sprawdź, czy mechanizmy pomocy (dane kontaktowe, czat, FAQ) pojawiają się w spójnej względnej kolejności na wszystkich stronach i w różnych rozdzielczościach widoku.</p><p>Wyjątki:</p><ul><li>Ta sama kolejność w DOM, ale różne rozmieszczenie wizualne</li><li>Zmiana rozmieszczenia spowodowana zainicjowanymi przez użytkownika zmianami wyświetlania (orientacja, powiększenie)</li><li>Treści promocyjne specyficzne dla strony, które nie wpływają na kolejność mechanizmów pomocy</li></ul>",
+        "complement": "<h5>Dodatkowe informacje:</h5><ul><li>Mechanizmy pomocy obejmują: e-mail, telefon, formularze kontaktowe, czat, FAQ</li><li>Kryterium nie wymaga istnienia mechanizmów pomocy, tylko ich spójności, jeśli są obecne</li><li>Testuj każdy profil użytkownika oddzielnie, jeśli struktura strony różni się w zależności od profilu</li></ul>",
+        "group": "Common navigation"
+      }
+    ]
+  },
+  "3.3.1": {
+    "num": "3.3.1",
+    "url": "https://wcag.lepszyweb.pl/#error-identification",
+    "scId": "WCAG2:error-identification",
+    "scAltId": [
+      "minimize-error-identified"
+    ],
+    "test": "WCAG2:minimize-error-identified",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#error-identification",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/identyfikacja-bledu.html",
+    "handle": "Identyfikacja błędu",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy pola formularza z błędem są programowo zidentyfikowane?",
+        "wcag": [
+          "3.3.1 A"
+        ],
+        "verifier": "<ul><li>Sprawdź, czy etykieta pola, dostępna nazwa lub opis wskazuje stan błędu (np. dodanie tekstu \"błąd\", ikony, <code>aria-labelledby</code> lub <code>aria-describedby</code>)</li><li>Sprawdź, czy pole ma atrybut <code>aria-invalid='true'</code></li></ul>",
+        "group": "Form",
+        "complement": ""
+      },
+      {
+        "title": "Czy komunikaty o błędach są opisowe?",
+        "wcag": [
+          "3.3.1 A"
+        ],
+        "verifier": "<ul><li>Sprawdź, czy komunikat o błędzie jest widoczny</li><li>Sprawdź, czy pole z błędem jest dokładnie zidentyfikowane</li><li>Sprawdź, czy charakter błędu jest jasno opisany (np. pole wymagane, nieprawidłowy format)</li></ul>",
+        "complement": "<p>Wyjątek: Formularze wrażliwe ze względów bezpieczeństwa (np. uwierzytelnianie), gdzie wskazanie konkretnego pola z błędem mogłoby narazić bezpieczeństwo na ryzyko.</p>",
+        "group": "Form"
+      }
+    ]
+  },
+  "3.3.2": {
+    "num": "3.3.2",
+    "url": "https://wcag.lepszyweb.pl/#labels-or-instructions",
+    "scId": "WCAG2:labels-or-instructions",
+    "scAltId": [
+      "minimize-error-cues"
+    ],
+    "test": "WCAG2:minimize-error-cues",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#labels-or-instructions",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/etykiety-lub-instrukcje.html",
+    "handle": "Etykiety lub instrukcje",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy pola formularza mają widoczne etykiety?",
+        "wcag": [
+          "3.3.2 A"
+        ],
+        "verifier": "<ul><li>Sprawdź, czy widoczna etykieta jest obecna w pobliżu pola formularza, lub</li><li>Sprawdź, czy pole ma atrybut <code>title</code>, lub</li><li>Sprawdź, czy tekst staje się widoczny przy fokusie</li></ul><p>Wyjątek: Pola o oczywistym celu (np. pole wyszukiwania z przyciskiem lupy, pole wyboru wiersza).</p>",
+        "complement": "<p>Sam tekst zastępczy (placeholder) nie jest wystarczający; musi mu towarzyszyć trwały tekst w pobliżu pola.</p>",
+        "group": "Form"
+      },
+      {
+        "title": "Czy wymagane formaty danych są wyraźnie wskazane?",
+        "wcag": [
+          "3.3.2 A"
+        ],
+        "verifier": "<p>Sprawdź, czy wymagania dotyczące formatu wprowadzania są widoczne i wizualnie powiązane z odpowiednim polem.</p>",
+        "group": "Form",
+        "complement": ""
+      },
+      {
+        "title": "Czy wymagane pola są wyraźnie zidentyfikowane?",
+        "wcag": [
+          "1.3.1 A",
+          "3.3.2 A"
+        ],
+        "verifier": "<ul><li>Sprawdź, czy wymagane pola są oznaczone tekstem lub elementem wizualnym (np. gwiazdką)</li><li>Sprawdź, czy znaczenie wskaźnika jest wyjaśnione przed pierwszym użyciem</li><li>Sprawdź, czy programowe powiązanie jest realizowane przez <code>label</code>, <code>aria-labelledby</code>, <code>required</code> lub <code>aria-required</code></li></ul><p>Alternatywa: Gdy wszystkie pola są wymagane z wyjątkiem jednego, identyfikuj tylko pole opcjonalne.</p>",
+        "group": "Form",
+        "complement": ""
+      }
+    ]
+  },
+  "3.3.3": {
+    "num": "3.3.3",
+    "url": "https://wcag.lepszyweb.pl/#error-suggestion",
+    "scId": "WCAG2:error-suggestion",
+    "scAltId": [
+      "minimize-error-suggestions"
+    ],
+    "test": "WCAG2:minimize-error-suggestions",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#error-suggestion",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/sugestie-korekty-bledow.html",
+    "handle": "Sugestie korekty błędów",
+    "level": "AA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy dostarczone są sugestie korekty błędów wprowadzania?",
+        "wcag": [
+          "3.3.3 AA"
+        ],
+        "verifier": "<p>Sprawdź, czy komunikaty o błędach dostarczają informacji niezbędnych do poprawienia błędów, takich jak:</p><ul><li>Dodatkowa pomoc ułatwiająca korektę</li><li>Sugestie z ograniczonej listy wartości</li><li>Przykłady prawidłowego formatu wejściowego</li></ul>",
+        "group": "Form",
+        "complement": ""
+      }
+    ]
+  },
+  "3.3.4": {
+    "num": "3.3.4",
+    "url": "https://wcag.lepszyweb.pl/#error-prevention-legal-financial-data",
+    "scId": "WCAG2:error-prevention-legal-financial-data",
+    "scAltId": [
+      "minimize-error-reversible"
+    ],
+    "test": "WCAG2:minimize-error-reversible",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#error-prevention-legal-financial-data",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/zapobieganie-bledom-prawnym-finansowym-w-danych.html",
+    "handle": "Zapobieganie błędom (prawnym, finansowym, w danych)",
+    "level": "AA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy użytkownicy mogą przeglądać, potwierdzać i korygować przesyłanie poufnych danych?",
+        "wcag": [
+          "3.3.4 AA"
+        ],
+        "verifier": "<p>Dla formularzy modyfikujących/usuwających dane użytkownika, przesyłających odpowiedzi testowe lub powodujących zobowiązania prawne/finansowe:</p><ul><li>Sprawdź, czy użytkownicy mogą przeglądać i modyfikować/anulować przed ostatecznym przesłaniem, lub</li><li>Sprawdź, czy istnieje wyraźny mechanizm potwierdzenia (np. pole wyboru)</li></ul>",
+        "group": "Form",
+        "complement": ""
+      }
+    ]
+  },
+  "3.3.5": {
+    "num": "3.3.5",
+    "url": "https://wcag.lepszyweb.pl/#help",
+    "scId": "WCAG2:help",
+    "scAltId": [
+      "minimize-error-context-help"
+    ],
+    "test": "WCAG2:minimize-error-context-help",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#help",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/pomoc.html",
+    "handle": "Pomoc",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy dostępna jest pomoc kontekstowa?",
+        "wcag": [
+          "3.3.5 AAA"
+        ],
+        "verifier": "<p>Sprawdź, czy pomoc kontekstowa jest dostępna dla pól formularza wymagających wprowadzenia danych przez użytkownika, np.:</p><ul><li>Tekst pomocy przy polu</li><li>Podpowiedź lub wyskakujące okno z wskazówkami</li><li>Łącze do szczegółowych instrukcji</li></ul>",
+        "group": "Form",
+        "complement": ""
+      }
+    ]
+  },
+  "3.3.6": {
+    "num": "3.3.6",
+    "url": "https://wcag.lepszyweb.pl/#error-prevention-all",
+    "scId": "WCAG2:error-prevention-all",
+    "scAltId": [
+      "minimize-error-reversible-all"
+    ],
+    "test": "WCAG2:minimize-error-reversible-all",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#error-prevention-all",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/zapobieganie-bledom-wszystkim.html",
+    "handle": "Zapobieganie błędom (wszystkim)",
+    "level": "AAA",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy użytkownicy mogą przeglądać i korygować wszystkie przesyłane dane formularzy?",
+        "wcag": [
+          "3.3.6 AAA"
+        ],
+        "verifier": "<p>Dla wszystkich formularzy wymagających wprowadzenia danych przez użytkownika:</p><ul><li>Sprawdź, czy użytkownicy mogą przeglądać i modyfikować/anulować przed ostatecznym przesłaniem, lub</li><li>Sprawdź, czy istnieje wyraźny mechanizm potwierdzenia</li></ul>",
+        "group": "Form",
+        "complement": ""
+      }
+    ]
+  },
+  "3.3.7": {
+    "num": "3.3.7",
+    "url": "https://wcag.lepszyweb.pl/#redundant-entry",
+    "scId": "WCAG2:redundant-entry",
+    "scAltId": [],
+    "test": "WCAG2:redundant-entry",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#redundant-entry",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/ponowny-wpis.html",
+    "handle": "Ponowny wpis",
+    "level": "A",
+    "wcagType": "2.2",
+    "testCases": [
+      {
+        "title": "Czy wcześniej wprowadzone informacje są automatycznie uzupełniane, gdy są wymagane ponownie?",
+        "wcag": [
+          "3.3.7 A"
+        ],
+        "verifier": "<p>Sprawdź, czy wcześniej podane informacje są automatycznie uzupełniane lub dostępne do wyboru, gdy są wymagane ponownie w tym samym procesie/sesji.</p><p>Wyjątki:</p><ul><li>Ponowne wprowadzanie informacji jest niezbędne (np. gra pamięciowa)</li><li>Wymóg bezpieczeństwa (np. potwierdzenie hasła)</li><li>Wcześniej wprowadzone informacje są nieaktualne</li></ul>",
+        "complement": "<p>Prawidłowe mechanizmy: autouzupełnianie, wybór z listy rozwijanej, obszar kopiowania-wklejania, pole wyboru do użycia poprzednich danych (np. adres rozliczeniowy taki sam jak adres wysyłki).</p>",
+        "group": "Form"
+      }
+    ]
+  },
+  "3.3.8": {
+    "num": "3.3.8",
+    "url": "https://wcag.lepszyweb.pl/#accessible-authentication-minimum",
+    "scId": "WCAG2:accessible-authentication-minimum",
+    "scAltId": [],
+    "test": "WCAG2:accessible-authentication-minimum",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#accessible-authentication-minimum",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/dostepne-uwierzytelnianie-minimum.html",
+    "handle": "Dostępne uwierzytelnianie (minimum)",
+    "level": "AA",
+    "wcagType": "2.2",
+    "testCases": [
+      {
+        "title": "Czy uwierzytelnianie unika testów funkcji poznawczych?",
+        "wcag": [
+          "3.3.8 AA"
+        ],
+        "verifier": "<p>Sprawdź, czy uwierzytelnianie nie opiera się na testach poznawczych (zapamiętywanie, manipulacja, przepisywanie), chyba że dostępna jest alternatywa:</p><ul><li>Alternatywna metoda uwierzytelniania</li><li>Mechanizm pomocy</li><li>Rozpoznawanie obiektów</li><li>Rozpoznawanie własnych treści nietekstowych użytkownika</li></ul><p>Uwaga: Kopiowanie-wklejanie musi być dozwolone w polach hasła lub musi być obsługiwane autouzupełnianie.</p>",
+        "group": "Form",
+        "complement": ""
+      },
+      {
+        "title": "Czy uwierzytelnianie dwuskładnikowe unika testów funkcji poznawczych?",
+        "wcag": [
+          "3.3.8 AA"
+        ],
+        "verifier": "<p>Sprawdź, czy 2FA nie opiera się na testach poznawczych, zezwalając na:</p><ul><li>Wklejanie kodów weryfikacyjnych</li><li>Klucze bezpieczeństwa USB</li><li>Skanowanie kodów QR</li><li>Powiadomienia urządzenia z potwierdzeniem biometrycznym/PIN</li><li>Autouzupełnianie kodów przez klienta użytkownika</li></ul>",
+        "group": "Form",
+        "complement": ""
+      },
+      {
+        "title": "Czy CAPTCHA w uwierzytelnianiu ma dostępne alternatywy?",
+        "wcag": [
+          "3.3.8 AA"
+        ],
+        "verifier": "<p>Sprawdź, czy alternatywy CAPTCHA nie wymagają testów poznawczych. Dozwolone: rozpoznawanie obiektów lub identyfikacja własnych treści nietekstowych użytkownika.</p><ul><li>Bezpieczeństwo musi uniemożliwiać zgadywanie przez osoby trzecie w przypadku rozpoznawania treści osobistych</li><li>Pola hasła muszą mieć opcję wyświetlania znaków</li></ul>",
+        "group": "Form",
+        "complement": ""
+      }
+    ]
+  },
+  "3.3.9": {
+    "num": "3.3.9",
+    "url": "https://wcag.lepszyweb.pl/#accessible-authentication-enhanced",
+    "scId": "WCAG2:accessible-authentication-enhanced",
+    "scAltId": [],
+    "test": "WCAG2:accessible-authentication-enhanced",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#accessible-authentication-enhanced",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/dostepne-uwierzytelnianie-minimum.html",
+    "handle": "Dostępne uwierzytelnianie (ulepszone)",
+    "level": "AAA",
+    "wcagType": "2.2",
+    "testCases": [
+      {
+        "title": "Czy uwierzytelnianie unika wszystkich testów funkcji poznawczych bez wyjątku?",
+        "wcag": [
+          "3.3.9 AAA"
+        ],
+        "verifier": "<p>Sprawdź, czy uwierzytelnianie nie opiera się na żadnych testach poznawczych (zapamiętywanie, manipulacja, przepisywanie). Alternatywne metody również nie mogą wymagać testów poznawczych.</p><p>Uwaga: Kopiowanie-wklejanie musi być dozwolone lub autouzupełnianie obsługiwane. Opcja wyświetlania hasła musi być dostępna.</p>",
+        "group": "Form",
+        "complement": ""
+      },
+      {
+        "title": "Czy uwierzytelnianie dwuskładnikowe unika wszystkich testów funkcji poznawczych?",
+        "wcag": [
+          "3.3.9 AAA"
+        ],
+        "verifier": "<p>Sprawdź, czy 2FA nie opiera się na testach poznawczych. Dozwolone metody:</p><ul><li>Wklejanie kodów weryfikacyjnych</li><li>Klucze bezpieczeństwa USB</li><li>Skanowanie kodów QR</li><li>Powiadomienia urządzenia z biometrią/PIN</li><li>Autouzupełnianie przez klienta użytkownika</li></ul>",
+        "group": "Form",
+        "complement": ""
+      },
+      {
+        "title": "Czy CAPTCHA w uwierzytelnianiu ma dostępne alternatywy bez testów poznawczych?",
+        "wcag": [
+          "3.3.9 AAA"
+        ],
+        "verifier": "<p>Sprawdź, czy alternatywy CAPTCHA nie wymagają żadnych testów poznawczych. Dozwolone są wyłącznie alternatywy biometryczne lub oparte na urządzeniu.</p><ul><li>Bezpieczeństwo musi uniemożliwiać zgadywanie przez osoby trzecie</li><li>Opcja wyświetlania hasła musi być dostępna</li></ul>",
+        "group": "Form",
+        "complement": ""
+      }
+    ]
+  },
+  "4.1.1": {
+    "num": "4.1.1",
+    "url": "https://wcag.lepszyweb.pl/#parsing",
+    "scId": "WCAG2:parsing",
+    "scAltId": [
+      "ensure-compat-parses"
+    ],
+    "test": "WCAG2:ensure-compat-parses",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#parsing",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/poprawnosc-kodu-przestarzale-i-usuniete.html",
+    "handle": "Poprawność kodu (przestarzałe i usunięte)",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy znaczniki są prawidłowe i poprawnie sformułowane?",
+        "wcag": [
+          "4.1.1 A"
+        ],
+        "verifier": "<p>Sprawdź, czy treść używa prawidłowych znaczników zgodnych ze specyfikacją:</p><ul><li>Elementy mają kompletne znaczniki otwierające i zamykające</li><li>Elementy są zagnieżdżone zgodnie ze specyfikacją</li><li>Elementy nie zawierają zduplikowanych atrybutów</li><li>Identyfikatory (ID) są unikalne w obrębie strony</li></ul>",
+        "group": "Structure",
+        "complement": ""
+      }
+    ]
+  },
+  "4.1.2": {
+    "num": "4.1.2",
+    "url": "https://wcag.lepszyweb.pl/#name-role-value",
+    "scId": "WCAG2:name-role-value",
+    "scAltId": [
+      "ensure-compat-rsv"
+    ],
+    "test": "WCAG2:ensure-compat-rsv",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#name-role-value",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/nazwa-rola-wartosc.html",
+    "handle": "Nazwa, rola, wartość",
+    "level": "A",
+    "wcagType": "2.0",
+    "testCases": [
+      {
+        "title": "Czy pola formularza mają dostępne nazwy i właściwe powiązania?",
+        "wcag": [
+          "1.3.1 A",
+          "4.1.2 A"
+        ],
+        "verifier": "<ul><li>Sprawdź, czy etykiety są właściwie powiązane za pomocą:<ul><li><code>aria-labelledby</code></li><li><code>aria-label</code></li><li>Elementu <code>&lt;label&gt;</code> z atrybutem <code>for</code></li><li>Atrybutu <code>title</code></li></ul></li><li>Sprawdź, czy wskazówki dotyczące formatu są programowo powiązane za pomocą <code>aria-describedby</code>, <code>aria-labelledby</code> lub zawarte w etykiecie</li></ul>",
+        "complement": "<p>Sam tekst zastępczy (placeholder) nie jest wystarczający jako dostępna nazwa.</p>",
+        "group": "Form"
+      },
+      {
+        "title": "Czy ramki mają opisowe tytuły?",
+        "wcag": [
+          "4.1.2 A"
+        ],
+        "verifier": "<p>Sprawdź, czy elementy <code>&lt;iframe&gt;</code> i <code>&lt;frame&gt;</code> mają atrybuty <code>title</code> opisujące ich zawartość lub cel.</p>",
+        "group": "Non-text Content",
+        "complement": ""
+      },
+      {
+        "title": "Czy niestandardowe kontrolki są dostępne dla technologii wspomagających?",
+        "wcag": [
+          "4.1.2 A"
+        ],
+        "verifier": "<p>Sprawdź, czy niestandardowe komponenty mają:</p><ul><li>Odpowiednie role ARIA zgodne ze wzorcem projektowym</li><li>Stany i wartości ustawiane i aktualizowalne programowo</li><li>Zmiany stanu komunikowane technologiom wspomagającym</li></ul>",
+        "group": "Assistive technology",
+        "complement": ""
+      }
+    ]
+  },
+  "4.1.3": {
+    "num": "4.1.3",
+    "url": "https://wcag.lepszyweb.pl/#status-messages",
+    "scId": "WCAG2:status-messages",
+    "scAltId": [],
+    "test": "WCAG2:status-messages",
+    "howToMeetUrl": "https://wcag.lepszyweb.pl/#status-messages",
+    "understandingUrl": "https://wcag.irdpl.pl/understanding/komunikaty-o-stanie.html",
+    "handle": "Komunikaty o stanie",
+    "level": "AA",
+    "wcagType": "2.1",
+    "testCases": [
+      {
+        "title": "Czy komunikaty statusu są ogłaszane przez technologie wspomagające?",
+        "wcag": [
+          "4.1.3 AA"
+        ],
+        "verifier": "<p>Sprawdź, czy komunikaty statusu (wyniki wyszukiwania, powiadomienia, wiadomości czatu, przesyłanie plików, aktualizacje koszyka, postęp ładowania) używają odpowiedniego ARIA:</p><ul><li><code>role='status'</code> dla komunikatów informacyjnych</li><li><code>role='alert'</code> dla komunikatów o błędach</li><li><code>role='log'</code>, <code>progressbar</code> lub <code>status</code> dla aktualizacji postępu</li><li>Regiony <code>aria-live</code> dla treści dynamicznych</li></ul>",
+        "group": "Common navigation",
+        "complement": ""
+      }
+    ]
+  }
+}
